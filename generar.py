@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """Genera la sesion diaria de psicotecnicos.
 
-uso: python3 generar.py [--fecha AAAA-MM-DD] [--n 10..20] [--salida carpeta] [--sin-figuras] [--html]
-Salida: psicotecnicos_<fecha>_test.pdf (test para imprimir, sin respuestas),
-        psicotecnicos_<fecha>_soluciones.pdf (clave, trucos y autoevaluacion),
-        psicotecnicos_<fecha>.json (ejercicios con respuestas, sin imagenes).
+uso: python3 generar.py [--fecha AAAA-MM-DD] [--n 10..20] [--salida carpeta] [--sin-figuras] [--html] [--json]
+Salida: psicotecnicos_<fecha>.pdf (test para imprimir y, en las ultimas paginas, soluciones, autoevaluacion y trucos).
 """
 import argparse, datetime, json, os, random, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -60,18 +58,19 @@ def main():
     ap.add_argument("--salida", default="salidas")
     ap.add_argument("--sin-figuras", action="store_true")
     ap.add_argument("--semilla", default="")
-    ap.add_argument("--html", action="store_true", help="guarda tambien los HTML intermedios")
+    ap.add_argument("--html", action="store_true", help="guarda tambien el HTML de origen del PDF")
+    ap.add_argument("--json", action="store_true", help="guarda tambien los ejercicios y respuestas en JSON")
     a = ap.parse_args()
     ej = generar(a.fecha, a.n, a.sin_figuras, a.semilla)
     os.makedirs(a.salida, exist_ok=True)
     base = os.path.join(a.salida, f"psicotecnicos_{a.fecha}")
-    imprimible.a_pdf(imprimible.test_html(a.fecha, ej), base + "_test.pdf", f"Psicotécnicos {a.fecha}", a.html)
-    imprimible.a_pdf(imprimible.soluciones_html(a.fecha, ej), base + "_soluciones.pdf", f"Soluciones {a.fecha}", a.html)
-    sin_img = [{k: v for k, v in e.items() if k != "imagen"} for e in ej]
-    open(base + ".json", "w", encoding="utf-8").write(json.dumps(dict(fecha=a.fecha, ejercicios=sin_img), ensure_ascii=False, indent=1))
+    imprimible.a_pdf(imprimible.documento_html(a.fecha, ej), base + ".pdf", f"Psicotécnicos {a.fecha}", a.html)
+    if a.json:
+        sin_img = [{k: v for k, v in e.items() if k != "imagen"} for e in ej]
+        open(base + ".json", "w", encoding="utf-8").write(json.dumps(dict(fecha=a.fecha, ejercicios=sin_img), ensure_ascii=False, indent=1))
     por = {}
     for e in ej: por[e["tipo"]] = por.get(e["tipo"], 0) + 1
-    print(f"{len(ej)} ejercicios -> {base}_test.pdf / _soluciones.pdf  {por}")
+    print(f"{len(ej)} ejercicios -> {base}.pdf  {por}")
 
 if __name__ == "__main__":
     main()

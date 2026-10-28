@@ -9,15 +9,16 @@ pip install -r requirements.txt
 python3 generar.py --fecha 2026-10-29 --salida salidas/2026-10-29
 ```
 
-Opciones: `--n 15` (nº de ejercicios, por defecto aleatorio 10–20), `--sin-figuras`, `--semilla texto` (otra tanda del mismo día), `--html` (guarda también el HTML de origen de cada PDF).
+Opciones: `--n 15` (nº de ejercicios, por defecto aleatorio 10–20), `--sin-figuras`, `--semilla texto` (otra tanda del mismo día), `--html` y `--json` (ver abajo).
 
 Requiere Python 3 con `matplotlib` y `numpy`, y Node con `playwright` y Chromium (el PDF se crea imprimiendo el HTML con Chromium).
 
-Salida en la carpeta indicada:
+Salida en la carpeta indicada: `psicotecnicos_<fecha>.pdf`, un único documento A4 con:
 
-- `psicotecnicos_<fecha>_test.pdf`: el test en A4 (ejercicios de texto en dos columnas, figuras desplegables a ancho completo al final y hoja de respuestas).
-- `psicotecnicos_<fecha>_soluciones.pdf`: clave de respuestas, tabla de autoevaluación por tipo y el truco de cada ejercicio.
-- `psicotecnicos_<fecha>.json`: ejercicios con respuestas y trucos (sin imágenes).
+- el test, en una columna (ejercicios de texto primero y figuras desplegables al final, a ancho completo);
+- al final, las soluciones: clave de respuestas, tabla de autoevaluación por tipo y el truco de cada ejercicio (en dos columnas).
+
+Opciones extra: `--html` guarda el HTML de origen y `--json` guarda los ejercicios con respuestas.
 
 La misma fecha produce siempre los mismos ejercicios.
 

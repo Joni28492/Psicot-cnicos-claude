@@ -14,7 +14,7 @@ def fecha_larga(iso):
 e_ = html.escape
 
 CSS = """
-@page { size: A4; margin: 0; }
+@page { size: A4; }
 * { box-sizing: border-box; }
 body { margin: 0; font: 10.2pt/1.38 "Liberation Sans", Arial, "Helvetica Neue", sans-serif; color: #000; background: #fff; }
 .mono { font-family: "Liberation Mono", "DejaVu Sans Mono", monospace; }
@@ -26,7 +26,7 @@ h1 { font-size: 22pt; margin: 0; letter-spacing: .02em; text-transform: uppercas
 .campos span.corto { flex: .55; }
 .instr { font-size: 9pt; margin: 2mm 0 0; color: #222; }
 .cols { column-count: 2; column-gap: 9mm; column-rule: .2mm solid #bbb; }
-.ej { break-inside: avoid; margin: 0 0 4.2mm; }
+.ej { break-inside: avoid; margin: 0 0 6mm; }
 .ej.fig { margin: 0 0 5mm; padding-top: 3mm; border-top: .2mm solid #bbb; }
 .parte { margin: 6mm 0 3mm; break-after: avoid; }
 .parte small { font-size: 9pt; font-weight: 400; text-transform: none; letter-spacing: 0; }
@@ -35,14 +35,14 @@ h1 { font-size: 22pt; margin: 0; letter-spacing: .02em; text-transform: uppercas
 .tipo { font-size: 7.5pt; text-transform: uppercase; letter-spacing: .08em; color: #444; }
 .enun { margin: 0 0 1.5mm; white-space: pre-line; }
 .dest { font: 700 12.5pt "Liberation Mono", monospace; letter-spacing: .06em; border: .25mm dashed #777; padding: 1.5mm 2.5mm; margin: 0 0 2mm; overflow-wrap: anywhere; }
-.ops { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 1.2mm 3mm; }
+.ops { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(36mm, 1fr)); gap: 1.6mm 4mm; }
 .ops li { display: flex; align-items: center; gap: 1.8mm; min-width: 0; }
 .o { flex: none; display: inline-grid; place-items: center; width: 5.4mm; height: 5.4mm; border: .35mm solid #000; border-radius: 50%; font-size: 7.5pt; font-weight: 700; }
 .fig figure { margin: 1mm auto 2mm; text-align: center; }
-.fig img { max-width: 130mm; max-height: 105mm; width: auto; height: auto; }
+.fig img { max-width: 120mm; max-height: 88mm; width: auto; height: auto; }
 .fig .ops { display: flex; justify-content: center; gap: 12mm; }
 h2 { font-size: 13pt; margin: 0 0 3mm; text-transform: uppercase; letter-spacing: .04em; }
-.hoja { break-before: page; }
+.soluciones { break-before: page; }
 .respuestas { column-count: 3; column-gap: 8mm; }
 .fila { break-inside: avoid; display: flex; align-items: center; gap: 2mm; margin-bottom: 2.2mm; }
 .fila b { width: 6.5mm; text-align: right; font-size: 10pt; }
@@ -80,27 +80,24 @@ def tiempo_total(ej):
     s = sum(e["tiempo"] for e in ej)
     return f"{s // 60} min {s % 60:02d} s"
 
-def test_html(fecha, ej):
+def parte_test(fecha, ej):
     cab = f"""<header class="cab"><h1>Psicotécnicos</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p>
     <div class="campos"><span>Nombre:</span><span class="corto">Hora inicio:</span><span class="corto">Hora fin:</span></div>
     <p class="instr">Marca una sola opción por ejercicio. Todos se pueden resolver en menos de 20 segundos si ves el truco (30 segundos las figuras
-    desplegables). Tiempo orientativo del test completo: <b>{tiempo_total(ej)}</b>. Pasa a otro ejercicio en cuanto te atasques. Al terminar, copia tus respuestas en la hoja final.</p></header>"""
-    # primero los ejercicios de texto en dos columnas; las figuras, a ancho completo al final
+    desplegables). Tiempo orientativo del test completo: <b>{tiempo_total(ej)}</b>. Pasa a otro ejercicio en cuanto te atasques. Las soluciones y sus explicaciones están en las últimas páginas.</p></header>"""
+    # primero los ejercicios de texto; las figuras, al final y a ancho completo
     texto = [(i, e) for i, e in enumerate(ej, 1) if not e.get("imagen")]
     figs = [(i, e) for i, e in enumerate(ej, 1) if e.get("imagen")]
-    cuerpo = '<div class="cols">' + "".join(bloque(e, i) for i, e in texto) + "</div>"
+    cuerpo = "".join(bloque(e, i) for i, e in texto)
     if figs:
         cuerpo += '<h2 class="parte">Figuras desplegables <small>(30 segundos por ejercicio)</small></h2>' + "".join(bloque(e, i) for i, e in figs)
-    hoja = ('<section class="hoja"><h2>Hoja de respuestas</h2><div class="respuestas">' +
-            "".join(f'<div class="fila"><b>{i}</b>{burbujas()}</div>' for i in range(1, len(ej) + 1)) +
-            '</div><div class="pie-hoja"><span>Tiempo empleado:</span><span>Aciertos:    /' + f" {len(ej)}</span></div></section>")
-    return f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Psicotécnicos {fecha}</title><style>{CSS}</style></head><body>{cab}{cuerpo}{hoja}</body></html>'
+    return cab + cuerpo
 
 def texto_respuesta(e):
     i = e["correcta"]
     return f'{L[i]}' if e.get("imagen") else f'{L[i]}) {e["opciones"][i]}'
 
-def soluciones_html(fecha, ej):
+def parte_soluciones(fecha, ej):
     clave = "".join(f"<span>{i}·{L[e['correcta']]}</span>" for i, e in enumerate(ej, 1))
     por = Counter(e["tipo"] for e in ej)
     tabla = "<table><tr><th>Tipo</th><th>Ejercicios</th><th>Aciertos</th></tr>" + "".join(
@@ -111,10 +108,14 @@ def soluciones_html(fecha, ej):
         cuerpo = f'<p class="r">{i}. {e_(e["tipo"])} → {e_(texto_respuesta(e))}</p><p>{e_(e["truco"])}</p>'
         if e.get("imagen"): cuerpo += f'<img src="{e["imagen"]}" alt="">'
         sol.append(f'<section class="sol"><span class="n">{i}</span><div>{cuerpo}</div></section>')
-    return (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Soluciones {fecha}</title><style>{CSS}</style></head><body>'
-            f'<header class="cab"><h1>Soluciones</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p></header>'
+    return (f'<div class="soluciones"><header class="cab"><h1>Soluciones</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p></header>'
             f'<h2>Clave de respuestas</h2><div class="clave">{clave}</div><h2>Autoevaluación</h2>{tabla}'
-            f'<h2>Explicaciones y trucos</h2><div class="cols">{"".join(sol)}</div></body></html>')
+            f'<h2>Explicaciones y trucos</h2><div class="cols">{"".join(sol)}</div></div>')
+
+def documento_html(fecha, ej):
+    """test (una columna) + soluciones y explicaciones (dos columnas) en un solo documento."""
+    return (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Psicotécnicos {fecha}</title><style>{CSS}</style></head>'
+            f'<body>{parte_test(fecha, ej)}{parte_soluciones(fecha, ej)}</body></html>')
 
 def a_pdf(html_str, ruta_pdf, pie, guardar_html=False):
     aqui = os.path.dirname(os.path.abspath(__file__))
