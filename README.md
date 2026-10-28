@@ -11,7 +11,7 @@ python3 generar.py --fecha 2026-10-29 --salida salidas/2026-10-29
 
 Opciones: `--n 15` (nº de ejercicios, por defecto aleatorio 10–20), `--sin-figuras`, `--semilla texto` (otra tanda del mismo día), `--html` y `--json` (ver abajo).
 
-Requiere Python 3 con `matplotlib` y `numpy`, y Node con `playwright` y Chromium (el PDF se crea imprimiendo el HTML con Chromium).
+Requiere Python 3.11 o superior con `matplotlib` y `numpy`, y Node con `playwright` y Chromium (el PDF se crea imprimiendo el HTML con Chromium).
 
 Salida en la carpeta indicada: `psicotecnicos_<fecha>.pdf`, un único documento A4 con:
 
