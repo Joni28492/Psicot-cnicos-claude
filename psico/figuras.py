@@ -15,15 +15,15 @@ def figura(rng):
     modo = rng.choice(["a", "b"])
     with tempfile.TemporaryDirectory() as d:
         ruta = os.path.join(d, "f.png")
-        letra = poliedros.generate(f, tema, modo, rng.randint(1, 10 ** 6), ruta)
+        letra = poliedros.generate(f, tema, modo, rng.randint(1, 10 ** 6), ruta, dpi=170, titulo=False)
         datos = base64.b64encode(open(ruta, "rb").read()).decode()
     if modo == "a":
-        enun = "¿Qué figura se forma al plegar este desarrollo?"
+        enun = f"¿Qué figura se forma al plegar este desarrollo? ({poliedros.SOLIDS[f].nombre})"
         truco = ("Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; "
                  "así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.")
     else:
-        enun = "¿Qué desarrollo forma esta figura?"
+        enun = f"¿Qué desarrollo forma esta figura? ({poliedros.SOLIDS[f].nombre})"
         truco = ("Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras "
                  "estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.")
     return dict(enunciado=enun, opciones=list("ABCD"), correcta="ABCD".index(letra), truco=truco,
-                imagen="data:image/png;base64," + datos, figura=f)
+                imagen="data:image/png;base64," + datos, figura=f, nombre_figura=poliedros.SOLIDS[f].nombre)

@@ -1,6 +1,6 @@
 # Psicotécnicos diarios
 
-Genera cada día entre 10 y 20 ejercicios de psicotécnicos (resolubles en menos de 20 s con el truco adecuado) y una página HTML interactiva con cronómetro.
+Genera cada día entre 10 y 20 ejercicios de psicotécnicos (resolubles en menos de 20 s con el truco adecuado) como documentos PDF para imprimir.
 
 ## Uso
 
@@ -9,12 +9,14 @@ pip install -r requirements.txt
 python3 generar.py --fecha 2026-10-29 --salida salidas/2026-10-29
 ```
 
-Opciones: `--n 15` (nº de ejercicios, por defecto aleatorio 10–20), `--sin-figuras`, `--semilla texto` (otra tanda del mismo día).
+Opciones: `--n 15` (nº de ejercicios, por defecto aleatorio 10–20), `--sin-figuras`, `--semilla texto` (otra tanda del mismo día), `--html` (guarda también el HTML de origen de cada PDF).
+
+Requiere Python 3 con `matplotlib` y `numpy`, y Node con `playwright` y Chromium (el PDF se crea imprimiendo el HTML con Chromium).
 
 Salida en la carpeta indicada:
 
-- `psicotecnicos_<fecha>_local.html`: documento completo, se abre con doble clic en el navegador.
-- `psicotecnicos_<fecha>.html`: mismo contenido como fragmento, listo para publicar como Artifact.
+- `psicotecnicos_<fecha>_test.pdf`: el test en A4 (ejercicios de texto en dos columnas, figuras desplegables a ancho completo al final y hoja de respuestas).
+- `psicotecnicos_<fecha>_soluciones.pdf`: clave de respuestas, tabla de autoevaluación por tipo y el truco de cada ejercicio.
 - `psicotecnicos_<fecha>.json`: ejercicios con respuestas y trucos (sin imágenes).
 
 La misma fecha produce siempre los mismos ejercicios.
@@ -34,3 +36,5 @@ La misma fecha produce siempre los mismos ejercicios.
 
 1. Crea `psico/mi_tipo.py` con funciones decoradas con `@ejercicio("Nombre del tipo", peso=2, tiempo=20)` que reciben un `random.Random` y devuelven un dict con `enunciado`, `opciones` (4 textos distintos), `correcta` (índice), `truco` y, opcionalmente, `destacado` o `imagen`.
 2. Impórtalo en `generar.py` y añade el nombre del tipo a `PESO_TIPO`.
+
+El maquetado de impresión está en `psico/imprimible.py` (CSS y HTML) y `psico/pdf.js` (HTML → PDF).

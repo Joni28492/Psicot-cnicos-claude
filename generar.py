@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Genera la sesion diaria de psicotecnicos.
 
-uso: python3 generar.py [--fecha AAAA-MM-DD] [--n 10..20] [--salida carpeta] [--sin-figuras]
-Salida: psicotecnicos_<fecha>.html (fragmento listo para publicar como Artifact),
-        psicotecnicos_<fecha>_local.html (documento completo para abrir en el navegador),
-        psicotecnicos_<fecha>.json (ejercicios con respuestas).
+uso: python3 generar.py [--fecha AAAA-MM-DD] [--n 10..20] [--salida carpeta] [--sin-figuras] [--html]
+Salida: psicotecnicos_<fecha>_test.pdf (test para imprimir, sin respuestas),
+        psicotecnicos_<fecha>_soluciones.pdf (clave, trucos y autoevaluacion),
+        psicotecnicos_<fecha>.json (ejercicios con respuestas, sin imagenes).
 """
 import argparse, datetime, json, os, random, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras   # noqa: F401  (registra generadores)
+from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, imprimible   # noqa: F401  (registran generadores)
 
 # peso de cada TIPO al repartir los ejercicios del dia (cada tipo sale al menos una vez)
 PESO_TIPO = {"Reglas de tres": 2, "Porcentajes": 2, "Series": 3, "Codificación": 2, "Problemas": 3, "Figuras desplegables": 1.5}
@@ -49,6 +49,7 @@ def generar(fecha, n=None, sin_figuras=False, semilla=""):
             else:
                 print(f"aviso: no se pudo generar un ejercicio de {t}", file=sys.stderr)
     rng.shuffle(out)
+    out.sort(key=lambda e: bool(e.get("imagen")))   # las figuras van al final del test (orden estable)
     for i, e in enumerate(out, 1): e["id"] = i
     return out
 
@@ -56,24 +57,21 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fecha", default=datetime.date.today().isoformat())
     ap.add_argument("--n", type=int, default=None)
-    ap.add_argument("--salida", default="salida")
+    ap.add_argument("--salida", default="salidas")
     ap.add_argument("--sin-figuras", action="store_true")
     ap.add_argument("--semilla", default="")
+    ap.add_argument("--html", action="store_true", help="guarda tambien los HTML intermedios")
     a = ap.parse_args()
     ej = generar(a.fecha, a.n, a.sin_figuras, a.semilla)
     os.makedirs(a.salida, exist_ok=True)
-    datos = json.dumps(dict(fecha=a.fecha, ejercicios=ej), ensure_ascii=False).replace("</", "<\\/")
-    plantilla = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "plantilla.html"), encoding="utf-8").read()
-    html = plantilla.replace("__DATOS__", datos)
     base = os.path.join(a.salida, f"psicotecnicos_{a.fecha}")
-    open(base + ".html", "w", encoding="utf-8").write(html)
-    open(base + "_local.html", "w", encoding="utf-8").write(
-        '<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
-        '<style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>' + html + "</body></html>")
-    open(base + ".json", "w", encoding="utf-8").write(json.dumps(dict(fecha=a.fecha, ejercicios=[{k: v for k, v in e.items() if k != "imagen"} for e in ej]), ensure_ascii=False, indent=1))
+    imprimible.a_pdf(imprimible.test_html(a.fecha, ej), base + "_test.pdf", f"Psicotécnicos {a.fecha}", a.html)
+    imprimible.a_pdf(imprimible.soluciones_html(a.fecha, ej), base + "_soluciones.pdf", f"Soluciones {a.fecha}", a.html)
+    sin_img = [{k: v for k, v in e.items() if k != "imagen"} for e in ej]
+    open(base + ".json", "w", encoding="utf-8").write(json.dumps(dict(fecha=a.fecha, ejercicios=sin_img), ensure_ascii=False, indent=1))
     por = {}
     for e in ej: por[e["tipo"]] = por.get(e["tipo"], 0) + 1
-    print(f"{len(ej)} ejercicios -> {base}.html  {por}")
+    print(f"{len(ej)} ejercicios -> {base}_test.pdf / _soluciones.pdf  {por}")
 
 if __name__ == "__main__":
     main()

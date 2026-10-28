@@ -385,7 +385,7 @@ def perturb_net(S, A, rng):
         B[f] = (B[f][0], (B[f][1] + rng.choice(st)) % TAU)
     return B
 
-def generate(figura, tema, modo, seed, path):
+def generate(figura, tema, modo, seed, path, dpi=105, titulo=True):
     S = SOLIDS[figura]; rng = random.Random(seed); nf = len(S.faces)
     pats = choose(tema, nf, rng)
     A = {f: (pats[f], 0.0) for f in range(nf)}
@@ -394,7 +394,7 @@ def generate(figura, tema, modo, seed, path):
     ans = rng.randrange(4); L = "ABCD"
     fig = plt.figure(figsize=(11, 9) if modo == "a" else (10, 12.2), facecolor="white")
     if modo == "a":
-        fig.text(.5, .955, f"¿Qué figura se forma al plegar este desarrollo? ({S.nombre})", ha="center", fontsize=17, weight="bold")
+        if titulo: fig.text(.5, .955, f"¿Qué figura se forma al plegar este desarrollo? ({S.nombre})", ha="center", fontsize=17, weight="bold")
         lay = random_net(S, rng)
         ax = fig.add_axes([.12, .5, .76, .4]); lo, hi = draw_net(ax, S, lay, A); fit(ax, lo, hi)
         valid = lambda o: any(match(display(S, A, g), o, vis) for g in S.group)
@@ -409,7 +409,7 @@ def generate(figura, tema, modo, seed, path):
             ax = fig.add_axes([.02 + i * .245, .07, .235, .33]); draw_view(ax, S, o)
             ax.set_title(L[i], fontsize=20, weight="bold")
     else:
-        fig.text(.5, .965, f"¿Qué desarrollo forma esta figura? ({S.nombre})", ha="center", fontsize=17, weight="bold")
+        if titulo: fig.text(.5, .965, f"¿Qué desarrollo forma esta figura? ({S.nombre})", ha="center", fontsize=17, weight="bold")
         ax = fig.add_axes([.3, .71, .4, .22]); draw_view(ax, S, view)
         lay0 = random_net(S, rng)
         valid = lambda B: any(match(display(S, B, g), view, vis) for g in S.group)
@@ -430,7 +430,9 @@ def generate(figura, tema, modo, seed, path):
         for i, (l, B) in enumerate(opts):
             ax = fig.add_axes([.03 + (i % 2) * .49, .33 - (i // 2) * .32, .46, .25]); lo, hi = draw_net(ax, S, l, B)
             fit(ax, lo, hi, half); ax.set_title(L[i], fontsize=20, weight="bold")
-    fig.savefig(path, dpi=105); plt.close(fig)
+    if titulo: fig.savefig(path, dpi=dpi)
+    else: fig.savefig(path, dpi=dpi, bbox_inches="tight", pad_inches=.12)
+    plt.close(fig)
     return L[ans]
 
 SOLIDS = make_solids()
