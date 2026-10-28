@@ -51,7 +51,7 @@ def edades(rng):
     ops, i = mezclar(x, distractores_num(x, rng, extras=[x * r1, t, x + t]), rng)
     return dict(enunciado=f"Ahora una madre tiene {r1} veces la edad de su hija. Dentro de {t} años tendrá {r2} veces la edad de su hija. ¿Qué edad tiene la hija hoy?",
                 opciones=ops, correcta=i,
-                truco=f"Con x = edad de la hija: {r1}x + {t} = {r2}(x + {t}) ⇒ {r1 - r2}x = {t * (r2 - 1)} ⇒ x = {x}. Comprobación: madre {r1 * x}, dentro de {t} años {r1 * x + t} = {r2}×{x + t}.")
+                truco=f"Con x = edad de la hija: {r1}x + {t} = {r2}(x + {t}) ⇒ {"" if r1 - r2 == 1 else r1 - r2}x = {t * (r2 - 1)} ⇒ x = {x}. Comprobación: madre {r1 * x}, dentro de {t} años {r1 * x + t} = {r2}×{x + t}.")
 
 @ejercicio(T, peso=3)
 def ecuacion(rng):
