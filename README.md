@@ -13,7 +13,7 @@ Opciones: `--n 15` (nº de ejercicios, por defecto aleatorio 10–20), `--sin-fi
 
 Requiere Python 3.11 o superior con `matplotlib` y `numpy`, y Node con `playwright` y Chromium (el PDF se crea imprimiendo el HTML con Chromium).
 
-Salida en la carpeta indicada: `psicotecnicos_<fecha>.pdf`, un único documento A4 con:
+Salida en la carpeta indicada: `psicotecnico_<NNN>_<dificultad>.pdf` (p. ej. `psicotecnico_005_facil.pdf`; NNN es el siguiente número libre en la carpeta, o `--numero`; la dificultad `facil`/`media`/`dificil` se calcula según lo raro que es cada subtipo de ejercicio del test), un único documento A4 con:
 
 - el test, en una columna (ejercicios de texto primero y figuras desplegables al final, a ancho completo);
 - al final, las soluciones: clave de respuestas, tabla de autoevaluación por tipo y el truco de cada ejercicio (en dos columnas).

@@ -2,9 +2,9 @@
 """Genera la sesion diaria de psicotecnicos.
 
 uso: python3 generar.py [--fecha AAAA-MM-DD] [--n 10..20] [--salida carpeta] [--sin-figuras] [--html] [--json]
-Salida: psicotecnicos_<fecha>.pdf (test para imprimir y, en las ultimas paginas, soluciones, autoevaluacion y trucos).
+Salida: psicotecnico_<NNN>_<dificultad>.pdf (test para imprimir y, en las ultimas paginas, soluciones, autoevaluacion y trucos).
 """
-import argparse, datetime, json, os, random, sys
+import argparse, datetime, json, os, random, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, imprimible   # noqa: F401  (registran generadores)
 
@@ -51,6 +51,17 @@ def generar(fecha, n=None, sin_figuras=False, semilla=""):
     for i, e in enumerate(out, 1): e["id"] = i
     return out
 
+def dificultad(ejercicios):
+    """facil / media / dificil segun la media de lo raro que es cada subtipo (peso bajo = mas dificil)."""
+    peso = {(g[0], g[1]): g[2] for g in nucleo.REGISTRO}
+    media = sum(5 - peso[(e["tipo"], e["subtipo"])] for e in ejercicios) / len(ejercicios)
+    return "facil" if media <= 2.35 else "media" if media <= 2.5 else "dificil"
+
+def siguiente_numero(carpeta):
+    nums = [int(m.group(1)) for f in (os.listdir(carpeta) if os.path.isdir(carpeta) else [])
+            if (m := re.match(r"psicotecnico_(\d+)_", f))]
+    return max(nums, default=0) + 1
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--fecha", default=datetime.date.today().isoformat())
@@ -58,19 +69,22 @@ def main():
     ap.add_argument("--salida", default="salidas")
     ap.add_argument("--sin-figuras", action="store_true")
     ap.add_argument("--semilla", default="")
+    ap.add_argument("--numero", type=int, default=None, help="numero correlativo del test (por defecto, el siguiente libre en la carpeta de salida)")
     ap.add_argument("--html", action="store_true", help="guarda tambien el HTML de origen del PDF")
     ap.add_argument("--json", action="store_true", help="guarda tambien los ejercicios y respuestas en JSON")
     a = ap.parse_args()
     ej = generar(a.fecha, a.n, a.sin_figuras, a.semilla)
     os.makedirs(a.salida, exist_ok=True)
-    base = os.path.join(a.salida, f"psicotecnicos_{a.fecha}")
-    imprimible.a_pdf(imprimible.documento_html(a.fecha, ej), base + ".pdf", f"Psicotécnicos {a.fecha}", a.html)
+    numero = a.numero or siguiente_numero(a.salida)
+    dif = dificultad(ej)
+    base = os.path.join(a.salida, f"psicotecnico_{numero:03d}_{dif}")
+    imprimible.a_pdf(imprimible.documento_html(a.fecha, ej), base + ".pdf", f"Psicotécnico {numero:03d} ({dif}) · {a.fecha}", a.html)
     if a.json:
         sin_img = [{k: v for k, v in e.items() if k != "imagen"} for e in ej]
         open(base + ".json", "w", encoding="utf-8").write(json.dumps(dict(fecha=a.fecha, ejercicios=sin_img), ensure_ascii=False, indent=1))
     por = {}
     for e in ej: por[e["tipo"]] = por.get(e["tipo"], 0) + 1
-    print(f"{len(ej)} ejercicios -> {base}.pdf  {por}")
+    print(f"{len(ej)} ejercicios, dificultad {dif} -> {base}.pdf  {por}")
 
 if __name__ == "__main__":
     main()
