@@ -27,6 +27,8 @@ La misma fecha produce siempre los mismos ejercicios.
 | Tipo | Archivo | Qué genera |
 |---|---|---|
 | Figuras desplegables | `psico/figuras.py`, `psico/poliedros.py` | Desarrollo → figura armada o al revés (cubo, tetraedro, octaedro, prisma, pirámide) con formas, dados, líneas, grises, colores y texturas |
+| Series de fichas | `psico/domino.py` | Fichas de dominó en fila, fila vertical, dos filas, círculo o espiral; cada mitad sube/baja un paso fijo (módulo 7) |
+| Series de relojes | `psico/relojes.py` | Relojes de agujas, tartas (sectores que giran y crecen) y círculos con puntos que se mueven |
 | Reglas de tres | `psico/reglas_tres.py` | Directas, inversas, compuestas y trabajo conjunto |
 | Porcentajes | `psico/porcentajes.py` | Porcentajes que son fracciones sencillas, variaciones, descuentos, IVA |
 | Series | `psico/series.py` | Letras (alfabeto español de 27), números y mixtas |

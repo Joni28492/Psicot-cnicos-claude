@@ -90,7 +90,7 @@ def parte_test(fecha, ej):
     figs = [(i, e) for i, e in enumerate(ej, 1) if e.get("imagen")]
     cuerpo = "".join(bloque(e, i) for i, e in texto)
     if figs:
-        cuerpo += '<h2 class="parte">Figuras desplegables <small>(30 segundos por ejercicio)</small></h2>' + "".join(bloque(e, i) for i, e in figs)
+        cuerpo += '<h2 class="parte">Ejercicios con figuras <small>(30 segundos por ejercicio)</small></h2>' + "".join(bloque(e, i) for i, e in figs)
     return cab + cuerpo
 
 def texto_respuesta(e):
