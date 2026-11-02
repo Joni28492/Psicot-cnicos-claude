@@ -27,6 +27,9 @@ def ficha(ax, x, y, ang, a, b):
 def pos_fila(n):
     return [(i * 2.5, 0, 0) for i in range(n)]
 
+def pos_fila_vertical(n):
+    return [(i * 1.7, 0, -math.pi / 2) for i in range(n)]       # fichas de pie: la mitad `a` arriba y la `b` abajo
+
 def pos_dos_filas(n):
     m = n // 2
     return [((i % m) * 2.5, -(i // m) * 1.7, 0) for i in range(n)]
@@ -48,7 +51,7 @@ def pos_espiral(n):
     """espiral de Arquimedes que se abre desde el centro (sentido horario); las fichas siguen la tangente."""
     return [((ESP_A + ESP_B * th) * math.cos(math.pi / 2 - th), (ESP_A + ESP_B * th) * math.sin(math.pi / 2 - th), -th) for th in thetas_espiral(n)]
 
-DISPOSICIONES = {"fila": (pos_fila, 6), "dos filas": (pos_dos_filas, 8), "círculo": (pos_circulo, 8), "espiral": (pos_espiral, 8)}
+DISPOSICIONES = {"fila": (pos_fila, 6), "fila vertical": (pos_fila_vertical, 7), "dos filas": (pos_dos_filas, 8), "círculo": (pos_circulo, 8), "espiral": (pos_espiral, 8)}
 
 # ---------------------------------------------------------------- reglas
 def regla(rng):
@@ -101,7 +104,10 @@ def generar(rng, disposicion):
     w, h = lim[1] - lim[0], lim[3] - lim[2]
     ancho = 8.4
     alto_s = min(ancho * h / w, 5.6)
-    fig, ax_s, ax_o = lienzo(ancho, alto_s, 1.3, lim, (-1.6, 3 * 4.6 + 1.6, -1.4, 1.4))
+    vert = disposicion == "fila vertical"
+    ang_o, sep_o = (-math.pi / 2, 3.2) if vert else (0, 4.6)
+    alto_o = 2.1 if vert else 1.3
+    fig, ax_s, ax_o = lienzo(ancho, alto_s, alto_o, lim, (-1.6, 3 * sep_o + 1.6, -1.6, 1.4) if vert else (-1.6, 3 * sep_o + 1.6, -1.4, 1.4))
     if disposicion in ("círculo", "espiral"):
         t = [i / 200 * 2 * math.pi for i in range(201)]
         if disposicion == "círculo": gx, gy = [3.4 * math.cos(q) for q in t], [3.4 * math.sin(q) for q in t]
@@ -120,11 +126,12 @@ def generar(rng, disposicion):
         if i == n - 1: interrogante(ax_s, x, y, 2, 1, ang)
         else: ficha(ax_s, x, y, ang, *s[i])
     for j, f in enumerate(ops):
-        ficha(ax_o, j * 4.6, .35, 0, *f)
-    letras_opciones(ax_o, [j * 4.6 for j in range(4)], -.95)
+        ficha(ax_o, j * sep_o, .35 if not vert else .0, ang_o, *f)
+    letras_opciones(ax_o, [j * sep_o for j in range(4)], -.95 if not vert else -1.3)
+    if vert: desc = desc.replace("izquierda", "superior").replace("derecha", "inferior")
     truco = (f"Mira cada mitad por separado: {desc} en cada paso (los puntos vuelven a 0 después del 6). "
              f"La ficha que falta es {ok[0]}–{ok[1]}.")
-    return dict(enunciado="¿Qué ficha de dominó continúa la serie? (" + {"fila": "en fila", "dos filas": "en dos filas, de izquierda a derecha y de arriba abajo",
+    return dict(enunciado="¿Qué ficha de dominó continúa la serie? (" + {"fila": "en fila", "fila vertical": "en fila, con las fichas de pie, de izquierda a derecha", "dos filas": "en dos filas, de izquierda a derecha y de arriba abajo",
                 "círculo": "en círculo, en el sentido de las agujas del reloj desde la ficha de inicio", "espiral": "en espiral, desde la ficha de inicio hacia fuera"}[disposicion] + ")",
                 opciones=list("ABCD"), correcta=ops.index(ok), truco=truco, imagen=a_uri(fig))
 
@@ -138,8 +145,9 @@ def _reg(nombre, disp):
     return ejercicio(T, peso=2, tiempo=30)(f)
 
 domino_fila = _reg("domino_fila", "fila")
+domino_fila_vertical = _reg("domino_fila_vertical", "fila vertical")
 domino_dos_filas = _reg("domino_dos_filas", "dos filas")
 domino_circulo = _reg("domino_circulo", "círculo")
 domino_espiral = _reg("domino_espiral", "espiral")
 
-REGISTRO_F = {"fila": domino_fila, "dos filas": domino_dos_filas, "círculo": domino_circulo, "espiral": domino_espiral}
+REGISTRO_F = {"fila": domino_fila, "fila vertical": domino_fila_vertical, "dos filas": domino_dos_filas, "círculo": domino_circulo, "espiral": domino_espiral}
