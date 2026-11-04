@@ -6,11 +6,11 @@ Salida: psicotecnico_<NNN>_<dificultad>.pdf (test para imprimir y, en las ultima
 """
 import argparse, datetime, json, os, random, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, domino, relojes, imprimible   # noqa: F401  (registran generadores)
+from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, domino, relojes, combinatoria, imprimible   # noqa: F401  (registran generadores)
 
 # peso de cada TIPO al repartir los ejercicios del dia (cada tipo sale al menos una vez)
 PESO_TIPO = {"Reglas de tres": 2, "Porcentajes": 2, "Series": 3, "Codificación": 2, "Problemas": 3, "Figuras desplegables": 1.5,
-             "Series de fichas": 1.5, "Series de relojes": 1.5}
+             "Series de fichas": 1.5, "Series de relojes": 1.5, "Combinatoria": 2}
 MAX_FIGURAS = 3
 
 def generar(fecha, n=None, sin_figuras=False, semilla=""):
@@ -56,7 +56,7 @@ def dificultad(ejercicios):
     """facil / media / dificil segun la media de lo raro que es cada subtipo (peso bajo = mas dificil)."""
     peso = {(g[0], g[1]): g[2] for g in nucleo.REGISTRO}
     media = sum(5 - peso[(e["tipo"], e["subtipo"])] for e in ejercicios) / len(ejercicios)
-    return "facil" if media <= 2.47 else "media" if media <= 2.58 else "dificil"
+    return "facil" if media <= 2.43 else "media" if media <= 2.53 else "dificil"
 
 def siguiente_numero(carpeta):
     nums = [int(m.group(1)) for f in (os.listdir(carpeta) if os.path.isdir(carpeta) else [])
