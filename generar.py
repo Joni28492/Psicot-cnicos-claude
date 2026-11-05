@@ -116,14 +116,19 @@ def slug(texto):
     return re.sub(r"[^a-z0-9]+", "-", "".join(c for c in t if not unicodedata.combining(c))).strip("-")
 
 def tema_de_la_semana(fecha, ruta_foco):
-    """tema del test especifico: de seguimiento/foco.json si lo hay (rota entre los temas indicados); si no, rotan todos los tipos."""
-    temas = []
+    """tema del test especifico: de seguimiento/foco.json si lo hay (el primero la semana de la respuesta y luego rota semana a semana);
+    si no hay, rotan todos los tipos."""
+    temas, desde = [], None
     try:
-        temas = [t for t in json.load(open(ruta_foco, encoding="utf-8")).get("temas", []) if t in PESO_TIPO]
+        foco = json.load(open(ruta_foco, encoding="utf-8"))
+        temas = [t for t in foco.get("temas", []) if t in PESO_TIPO]
+        desde = foco.get("actualizado")
     except (OSError, ValueError):
         pass
     temas = temas or CICLO
-    return temas[datetime.date.fromisoformat(fecha).isocalendar()[1] % len(temas)]
+    d = datetime.date.fromisoformat(fecha)
+    semanas = (d - datetime.date.fromisoformat(desde)).days // 7 if desde else d.isocalendar()[1]
+    return temas[semanas % len(temas)]
 
 def registrar(ruta_indice, entrada):
     try: indice = json.load(open(ruta_indice, encoding="utf-8"))

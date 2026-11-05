@@ -1,5 +1,5 @@
 {
- "temas": [],
- "actualizado": null,
- "nota": "Tipos en los que más te atascas (de más a menos). El test específico del sábado usa estos temas, rotando por semana. Vacío = rotan los 9 tipos."
+ "temas": ["Problemas", "Combinatoria", "Porcentajes", "Reglas de tres"],
+ "actualizado": "2026-11-05",
+ "nota": "Tipos en los que más te atascas (de más a menos). El test específico del sábado usa el primero la semana de la respuesta y rota con los demás semana a semana. Vacío = rotan los 9 tipos."
 }
