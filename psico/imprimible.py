@@ -1,6 +1,7 @@
 """Documentos para imprimir: el test (sin respuestas) y el solucionario, en HTML estatico -> PDF."""
 import html, os, subprocess, tempfile
 from collections import Counter
+from .dificultad import NOMBRE, nivel
 
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
@@ -54,6 +55,7 @@ h2 { font-size: 13pt; margin: 0 0 3mm; text-transform: uppercase; letter-spacing
 .sol .n { min-width: 6.5mm; }
 .sol p { margin: 0 0 .8mm; }
 .sol .r { font-weight: 700; }
+.sol .d { font-weight: 400; font-size: 8pt; text-transform: uppercase; letter-spacing: .04em; border: .2mm solid #666; padding: 0 1.2mm; margin-left: 1.5mm; }
 .sol img { max-width: 70mm; max-height: 55mm; margin-top: 1mm; border: .2mm solid #bbb; }
 table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin-bottom: 5mm; }
 th, td { border: .25mm solid #000; padding: 1.4mm 2mm; text-align: left; }
@@ -80,8 +82,8 @@ def tiempo_total(ej):
     s = sum(e["tiempo"] for e in ej)
     return f"{s // 60} min {s % 60:02d} s"
 
-def parte_test(fecha, ej):
-    cab = f"""<header class="cab"><h1>Psicotécnicos</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p>
+def parte_test(fecha, ej, titulo="Psicotécnicos"):
+    cab = f"""<header class="cab"><h1>{e_(titulo)}</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p>
     <div class="campos"><span>Nombre:</span><span class="corto">Hora inicio:</span><span class="corto">Hora fin:</span></div>
     <p class="instr">Marca una sola opción por ejercicio. Todos se pueden resolver en menos de 20 segundos si ves el truco (30 segundos las figuras
     desplegables). Tiempo orientativo del test completo: <b>{tiempo_total(ej)}</b>. Pasa a otro ejercicio en cuanto te atasques. Las soluciones y sus explicaciones están en las últimas páginas.</p></header>"""
@@ -97,25 +99,29 @@ def texto_respuesta(e):
     i = e["correcta"]
     return f'{L[i]}' if e.get("imagen") else f'{L[i]}) {e["opciones"][i]}'
 
-def parte_soluciones(fecha, ej):
+def parte_soluciones(fecha, ej, titulo="Psicotécnicos"):
     clave = "".join(f"<span>{i}·{L[e['correcta']]}</span>" for i, e in enumerate(ej, 1))
     por = Counter(e["tipo"] for e in ej)
     tabla = "<table><tr><th>Tipo</th><th>Ejercicios</th><th>Aciertos</th></tr>" + "".join(
         f"<tr><td>{e_(t)}</td><td>{n}</td><td></td></tr>" for t, n in por.items()) + \
         f"<tr><td><b>Total</b></td><td><b>{len(ej)}</b></td><td></td></tr></table>"
+    pord = Counter(nivel(e) for e in ej)
+    tabla += "<table><tr><th>Dificultad</th><th>Ejercicios</th><th>Aciertos</th></tr>" + "".join(
+        f"<tr><td>{NOMBRE[n]}</td><td>{pord[n]}</td><td></td></tr>" for n in (1, 2, 3) if pord[n]) + "</table>"
     sol = []
     for i, e in enumerate(ej, 1):
-        cuerpo = f'<p class="r">{i}. {e_(e["tipo"])} → {e_(texto_respuesta(e))}</p><p>{e_(e["truco"])}</p>'
+        cuerpo = (f'<p class="r">{i}. {e_(e["tipo"])} → {e_(texto_respuesta(e))}<span class="d">{NOMBRE[nivel(e)]}</span></p>'
+                  f'<p>{e_(e["truco"])}</p>')
         if e.get("imagen"): cuerpo += f'<img src="{e["imagen"]}" alt="">'
         sol.append(f'<section class="sol"><span class="n">{i}</span><div>{cuerpo}</div></section>')
-    return (f'<div class="soluciones"><header class="cab"><h1>Soluciones</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p></header>'
+    return (f'<div class="soluciones"><header class="cab"><h1>Soluciones · {e_(titulo)}</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p></header>'
             f'<h2>Clave de respuestas</h2><div class="clave">{clave}</div><h2>Autoevaluación</h2>{tabla}'
             f'<h2>Explicaciones y trucos</h2><div class="cols">{"".join(sol)}</div></div>')
 
-def documento_html(fecha, ej):
+def documento_html(fecha, ej, titulo="Psicotécnicos"):
     """test (una columna) + soluciones y explicaciones (dos columnas) en un solo documento."""
     return (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Psicotécnicos {fecha}</title><style>{CSS}</style></head>'
-            f'<body>{parte_test(fecha, ej)}{parte_soluciones(fecha, ej)}</body></html>')
+            f'<body>{parte_test(fecha, ej, titulo)}{parte_soluciones(fecha, ej, titulo)}</body></html>')
 
 def a_pdf(html_str, ruta_pdf, pie, guardar_html=False):
     aqui = os.path.dirname(os.path.abspath(__file__))

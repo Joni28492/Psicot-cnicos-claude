@@ -17,9 +17,9 @@ def prod(n, k):
     """n·(n-1)·...· (k factores), para escribir el truco."""
     return "×".join(str(n - i) for i in range(k))
 
-def cierre(rng, q, r, tr, extras):
+def cierre(rng, q, r, tr, extras, dif=2):
     ops, i = mezclar(num(r), [num(x) for x in distractores_num(r, rng, extras=extras)], rng)
-    return dict(enunciado=q, opciones=ops, correcta=i, truco=tr)
+    return dict(enunciado=q, opciones=ops, correcta=i, truco=tr, dificultad=dif)
 
 # ------------------------------------------------------------------ permutaciones
 ORDENAR = [
@@ -37,21 +37,21 @@ def permutaciones(rng):
     if kind == "ordenar":
         n = rng.choice([4, 5, 6, 7]); _, q = rng.choice(ORDENAR); r = F(n)
         return cierre(rng, q.format(n=n), r, f"Se usan todos y el orden importa: {n}! = {'×'.join(str(i) for i in range(n, 0, -1))} = {num(r)}.",
-                      [n * n, P(n, n - 1) // 2, F(n - 1), F(n + 1)])
+                      [n * n, P(n, n - 1) // 2, F(n - 1), F(n + 1)], dif=1)
     if kind == "juntos":
         n = rng.choice([4, 5, 6]); r = F(n - 1) * 2
         q = f"{n} amigos se sientan en una fila de {n} sillas. ¿De cuántas formas pueden sentarse si dos de ellos, Ana y Luis, quieren estar siempre juntos?"
         return cierre(rng, q, r, f"Ana y Luis forman un bloque: {n - 1} elementos → {n - 1}! = {F(n - 1)}, y el bloque se puede dar la vuelta (×2): {num(r)}.",
-                      [F(n - 1), F(n), F(n - 2) * 2, F(n - 1) * 3])
+                      [F(n - 1), F(n), F(n - 2) * 2, F(n - 1) * 3], dif=3)
     if kind == "repetidas":
         w = rng.choice(PALABRAS); cnt = Counter(w); r = F(len(w)) // math.prod(F(v) for v in cnt.values())
         rep = ", ".join(f"{l}×{v}" for l, v in cnt.items() if v > 1)
         q = f"¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de {w}?"
         return cierre(rng, q, r, f"{len(w)}! dividido entre las repeticiones ({rep}): {F(len(w))} ÷ {math.prod(F(v) for v in cnt.values())} = {num(r)}.",
-                      [F(len(w)), r * 2, r // 2 if r > 2 else r + 1, len(w) ** 2])
+                      [F(len(w)), r * 2, r // 2 if r > 2 else r + 1, len(w) ** 2], dif=2)
     n = rng.choice([4, 5, 6]); r = F(n - 1)
     q = f"¿De cuántas formas se pueden sentar {n} personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?"
-    return cierre(rng, q, r, f"Se fija a una persona y las demás se ordenan: ({n}−1)! = {num(r)}.", [F(n), n * n, F(n - 2), r * 2])
+    return cierre(rng, q, r, f"Se fija a una persona y las demás se ordenan: ({n}−1)! = {num(r)}.", [F(n), n * n, F(n - 2), r * 2], dif=3)
 
 # ------------------------------------------------------------------ variaciones: M elementos, N espacios
 VARIA = [
@@ -74,11 +74,11 @@ def variaciones(rng):
         q = rng.choice(VARIA); q = q.replace("{n}", str(n)).replace("{m}", str(m))
         if "presidente" in q: n, m = 3, m; r = P(m, 3); q = q.replace("{n}", "3")
         return cierre(rng, q, r, f"{m} elementos en {n} espacios sin repetir, importa el orden: {prod(m, n)} = {num(r)} (empiezas con {m} opciones y cada espacio tiene una menos).",
-                      [C(m, n), m ** n, F(m), m * n])
+                      [C(m, n), m ** n, F(m), m * n], dif=2)
     n = rng.choice([2, 3, 4]); m = rng.randint(3, 7 if n < 4 else 5); r = m ** n
     q = rng.choice(VARIA_REP).replace("{n}", str(n)).replace("{m}", str(m))
     return cierre(rng, q, r, f"Cada espacio tiene {m} opciones, que se repiten: {'×'.join([str(m)] * n)} = {m}^{n} = {num(r)}.",
-                  [P(m, n), C(m, n), m * n, (m - 1) ** n])
+                  [P(m, n), C(m, n), m * n, (m - 1) ** n], dif=1)
 
 # ------------------------------------------------------------------ combinaciones: grupos sin orden
 GRUPOS = {
@@ -100,4 +100,4 @@ def combinaciones(rng):
     ext = [P(n, k), n ** k, n * k, C(n, k - 1) if k > 1 else n]
     tr = f"El orden no importa: {prod(n, k)} ÷ {k}! = {num(P(n, k))} ÷ {F(k)} = {num(r)}."
     if k == 2: tr += f" (atajo: {n}×{n - 1}/2)"
-    return cierre(rng, q.format(n=n), r, tr, ext)
+    return cierre(rng, q.format(n=n), r, tr, ext, dif={2: 1, 3: 2, 4: 3}[k])

@@ -1,6 +1,6 @@
 # Psicotécnicos diarios
 
-Genera cada día entre 10 y 20 ejercicios de psicotécnicos (resolubles en menos de 20 s con el truco adecuado) como documentos PDF para imprimir.
+Genera cada día 30–42 ejercicios de psicotécnicos (resolubles en menos de 20 s con el truco adecuado) como documentos PDF para imprimir.
 
 ## Uso
 
@@ -21,6 +21,13 @@ Salida en la carpeta indicada: `psicotecnico_<NNN>_<dificultad>.pdf` (p. ej. `ps
 Opciones extra: `--html` guarda el HTML de origen y `--json` guarda los ejercicios con respuestas.
 
 La misma fecha produce siempre los mismos ejercicios.
+
+## Tests diarios y específicos
+
+- **Diario** (de domingo a viernes): 30–42 ejercicios de 6 de los 9 tipos; los otros 3 rotan según la fecha y salen en los tests siguientes. Nombre: `psicotecnico_NNN_facil|media|dificil.pdf`.
+- **Específico** (sábados): un solo tipo, 21 ejercicios (12 si son dibujos) con dificultad creciente, a partes iguales fácil/media/difícil. Nombre: `psicotecnico_NNN_especifico_<tema>_variable.pdf`. El tema sale de `seguimiento/foco.json` (los tipos en que más te atascas; rotan por semana) o, si está vacío, rotan los 9 tipos. Se puede forzar con `--modo especifico --tema "Combinatoria"`.
+- Las soluciones indican la dificultad de cada ejercicio y hay una tabla de autoevaluación por tipo y por dificultad.
+- `salidas/indice.json` guarda, por test, el tipo, subtipo, dificultad y respuesta correcta de cada ejercicio, para el seguimiento de resultados.
 
 ## Tipos incluidos
 

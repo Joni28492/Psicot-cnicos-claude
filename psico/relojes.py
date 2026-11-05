@@ -108,7 +108,8 @@ def tarta(rng):
         if k: partes.append(f"{'gana' if k > 0 else 'pierde'} {abs(k)} sector{'es' if abs(k) > 1 else ''} relleno{'s' if abs(k) > 1 else ''}")
         color = rng.choice(COLORES)
         truco = f"La tarta tiene {n} sectores. En cada paso " + " y ".join(partes) + "."
-        return dict(enunciado="¿Qué gráfico circular continúa la serie?", opciones=list("ABCD"), correcta=ops.index(ok), truco=truco,
+        dif = 3 if r and k else 1 if abs(r) + abs(k) == 1 else 2     # dos cambios a la vez = mas dificil
+        return dict(enunciado="¿Qué gráfico circular continúa la serie?", opciones=list("ABCD"), correcta=ops.index(ok), truco=truco, dificultad=dif,
                     imagen=componer(rng, s[:-1], ops, ok, lambda ax, x, y, st: esfera_tarta(ax, x, y, st, n, color)))
     raise ValueError("no se pudo generar")
 

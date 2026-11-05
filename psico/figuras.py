@@ -26,4 +26,4 @@ def figura(rng):
         truco = ("Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras "
                  "estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.")
     return dict(enunciado=enun, opciones=list("ABCD"), correcta="ABCD".index(letra), truco=truco,
-                imagen="data:image/png;base64," + datos, figura=f, nombre_figura=poliedros.SOLIDS[f].nombre)
+                imagen="data:image/png;base64," + datos, figura=f, dificultad=(1 if f == "cubo" and tema in ("formas", "dados") else 2 if f == "cubo" else 3), nombre_figura=poliedros.SOLIDS[f].nombre)
