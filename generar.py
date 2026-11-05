@@ -9,11 +9,11 @@ Modos:
   especifico  un solo tema, con la dificultad creciente (facil -> dificil); cada ejercicio lleva su nivel en las soluciones.
   auto        (por defecto) especifico los sabados y diario el resto de dias.
 El tema del test especifico sale de seguimiento/foco.json (lo que el usuario dice que mas le cuesta); si no hay, rotan todos los tipos.
-Salida: psicotecnico_<NNN>_<dificultad>.pdf o psicotecnico_<NNN>_especifico_<tema>_variable.pdf, mas una entrada en indice.json.
+Salida: psicotecnico_<NNN>_<dificultad>.pdf o psicotecnico_<NNN>_especifico_<tema>_variable.pdf, mas una entrada en indice.json y los ejercicios en el banco ejercicios/<tipo>/.
 """
 import argparse, datetime, json, os, random, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, domino, relojes, combinatoria, imprimible   # noqa: F401  (registran generadores)
+from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, domino, relojes, combinatoria, imprimible, banco   # noqa: F401  (registran generadores)
 from psico import dificultad as dif
 
 # peso de cada TIPO al repartir los ejercicios del dia
@@ -142,6 +142,8 @@ def main():
     ap.add_argument("--modo", choices=["auto", "diario", "especifico"], default="auto")
     ap.add_argument("--tema", default=None, help="tipo del test especifico (por defecto, el de seguimiento/foco.json o el que toque)")
     ap.add_argument("--foco", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "seguimiento", "foco.json"))
+    ap.add_argument("--banco", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "ejercicios"),
+                    help="carpeta del banco de ejercicios (una subcarpeta por tipo); '' para no guardar")
     ap.add_argument("--n", type=int, default=None)
     ap.add_argument("--salida", default="salidas")
     ap.add_argument("--sin-figuras", action="store_true")
@@ -172,6 +174,8 @@ def main():
     registrar(os.path.join(a.salida, "indice.json"), dict(
         numero=numero, fecha=a.fecha, archivo=nombre + ".pdf", modo=modo, tema=tema, dificultad=etiqueta,
         ejercicios=[dict(n=e["id"], tipo=e["tipo"], subtipo=e["subtipo"], dificultad=dif.ASCII[e["dificultad"]], correcta="ABCD"[e["correcta"]]) for e in ej]))
+    if a.banco:
+        banco.guardar(a.banco, ej, numero, a.fecha, modo, nombre + ".pdf", base + ".pdf")
     por = {}
     for e in ej: por[e["tipo"]] = por.get(e["tipo"], 0) + 1
     niveles = {dif.ASCII[n]: sum(1 for e in ej if e["dificultad"] == n) for n in (1, 2, 3)}
