@@ -1,0 +1,200 @@
+[
+ {
+  "id": "c7ba381178",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "num_cuadrados",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "15, 24, 35, 48, 63, ?",
+  "opciones": [
+   "75",
+   "80",
+   "83",
+   "78"
+  ],
+  "correcta": "B",
+  "truco": "Son cuadrados -1: 4², 5², 6²… El siguiente es 9² -1 = 80.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "54509cc15a",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 3, 6, 11, 18, ?",
+  "opciones": [
+   "37",
+   "29",
+   "27",
+   "25"
+  ],
+  "correcta": "C",
+  "truco": "Las diferencias son 1, 3, 5, 7… y crecen 2 cada vez: la siguiente es +9.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9ee4e729a7",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "3, 2, 5, 7, 12, ?",
+  "opciones": [
+   "19",
+   "17",
+   "18",
+   "20"
+  ],
+  "correcta": "A",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2a3be0eb17",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "4, 8, 16, 32, 64, ?",
+  "opciones": [
+   "96",
+   "128",
+   "138",
+   "256"
+  ],
+  "correcta": "B",
+  "truco": "Cada término se multiplica por 2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "611f7d7c60",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "14, 72, 17, 70, 20, 68, 23, ?",
+  "opciones": [
+   "67",
+   "66",
+   "61",
+   "26"
+  ],
+  "correcta": "B",
+  "truco": "Dos series entrelazadas: lugares impares +3, lugares pares -2. Toca un lugar par: 68 -2 = 66.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "09dcf970c7",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "letras_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "G, A, H, E, I, I, J, ?",
+  "opciones": [
+   "M",
+   "P",
+   "K",
+   "L"
+  ],
+  "correcta": "A",
+  "truco": "Son dos series entrelazadas: posiciones impares +1 y pares +4. Falta la de las pares.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6bf7fdbd48",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "L1, M3, N5, Ñ7, O9, ?",
+  "opciones": [
+   "P12",
+   "P11",
+   "O11",
+   "Q11"
+  ],
+  "correcta": "B",
+  "truco": "Dos reglas independientes: las letras avanzan 1 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "dbfd8f3325",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "num_operaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "1, 6, 21, 66, 201, ?",
+  "opciones": [
+   "606",
+   "604",
+   "603",
+   "336"
+  ],
+  "correcta": "A",
+  "truco": "Cada término = anterior ×3 +3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2716153f4d",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "num_aritmetica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "40, 47, 54, 61, 68, ?",
+  "opciones": [
+   "75",
+   "73",
+   "76",
+   "74"
+  ],
+  "correcta": "A",
+  "truco": "Suma constante: +7 en cada paso.",
+  "imagen": null,
+  "tiempo": 20
+ }
+]

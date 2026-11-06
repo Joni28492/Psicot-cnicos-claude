@@ -1,0 +1,134 @@
+[
+ {
+  "id": "4701578049",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "permutaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de CACAO?",
+  "destacado": null,
+  "opciones": [
+   "15",
+   "60",
+   "120",
+   "30"
+  ],
+  "correcta": "D",
+  "truco": "5! dividido entre las repeticiones (C×2, A×2): 120 ÷ 4 = 30.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "927210f5b2",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "combinaciones",
+  "dificultad": "facil",
+  "enunciado": "En un torneo juegan 5 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?",
+  "destacado": null,
+  "opciones": [
+   "5",
+   "10",
+   "25",
+   "20"
+  ],
+  "correcta": "B",
+  "truco": "El orden no importa: 5×4 ÷ 2! = 20 ÷ 2 = 10. (atajo: 5×4/2)",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "36984bb2f1",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "combinaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántos triángulos distintos se pueden dibujar uniendo 7 puntos de un círculo de 3 en 3?",
+  "destacado": null,
+  "opciones": [
+   "343",
+   "210",
+   "21",
+   "35"
+  ],
+  "correcta": "D",
+  "truco": "El orden no importa: 7×6×5 ÷ 3! = 210 ÷ 6 = 35.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "95de44aa76",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "permutaciones",
+  "dificultad": "dificil",
+  "enunciado": "5 amigos se sientan en una fila de 5 sillas. ¿De cuántas formas pueden sentarse si dos de ellos, Ana y Luis, quieren estar siempre juntos?",
+  "destacado": null,
+  "opciones": [
+   "24",
+   "12",
+   "120",
+   "48"
+  ],
+  "correcta": "D",
+  "truco": "Ana y Luis forman un bloque: 4 elementos → 4! = 24, y el bloque se puede dar la vuelta (×2): 48.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "bfb1dab41c",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "combinaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Cuántos grupos de 4 alumnos se pueden formar en una clase de 7?",
+  "destacado": null,
+  "opciones": [
+   "840",
+   "28",
+   "2.401",
+   "35"
+  ],
+  "correcta": "D",
+  "truco": "El orden no importa: 7×6×5×4 ÷ 4! = 840 ÷ 24 = 35.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a0ad22b780",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 28,
+  "subtipo": "variaciones",
+  "dificultad": "facil",
+  "enunciado": "Hay 4 espacios y cada uno se rellena con uno de 4 elementos distintos, pudiendo repetirse. ¿De cuántas formas se pueden llenar los espacios?",
+  "destacado": null,
+  "opciones": [
+   "24",
+   "1",
+   "256",
+   "16"
+  ],
+  "correcta": "C",
+  "truco": "Cada espacio tiene 4 opciones, que se repiten: 4×4×4×4 = 4^4 = 256.",
+  "imagen": null,
+  "tiempo": 20
+ }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "id": "def99d1bcb",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "tarta",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "La tarta tiene 10 sectores. En cada paso el bloque relleno gira 1 sector a la izquierda y pierde 1 sector relleno.",
+  "imagen": "img/def99d1bcb.png",
+  "tiempo": 30
+ },
+ {
+  "id": "6b4802d855",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 30,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "Hay 12 posiciones. El punto negro se mueve 3 posiciones en sentido antihorario y el punto blanco 1 posición en sentido horario en cada paso.",
+  "imagen": "img/6b4802d855.png",
+  "tiempo": 30
+ },
+ {
+  "id": "4ec3a4f9ed",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 31,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Hay 10 posiciones. El punto negro se mueve 2 posiciones en sentido antihorario y el punto blanco 2 posiciones en sentido horario en cada paso.",
+  "imagen": "img/4ec3a4f9ed.png",
+  "tiempo": 30
+ },
+ {
+  "id": "b536fd62d0",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 32,
+  "subtipo": "reloj",
+  "dificultad": "media",
+  "enunciado": "¿Qué reloj continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Sigue cada aguja por separado: la corta y gruesa retrocede 1 hora en cada reloj y la larga y fina avanza 4 horas (cada marca es una hora del reloj).",
+  "imagen": "img/b536fd62d0.png",
+  "tiempo": 30
+ }
+]

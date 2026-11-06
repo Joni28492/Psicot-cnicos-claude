@@ -1,0 +1,112 @@
+[
+ {
+  "id": "2dec76844b",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "iva",
+  "dificultad": "media",
+  "enunciado": "Un producto cuesta 250 € con un IVA del 25%. ¿Cuánto costaba sin IVA?",
+  "destacado": null,
+  "opciones": [
+   "187 €",
+   "210 €",
+   "186 €",
+   "200 €"
+  ],
+  "correcta": "D",
+  "truco": "El precio con IVA es el 125% del original: 250 ÷ 1,25 = 200. Restar el 25% al precio final es el error típico.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0003918a63",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "porcentaje_de_porcentaje",
+  "dificultad": "dificil",
+  "enunciado": "En una clase de 160 alumnos, el 50% son chicas y de ellas el 75% lleva gafas. ¿Cuántas chicas llevan gafas?",
+  "destacado": null,
+  "opciones": [
+   "80",
+   "60",
+   "120",
+   "200"
+  ],
+  "correcta": "B",
+  "truco": "1/2 de 160 = 80; 3/4 de eso = 60. Se multiplican las fracciones, no se suman.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c9c249c916",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 60% de un número es 9. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "18",
+   "36",
+   "6",
+   "15"
+  ],
+  "correcta": "D",
+  "truco": "60% = 3/5: 9 son 3 partes de 5. Una parte = 3; el total = 15.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "dec818a57b",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 240 € tiene un 50% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "94 €",
+   "90 €",
+   "120 €",
+   "60 €"
+  ],
+  "correcta": "B",
+  "truco": "No se suman (75%): se multiplican 50% × 75% = 37,5% del precio ⇒ 90 €.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "fcf00dfa68",
+  "test": "psicotecnico_010_media.pdf",
+  "numero": 10,
+  "fecha": "2026-11-06",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio baja un 20% y después sube un 20%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Baja un 4%",
+   "Se queda igual",
+   "Sube un 4%",
+   "Baja un 20%"
+  ],
+  "correcta": "A",
+  "truco": "Los porcentajes no se compensan: (1+1/5)·(1−1/5) = 1 − 1/25 ⇒ pierde 4%.",
+  "imagen": null,
+  "tiempo": 20
+ }
+]
