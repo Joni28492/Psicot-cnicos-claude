@@ -1,6 +1,6 @@
 # Problemas
 
-8 ejercicios · fácil: 2 · media: 6 · difícil: 0
+29 ejercicios · fácil: 9 · media: 13 · difícil: 7
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -97,3 +97,255 @@ De un grupo de 6 personas hay que elegir 2 para formar una comisión (sin cargos
 - D) 12
 
 **Respuesta: B.** Combinaciones: 6!/(2!·4!) = 15. Si importara el orden serían 30.
+
+## 3d0e38f6f1 · fácil · mas_que
+*Test 011 (2026-11-07), ejercicio 1*
+
+Juan tiene 20 libros más que Sara, y entre los dos suman 86. ¿Cuántos tiene Sara?
+
+- A) 66
+- B) 43
+- C) 33
+- D) 23
+
+**Respuesta: C.** Quita la diferencia al total: 86 − 20 = 66, a medias = 33 (el menor). El mayor es 33 + 20 = 53.
+
+## bf71a5237f · fácil · cabezas_patas
+*Test 011 (2026-11-07), ejercicio 2*
+
+Se venden 29 entradas, unas de 5 € y otras de 3 €, y se recaudan 111 €. ¿Cuántas entradas de 5 € se vendieron?
+
+- A) 16
+- B) 24
+- C) 12
+- D) 17
+
+**Respuesta: C.** Supón que todos son del tipo menor (3): 29×3 = 87. Sobran 24, y cada cambio añade 2. 24 ÷ 2 = 12 entradas de 5 €.
+
+## 7dedf08409 · fácil · cabezas_patas
+*Test 011 (2026-11-07), ejercicio 3*
+
+En un aparcamiento hay motos y coches. En total hay 27 vehículos y 74 ruedas. ¿Cuántos coches hay?
+
+- A) 20
+- B) 14
+- C) 10
+- D) 17
+
+**Respuesta: C.** Supón que todos son del tipo menor (2): 27×2 = 54. Sobran 20, y cada cambio añade 2. 20 ÷ 2 = 10 coches.
+
+## 95bae5cfaa · fácil · cabezas_patas
+*Test 011 (2026-11-07), ejercicio 4*
+
+En un aparcamiento hay motos y coches. En total hay 24 vehículos y 92 ruedas. ¿Cuántos coches hay?
+
+- A) 22
+- B) 2
+- C) 44
+- D) 23
+
+**Respuesta: A.** Supón que todos son del tipo menor (2): 24×2 = 48. Sobran 44, y cada cambio añade 2. 44 ÷ 2 = 22 coches.
+
+## 2712251de7 · fácil · mas_que
+*Test 011 (2026-11-07), ejercicio 5*
+
+Juan tiene 10 libros más que Sara, y entre los dos suman 40. ¿Cuántos tiene Sara?
+
+- A) 15
+- B) 20
+- C) 30
+- D) 10
+
+**Respuesta: A.** Quita la diferencia al total: 40 − 10 = 30, a medias = 15 (el menor). El mayor es 15 + 10 = 25.
+
+## b8686d8cf2 · fácil · mas_que
+*Test 011 (2026-11-07), ejercicio 6*
+
+Ana tiene 10 euros más que Luis, y entre los dos suman 50. ¿Cuántos tiene Ana?
+
+- A) 40
+- B) 25
+- C) 30
+- D) 35
+
+**Respuesta: C.** Quita la diferencia al total: 50 − 10 = 40, a medias = 20 (el menor). El mayor es 20 + 10 = 30.
+
+## 40042d3811 · fácil · cabezas_patas
+*Test 011 (2026-11-07), ejercicio 7*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 29 monedas que suman 41 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 15
+- B) 17
+- C) 16
+- D) 12
+
+**Respuesta: D.** Supón que todos son del tipo menor (1): 29×1 = 29. Sobran 12, y cada cambio añade 1. 12 ÷ 1 = 12 monedas de 2 €.
+
+## 25e7e26431 · media · ecuacion
+*Test 011 (2026-11-07), ejercicio 8*
+
+La suma de tres números consecutivos es 78. ¿Cuál es el mayor?
+
+- A) 25
+- B) 28
+- C) 27
+- D) 30
+
+**Respuesta: C.** El de en medio es la media: 78 ÷ 3 = 26. El mayor es 27.
+
+## 8d4aa31aa5 · media · veces
+*Test 011 (2026-11-07), ejercicio 9*
+
+Un padre tiene 2 veces los años de su hijo y entre los dos suman 27. ¿Cuántos años tiene el padre?
+
+- A) 25
+- B) 9
+- C) 13
+- D) 18
+
+**Respuesta: D.** El total son 2+1 = 3 partes iguales: 27 ÷ 3 = 9 (hijo). Padre: 2×9 = 18.
+
+## 5406a313e2 · media · ecuacion
+*Test 011 (2026-11-07), ejercicio 10*
+
+La suma de tres números consecutivos es 27. ¿Cuál es el mayor?
+
+- A) 20
+- B) 8
+- C) 9
+- D) 10
+
+**Respuesta: D.** El de en medio es la media: 27 ÷ 3 = 9. El mayor es 10.
+
+## a022174efd · media · combinatoria
+*Test 011 (2026-11-07), ejercicio 11*
+
+De un grupo de 6 personas hay que elegir 2 para formar una comisión (sin cargos distintos). ¿Cuántas comisiones posibles hay?
+
+- A) 12
+- B) 15
+- C) 30
+- D) 21
+
+**Respuesta: B.** Combinaciones: 6!/(2!·4!) = 15. Si importara el orden serían 30.
+
+## 381a748edf · media · veces
+*Test 011 (2026-11-07), ejercicio 12*
+
+Un padre tiene 4 veces los años de su hijo y entre los dos suman 70. ¿Cuántos años tiene el padre?
+
+- A) 35
+- B) 66
+- C) 56
+- D) 14
+
+**Respuesta: C.** El total son 4+1 = 5 partes iguales: 70 ÷ 5 = 14 (hijo). Padre: 4×14 = 56.
+
+## 3d26ef27fb · media · combinatoria
+*Test 011 (2026-11-07), ejercicio 13*
+
+¿De cuántas formas pueden sentarse 5 personas alrededor de una mesa redonda (los giros cuentan como la misma disposición)?
+
+- A) 48
+- B) 120
+- C) 24
+- D) 25
+
+**Respuesta: C.** Se fija a una persona y las demás se ordenan: (5−1)! = 24.
+
+## 0f3f037766 · media · veces
+*Test 011 (2026-11-07), ejercicio 14*
+
+Un padre tiene 3 veces los años de su hijo y entre los dos suman 12. ¿Cuántos años tiene el padre?
+
+- A) 9
+- B) 3
+- C) 8
+- D) 6
+
+**Respuesta: A.** El total son 3+1 = 4 partes iguales: 12 ÷ 4 = 3 (hijo). Padre: 3×3 = 9.
+
+## 0139240e6a · difícil · edades
+*Test 011 (2026-11-07), ejercicio 15*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 11 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 11
+- B) 88
+- C) 33
+- D) 22
+
+**Respuesta: D.** Con x = edad de la hija: 4x + 11 = 3(x + 11) ⇒ x = 22 ⇒ x = 22. Comprobación: madre 88, dentro de 11 años 99 = 3×33.
+
+## 08038d3193 · difícil · encuentro
+*Test 011 (2026-11-07), ejercicio 16*
+
+Dos trenes salen a la vez de dos ciudades separadas 360 km y avanzan el uno hacia el otro a 80 y 40 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 3 h
+- B) 6 h
+- C) 9 h
+- D) 4 h
+
+**Respuesta: A.** Se acercan a 80+40 = 120 km/h: 360 ÷ 120 = 3 h.
+
+## b76c4ad29f · difícil · edades
+*Test 011 (2026-11-07), ejercicio 17*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 9 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 27
+- B) 18
+- C) 72
+- D) 9
+
+**Respuesta: B.** Con x = edad de la hija: 4x + 9 = 3(x + 9) ⇒ x = 18 ⇒ x = 18. Comprobación: madre 72, dentro de 9 años 81 = 3×27.
+
+## 1c0a306bd9 · difícil · edades
+*Test 011 (2026-11-07), ejercicio 18*
+
+Ahora una madre tiene 6 veces la edad de su hija. Dentro de 3 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 2
+- B) 12
+- C) 5
+- D) 3
+
+**Respuesta: A.** Con x = edad de la hija: 6x + 3 = 3(x + 3) ⇒ 3x = 6 ⇒ x = 2. Comprobación: madre 12, dentro de 3 años 15 = 3×5.
+
+## 1690d385a4 · difícil · encuentro
+*Test 011 (2026-11-07), ejercicio 19*
+
+Dos trenes salen a la vez de dos ciudades separadas 600 km y avanzan el uno hacia el otro a 70 y 50 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 8 h
+- B) 5 h
+- C) 15 h
+- D) 12 h
+
+**Respuesta: B.** Se acercan a 70+50 = 120 km/h: 600 ÷ 120 = 5 h.
+
+## e399606394 · difícil · encuentro
+*Test 011 (2026-11-07), ejercicio 20*
+
+Dos trenes salen a la vez de dos ciudades separadas 320 km y avanzan el uno hacia el otro a 45 y 35 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 4 h
+- B) 7 h
+- C) 1 h
+- D) 9 h
+
+**Respuesta: A.** Se acercan a 45+35 = 80 km/h: 320 ÷ 80 = 4 h.
+
+## 90b8c115c6 · difícil · edades
+*Test 011 (2026-11-07), ejercicio 21*
+
+Ahora una madre tiene 5 veces la edad de su hija. Dentro de 9 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 12
+- B) 3
+- C) 9
+- D) 15
+
+**Respuesta: B.** Con x = edad de la hija: 5x + 9 = 2(x + 9) ⇒ 3x = 9 ⇒ x = 3. Comprobación: madre 15, dentro de 9 años 24 = 2×12.

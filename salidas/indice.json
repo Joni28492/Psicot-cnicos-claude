@@ -260,5 +260,162 @@
     "correcta": "A"
    }
   ]
+ },
+ {
+  "numero": 11,
+  "fecha": "2026-11-07",
+  "archivo": "psicotecnico_011_especifico_problemas_variable.pdf",
+  "modo": "especifico",
+  "tema": "Problemas",
+  "dificultad": "variable",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 2,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 3,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 4,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 5,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 6,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 7,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 8,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 9,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 10,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 11,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 12,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 13,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 14,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 15,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 16,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 17,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 18,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 19,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 20,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 21,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "B"
+   }
+  ]
  }
 ]
