@@ -108,5 +108,159 @@
   "truco": "Los porcentajes no se compensan: (1+1/5)·(1−1/5) = 1 − 1/25 ⇒ pierde 4%.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "8839e1df84",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "iva",
+  "dificultad": "media",
+  "enunciado": "Un producto cuesta 200 € con un IVA del 25%. ¿Cuánto costaba sin IVA?",
+  "destacado": null,
+  "opciones": [
+   "150 €",
+   "148 €",
+   "170 €",
+   "160 €"
+  ],
+  "correcta": "D",
+  "truco": "El precio con IVA es el 125% del original: 200 ÷ 1,25 = 160. Restar el 25% al precio final es el error típico.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "1cd58a6846",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 12,5% de 240?",
+  "destacado": null,
+  "opciones": [
+   "31",
+   "30",
+   "33",
+   "210"
+  ],
+  "correcta": "B",
+  "truco": "12,5% = 1/8. 240 ÷ 8 × 1 = 30.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "14b58f359e",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio baja un 40% y después sube un 40%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Sube un 16%",
+   "Baja un 16%",
+   "Se queda igual",
+   "Baja un 40%"
+  ],
+  "correcta": "B",
+  "truco": "Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "4c327f12f9",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 400 € tiene un 20% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "244 €",
+   "240 €",
+   "220 €",
+   "320 €"
+  ],
+  "correcta": "B",
+  "truco": "No se suman (45%): se multiplican 80% × 75% = 60% del precio ⇒ 240 €.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "206c68385b",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 240 € tiene un 10% de descuento y, sobre el nuevo precio, otro 50%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "108 €",
+   "112 €",
+   "216 €",
+   "96 €"
+  ],
+  "correcta": "A",
+  "truco": "No se suman (60%): se multiplican 90% × 50% = 45% del precio ⇒ 108 €.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ee7924471c",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 96 es 60?",
+  "destacado": null,
+  "opciones": [
+   "31,25%",
+   "62,5%",
+   "60%",
+   "37,5%"
+  ],
+  "correcta": "B",
+  "truco": "60/96 se simplifica a 5/8 = 62,5%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "463ac21fd1",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio sube un 40% y después baja un 40%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Sube un 16%",
+   "Baja un 16%",
+   "Baja un 40%",
+   "Se queda igual"
+  ],
+  "correcta": "B",
+  "truco": "Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -1,0 +1,156 @@
+[
+ {
+  "id": "b81eff21ec",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra LUNA?",
+  "destacado": null,
+  "opciones": [
+   "50",
+   "49",
+   "48",
+   "52"
+  ],
+  "correcta": "B",
+  "truco": "Posiciones: 12(L) + 22(U) + 14(N) + 1(A) = 49. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2c2af2c818",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, AHTP = 2148 y PHCN = 8175. Con el mismo código, ¿cómo se escribe ACNH?",
+  "destacado": null,
+  "opciones": [
+   "7251",
+   "1572",
+   "2752",
+   "2751"
+  ],
+  "correcta": "D",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=2, C=7, H=1, N=5, P=8, T=4.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b488d374e9",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "renombrar",
+  "dificultad": "dificil",
+  "enunciado": "Llamamos amarillo al verde, azul al amarillo y verde al azul. Con esos nombres, ¿de qué color es la hierba?",
+  "destacado": null,
+  "opciones": [
+   "rojo",
+   "verde",
+   "azul",
+   "amarillo"
+  ],
+  "correcta": "D",
+  "truco": "La hierba es verde de verdad, y a ese color ahora lo llamamos amarillo.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "26aef5fcc0",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, IACB = 8413 y CSLI = 1278. Con el mismo código, ¿cómo se escribe BLSI?",
+  "destacado": null,
+  "opciones": [
+   "3729",
+   "3728",
+   "7328",
+   "8273"
+  ],
+  "correcta": "B",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=4, B=3, C=1, I=8, L=7, S=2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "5920433bda",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, CASA se escribe DBTB. Con el mismo código, ¿cómo se escribe NUBE?",
+  "destacado": null,
+  "opciones": [
+   "ÑVCF",
+   "OWDG",
+   "OVCF",
+   "NUBE"
+  ],
+  "correcta": "A",
+  "truco": "Cada letra se desplaza +1 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9f4cf31399",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, ROMA se escribe QÑLZ. Con el mismo código, ¿cómo se escribe PERRO?",
+  "destacado": null,
+  "opciones": [
+   "ÑCPPN",
+   "ODQQÑ",
+   "ODQQN",
+   "PERRO"
+  ],
+  "correcta": "B",
+  "truco": "Cada letra se desplaza -1 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "7816f3a73f",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "vocales",
+  "dificultad": "media",
+  "enunciado": "Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe PUERTA?",
+  "destacado": null,
+  "opciones": [
+   "1TR25P",
+   "521",
+   "P14RT5",
+   "P52RT1"
+  ],
+  "correcta": "D",
+  "truco": "Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.",
+  "imagen": null,
+  "tiempo": 20
+ }
+]

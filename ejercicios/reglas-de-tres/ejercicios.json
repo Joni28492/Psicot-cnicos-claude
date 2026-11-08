@@ -1,0 +1,134 @@
+[
+ {
+  "id": "ac86b2db52",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Con 5 cajeros se atiende la cola en 24 minutos. ¿Cuántos minutos con 2 cajeros?",
+  "destacado": null,
+  "opciones": [
+   "61 minutos",
+   "57 minutos",
+   "60 minutos",
+   "21 minutos"
+  ],
+  "correcta": "C",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 5 × 24 = 120; 120 ÷ 2 = 60.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "5b2f99b65d",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "Un grifo vierte 15 litros en 3 minutos. ¿Cuántos litros vierte en 6 minutos?",
+  "destacado": null,
+  "opciones": [
+   "31 litros",
+   "29 litros",
+   "30 litros",
+   "18 litros"
+  ],
+  "correcta": "C",
+  "truco": "Busca el valor de una unidad: 15 ÷ 3 = 5; luego ×6. No sumes la diferencia (3) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b481fd07c2",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "4 máquinas fabrican 128 piezas en 4 horas. ¿Cuántas piezas fabrican 2 máquinas en 6 horas?",
+  "destacado": null,
+  "opciones": [
+   "192",
+   "96",
+   "99",
+   "64"
+  ],
+  "correcta": "B",
+  "truco": "Piezas por máquina y hora: 128 ÷ (4×4) = 8. Luego 2×6×8 = 96.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "d9313af03f",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Un grifo llena un depósito en 3 h y otro en 6 h. ¿Cuánto tardan abriendo los dos a la vez?",
+  "destacado": null,
+  "opciones": [
+   "2 h",
+   "4 h",
+   "9 h",
+   "3 h"
+  ],
+  "correcta": "A",
+  "truco": "Suma lo que hace cada uno en una hora: 1/3 + 1/6 = 9/18 ⇒ tardan 18/9 = 2. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c51c5ea624",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Con 2 cajeros se atiende la cola en 20 minutos. ¿Cuántos minutos con 40 cajeros?",
+  "destacado": null,
+  "opciones": [
+   "1 minutos",
+   "11 minutos",
+   "400 minutos",
+   "2 minutos"
+  ],
+  "correcta": "A",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 20 = 40; 40 ÷ 40 = 1.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3c5f548b09",
+  "test": "psicotecnico_012_media.pdf",
+  "numero": 12,
+  "fecha": "2026-11-08",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "6 cuadernos cuestan 24 €. ¿Cuánto cuestan 16 cuadernos?",
+  "destacado": null,
+  "opciones": [
+   "34 €",
+   "65 €",
+   "9 €",
+   "64 €"
+  ],
+  "correcta": "D",
+  "truco": "Busca el valor de una unidad: 24 ÷ 6 = 4; luego ×16. No sumes la diferencia (10) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ }
+]

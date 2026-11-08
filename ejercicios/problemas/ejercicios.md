@@ -1,6 +1,6 @@
 # Problemas
 
-29 ejercicios · fácil: 9 · media: 13 · difícil: 7
+39 ejercicios · fácil: 13 · media: 17 · difícil: 9
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -349,3 +349,123 @@ Ahora una madre tiene 5 veces la edad de su hija. Dentro de 9 años tendrá 2 ve
 - D) 15
 
 **Respuesta: B.** Con x = edad de la hija: 5x + 9 = 2(x + 9) ⇒ 3x = 9 ⇒ x = 3. Comprobación: madre 15, dentro de 9 años 24 = 2×12.
+
+## 88b12b202c · fácil · cabezas_patas
+*Test 012 (2026-11-08), ejercicio 1*
+
+En una granja hay patos y vacas. En total hay 25 cabezas y 62 patas. ¿Cuántos patos hay?
+
+- A) 19
+- B) 22
+- C) 31
+- D) 6
+
+**Respuesta: A.** Supón que todos son del tipo menor (4): 25×4 = 100. Sobran -38, y cada cambio añade -2. -38 ÷ -2 = 19 patos.
+
+## 53b242a217 · fácil · cabezas_patas
+*Test 012 (2026-11-08), ejercicio 7*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 17 monedas que suman 26 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 9
+- B) 13
+- C) 12
+- D) 8
+
+**Respuesta: A.** Supón que todos son del tipo menor (1): 17×1 = 17. Sobran 9, y cada cambio añade 1. 9 ÷ 1 = 9 monedas de 2 €.
+
+## b132bc6e10 · difícil · encuentro
+*Test 012 (2026-11-08), ejercicio 10*
+
+Dos trenes salen a la vez de dos ciudades separadas 120 km y avanzan el uno hacia el otro a 40 y 20 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 6 h
+- B) 7 h
+- C) 2 h
+- D) 3 h
+
+**Respuesta: C.** Se acercan a 40+20 = 60 km/h: 120 ÷ 60 = 2 h.
+
+## 852b73016d · fácil · cabezas_patas
+*Test 012 (2026-11-08), ejercicio 18*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 18 monedas que suman 26 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 8
+- B) 10
+- C) 5
+- D) 13
+
+**Respuesta: A.** Supón que todos son del tipo menor (1): 18×1 = 18. Sobran 8, y cada cambio añade 1. 8 ÷ 1 = 8 monedas de 2 €.
+
+## 861221905c · media · ecuacion
+*Test 012 (2026-11-08), ejercicio 19*
+
+x/2 + x/3 = 25. ¿Cuánto vale x?
+
+- A) 29
+- B) 28
+- C) 30
+- D) 33
+
+**Respuesta: C.** x/2 + x/3 = 5x/6 = 25 ⇒ x = 25×6/5 = 30.
+
+## f6277c494b · media · combinatoria
+*Test 012 (2026-11-08), ejercicio 21*
+
+¿De cuántas formas pueden sentarse 5 personas alrededor de una mesa redonda (los giros cuentan como la misma disposición)?
+
+- A) 24
+- B) 25
+- C) 120
+- D) 48
+
+**Respuesta: A.** Se fija a una persona y las demás se ordenan: (5−1)! = 24.
+
+## 48659baaf0 · fácil · mas_que
+*Test 012 (2026-11-08), ejercicio 26*
+
+Ana tiene 12 euros más que Luis, y entre los dos suman 28. ¿Cuántos tiene Ana?
+
+- A) 26
+- B) 14
+- C) 20
+- D) 16
+
+**Respuesta: C.** Quita la diferencia al total: 28 − 12 = 16, a medias = 8 (el menor). El mayor es 8 + 12 = 20.
+
+## 2d0cd85471 · difícil · edades
+*Test 012 (2026-11-08), ejercicio 27*
+
+Ahora una madre tiene 6 veces la edad de su hija. Dentro de 3 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 5
+- B) 2
+- C) 12
+- D) 3
+
+**Respuesta: B.** Con x = edad de la hija: 6x + 3 = 3(x + 3) ⇒ 3x = 6 ⇒ x = 2. Comprobación: madre 12, dentro de 3 años 15 = 3×5.
+
+## aeb49f5dcb · media · veces
+*Test 012 (2026-11-08), ejercicio 28*
+
+Un padre tiene 4 veces los años de su hijo y entre los dos suman 65. ¿Cuántos años tiene el padre?
+
+- A) 52
+- B) 61
+- C) 13
+- D) 32
+
+**Respuesta: A.** El total son 4+1 = 5 partes iguales: 65 ÷ 5 = 13 (hijo). Padre: 4×13 = 52.
+
+## 5b8571dac0 · media · ecuacion
+*Test 012 (2026-11-08), ejercicio 30*
+
+x/2 + x/3 = 20. ¿Cuánto vale x?
+
+- A) 26
+- B) 22
+- C) 24
+- D) 48
+
+**Respuesta: C.** x/2 + x/3 = 5x/6 = 20 ⇒ x = 20×6/5 = 24.
