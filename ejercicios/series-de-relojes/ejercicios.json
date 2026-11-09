@@ -86,5 +86,71 @@
   "truco": "Sigue cada aguja por separado: la corta y gruesa retrocede 1 hora en cada reloj y la larga y fina avanza 4 horas (cada marca es una hora del reloj).",
   "imagen": "img/b536fd62d0.png",
   "tiempo": 30
+ },
+ {
+  "id": "79ad4d91ad",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Hay 12 posiciones. El punto negro se mueve 1 posición en sentido antihorario y el punto blanco 1 posición en sentido horario en cada paso.",
+  "imagen": "img/79ad4d91ad.png",
+  "tiempo": 30
+ },
+ {
+  "id": "fc29b43cc5",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "tarta",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "La tarta tiene 10 sectores. En cada paso el bloque relleno gira 1 sector a la derecha y pierde 1 sector relleno.",
+  "imagen": "img/fc29b43cc5.png",
+  "tiempo": 30
+ },
+ {
+  "id": "57d23dcaed",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 30,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Hay 10 posiciones. El punto negro se mueve 3 posiciones en sentido horario y el punto blanco 1 posición en sentido antihorario en cada paso.",
+  "imagen": "img/57d23dcaed.png",
+  "tiempo": 30
  }
 ]

@@ -1,6 +1,6 @@
 # Porcentajes
 
-12 ejercicios · fácil: 2 · media: 9 · difícil: 1
+17 ejercicios · fácil: 2 · media: 13 · difícil: 2
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -145,3 +145,63 @@ Un precio sube un 40% y después baja un 40%. ¿Cuál es el efecto total?
 - D) Se queda igual
 
 **Respuesta: B.** Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.
+
+## 607e5ea60f · media · variacion
+*Test 013 (2026-11-09), ejercicio 1*
+
+Un valor pasa de 112 a 84. ¿En qué porcentaje disminuye?
+
+- A) 33⅓%
+- B) 25%
+- C) 12,5%
+- D) 50%
+
+**Respuesta: B.** Diferencia 28 sobre el valor de partida (112): 1/4 = 25%. Siempre se divide entre el valor inicial.
+
+## 3d0b1f1dfd · media · sube_y_baja
+*Test 013 (2026-11-09), ejercicio 11*
+
+Un precio baja un 40% y después sube un 40%. ¿Cuál es el efecto total?
+
+- A) Se queda igual
+- B) Sube un 16%
+- C) Baja un 40%
+- D) Baja un 16%
+
+**Respuesta: D.** Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.
+
+## 0b6444e69c · media · porcentaje_inverso
+*Test 013 (2026-11-09), ejercicio 14*
+
+El 87,5% de un número es 77. ¿Cuál es el número?
+
+- A) 308
+- B) 154
+- C) 11
+- D) 88
+
+**Respuesta: D.** 87,5% = 7/8: 77 son 7 partes de 8. Una parte = 11; el total = 88.
+
+## 8eedffde2b · difícil · porcentaje_de_porcentaje
+*Test 013 (2026-11-09), ejercicio 22*
+
+En una clase de 100 alumnos, el 75% son chicas y de ellas el 20% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 15
+- B) 95
+- C) 13
+- D) 75
+
+**Respuesta: A.** 3/4 de 100 = 75; 1/5 de eso = 15. Se multiplican las fracciones, no se suman.
+
+## 7740b270fe · media · descuentos
+*Test 013 (2026-11-09), ejercicio 23*
+
+Una chaqueta de 80 € tiene un 25% de descuento y, sobre el nuevo precio, otro 20%. ¿Cuánto cuesta?
+
+- A) 60 €
+- B) 52 €
+- C) 44 €
+- D) 48 €
+
+**Respuesta: D.** No se suman (45%): se multiplican 75% × 80% = 60% del precio ⇒ 48 €.

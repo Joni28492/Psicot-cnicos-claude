@@ -196,5 +196,159 @@
   "truco": "Suma constante: +7 en cada paso.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "b30c2b9425",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "12, 63, 16, 59, 20, 55, 24, ?",
+  "opciones": [
+   "46",
+   "51",
+   "52",
+   "28"
+  ],
+  "correcta": "B",
+  "truco": "Dos series entrelazadas: lugares impares +4, lugares pares -4. Toca un lugar par: 55 -4 = 51.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a396b5f63d",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "G2, H4, I6, J8, K10, ?",
+  "opciones": [
+   "L13",
+   "L12",
+   "K12",
+   "M12"
+  ],
+  "correcta": "B",
+  "truco": "Dos reglas independientes: las letras avanzan 1 y los números hacen +2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "5e185e19ce",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "Q, S, V, Z, E, ?",
+  "opciones": [
+   "J",
+   "I",
+   "N",
+   "K"
+  ],
+  "correcta": "D",
+  "truco": "Los saltos crecen: +2, +3, +4, +5… el siguiente es +6.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "427bed7307",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "num_primos_o_triangulares",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "3, 5, 7, 11, 13, ?",
+  "opciones": [
+   "19",
+   "20",
+   "17",
+   "15"
+  ],
+  "correcta": "C",
+  "truco": "Son los números primos consecutivos.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "89050d1080",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "num_cuadrados",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "4, 9, 16, 25, 36, ?",
+  "opciones": [
+   "49",
+   "54",
+   "52",
+   "48"
+  ],
+  "correcta": "A",
+  "truco": "Son cuadrados: 2², 3², 4²… El siguiente es 7² = 49.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8916fb6697",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "4, 7, 11, 18, 29, ?",
+  "opciones": [
+   "52",
+   "40",
+   "47",
+   "48"
+  ],
+  "correcta": "C",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "88640428b4",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "letras_salto",
+  "dificultad": "facil",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "Q, Ñ, L, I, F, ?",
+  "opciones": [
+   "E",
+   "A",
+   "C",
+   "Z"
+  ],
+  "correcta": "C",
+  "truco": "Cada letra retrocede 3 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

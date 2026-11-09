@@ -1,6 +1,6 @@
 # Combinatoria
 
-6 ejercicios · fácil: 2 · media: 2 · difícil: 2
+11 ejercicios · fácil: 4 · media: 5 · difícil: 2
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -73,3 +73,63 @@ Hay 4 espacios y cada uno se rellena con uno de 4 elementos distintos, pudiendo 
 - D) 16
 
 **Respuesta: C.** Cada espacio tiene 4 opciones, que se repiten: 4×4×4×4 = 4^4 = 256.
+
+## 406de53eaf · fácil · permutaciones
+*Test 013 (2026-11-09), ejercicio 3*
+
+¿De cuántas formas se pueden ordenar 6 libros distintos en una estantería?
+
+- A) 120
+- B) 720
+- C) 36
+- D) 360
+
+**Respuesta: B.** Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.
+
+## ab3599587b · media · combinaciones
+*Test 013 (2026-11-09), ejercicio 6*
+
+¿Cuántos tríos distintos se pueden formar con 7 amigos?
+
+- A) 35
+- B) 343
+- C) 210
+- D) 21
+
+**Respuesta: A.** El orden no importa: 7×6×5 ÷ 3! = 210 ÷ 6 = 35.
+
+## 5992446bd1 · media · variaciones
+*Test 013 (2026-11-09), ejercicio 10*
+
+Con 8 libros distintos se llenan 4 huecos de una estantería, uno por hueco. ¿De cuántas formas distintas?
+
+- A) 4.096
+- B) 1.680
+- C) 70
+- D) 40.320
+
+**Respuesta: B.** 8 elementos en 4 espacios sin repetir, importa el orden: 8×7×6×5 = 1.680 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## 377820e05a · media · combinaciones
+*Test 013 (2026-11-09), ejercicio 16*
+
+¿Cuántos tríos distintos se pueden formar con 8 amigos?
+
+- A) 512
+- B) 336
+- C) 24
+- D) 56
+
+**Respuesta: D.** El orden no importa: 8×7×6 ÷ 3! = 336 ÷ 6 = 56.
+
+## 36fd86872d · fácil · variaciones
+*Test 013 (2026-11-09), ejercicio 19*
+
+Se pintan 4 casillas en fila con uno de 5 colores, pudiendo repetir colores. ¿Cuántas formas hay?
+
+- A) 120
+- B) 5
+- C) 20
+- D) 625
+
+**Respuesta: D.** Cada espacio tiene 5 opciones, que se repiten: 5×5×5×5 = 5^4 = 625.

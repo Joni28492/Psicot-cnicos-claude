@@ -262,5 +262,115 @@
   "truco": "Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "607e5ea60f",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "variacion",
+  "dificultad": "media",
+  "enunciado": "Un valor pasa de 112 a 84. ¿En qué porcentaje disminuye?",
+  "destacado": null,
+  "opciones": [
+   "33⅓%",
+   "25%",
+   "12,5%",
+   "50%"
+  ],
+  "correcta": "B",
+  "truco": "Diferencia 28 sobre el valor de partida (112): 1/4 = 25%. Siempre se divide entre el valor inicial.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3d0b1f1dfd",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio baja un 40% y después sube un 40%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Se queda igual",
+   "Sube un 16%",
+   "Baja un 40%",
+   "Baja un 16%"
+  ],
+  "correcta": "D",
+  "truco": "Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0b6444e69c",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 87,5% de un número es 77. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "308",
+   "154",
+   "11",
+   "88"
+  ],
+  "correcta": "D",
+  "truco": "87,5% = 7/8: 77 son 7 partes de 8. Una parte = 11; el total = 88.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8eedffde2b",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "porcentaje_de_porcentaje",
+  "dificultad": "dificil",
+  "enunciado": "En una clase de 100 alumnos, el 75% son chicas y de ellas el 20% lleva gafas. ¿Cuántas chicas llevan gafas?",
+  "destacado": null,
+  "opciones": [
+   "15",
+   "95",
+   "13",
+   "75"
+  ],
+  "correcta": "A",
+  "truco": "3/4 de 100 = 75; 1/5 de eso = 15. Se multiplican las fracciones, no se suman.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "7740b270fe",
+  "test": "psicotecnico_013_media.pdf",
+  "numero": 13,
+  "fecha": "2026-11-09",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 80 € tiene un 25% de descuento y, sobre el nuevo precio, otro 20%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "60 €",
+   "52 €",
+   "44 €",
+   "48 €"
+  ],
+  "correcta": "D",
+  "truco": "No se suman (45%): se multiplican 75% × 80% = 60% del precio ⇒ 48 €.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

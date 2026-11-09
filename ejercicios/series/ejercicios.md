@@ -1,6 +1,6 @@
 # Series
 
-9 ejercicios · fácil: 3 · media: 5 · difícil: 1
+16 ejercicios · fácil: 5 · media: 9 · difícil: 2
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -127,3 +127,101 @@
 - D) 74
 
 **Respuesta: A.** Suma constante: +7 en cada paso.
+
+## b30c2b9425 · media · num_alternas
+*Test 013 (2026-11-09), ejercicio 5*
+
+¿Qué número continúa la serie?
+
+**12, 63, 16, 59, 20, 55, 24, ?**
+
+- A) 46
+- B) 51
+- C) 52
+- D) 28
+
+**Respuesta: B.** Dos series entrelazadas: lugares impares +4, lugares pares -4. Toca un lugar par: 55 -4 = 51.
+
+## a396b5f63d · media · letra_numero
+*Test 013 (2026-11-09), ejercicio 9*
+
+¿Qué término continúa la serie?
+
+**G2, H4, I6, J8, K10, ?**
+
+- A) L13
+- B) L12
+- C) K12
+- D) M12
+
+**Respuesta: B.** Dos reglas independientes: las letras avanzan 1 y los números hacen +2.
+
+## 5e185e19ce · media · letras_creciente
+*Test 013 (2026-11-09), ejercicio 12*
+
+¿Qué letra continúa la serie?
+
+**Q, S, V, Z, E, ?**
+
+- A) J
+- B) I
+- C) N
+- D) K
+
+**Respuesta: D.** Los saltos crecen: +2, +3, +4, +5… el siguiente es +6.
+
+## 427bed7307 · difícil · num_primos_o_triangulares
+*Test 013 (2026-11-09), ejercicio 15*
+
+¿Qué número continúa la serie?
+
+**3, 5, 7, 11, 13, ?**
+
+- A) 19
+- B) 20
+- C) 17
+- D) 15
+
+**Respuesta: C.** Son los números primos consecutivos.
+
+## 89050d1080 · fácil · num_cuadrados
+*Test 013 (2026-11-09), ejercicio 20*
+
+¿Qué número continúa la serie?
+
+**4, 9, 16, 25, 36, ?**
+
+- A) 49
+- B) 54
+- C) 52
+- D) 48
+
+**Respuesta: A.** Son cuadrados: 2², 3², 4²… El siguiente es 7² = 49.
+
+## 8916fb6697 · media · num_fibonacci
+*Test 013 (2026-11-09), ejercicio 21*
+
+¿Qué número continúa la serie?
+
+**4, 7, 11, 18, 29, ?**
+
+- A) 52
+- B) 40
+- C) 47
+- D) 48
+
+**Respuesta: C.** Cada término es la suma de los dos anteriores.
+
+## 88640428b4 · fácil · letras_salto
+*Test 013 (2026-11-09), ejercicio 24*
+
+¿Qué letra continúa la serie?
+
+**Q, Ñ, L, I, F, ?**
+
+- A) E
+- B) A
+- C) C
+- D) Z
+
+**Respuesta: C.** Cada letra retrocede 3 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).

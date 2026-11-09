@@ -1,6 +1,6 @@
 # Problemas
 
-39 ejercicios · fácil: 13 · media: 17 · difícil: 9
+46 ejercicios · fácil: 16 · media: 20 · difícil: 10
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -469,3 +469,87 @@ x/2 + x/3 = 20. ¿Cuánto vale x?
 - D) 48
 
 **Respuesta: C.** x/2 + x/3 = 5x/6 = 20 ⇒ x = 20×6/5 = 24.
+
+## f2d466c574 · media · ecuacion
+*Test 013 (2026-11-09), ejercicio 2*
+
+Si 7x + 12 = 3x + 60, ¿cuánto vale x?
+
+- A) 7
+- B) 22
+- C) 12
+- D) 10
+
+**Respuesta: C.** Pasa las x a un lado: 4x = 48 ⇒ x = 12.
+
+## 8cbe99c03a · fácil · cabezas_patas
+*Test 013 (2026-11-09), ejercicio 4*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 10 monedas que suman 13 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 13
+- B) 7
+- C) 3
+- D) 6
+
+**Respuesta: C.** Supón que todos son del tipo menor (1): 10×1 = 10. Sobran 3, y cada cambio añade 1. 3 ÷ 1 = 3 monedas de 2 €.
+
+## 3f9401e110 · fácil · mas_que
+*Test 013 (2026-11-09), ejercicio 7*
+
+Juan tiene 4 libros más que Sara, y entre los dos suman 46. ¿Cuántos tiene Sara?
+
+- A) 19
+- B) 23
+- C) 21
+- D) 42
+
+**Respuesta: C.** Quita la diferencia al total: 46 − 4 = 42, a medias = 21 (el menor). El mayor es 21 + 4 = 25.
+
+## 9fb40bc7c7 · fácil · mas_que
+*Test 013 (2026-11-09), ejercicio 8*
+
+Marta tiene 8 años más que Pablo, y entre los dos suman 62. ¿Cuántos tiene Pablo?
+
+- A) 54
+- B) 23
+- C) 27
+- D) 31
+
+**Respuesta: C.** Quita la diferencia al total: 62 − 8 = 54, a medias = 27 (el menor). El mayor es 27 + 8 = 35.
+
+## d6f08b19d3 · media · ecuacion
+*Test 013 (2026-11-09), ejercicio 13*
+
+x/2 + x/3 = 35. ¿Cuánto vale x?
+
+- A) 41
+- B) 40
+- C) 42
+- D) 45
+
+**Respuesta: C.** x/2 + x/3 = 5x/6 = 35 ⇒ x = 35×6/5 = 42.
+
+## f824a39823 · media · combinatoria
+*Test 013 (2026-11-09), ejercicio 17*
+
+De un grupo de 6 personas hay que elegir 2 para formar una comisión (sin cargos distintos). ¿Cuántas comisiones posibles hay?
+
+- A) 12
+- B) 30
+- C) 15
+- D) 21
+
+**Respuesta: C.** Combinaciones: 6!/(2!·4!) = 15. Si importara el orden serían 30.
+
+## 4a9179a7c2 · difícil · edades
+*Test 013 (2026-11-09), ejercicio 18*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 8 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 8
+- B) 16
+- C) 12
+- D) 4
+
+**Respuesta: D.** Con x = edad de la hija: 4x + 8 = 2(x + 8) ⇒ 2x = 8 ⇒ x = 4. Comprobación: madre 16, dentro de 8 años 24 = 2×12.
