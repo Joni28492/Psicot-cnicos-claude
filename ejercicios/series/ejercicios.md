@@ -1,6 +1,6 @@
 # Series
 
-16 ejercicios · fácil: 5 · media: 9 · difícil: 2
+24 ejercicios · fácil: 8 · media: 13 · difícil: 3
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -225,3 +225,115 @@
 - D) Z
 
 **Respuesta: C.** Cada letra retrocede 3 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 7c7d113059 · media · num_alternas
+*Test 014 (2026-11-10), ejercicio 4*
+
+¿Qué número continúa la serie?
+
+**11, 42, 13, 48, 15, 54, 17, ?**
+
+- A) 60
+- B) 120
+- C) 19
+- D) 61
+
+**Respuesta: A.** Dos series entrelazadas: lugares impares +2, lugares pares +6. Toca un lugar par: 54 +6 = 60.
+
+## 8de91ccecc · fácil · letras_salto
+*Test 014 (2026-11-10), ejercicio 6*
+
+¿Qué letra continúa la serie?
+
+**H, K, N, P, S, ?**
+
+- A) Y
+- B) T
+- C) V
+- D) X
+
+**Respuesta: C.** Cada letra avanza 3 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## eda696e780 · fácil · num_geometrica
+*Test 014 (2026-11-10), ejercicio 7*
+
+¿Qué número continúa la serie?
+
+**1, 4, 16, 64, 256, ?**
+
+- A) 1.024
+- B) 320
+- C) 1.019
+- D) 448
+
+**Respuesta: A.** Cada término se multiplica por 4.
+
+## 65e5cdd6dd · media · letra_numero
+*Test 014 (2026-11-10), ejercicio 13*
+
+¿Qué término continúa la serie?
+
+**D1, F3, H5, J7, L9, ?**
+
+- A) N12
+- B) Ñ11
+- C) L11
+- D) N11
+
+**Respuesta: D.** Dos reglas independientes: las letras avanzan 2 y los números hacen +2.
+
+## 5125563d5b · media · num_fibonacci
+*Test 014 (2026-11-10), ejercicio 17*
+
+¿Qué número continúa la serie?
+
+**2, 5, 7, 12, 19, ?**
+
+- A) 32
+- B) 33
+- C) 26
+- D) 31
+
+**Respuesta: D.** Cada término es la suma de los dos anteriores.
+
+## 586cb8fa92 · media · letras_creciente
+*Test 014 (2026-11-10), ejercicio 21*
+
+¿Qué letra continúa la serie?
+
+**A, C, F, J, Ñ, ?**
+
+- A) U
+- B) W
+- C) V
+- D) T
+
+**Respuesta: D.** Los saltos crecen: +2, +3, +4, +5… el siguiente es +6. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## c320060e52 · fácil · num_cuadrados
+*Test 014 (2026-11-10), ejercicio 23*
+
+¿Qué número continúa la serie?
+
+**4, 9, 16, 25, 36, ?**
+
+- A) 48
+- B) 52
+- C) 49
+- D) 47
+
+**Respuesta: C.** Son cuadrados: 2², 3², 4²… El siguiente es 7² = 49.
+
+## 4a496a31a4 · difícil · num_primos_o_triangulares
+*Test 014 (2026-11-10), ejercicio 24*
+
+¿Qué número continúa la serie?
+
+**5, 7, 11, 13, 17, ?**
+
+- A) 21
+- B) 19
+- C) 20
+- D) 14
+
+**Respuesta: B.** Son los números primos consecutivos.

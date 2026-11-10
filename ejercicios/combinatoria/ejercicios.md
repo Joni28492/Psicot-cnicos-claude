@@ -1,6 +1,6 @@
 # Combinatoria
 
-11 ejercicios · fácil: 4 · media: 5 · difícil: 2
+16 ejercicios · fácil: 6 · media: 8 · difícil: 2
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -133,3 +133,63 @@ Se pintan 4 casillas en fila con uno de 5 colores, pudiendo repetir colores. ¿C
 - D) 625
 
 **Respuesta: D.** Cada espacio tiene 5 opciones, que se repiten: 5×5×5×5 = 5^4 = 625.
+
+## 54aa78fb9f · media · combinaciones
+*Test 014 (2026-11-10), ejercicio 3*
+
+¿Cuántos tríos distintos se pueden formar con 8 amigos?
+
+- A) 512
+- B) 24
+- C) 336
+- D) 56
+
+**Respuesta: D.** El orden no importa: 8×7×6 ÷ 3! = 336 ÷ 6 = 56.
+
+## 6c8ce1ff52 · fácil · permutaciones
+*Test 014 (2026-11-10), ejercicio 14*
+
+¿De cuántas formas se pueden ordenar 5 libros distintos en una estantería?
+
+- A) 60
+- B) 25
+- C) 24
+- D) 120
+
+**Respuesta: D.** Se usan todos y el orden importa: 5! = 5×4×3×2×1 = 120.
+
+## 23742ee9fb · fácil · variaciones
+*Test 014 (2026-11-10), ejercicio 15*
+
+Una cerradura tiene 4 ruedas y cada una tiene las cifras de 1 a 3. ¿Cuántas combinaciones distintas hay?
+
+- A) 16
+- B) 12
+- C) 80
+- D) 81
+
+**Respuesta: D.** Cada espacio tiene 3 opciones, que se repiten: 3×3×3×3 = 3^4 = 81.
+
+## 933452509b · media · variaciones
+*Test 014 (2026-11-10), ejercicio 19*
+
+5 corredores compiten y se reparten medallas a los 2 primeros puestos. ¿De cuántas formas pueden quedar los puestos del podio?
+
+- A) 120
+- B) 10
+- C) 25
+- D) 20
+
+**Respuesta: D.** 5 elementos en 2 espacios sin repetir, importa el orden: 5×4 = 20 (empiezas con 5 opciones y cada espacio tiene una menos).
+
+## e2c481c77c · media · permutaciones
+*Test 014 (2026-11-10), ejercicio 20*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de AMOR?
+
+- A) 16
+- B) 48
+- C) 12
+- D) 24
+
+**Respuesta: D.** 4! dividido entre las repeticiones (): 24 ÷ 1 = 24.

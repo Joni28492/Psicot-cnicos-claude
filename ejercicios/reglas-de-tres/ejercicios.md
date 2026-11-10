@@ -1,6 +1,6 @@
 # Reglas de tres
 
-6 ejercicios · fácil: 2 · media: 3 · difícil: 1
+11 ejercicios · fácil: 4 · media: 5 · difícil: 2
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -73,3 +73,63 @@ Con 2 cajeros se atiende la cola en 20 minutos. ¿Cuántos minutos con 40 cajero
 - D) 64 €
 
 **Respuesta: D.** Busca el valor de una unidad: 24 ÷ 6 = 4; luego ×16. No sumes la diferencia (10) al resultado.
+
+## 009dfddf71 · difícil · trabajo_conjunto
+*Test 014 (2026-11-10), ejercicio 2*
+
+Ana pinta una pared en 10 h y Luis en 15 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 25 h
+- B) 12 h
+- C) 5 h
+- D) 6 h
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/10 + 1/15 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.
+
+## 39d6745ff1 · fácil · directa
+*Test 014 (2026-11-10), ejercicio 5*
+
+3 cuadernos cuestan 12 €. ¿Cuánto cuestan 6 cuadernos?
+
+- A) 24 €
+- B) 6 €
+- C) 15 €
+- D) 25 €
+
+**Respuesta: A.** Busca el valor de una unidad: 12 ÷ 3 = 4; luego ×6. No sumes la diferencia (3) al resultado.
+
+## e010d6eee4 · fácil · directa
+*Test 014 (2026-11-10), ejercicio 8*
+
+Un grifo vierte 4 litros en 2 minutos. ¿Cuántos litros vierte en 4 minutos?
+
+- A) 2 litros
+- B) 8 litros
+- C) 9 litros
+- D) 6 litros
+
+**Respuesta: B.** Busca el valor de una unidad: 4 ÷ 2 = 2; luego ×4. No sumes la diferencia (2) al resultado.
+
+## fbba102f74 · media · inversa
+*Test 014 (2026-11-10), ejercicio 18*
+
+4 obreros tardan 10 días en hacer una obra. ¿Cuántos días tardarían 2 obreros?
+
+- A) 19 días
+- B) 20 días
+- C) 21 días
+- D) 5 días
+
+**Respuesta: B.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 4 × 10 = 40; 40 ÷ 2 = 20.
+
+## b966022563 · media · compuesta
+*Test 014 (2026-11-10), ejercicio 22*
+
+4 máquinas fabrican 112 piezas en 4 horas. ¿Cuántas piezas fabrican 6 máquinas en 8 horas?
+
+- A) 326
+- B) 336
+- C) 168
+- D) 224
+
+**Respuesta: B.** Piezas por máquina y hora: 112 ÷ (4×4) = 7. Luego 6×8×7 = 336.

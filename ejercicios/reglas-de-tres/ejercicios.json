@@ -130,5 +130,115 @@
   "truco": "Busca el valor de una unidad: 24 ÷ 6 = 4; luego ×16. No sumes la diferencia (10) al resultado.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "009dfddf71",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Ana pinta una pared en 10 h y Luis en 15 h. ¿Cuánto tardan trabajando juntos?",
+  "destacado": null,
+  "opciones": [
+   "25 h",
+   "12 h",
+   "5 h",
+   "6 h"
+  ],
+  "correcta": "D",
+  "truco": "Suma lo que hace cada uno en una hora: 1/10 + 1/15 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "39d6745ff1",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "3 cuadernos cuestan 12 €. ¿Cuánto cuestan 6 cuadernos?",
+  "destacado": null,
+  "opciones": [
+   "24 €",
+   "6 €",
+   "15 €",
+   "25 €"
+  ],
+  "correcta": "A",
+  "truco": "Busca el valor de una unidad: 12 ÷ 3 = 4; luego ×6. No sumes la diferencia (3) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e010d6eee4",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "Un grifo vierte 4 litros en 2 minutos. ¿Cuántos litros vierte en 4 minutos?",
+  "destacado": null,
+  "opciones": [
+   "2 litros",
+   "8 litros",
+   "9 litros",
+   "6 litros"
+  ],
+  "correcta": "B",
+  "truco": "Busca el valor de una unidad: 4 ÷ 2 = 2; luego ×4. No sumes la diferencia (2) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "fbba102f74",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "4 obreros tardan 10 días en hacer una obra. ¿Cuántos días tardarían 2 obreros?",
+  "destacado": null,
+  "opciones": [
+   "19 días",
+   "20 días",
+   "21 días",
+   "5 días"
+  ],
+  "correcta": "B",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 4 × 10 = 40; 40 ÷ 2 = 20.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b966022563",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "4 máquinas fabrican 112 piezas en 4 horas. ¿Cuántas piezas fabrican 6 máquinas en 8 horas?",
+  "destacado": null,
+  "opciones": [
+   "326",
+   "336",
+   "168",
+   "224"
+  ],
+  "correcta": "B",
+  "truco": "Piezas por máquina y hora: 112 ÷ (4×4) = 7. Luego 6×8×7 = 336.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

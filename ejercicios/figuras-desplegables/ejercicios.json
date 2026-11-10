@@ -86,5 +86,93 @@
   "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
   "imagen": "img/a5d49f967e.png",
   "tiempo": 30
+ },
+ {
+  "id": "abf5ec646d",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (prisma triangular)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/abf5ec646d.png",
+  "tiempo": 30
+ },
+ {
+  "id": "a7a9167cb8",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (tetraedro)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/a7a9167cb8.png",
+  "tiempo": 30
+ },
+ {
+  "id": "09a37e1016",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "figura",
+  "dificultad": "facil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (cubo)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/09a37e1016.png",
+  "tiempo": 30
+ },
+ {
+  "id": "6dd7625321",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 31,
+  "subtipo": "figura",
+  "dificultad": "facil",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (cubo)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/6dd7625321.png",
+  "tiempo": 30
  }
 ]

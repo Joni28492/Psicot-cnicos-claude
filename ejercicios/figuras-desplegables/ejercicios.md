@@ -1,6 +1,6 @@
 # Figuras desplegables
 
-4 ejercicios · fácil: 0 · media: 0 · difícil: 4
+8 ejercicios · fácil: 2 · media: 0 · difícil: 6
 
 ## f0b0d7ff66 · difícil · figura
 *Test 012 (2026-11-08), ejercicio 33*
@@ -37,3 +37,39 @@
 ![ejercicio](img/a5d49f967e.png)
 
 **Respuesta: B.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## abf5ec646d · difícil · figura
+*Test 014 (2026-11-10), ejercicio 25*
+
+¿Qué figura se forma al plegar este desarrollo? (prisma triangular)
+
+![ejercicio](img/abf5ec646d.png)
+
+**Respuesta: B.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## a7a9167cb8 · difícil · figura
+*Test 014 (2026-11-10), ejercicio 27*
+
+¿Qué figura se forma al plegar este desarrollo? (tetraedro)
+
+![ejercicio](img/a7a9167cb8.png)
+
+**Respuesta: B.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## 09a37e1016 · fácil · figura
+*Test 014 (2026-11-10), ejercicio 29*
+
+¿Qué desarrollo forma esta figura? (cubo)
+
+![ejercicio](img/09a37e1016.png)
+
+**Respuesta: D.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## 6dd7625321 · fácil · figura
+*Test 014 (2026-11-10), ejercicio 31*
+
+¿Qué figura se forma al plegar este desarrollo? (cubo)
+
+![ejercicio](img/6dd7625321.png)
+
+**Respuesta: C.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.

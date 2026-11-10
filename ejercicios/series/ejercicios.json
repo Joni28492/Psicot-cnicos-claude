@@ -350,5 +350,181 @@
   "truco": "Cada letra retrocede 3 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "7c7d113059",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "11, 42, 13, 48, 15, 54, 17, ?",
+  "opciones": [
+   "60",
+   "120",
+   "19",
+   "61"
+  ],
+  "correcta": "A",
+  "truco": "Dos series entrelazadas: lugares impares +2, lugares pares +6. Toca un lugar par: 54 +6 = 60.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8de91ccecc",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "letras_salto",
+  "dificultad": "facil",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "H, K, N, P, S, ?",
+  "opciones": [
+   "Y",
+   "T",
+   "V",
+   "X"
+  ],
+  "correcta": "C",
+  "truco": "Cada letra avanza 3 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "eda696e780",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "1, 4, 16, 64, 256, ?",
+  "opciones": [
+   "1.024",
+   "320",
+   "1.019",
+   "448"
+  ],
+  "correcta": "A",
+  "truco": "Cada término se multiplica por 4.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "65e5cdd6dd",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "D1, F3, H5, J7, L9, ?",
+  "opciones": [
+   "N12",
+   "Ñ11",
+   "L11",
+   "N11"
+  ],
+  "correcta": "D",
+  "truco": "Dos reglas independientes: las letras avanzan 2 y los números hacen +2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "5125563d5b",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 5, 7, 12, 19, ?",
+  "opciones": [
+   "32",
+   "33",
+   "26",
+   "31"
+  ],
+  "correcta": "D",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "586cb8fa92",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "A, C, F, J, Ñ, ?",
+  "opciones": [
+   "U",
+   "W",
+   "V",
+   "T"
+  ],
+  "correcta": "D",
+  "truco": "Los saltos crecen: +2, +3, +4, +5… el siguiente es +6. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c320060e52",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "num_cuadrados",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "4, 9, 16, 25, 36, ?",
+  "opciones": [
+   "48",
+   "52",
+   "49",
+   "47"
+  ],
+  "correcta": "C",
+  "truco": "Son cuadrados: 2², 3², 4²… El siguiente es 7² = 49.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "4a496a31a4",
+  "test": "psicotecnico_014_facil.pdf",
+  "numero": 14,
+  "fecha": "2026-11-10",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "num_primos_o_triangulares",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "5, 7, 11, 13, 17, ?",
+  "opciones": [
+   "21",
+   "19",
+   "20",
+   "14"
+  ],
+  "correcta": "B",
+  "truco": "Son los números primos consecutivos.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]
