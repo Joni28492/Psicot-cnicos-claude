@@ -1,6 +1,6 @@
 # Reglas de tres
 
-11 ejercicios · fácil: 4 · media: 5 · difícil: 2
+16 ejercicios · fácil: 5 · media: 7 · difícil: 4
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -133,3 +133,63 @@ Un grifo vierte 4 litros en 2 minutos. ¿Cuántos litros vierte en 4 minutos?
 - D) 224
 
 **Respuesta: B.** Piezas por máquina y hora: 112 ÷ (4×4) = 7. Luego 6×8×7 = 336.
+
+## fac795e3ff · fácil · directa
+*Test 015 (2026-11-11), ejercicio 5*
+
+5 cuadernos cuestan 15 €. ¿Cuánto cuestan 12 cuadernos?
+
+- A) 22 €
+- B) 37 €
+- C) 30 €
+- D) 36 €
+
+**Respuesta: D.** Busca el valor de una unidad: 15 ÷ 5 = 3; luego ×12. No sumes la diferencia (7) al resultado.
+
+## 11d55b468f · media · compuesta
+*Test 015 (2026-11-11), ejercicio 7*
+
+5 máquinas fabrican 60 piezas en 4 horas. ¿Cuántas piezas fabrican 4 máquinas en 6 horas?
+
+- A) 90
+- B) 48
+- C) 82
+- D) 72
+
+**Respuesta: D.** Piezas por máquina y hora: 60 ÷ (5×4) = 3. Luego 4×6×3 = 72.
+
+## e09e6e1e1f · media · inversa
+*Test 015 (2026-11-11), ejercicio 18*
+
+Con 2 cajeros se atiende la cola en 10 minutos. ¿Cuántos minutos con 5 cajeros?
+
+- A) 4 minutos
+- B) 1 minutos
+- C) 25 minutos
+- D) 14 minutos
+
+**Respuesta: A.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 10 = 20; 20 ÷ 5 = 4.
+
+## 22363e8971 · difícil · trabajo_conjunto
+*Test 015 (2026-11-11), ejercicio 21*
+
+Una impresora hace un trabajo en 20 min y otra en 30 min. ¿Cuánto tardan las dos juntas?
+
+- A) 25 min
+- B) 50 min
+- C) 10 min
+- D) 12 min
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/20 + 1/30 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.
+
+## 3d189f574b · difícil · trabajo_conjunto
+*Test 015 (2026-11-11), ejercicio 23*
+
+Una impresora hace un trabajo en 9 min y otra en 18 min. ¿Cuánto tardan las dos juntas?
+
+- A) 13 min
+- B) 9 min
+- C) 27 min
+- D) 6 min
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/9 + 1/18 = 27/162 ⇒ tardan 162/27 = 6. Atajo: producto ÷ suma.

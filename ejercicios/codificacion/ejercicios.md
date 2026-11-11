@@ -1,6 +1,6 @@
 # Codificación
 
-13 ejercicios · fácil: 6 · media: 6 · difícil: 1
+18 ejercicios · fácil: 8 · media: 9 · difícil: 1
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -157,3 +157,63 @@ Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra OSO?
 - D) 52
 
 **Respuesta: D.** Posiciones: 16(O) + 20(S) + 16(O) = 52. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 8ecfc488aa · media · espejo
+*Test 015 (2026-11-11), ejercicio 2*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe CASA?
+
+- A) WYGY
+- B) YAIA
+- C) XZHZ
+- D) ZHZX
+
+**Respuesta: C.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## c107613581 · fácil · cesar
+*Test 015 (2026-11-11), ejercicio 9*
+
+En un código, PLAYA se escribe OKZXZ. Con el mismo código, ¿cómo se escribe MONTE?
+
+- A) MONTE
+- B) KNLRC
+- C) LNMSD
+- D) LÑMSD
+
+**Respuesta: D.** Cada letra se desplaza -1 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 24dadcefc2 · fácil · valor_palabra
+*Test 015 (2026-11-11), ejercicio 12*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra LUNA?
+
+- A) 49
+- B) 50
+- C) 52
+- D) 48
+
+**Respuesta: A.** Posiciones: 12(L) + 22(U) + 14(N) + 1(A) = 49. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 7a89111ca5 · media · digitos
+*Test 015 (2026-11-11), ejercicio 13*
+
+En un código, RNTH = 4832 y ROHD = 4921. Con el mismo código, ¿cómo se escribe TONR?
+
+- A) 3985
+- B) 4893
+- C) 3984
+- D) 9384
+
+**Respuesta: C.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=1, H=2, N=8, O=9, R=4, T=3.
+
+## f8394f4235 · media · vocales
+*Test 015 (2026-11-11), ejercicio 19*
+
+Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe ESCUELA?
+
+- A) 2SC52L1
+- B) 1L25CS2
+- C) 4SC14L5
+- D) 2521
+
+**Respuesta: A.** Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.

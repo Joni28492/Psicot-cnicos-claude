@@ -372,5 +372,115 @@
   "truco": "No se suman (45%): se multiplican 75% × 80% = 60% del precio ⇒ 48 €.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "abef28134f",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 200 es 10?",
+  "destacado": null,
+  "opciones": [
+   "5%",
+   "1900%",
+   "95%",
+   "10%"
+  ],
+  "correcta": "A",
+  "truco": "10/200 se simplifica a 1/20 = 5%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "1e19543df0",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 90% de 340?",
+  "destacado": null,
+  "opciones": [
+   "34",
+   "306",
+   "303",
+   "304"
+  ],
+  "correcta": "B",
+  "truco": "90% = 9/10. 340 ÷ 10 × 9 = 306.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "02f1e5df30",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 15% de 360?",
+  "destacado": null,
+  "opciones": [
+   "306",
+   "57",
+   "54",
+   "18"
+  ],
+  "correcta": "C",
+  "truco": "15% = 3/20. 360 ÷ 20 × 3 = 54.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f5ee6e7dfc",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "iva",
+  "dificultad": "media",
+  "enunciado": "Un producto cuesta 240 € con un IVA del 20%. ¿Cuánto costaba sin IVA?",
+  "destacado": null,
+  "opciones": [
+   "200 €",
+   "190 €",
+   "192 €",
+   "210 €"
+  ],
+  "correcta": "A",
+  "truco": "El precio con IVA es el 120% del original: 240 ÷ 1,2 = 200. Restar el 20% al precio final es el error típico.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3bd4e37ca8",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 60 € tiene un 20% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "48 €",
+   "36 €",
+   "40 €",
+   "33 €"
+  ],
+  "correcta": "B",
+  "truco": "No se suman (45%): se multiplican 80% × 75% = 60% del precio ⇒ 36 €.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

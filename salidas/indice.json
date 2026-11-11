@@ -1161,5 +1161,232 @@
     "correcta": "C"
    }
   ]
+ },
+ {
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "archivo": "psicotecnico_015_dificil.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "dificil",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 2,
+    "tipo": "Codificación",
+    "subtipo": "espejo",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 3,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 4,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 5,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 6,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 7,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 8,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 9,
+    "tipo": "Codificación",
+    "subtipo": "cesar",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 10,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 11,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 12,
+    "tipo": "Codificación",
+    "subtipo": "valor_palabra",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 13,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 14,
+    "tipo": "Porcentajes",
+    "subtipo": "iva",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 15,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 16,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 17,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 18,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 19,
+    "tipo": "Codificación",
+    "subtipo": "vocales",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 20,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 21,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 22,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 23,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 24,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_dos_filas",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 25,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 26,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 27,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 28,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 29,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 30,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 31,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_fila",
+    "dificultad": "facil",
+    "correcta": "C"
+   }
+  ]
  }
 ]

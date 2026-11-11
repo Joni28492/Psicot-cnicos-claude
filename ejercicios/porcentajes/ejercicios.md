@@ -1,6 +1,6 @@
 # Porcentajes
 
-17 ejercicios · fácil: 2 · media: 13 · difícil: 2
+22 ejercicios · fácil: 5 · media: 15 · difícil: 2
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -205,3 +205,63 @@ Una chaqueta de 80 € tiene un 25% de descuento y, sobre el nuevo precio, otro 
 - D) 48 €
 
 **Respuesta: D.** No se suman (45%): se multiplican 75% × 80% = 60% del precio ⇒ 48 €.
+
+## abef28134f · fácil · que_porcentaje
+*Test 015 (2026-11-11), ejercicio 3*
+
+¿Qué porcentaje de 200 es 10?
+
+- A) 5%
+- B) 1900%
+- C) 95%
+- D) 10%
+
+**Respuesta: A.** 10/200 se simplifica a 1/20 = 5%.
+
+## 1e19543df0 · fácil · porcentaje_de
+*Test 015 (2026-11-11), ejercicio 4*
+
+¿Cuánto es el 90% de 340?
+
+- A) 34
+- B) 306
+- C) 303
+- D) 304
+
+**Respuesta: B.** 90% = 9/10. 340 ÷ 10 × 9 = 306.
+
+## 02f1e5df30 · fácil · porcentaje_de
+*Test 015 (2026-11-11), ejercicio 8*
+
+¿Cuánto es el 15% de 360?
+
+- A) 306
+- B) 57
+- C) 54
+- D) 18
+
+**Respuesta: C.** 15% = 3/20. 360 ÷ 20 × 3 = 54.
+
+## f5ee6e7dfc · media · iva
+*Test 015 (2026-11-11), ejercicio 14*
+
+Un producto cuesta 240 € con un IVA del 20%. ¿Cuánto costaba sin IVA?
+
+- A) 200 €
+- B) 190 €
+- C) 192 €
+- D) 210 €
+
+**Respuesta: A.** El precio con IVA es el 120% del original: 240 ÷ 1,2 = 200. Restar el 20% al precio final es el error típico.
+
+## 3bd4e37ca8 · media · descuentos
+*Test 015 (2026-11-11), ejercicio 15*
+
+Una chaqueta de 60 € tiene un 20% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?
+
+- A) 48 €
+- B) 36 €
+- C) 40 €
+- D) 33 €
+
+**Respuesta: B.** No se suman (45%): se multiplican 80% × 75% = 60% del precio ⇒ 36 €.

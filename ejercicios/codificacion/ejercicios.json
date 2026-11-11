@@ -284,5 +284,115 @@
   "truco": "Posiciones: 16(O) + 20(S) + 16(O) = 52. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "8ecfc488aa",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "espejo",
+  "dificultad": "media",
+  "enunciado": "Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe CASA?",
+  "destacado": null,
+  "opciones": [
+   "WYGY",
+   "YAIA",
+   "XZHZ",
+   "ZHZX"
+  ],
+  "correcta": "C",
+  "truco": "Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c107613581",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, PLAYA se escribe OKZXZ. Con el mismo código, ¿cómo se escribe MONTE?",
+  "destacado": null,
+  "opciones": [
+   "MONTE",
+   "KNLRC",
+   "LNMSD",
+   "LÑMSD"
+  ],
+  "correcta": "D",
+  "truco": "Cada letra se desplaza -1 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "24dadcefc2",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra LUNA?",
+  "destacado": null,
+  "opciones": [
+   "49",
+   "50",
+   "52",
+   "48"
+  ],
+  "correcta": "A",
+  "truco": "Posiciones: 12(L) + 22(U) + 14(N) + 1(A) = 49. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "7a89111ca5",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, RNTH = 4832 y ROHD = 4921. Con el mismo código, ¿cómo se escribe TONR?",
+  "destacado": null,
+  "opciones": [
+   "3985",
+   "4893",
+   "3984",
+   "9384"
+  ],
+  "correcta": "C",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=1, H=2, N=8, O=9, R=4, T=3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f8394f4235",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "vocales",
+  "dificultad": "media",
+  "enunciado": "Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe ESCUELA?",
+  "destacado": null,
+  "opciones": [
+   "2SC52L1",
+   "1L25CS2",
+   "4SC14L5",
+   "2521"
+  ],
+  "correcta": "A",
+  "truco": "Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

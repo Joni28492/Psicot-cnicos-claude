@@ -1,6 +1,6 @@
 # Problemas
 
-46 ejercicios · fácil: 16 · media: 20 · difícil: 10
+54 ejercicios · fácil: 19 · media: 23 · difícil: 12
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -553,3 +553,99 @@ Ahora una madre tiene 4 veces la edad de su hija. Dentro de 8 años tendrá 2 ve
 - D) 4
 
 **Respuesta: D.** Con x = edad de la hija: 4x + 8 = 2(x + 8) ⇒ 2x = 8 ⇒ x = 4. Comprobación: madre 16, dentro de 8 años 24 = 2×12.
+
+## 8d50a27ad6 · media · veces
+*Test 015 (2026-11-11), ejercicio 1*
+
+Un padre tiene 3 veces los años de su hijo y entre los dos suman 56. ¿Cuántos años tiene el padre?
+
+- A) 28
+- B) 42
+- C) 53
+- D) 14
+
+**Respuesta: B.** El total son 3+1 = 4 partes iguales: 56 ÷ 4 = 14 (hijo). Padre: 3×14 = 42.
+
+## fc9d6eddb4 · difícil · edades
+*Test 015 (2026-11-11), ejercicio 6*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 11 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 11
+- B) 33
+- C) 22
+- D) 88
+
+**Respuesta: C.** Con x = edad de la hija: 4x + 11 = 3(x + 11) ⇒ x = 22 ⇒ x = 22. Comprobación: madre 88, dentro de 11 años 99 = 3×33.
+
+## a76f13d796 · media · ecuacion
+*Test 015 (2026-11-11), ejercicio 10*
+
+Si 5x + 8 = 2x + 53, ¿cuánto vale x?
+
+- A) 18
+- B) 17
+- C) 15
+- D) 30
+
+**Respuesta: C.** Pasa las x a un lado: 3x = 45 ⇒ x = 15.
+
+## 13f0945eac · fácil · mas_que
+*Test 015 (2026-11-11), ejercicio 11*
+
+Juan tiene 20 libros más que Sara, y entre los dos suman 98. ¿Cuántos tiene Juan?
+
+- A) 49
+- B) 59
+- C) 78
+- D) 69
+
+**Respuesta: B.** Quita la diferencia al total: 98 − 20 = 78, a medias = 39 (el menor). El mayor es 39 + 20 = 59.
+
+## 7ab3057977 · media · combinatoria
+*Test 015 (2026-11-11), ejercicio 16*
+
+De un grupo de 7 personas hay que elegir 3 para formar una comisión (sin cargos distintos). ¿Cuántas comisiones posibles hay?
+
+- A) 35
+- B) 210
+- C) 21
+- D) 42
+
+**Respuesta: A.** Combinaciones: 7!/(3!·4!) = 35. Si importara el orden serían 210.
+
+## 7d95da8a8a · fácil · mas_que
+*Test 015 (2026-11-11), ejercicio 17*
+
+Ana tiene 10 euros más que Luis, y entre los dos suman 52. ¿Cuántos tiene Ana?
+
+- A) 42
+- B) 36
+- C) 26
+- D) 31
+
+**Respuesta: D.** Quita la diferencia al total: 52 − 10 = 42, a medias = 21 (el menor). El mayor es 21 + 10 = 31.
+
+## 0fd58faa70 · difícil · encuentro
+*Test 015 (2026-11-11), ejercicio 20*
+
+Dos trenes salen a la vez de dos ciudades separadas 480 km y avanzan el uno hacia el otro a 70 y 50 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 9 h
+- B) 4 h
+- C) 2 h
+- D) 6 h
+
+**Respuesta: B.** Se acercan a 70+50 = 120 km/h: 480 ÷ 120 = 4 h.
+
+## 18951b160d · fácil · cabezas_patas
+*Test 015 (2026-11-11), ejercicio 22*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 13 monedas que suman 16 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 10
+- B) 3
+- C) 1
+- D) 8
+
+**Respuesta: B.** Supón que todos son del tipo menor (1): 13×1 = 13. Sobran 3, y cada cambio añade 1. 3 ÷ 1 = 3 monedas de 2 €.

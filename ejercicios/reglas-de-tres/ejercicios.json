@@ -240,5 +240,115 @@
   "truco": "Piezas por máquina y hora: 112 ÷ (4×4) = 7. Luego 6×8×7 = 336.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "fac795e3ff",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "5 cuadernos cuestan 15 €. ¿Cuánto cuestan 12 cuadernos?",
+  "destacado": null,
+  "opciones": [
+   "22 €",
+   "37 €",
+   "30 €",
+   "36 €"
+  ],
+  "correcta": "D",
+  "truco": "Busca el valor de una unidad: 15 ÷ 5 = 3; luego ×12. No sumes la diferencia (7) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "11d55b468f",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "5 máquinas fabrican 60 piezas en 4 horas. ¿Cuántas piezas fabrican 4 máquinas en 6 horas?",
+  "destacado": null,
+  "opciones": [
+   "90",
+   "48",
+   "82",
+   "72"
+  ],
+  "correcta": "D",
+  "truco": "Piezas por máquina y hora: 60 ÷ (5×4) = 3. Luego 4×6×3 = 72.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e09e6e1e1f",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Con 2 cajeros se atiende la cola en 10 minutos. ¿Cuántos minutos con 5 cajeros?",
+  "destacado": null,
+  "opciones": [
+   "4 minutos",
+   "1 minutos",
+   "25 minutos",
+   "14 minutos"
+  ],
+  "correcta": "A",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 10 = 20; 20 ÷ 5 = 4.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "22363e8971",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Una impresora hace un trabajo en 20 min y otra en 30 min. ¿Cuánto tardan las dos juntas?",
+  "destacado": null,
+  "opciones": [
+   "25 min",
+   "50 min",
+   "10 min",
+   "12 min"
+  ],
+  "correcta": "D",
+  "truco": "Suma lo que hace cada uno en una hora: 1/20 + 1/30 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3d189f574b",
+  "test": "psicotecnico_015_dificil.pdf",
+  "numero": 15,
+  "fecha": "2026-11-11",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Una impresora hace un trabajo en 9 min y otra en 18 min. ¿Cuánto tardan las dos juntas?",
+  "destacado": null,
+  "opciones": [
+   "13 min",
+   "9 min",
+   "27 min",
+   "6 min"
+  ],
+  "correcta": "D",
+  "truco": "Suma lo que hace cada uno en una hora: 1/9 + 1/18 = 27/162 ⇒ tardan 162/27 = 6. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]
