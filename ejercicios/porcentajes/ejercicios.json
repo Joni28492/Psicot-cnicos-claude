@@ -482,5 +482,115 @@
   "truco": "No se suman (45%): se multiplican 80% × 75% = 60% del precio ⇒ 36 €.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "3f2a8e9b6a",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 120 € tiene un 50% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "30 €",
+   "49 €",
+   "45 €",
+   "60 €"
+  ],
+  "correcta": "C",
+  "truco": "No se suman (75%): se multiplican 50% × 75% = 37,5% del precio ⇒ 45 €.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "503c029c51",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "porcentaje_de_porcentaje",
+  "dificultad": "dificil",
+  "enunciado": "En una clase de 120 alumnos, el 20% son chicas y de ellas el 75% lleva gafas. ¿Cuántas chicas llevan gafas?",
+  "destacado": null,
+  "opciones": [
+   "114",
+   "18",
+   "24",
+   "16"
+  ],
+  "correcta": "B",
+  "truco": "1/5 de 120 = 24; 3/4 de eso = 18. Se multiplican las fracciones, no se suman.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "adc16da483",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 30% de un número es 51. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "170",
+   "102",
+   "204",
+   "119"
+  ],
+  "correcta": "A",
+  "truco": "30% = 3/10: 51 son 3 partes de 10. Una parte = 17; el total = 170.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "33313562e7",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "variacion",
+  "dificultad": "media",
+  "enunciado": "Un valor pasa de 80 a 20. ¿En qué porcentaje disminuye?",
+  "destacado": null,
+  "opciones": [
+   "150%",
+   "300%",
+   "37,5%",
+   "75%"
+  ],
+  "correcta": "D",
+  "truco": "Diferencia 60 sobre el valor de partida (80): 3/4 = 75%. Siempre se divide entre el valor inicial.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ff4fa42ac6",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 60% de 160?",
+  "destacado": null,
+  "opciones": [
+   "94",
+   "96",
+   "64",
+   "32"
+  ],
+  "correcta": "B",
+  "truco": "60% = 3/5. 160 ÷ 5 × 3 = 96.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

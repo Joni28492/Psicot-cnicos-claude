@@ -1,6 +1,6 @@
 # Series
 
-24 ejercicios · fácil: 8 · media: 13 · difícil: 3
+31 ejercicios · fácil: 9 · media: 19 · difícil: 3
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -337,3 +337,101 @@
 - D) 14
 
 **Respuesta: B.** Son los números primos consecutivos.
+
+## 294f921d2d · media · letra_numero
+*Test 016 (2026-11-12), ejercicio 5*
+
+¿Qué término continúa la serie?
+
+**M2, O4, R6, U8, X10, ?**
+
+- A) A13
+- B) B12
+- C) X12
+- D) A12
+
+**Respuesta: D.** Dos reglas independientes: las letras avanzan 3 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## f6889bd5cc · media · num_creciente
+*Test 016 (2026-11-12), ejercicio 12*
+
+¿Qué número continúa la serie?
+
+**8, 11, 16, 23, 32, ?**
+
+- A) 48
+- B) 41
+- C) 43
+- D) 53
+
+**Respuesta: C.** Las diferencias son 3, 5, 7, 9… y crecen 2 cada vez: la siguiente es +11.
+
+## a4d99d3070 · media · num_creciente
+*Test 016 (2026-11-12), ejercicio 13*
+
+¿Qué número continúa la serie?
+
+**20, 21, 23, 26, 30, ?**
+
+- A) 32
+- B) 35
+- C) 34
+- D) 36
+
+**Respuesta: B.** Las diferencias son 1, 2, 3, 4… y crecen 1 cada vez: la siguiente es +5.
+
+## 9daf054bb1 · media · num_fibonacci
+*Test 016 (2026-11-12), ejercicio 14*
+
+¿Qué número continúa la serie?
+
+**1, 7, 8, 15, 23, ?**
+
+- A) 33
+- B) 38
+- C) 39
+- D) 31
+
+**Respuesta: B.** Cada término es la suma de los dos anteriores.
+
+## 6fe0feac58 · media · letra_numero
+*Test 016 (2026-11-12), ejercicio 18*
+
+¿Qué término continúa la serie?
+
+**F2, G3, H4, I5, J6, ?**
+
+- A) L7
+- B) K8
+- C) K7
+- D) J7
+
+**Respuesta: C.** Dos reglas independientes: las letras avanzan 1 y los números hacen +1.
+
+## 4d29585f38 · fácil · letras_salto
+*Test 016 (2026-11-12), ejercicio 19*
+
+¿Qué letra continúa la serie?
+
+**G, I, K, M, Ñ, ?**
+
+- A) R
+- B) P
+- C) Q
+- D) O
+
+**Respuesta: B.** Cada letra avanza 2 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 691c4e8f8b · media · num_creciente
+*Test 016 (2026-11-12), ejercicio 23*
+
+¿Qué número continúa la serie?
+
+**19, 22, 26, 31, 37, ?**
+
+- A) 44
+- B) 45
+- C) 43
+- D) 54
+
+**Respuesta: A.** Las diferencias son 3, 4, 5, 6… y crecen 1 cada vez: la siguiente es +7.

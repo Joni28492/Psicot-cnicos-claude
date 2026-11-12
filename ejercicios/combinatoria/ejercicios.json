@@ -350,5 +350,115 @@
   "truco": "4! dividido entre las repeticiones (): 24 ÷ 1 = 24.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "24e6375364",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Un club tiene 7 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?",
+  "destacado": null,
+  "opciones": [
+   "210",
+   "35",
+   "5.040",
+   "343"
+  ],
+  "correcta": "A",
+  "truco": "7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ee99019519",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "combinaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Cuántos grupos de 4 alumnos se pueden formar en una clase de 9?",
+  "destacado": null,
+  "opciones": [
+   "3.024",
+   "6.561",
+   "36",
+   "126"
+  ],
+  "correcta": "D",
+  "truco": "El orden no importa: 9×8×7×6 ÷ 4! = 3.024 ÷ 24 = 126.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "486c0cee2f",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Un club tiene 5 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?",
+  "destacado": null,
+  "opciones": [
+   "125",
+   "60",
+   "10",
+   "120"
+  ],
+  "correcta": "B",
+  "truco": "5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c789ea620e",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "permutaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿De cuántas formas se pueden sentar 6 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?",
+  "destacado": null,
+  "opciones": [
+   "24",
+   "120",
+   "36",
+   "720"
+  ],
+  "correcta": "B",
+  "truco": "Se fija a una persona y las demás se ordenan: (6−1)! = 120.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "94a72046ad",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "combinaciones",
+  "dificultad": "facil",
+  "enunciado": "En un torneo juegan 12 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?",
+  "destacado": null,
+  "opciones": [
+   "66",
+   "24",
+   "144",
+   "132"
+  ],
+  "correcta": "A",
+  "truco": "El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

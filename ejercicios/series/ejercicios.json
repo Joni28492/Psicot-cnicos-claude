@@ -526,5 +526,159 @@
   "truco": "Son los números primos consecutivos.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "294f921d2d",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "M2, O4, R6, U8, X10, ?",
+  "opciones": [
+   "A13",
+   "B12",
+   "X12",
+   "A12"
+  ],
+  "correcta": "D",
+  "truco": "Dos reglas independientes: las letras avanzan 3 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f6889bd5cc",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "8, 11, 16, 23, 32, ?",
+  "opciones": [
+   "48",
+   "41",
+   "43",
+   "53"
+  ],
+  "correcta": "C",
+  "truco": "Las diferencias son 3, 5, 7, 9… y crecen 2 cada vez: la siguiente es +11.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a4d99d3070",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "20, 21, 23, 26, 30, ?",
+  "opciones": [
+   "32",
+   "35",
+   "34",
+   "36"
+  ],
+  "correcta": "B",
+  "truco": "Las diferencias son 1, 2, 3, 4… y crecen 1 cada vez: la siguiente es +5.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9daf054bb1",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "1, 7, 8, 15, 23, ?",
+  "opciones": [
+   "33",
+   "38",
+   "39",
+   "31"
+  ],
+  "correcta": "B",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6fe0feac58",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "F2, G3, H4, I5, J6, ?",
+  "opciones": [
+   "L7",
+   "K8",
+   "K7",
+   "J7"
+  ],
+  "correcta": "C",
+  "truco": "Dos reglas independientes: las letras avanzan 1 y los números hacen +1.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "4d29585f38",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "letras_salto",
+  "dificultad": "facil",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "G, I, K, M, Ñ, ?",
+  "opciones": [
+   "R",
+   "P",
+   "Q",
+   "O"
+  ],
+  "correcta": "B",
+  "truco": "Cada letra avanza 2 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "691c4e8f8b",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "19, 22, 26, 31, 37, ?",
+  "opciones": [
+   "44",
+   "45",
+   "43",
+   "54"
+  ],
+  "correcta": "A",
+  "truco": "Las diferencias son 3, 4, 5, 6… y crecen 1 cada vez: la siguiente es +7.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

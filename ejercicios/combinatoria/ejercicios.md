@@ -1,6 +1,6 @@
 # Combinatoria
 
-16 ejercicios · fácil: 6 · media: 8 · difícil: 2
+21 ejercicios · fácil: 7 · media: 10 · difícil: 4
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -193,3 +193,63 @@ Una cerradura tiene 4 ruedas y cada una tiene las cifras de 1 a 3. ¿Cuántas co
 - D) 24
 
 **Respuesta: D.** 4! dividido entre las repeticiones (): 24 ÷ 1 = 24.
+
+## 24e6375364 · media · variaciones
+*Test 016 (2026-11-12), ejercicio 1*
+
+Un club tiene 7 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?
+
+- A) 210
+- B) 35
+- C) 5.040
+- D) 343
+
+**Respuesta: A.** 7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).
+
+## ee99019519 · difícil · combinaciones
+*Test 016 (2026-11-12), ejercicio 6*
+
+¿Cuántos grupos de 4 alumnos se pueden formar en una clase de 9?
+
+- A) 3.024
+- B) 6.561
+- C) 36
+- D) 126
+
+**Respuesta: D.** El orden no importa: 9×8×7×6 ÷ 4! = 3.024 ÷ 24 = 126.
+
+## 486c0cee2f · media · variaciones
+*Test 016 (2026-11-12), ejercicio 9*
+
+Un club tiene 5 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?
+
+- A) 125
+- B) 60
+- C) 10
+- D) 120
+
+**Respuesta: B.** 5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).
+
+## c789ea620e · difícil · permutaciones
+*Test 016 (2026-11-12), ejercicio 17*
+
+¿De cuántas formas se pueden sentar 6 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 24
+- B) 120
+- C) 36
+- D) 720
+
+**Respuesta: B.** Se fija a una persona y las demás se ordenan: (6−1)! = 120.
+
+## 94a72046ad · fácil · combinaciones
+*Test 016 (2026-11-12), ejercicio 24*
+
+En un torneo juegan 12 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?
+
+- A) 66
+- B) 24
+- C) 144
+- D) 132
+
+**Respuesta: A.** El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)

@@ -1186,5 +1186,159 @@
   "truco": "Supón que todos son del tipo menor (1): 13×1 = 13. Sobran 3, y cada cambio añade 1. 3 ÷ 1 = 3 monedas de 2 €.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "8beccaa827",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En un aparcamiento hay motos y coches. En total hay 12 vehículos y 34 ruedas. ¿Cuántos coches hay?",
+  "destacado": null,
+  "opciones": [
+   "5",
+   "10",
+   "9",
+   "7"
+  ],
+  "correcta": "A",
+  "truco": "Supón que todos son del tipo menor (2): 12×2 = 24. Sobran 10, y cada cambio añade 2. 10 ÷ 2 = 5 coches.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9bb72de555",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "veces",
+  "dificultad": "media",
+  "enunciado": "Un padre tiene 3 veces los años de su hijo y entre los dos suman 16. ¿Cuántos años tiene el padre?",
+  "destacado": null,
+  "opciones": [
+   "12",
+   "13",
+   "4",
+   "8"
+  ],
+  "correcta": "A",
+  "truco": "El total son 3+1 = 4 partes iguales: 16 ÷ 4 = 4 (hijo). Padre: 3×4 = 12.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "7c444d8926",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "edades",
+  "dificultad": "dificil",
+  "enunciado": "Ahora una madre tiene 4 veces la edad de su hija. Dentro de 6 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?",
+  "destacado": null,
+  "opciones": [
+   "3",
+   "9",
+   "12",
+   "6"
+  ],
+  "correcta": "A",
+  "truco": "Con x = edad de la hija: 4x + 6 = 2(x + 6) ⇒ 2x = 6 ⇒ x = 3. Comprobación: madre 12, dentro de 6 años 18 = 2×9.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "414525c41d",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "mas_que",
+  "dificultad": "facil",
+  "enunciado": "Juan tiene 6 libros más que Sara, y entre los dos suman 42. ¿Cuántos tiene Sara?",
+  "destacado": null,
+  "opciones": [
+   "21",
+   "18",
+   "15",
+   "36"
+  ],
+  "correcta": "B",
+  "truco": "Quita la diferencia al total: 42 − 6 = 36, a medias = 18 (el menor). El mayor es 18 + 6 = 24.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "d9b6f03d8e",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "ecuacion",
+  "dificultad": "media",
+  "enunciado": "x/2 + x/3 = 15. ¿Cuánto vale x?",
+  "destacado": null,
+  "opciones": [
+   "17",
+   "13",
+   "19",
+   "18"
+  ],
+  "correcta": "D",
+  "truco": "x/2 + x/3 = 5x/6 = 15 ⇒ x = 15×6/5 = 18.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "49354684bf",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "combinatoria",
+  "dificultad": "media",
+  "enunciado": "En una reunión hay 11 personas y todas se saludan con un apretón de manos. ¿Cuántos apretones hay?",
+  "destacado": null,
+  "opciones": [
+   "110",
+   "11",
+   "55",
+   "60"
+  ],
+  "correcta": "C",
+  "truco": "11×10/2 = 55 (cada pareja una sola vez).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "72c25bde73",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En una granja hay patos y vacas. En total hay 9 cabezas y 24 patas. ¿Cuántos patos hay?",
+  "destacado": null,
+  "opciones": [
+   "12",
+   "6",
+   "3",
+   "9"
+  ],
+  "correcta": "B",
+  "truco": "Supón que todos son del tipo menor (4): 9×4 = 36. Sobran -12, y cada cambio añade -2. -12 ÷ -2 = 6 patos.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

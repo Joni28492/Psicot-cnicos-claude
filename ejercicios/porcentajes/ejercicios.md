@@ -1,6 +1,6 @@
 # Porcentajes
 
-22 ejercicios · fácil: 5 · media: 15 · difícil: 2
+27 ejercicios · fácil: 6 · media: 18 · difícil: 3
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -265,3 +265,63 @@ Una chaqueta de 60 € tiene un 20% de descuento y, sobre el nuevo precio, otro 
 - D) 33 €
 
 **Respuesta: B.** No se suman (45%): se multiplican 80% × 75% = 60% del precio ⇒ 36 €.
+
+## 3f2a8e9b6a · media · descuentos
+*Test 016 (2026-11-12), ejercicio 2*
+
+Una chaqueta de 120 € tiene un 50% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?
+
+- A) 30 €
+- B) 49 €
+- C) 45 €
+- D) 60 €
+
+**Respuesta: C.** No se suman (75%): se multiplican 50% × 75% = 37,5% del precio ⇒ 45 €.
+
+## 503c029c51 · difícil · porcentaje_de_porcentaje
+*Test 016 (2026-11-12), ejercicio 8*
+
+En una clase de 120 alumnos, el 20% son chicas y de ellas el 75% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 114
+- B) 18
+- C) 24
+- D) 16
+
+**Respuesta: B.** 1/5 de 120 = 24; 3/4 de eso = 18. Se multiplican las fracciones, no se suman.
+
+## adc16da483 · media · porcentaje_inverso
+*Test 016 (2026-11-12), ejercicio 10*
+
+El 30% de un número es 51. ¿Cuál es el número?
+
+- A) 170
+- B) 102
+- C) 204
+- D) 119
+
+**Respuesta: A.** 30% = 3/10: 51 son 3 partes de 10. Una parte = 17; el total = 170.
+
+## 33313562e7 · media · variacion
+*Test 016 (2026-11-12), ejercicio 11*
+
+Un valor pasa de 80 a 20. ¿En qué porcentaje disminuye?
+
+- A) 150%
+- B) 300%
+- C) 37,5%
+- D) 75%
+
+**Respuesta: D.** Diferencia 60 sobre el valor de partida (80): 3/4 = 75%. Siempre se divide entre el valor inicial.
+
+## ff4fa42ac6 · fácil · porcentaje_de
+*Test 016 (2026-11-12), ejercicio 22*
+
+¿Cuánto es el 60% de 160?
+
+- A) 94
+- B) 96
+- C) 64
+- D) 32
+
+**Respuesta: B.** 60% = 3/5. 160 ÷ 5 × 3 = 96.

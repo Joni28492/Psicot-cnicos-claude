@@ -1,6 +1,6 @@
 # Problemas
 
-54 ejercicios · fácil: 19 · media: 23 · difícil: 12
+61 ejercicios · fácil: 22 · media: 26 · difícil: 13
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -649,3 +649,87 @@ En una caja hay monedas de 1 € y de 2 €. Hay 13 monedas que suman 16 €. ¿
 - D) 8
 
 **Respuesta: B.** Supón que todos son del tipo menor (1): 13×1 = 13. Sobran 3, y cada cambio añade 1. 3 ÷ 1 = 3 monedas de 2 €.
+
+## 8beccaa827 · fácil · cabezas_patas
+*Test 016 (2026-11-12), ejercicio 3*
+
+En un aparcamiento hay motos y coches. En total hay 12 vehículos y 34 ruedas. ¿Cuántos coches hay?
+
+- A) 5
+- B) 10
+- C) 9
+- D) 7
+
+**Respuesta: A.** Supón que todos son del tipo menor (2): 12×2 = 24. Sobran 10, y cada cambio añade 2. 10 ÷ 2 = 5 coches.
+
+## 9bb72de555 · media · veces
+*Test 016 (2026-11-12), ejercicio 4*
+
+Un padre tiene 3 veces los años de su hijo y entre los dos suman 16. ¿Cuántos años tiene el padre?
+
+- A) 12
+- B) 13
+- C) 4
+- D) 8
+
+**Respuesta: A.** El total son 3+1 = 4 partes iguales: 16 ÷ 4 = 4 (hijo). Padre: 3×4 = 12.
+
+## 7c444d8926 · difícil · edades
+*Test 016 (2026-11-12), ejercicio 7*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 6 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 3
+- B) 9
+- C) 12
+- D) 6
+
+**Respuesta: A.** Con x = edad de la hija: 4x + 6 = 2(x + 6) ⇒ 2x = 6 ⇒ x = 3. Comprobación: madre 12, dentro de 6 años 18 = 2×9.
+
+## 414525c41d · fácil · mas_que
+*Test 016 (2026-11-12), ejercicio 15*
+
+Juan tiene 6 libros más que Sara, y entre los dos suman 42. ¿Cuántos tiene Sara?
+
+- A) 21
+- B) 18
+- C) 15
+- D) 36
+
+**Respuesta: B.** Quita la diferencia al total: 42 − 6 = 36, a medias = 18 (el menor). El mayor es 18 + 6 = 24.
+
+## d9b6f03d8e · media · ecuacion
+*Test 016 (2026-11-12), ejercicio 16*
+
+x/2 + x/3 = 15. ¿Cuánto vale x?
+
+- A) 17
+- B) 13
+- C) 19
+- D) 18
+
+**Respuesta: D.** x/2 + x/3 = 5x/6 = 15 ⇒ x = 15×6/5 = 18.
+
+## 49354684bf · media · combinatoria
+*Test 016 (2026-11-12), ejercicio 20*
+
+En una reunión hay 11 personas y todas se saludan con un apretón de manos. ¿Cuántos apretones hay?
+
+- A) 110
+- B) 11
+- C) 55
+- D) 60
+
+**Respuesta: C.** 11×10/2 = 55 (cada pareja una sola vez).
+
+## 72c25bde73 · fácil · cabezas_patas
+*Test 016 (2026-11-12), ejercicio 21*
+
+En una granja hay patos y vacas. En total hay 9 cabezas y 24 patas. ¿Cuántos patos hay?
+
+- A) 12
+- B) 6
+- C) 3
+- D) 9
+
+**Respuesta: B.** Supón que todos son del tipo menor (4): 9×4 = 36. Sobran -12, y cada cambio añade -2. -12 ÷ -2 = 6 patos.

@@ -240,5 +240,93 @@
   "truco": "Sigue cada aguja por separado: la corta y gruesa retrocede 3 horas en cada reloj y la larga y fina retrocede 1 hora (cada marca es una hora del reloj).",
   "imagen": "img/2504c61cc4.png",
   "tiempo": 30
+ },
+ {
+  "id": "33afb17eac",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "tarta",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "La tarta tiene 12 sectores. En cada paso el bloque relleno gira 2 sectores a la derecha y gana 1 sector relleno.",
+  "imagen": "img/33afb17eac.png",
+  "tiempo": 30
+ },
+ {
+  "id": "bf428287cd",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 28,
+  "subtipo": "tarta",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "La tarta tiene 8 sectores. En cada paso el bloque relleno gira 1 sector a la izquierda y pierde 1 sector relleno.",
+  "imagen": "img/bf428287cd.png",
+  "tiempo": 30
+ },
+ {
+  "id": "73a6539f68",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "reloj",
+  "dificultad": "media",
+  "enunciado": "¿Qué reloj continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Sigue cada aguja por separado: la corta y gruesa retrocede 1 hora en cada reloj y la larga y fina retrocede 4 horas (cada marca es una hora del reloj).",
+  "imagen": "img/73a6539f68.png",
+  "tiempo": 30
+ },
+ {
+  "id": "566ef4e96c",
+  "test": "psicotecnico_016_dificil.pdf",
+  "numero": 16,
+  "fecha": "2026-11-12",
+  "modo": "diario",
+  "n": 32,
+  "subtipo": "reloj",
+  "dificultad": "media",
+  "enunciado": "¿Qué reloj continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Sigue cada aguja por separado: la corta y gruesa avanza 2 horas en cada reloj y la larga y fina retrocede 3 horas (cada marca es una hora del reloj).",
+  "imagen": "img/566ef4e96c.png",
+  "tiempo": 30
  }
 ]
