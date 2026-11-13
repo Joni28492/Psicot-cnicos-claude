@@ -1,6 +1,6 @@
 # Series
 
-31 ejercicios · fácil: 9 · media: 19 · difícil: 3
+39 ejercicios · fácil: 11 · media: 23 · difícil: 5
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -435,3 +435,115 @@
 - D) 54
 
 **Respuesta: A.** Las diferencias son 3, 4, 5, 6… y crecen 1 cada vez: la siguiente es +7.
+
+## 9b09806956 · difícil · letras_bloques
+*Test 017 (2026-11-13), ejercicio 3*
+
+¿Qué pareja continúa la serie?
+
+**RS, VW, ZA, DE, HI, ?**
+
+- A) KL
+- B) LN
+- C) LM
+- D) MN
+
+**Respuesta: C.** Cada pareja son dos letras seguidas y el bloque avanza 4 posiciones.
+
+## de0c501452 · media · letras_creciente
+*Test 017 (2026-11-13), ejercicio 6*
+
+¿Qué letra continúa la serie?
+
+**F, G, I, L, O, ?**
+
+- A) V
+- B) T
+- C) U
+- D) W
+
+**Respuesta: B.** Los saltos crecen: +1, +2, +3, +4… el siguiente es +5. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## b1e48e9f3e · fácil · num_cuadrados
+*Test 017 (2026-11-13), ejercicio 13*
+
+¿Qué número continúa la serie?
+
+**5, 10, 17, 26, 37, ?**
+
+- A) 52
+- B) 50
+- C) 51
+- D) 40
+
+**Respuesta: B.** Son cuadrados +1: 2², 3², 4²… El siguiente es 7² +1 = 50.
+
+## f34fcdcbf0 · media · letra_numero
+*Test 017 (2026-11-13), ejercicio 15*
+
+¿Qué término continúa la serie?
+
+**H2, K4, N6, P8, S10, ?**
+
+- A) W12
+- B) V13
+- C) S12
+- D) V12
+
+**Respuesta: D.** Dos reglas independientes: las letras avanzan 3 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## c0c9847d6c · fácil · num_geometrica
+*Test 017 (2026-11-13), ejercicio 17*
+
+¿Qué número continúa la serie?
+
+**2, 8, 32, 128, 512, ?**
+
+- A) 640
+- B) 896
+- C) 2.045
+- D) 2.048
+
+**Respuesta: D.** Cada término se multiplica por 4.
+
+## 2fc7d9068a · difícil · num_operaciones
+*Test 017 (2026-11-13), ejercicio 21*
+
+¿Qué número continúa la serie?
+
+**2, 7, 22, 67, 202, ?**
+
+- A) 597
+- B) 606
+- C) 337
+- D) 607
+
+**Respuesta: D.** Cada término = anterior ×3 +1.
+
+## 3cc0b94b5e · media · letras_creciente
+*Test 017 (2026-11-13), ejercicio 22*
+
+¿Qué letra continúa la serie?
+
+**S, U, X, B, G, ?**
+
+- A) O
+- B) K
+- C) M
+- D) L
+
+**Respuesta: C.** Los saltos crecen: +2, +3, +4, +5… el siguiente es +6.
+
+## c3b63fe02d · media · num_creciente
+*Test 017 (2026-11-13), ejercicio 23*
+
+¿Qué número continúa la serie?
+
+**7, 8, 12, 19, 29, ?**
+
+- A) 42
+- B) 52
+- C) 40
+- D) 39
+
+**Respuesta: A.** Las diferencias son 1, 4, 7, 10… y crecen 3 cada vez: la siguiente es +13.

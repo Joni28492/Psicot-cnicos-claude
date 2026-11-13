@@ -460,5 +460,115 @@
   "truco": "El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "ad571686f6",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "permutaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de SOLO?",
+  "destacado": null,
+  "opciones": [
+   "16",
+   "6",
+   "12",
+   "24"
+  ],
+  "correcta": "C",
+  "truco": "4! dividido entre las repeticiones (O×2): 24 ÷ 2 = 12.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0f3baf8e6f",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántos códigos de 4 cifras distintas se pueden formar con las cifras del 1 al 7?",
+  "destacado": null,
+  "opciones": [
+   "5.040",
+   "35",
+   "840",
+   "2.401"
+  ],
+  "correcta": "C",
+  "truco": "7 elementos en 4 espacios sin repetir, importa el orden: 7×6×5×4 = 840 (empiezas con 7 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "39c8a854b1",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "7 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?",
+  "destacado": null,
+  "opciones": [
+   "720",
+   "49",
+   "2.520",
+   "5.040"
+  ],
+  "correcta": "D",
+  "truco": "Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ea7f825ffd",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "permutaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿De cuántas formas se pueden sentar 4 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?",
+  "destacado": null,
+  "opciones": [
+   "24",
+   "16",
+   "2",
+   "6"
+  ],
+  "correcta": "D",
+  "truco": "Se fija a una persona y las demás se ordenan: (4−1)! = 6.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "5d55cb266f",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "combinaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántos tríos distintos se pueden formar con 6 amigos?",
+  "destacado": null,
+  "opciones": [
+   "18",
+   "20",
+   "216",
+   "120"
+  ],
+  "correcta": "B",
+  "truco": "El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -1,6 +1,6 @@
 # Reglas de tres
 
-16 ejercicios · fácil: 5 · media: 7 · difícil: 4
+22 ejercicios · fácil: 7 · media: 10 · difícil: 5
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -193,3 +193,75 @@ Una impresora hace un trabajo en 9 min y otra en 18 min. ¿Cuánto tardan las do
 - D) 6 min
 
 **Respuesta: D.** Suma lo que hace cada uno en una hora: 1/9 + 1/18 = 27/162 ⇒ tardan 162/27 = 6. Atajo: producto ÷ suma.
+
+## 3800b87ecd · fácil · directa
+*Test 017 (2026-11-13), ejercicio 1*
+
+5 cuadernos cuestan 20 €. ¿Cuánto cuestan 6 cuadernos?
+
+- A) 21 €
+- B) 25 €
+- C) 40 €
+- D) 24 €
+
+**Respuesta: D.** Busca el valor de una unidad: 20 ÷ 5 = 4; luego ×6. No sumes la diferencia (1) al resultado.
+
+## 261e493042 · media · compuesta
+*Test 017 (2026-11-13), ejercicio 4*
+
+3 máquinas fabrican 72 piezas en 8 horas. ¿Cuántas piezas fabrican 8 máquinas en 3 horas?
+
+- A) 72
+- B) 27
+- C) 75
+- D) 192
+
+**Respuesta: A.** Piezas por máquina y hora: 72 ÷ (3×8) = 3. Luego 8×3×3 = 72.
+
+## 93b0feb0cc · media · compuesta
+*Test 017 (2026-11-13), ejercicio 7*
+
+3 máquinas fabrican 54 piezas en 6 horas. ¿Cuántas piezas fabrican 6 máquinas en 2 horas?
+
+- A) 34
+- B) 36
+- C) 108
+- D) 18
+
+**Respuesta: B.** Piezas por máquina y hora: 54 ÷ (3×6) = 3. Luego 6×2×3 = 36.
+
+## f8eff96ec3 · difícil · trabajo_conjunto
+*Test 017 (2026-11-13), ejercicio 8*
+
+Ana pinta una pared en 5 h y Luis en 20 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 15 h
+- B) 4 h
+- C) 25 h
+- D) 12 h
+
+**Respuesta: B.** Suma lo que hace cada uno en una hora: 1/5 + 1/20 = 25/100 ⇒ tardan 100/25 = 4. Atajo: producto ÷ suma.
+
+## 6a30d9b727 · fácil · directa
+*Test 017 (2026-11-13), ejercicio 10*
+
+Un coche recorre 40 km con 5 litros. ¿Cuántos km recorre con 11 litros?
+
+- A) 89 km
+- B) 88 km
+- C) 80 km
+- D) 46 km
+
+**Respuesta: B.** Busca el valor de una unidad: 40 ÷ 5 = 8; luego ×11. No sumes la diferencia (6) al resultado.
+
+## 6182fba7e8 · media · inversa
+*Test 017 (2026-11-13), ejercicio 24*
+
+Un tren a 8 km/h tarda 20 h en llegar. ¿Cuántas horas tardará a 32 km/h?
+
+- A) 2 h
+- B) 8 h
+- C) 80 h
+- D) 5 h
+
+**Respuesta: D.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 8 × 20 = 160; 160 ÷ 32 = 5.

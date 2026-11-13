@@ -350,5 +350,137 @@
   "truco": "Suma lo que hace cada uno en una hora: 1/9 + 1/18 = 27/162 ⇒ tardan 162/27 = 6. Atajo: producto ÷ suma.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "3800b87ecd",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "5 cuadernos cuestan 20 €. ¿Cuánto cuestan 6 cuadernos?",
+  "destacado": null,
+  "opciones": [
+   "21 €",
+   "25 €",
+   "40 €",
+   "24 €"
+  ],
+  "correcta": "D",
+  "truco": "Busca el valor de una unidad: 20 ÷ 5 = 4; luego ×6. No sumes la diferencia (1) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "261e493042",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "3 máquinas fabrican 72 piezas en 8 horas. ¿Cuántas piezas fabrican 8 máquinas en 3 horas?",
+  "destacado": null,
+  "opciones": [
+   "72",
+   "27",
+   "75",
+   "192"
+  ],
+  "correcta": "A",
+  "truco": "Piezas por máquina y hora: 72 ÷ (3×8) = 3. Luego 8×3×3 = 72.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "93b0feb0cc",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "3 máquinas fabrican 54 piezas en 6 horas. ¿Cuántas piezas fabrican 6 máquinas en 2 horas?",
+  "destacado": null,
+  "opciones": [
+   "34",
+   "36",
+   "108",
+   "18"
+  ],
+  "correcta": "B",
+  "truco": "Piezas por máquina y hora: 54 ÷ (3×6) = 3. Luego 6×2×3 = 36.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f8eff96ec3",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Ana pinta una pared en 5 h y Luis en 20 h. ¿Cuánto tardan trabajando juntos?",
+  "destacado": null,
+  "opciones": [
+   "15 h",
+   "4 h",
+   "25 h",
+   "12 h"
+  ],
+  "correcta": "B",
+  "truco": "Suma lo que hace cada uno en una hora: 1/5 + 1/20 = 25/100 ⇒ tardan 100/25 = 4. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6a30d9b727",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "Un coche recorre 40 km con 5 litros. ¿Cuántos km recorre con 11 litros?",
+  "destacado": null,
+  "opciones": [
+   "89 km",
+   "88 km",
+   "80 km",
+   "46 km"
+  ],
+  "correcta": "B",
+  "truco": "Busca el valor de una unidad: 40 ÷ 5 = 8; luego ×11. No sumes la diferencia (6) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6182fba7e8",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Un tren a 8 km/h tarda 20 h en llegar. ¿Cuántas horas tardará a 32 km/h?",
+  "destacado": null,
+  "opciones": [
+   "2 h",
+   "8 h",
+   "80 h",
+   "5 h"
+  ],
+  "correcta": "D",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 8 × 20 = 160; 160 ÷ 32 = 5.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

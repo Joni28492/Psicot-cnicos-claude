@@ -680,5 +680,181 @@
   "truco": "Las diferencias son 3, 4, 5, 6… y crecen 1 cada vez: la siguiente es +7.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "9b09806956",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "letras_bloques",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué pareja continúa la serie?",
+  "destacado": "RS, VW, ZA, DE, HI, ?",
+  "opciones": [
+   "KL",
+   "LN",
+   "LM",
+   "MN"
+  ],
+  "correcta": "C",
+  "truco": "Cada pareja son dos letras seguidas y el bloque avanza 4 posiciones.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "de0c501452",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "F, G, I, L, O, ?",
+  "opciones": [
+   "V",
+   "T",
+   "U",
+   "W"
+  ],
+  "correcta": "B",
+  "truco": "Los saltos crecen: +1, +2, +3, +4… el siguiente es +5. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b1e48e9f3e",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "num_cuadrados",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "5, 10, 17, 26, 37, ?",
+  "opciones": [
+   "52",
+   "50",
+   "51",
+   "40"
+  ],
+  "correcta": "B",
+  "truco": "Son cuadrados +1: 2², 3², 4²… El siguiente es 7² +1 = 50.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f34fcdcbf0",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "H2, K4, N6, P8, S10, ?",
+  "opciones": [
+   "W12",
+   "V13",
+   "S12",
+   "V12"
+  ],
+  "correcta": "D",
+  "truco": "Dos reglas independientes: las letras avanzan 3 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c0c9847d6c",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 8, 32, 128, 512, ?",
+  "opciones": [
+   "640",
+   "896",
+   "2.045",
+   "2.048"
+  ],
+  "correcta": "D",
+  "truco": "Cada término se multiplica por 4.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2fc7d9068a",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "num_operaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 7, 22, 67, 202, ?",
+  "opciones": [
+   "597",
+   "606",
+   "337",
+   "607"
+  ],
+  "correcta": "D",
+  "truco": "Cada término = anterior ×3 +1.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3cc0b94b5e",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "S, U, X, B, G, ?",
+  "opciones": [
+   "O",
+   "K",
+   "M",
+   "L"
+  ],
+  "correcta": "C",
+  "truco": "Los saltos crecen: +2, +3, +4, +5… el siguiente es +6.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c3b63fe02d",
+  "test": "psicotecnico_017_media.pdf",
+  "numero": 17,
+  "fecha": "2026-11-13",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "7, 8, 12, 19, 29, ?",
+  "opciones": [
+   "42",
+   "52",
+   "40",
+   "39"
+  ],
+  "correcta": "A",
+  "truco": "Las diferencias son 1, 4, 7, 10… y crecen 3 cada vez: la siguiente es +13.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -1,6 +1,6 @@
 # Combinatoria
 
-21 ejercicios · fácil: 7 · media: 10 · difícil: 4
+26 ejercicios · fácil: 8 · media: 13 · difícil: 5
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -253,3 +253,63 @@ En un torneo juegan 12 equipos y todos juegan contra todos una sola vez. ¿Cuán
 - D) 132
 
 **Respuesta: A.** El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)
+
+## ad571686f6 · media · permutaciones
+*Test 017 (2026-11-13), ejercicio 2*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de SOLO?
+
+- A) 16
+- B) 6
+- C) 12
+- D) 24
+
+**Respuesta: C.** 4! dividido entre las repeticiones (O×2): 24 ÷ 2 = 12.
+
+## 0f3baf8e6f · media · variaciones
+*Test 017 (2026-11-13), ejercicio 9*
+
+¿Cuántos códigos de 4 cifras distintas se pueden formar con las cifras del 1 al 7?
+
+- A) 5.040
+- B) 35
+- C) 840
+- D) 2.401
+
+**Respuesta: C.** 7 elementos en 4 espacios sin repetir, importa el orden: 7×6×5×4 = 840 (empiezas con 7 opciones y cada espacio tiene una menos).
+
+## 39c8a854b1 · fácil · permutaciones
+*Test 017 (2026-11-13), ejercicio 11*
+
+7 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?
+
+- A) 720
+- B) 49
+- C) 2.520
+- D) 5.040
+
+**Respuesta: D.** Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.
+
+## ea7f825ffd · difícil · permutaciones
+*Test 017 (2026-11-13), ejercicio 18*
+
+¿De cuántas formas se pueden sentar 4 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 24
+- B) 16
+- C) 2
+- D) 6
+
+**Respuesta: D.** Se fija a una persona y las demás se ordenan: (4−1)! = 6.
+
+## 5d55cb266f · media · combinaciones
+*Test 017 (2026-11-13), ejercicio 20*
+
+¿Cuántos tríos distintos se pueden formar con 6 amigos?
+
+- A) 18
+- B) 20
+- C) 216
+- D) 120
+
+**Respuesta: B.** El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.

@@ -1,6 +1,6 @@
 # Codificación
 
-18 ejercicios · fácil: 8 · media: 9 · difícil: 1
+23 ejercicios · fácil: 10 · media: 11 · difícil: 2
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -217,3 +217,63 @@ Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonant
 - D) 2521
 
 **Respuesta: A.** Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.
+
+## 380be0e6f3 · difícil · renombrar
+*Test 017 (2026-11-13), ejercicio 5*
+
+Llamamos amarillo al negro, blanco al amarillo y negro al blanco. Con esos nombres, ¿de qué color es el sol?
+
+- A) blanco
+- B) azul
+- C) verde
+- D) rojo
+
+**Respuesta: A.** El sol es amarillo de verdad, y a ese color ahora lo llamamos blanco.
+
+## ec3681b6e4 · fácil · valor_palabra
+*Test 017 (2026-11-13), ejercicio 12*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra SOL?
+
+- A) 46
+- B) 49
+- C) 47
+- D) 48
+
+**Respuesta: D.** Posiciones: 20(S) + 16(O) + 12(L) = 48. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 70c162d57d · media · espejo
+*Test 017 (2026-11-13), ejercicio 14*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe ROMA?
+
+- A) ILÑZ
+- B) ZÑLI
+- C) JMOA
+- D) ILNZ
+
+**Respuesta: A.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## 3b0cc2ca3d · media · digitos
+*Test 017 (2026-11-13), ejercicio 16*
+
+En un código, PCFD = 4653 y REFP = 7954. Con el mismo código, ¿cómo se escribe DERP?
+
+- A) 4793
+- B) 3975
+- C) 9374
+- D) 3974
+
+**Respuesta: D.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: C=6, D=3, E=9, F=5, P=4, R=7.
+
+## a786c42667 · fácil · cesar
+*Test 017 (2026-11-13), ejercicio 19*
+
+En un código, PLAYA se escribe RNCAC. Con el mismo código, ¿cómo se escribe MAR?
+
+- A) OCT
+- B) NBS
+- C) ODU
+- D) ÑCT
+
+**Respuesta: D.** Cada letra se desplaza +2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
