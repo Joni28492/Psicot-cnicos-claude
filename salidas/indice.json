@@ -1856,5 +1856,162 @@
     "correcta": "D"
    }
   ]
+ },
+ {
+  "numero": 18,
+  "fecha": "2026-11-14",
+  "archivo": "psicotecnico_018_especifico_combinatoria_variable.pdf",
+  "modo": "especifico",
+  "tema": "Combinatoria",
+  "dificultad": "variable",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 2,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 3,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 4,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 5,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 6,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 7,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 8,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 9,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 10,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 11,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 12,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 13,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 14,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 15,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 16,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 17,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 18,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 19,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 20,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 21,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "dificil",
+    "correcta": "B"
+   }
+  ]
  }
 ]

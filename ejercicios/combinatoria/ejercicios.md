@@ -1,6 +1,6 @@
 # Combinatoria
 
-26 ejercicios · fácil: 8 · media: 13 · difícil: 5
+47 ejercicios · fácil: 15 · media: 20 · difícil: 12
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -313,3 +313,255 @@ En un torneo juegan 12 equipos y todos juegan contra todos una sola vez. ¿Cuán
 - D) 120
 
 **Respuesta: B.** El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.
+
+## 3611a86e35 · fácil · combinaciones
+*Test 018 (2026-11-14), ejercicio 1*
+
+En un torneo juegan 10 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?
+
+- A) 100
+- B) 45
+- C) 90
+- D) 20
+
+**Respuesta: B.** El orden no importa: 10×9 ÷ 2! = 90 ÷ 2 = 45. (atajo: 10×9/2)
+
+## 1a071330c9 · fácil · permutaciones
+*Test 018 (2026-11-14), ejercicio 2*
+
+¿De cuántas formas se pueden aparcar 7 coches distintos en 7 plazas contiguas?
+
+- A) 2.520
+- B) 720
+- C) 49
+- D) 5.040
+
+**Respuesta: D.** Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.
+
+## 27392172ec · fácil · combinaciones
+*Test 018 (2026-11-14), ejercicio 3*
+
+En una reunión hay 7 personas y todas se saludan con un apretón de manos. ¿Cuántos apretones hay?
+
+- A) 14
+- B) 42
+- C) 21
+- D) 49
+
+**Respuesta: C.** El orden no importa: 7×6 ÷ 2! = 42 ÷ 2 = 21. (atajo: 7×6/2)
+
+## 717f9373e7 · fácil · combinaciones
+*Test 018 (2026-11-14), ejercicio 4*
+
+En una reunión hay 10 personas y todas se saludan con un apretón de manos. ¿Cuántos apretones hay?
+
+- A) 90
+- B) 20
+- C) 100
+- D) 45
+
+**Respuesta: D.** El orden no importa: 10×9 ÷ 2! = 90 ÷ 2 = 45. (atajo: 10×9/2)
+
+## 846600a3e7 · fácil · permutaciones
+*Test 018 (2026-11-14), ejercicio 5*
+
+7 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?
+
+- A) 2.520
+- B) 49
+- C) 720
+- D) 5.040
+
+**Respuesta: D.** Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.
+
+## d661481bd9 · fácil · variaciones
+*Test 018 (2026-11-14), ejercicio 6*
+
+Una cerradura tiene 2 ruedas y cada una tiene las cifras de 1 a 4. ¿Cuántas combinaciones distintas hay?
+
+- A) 16
+- B) 8
+- C) 12
+- D) 6
+
+**Respuesta: A.** Cada espacio tiene 4 opciones, que se repiten: 4×4 = 4^2 = 16.
+
+## b4b39cbb67 · fácil · combinaciones
+*Test 018 (2026-11-14), ejercicio 7*
+
+¿Cuántas parejas distintas se pueden formar con 6 alumnos?
+
+- A) 30
+- B) 15
+- C) 12
+- D) 36
+
+**Respuesta: B.** El orden no importa: 6×5 ÷ 2! = 30 ÷ 2 = 15. (atajo: 6×5/2)
+
+## fb509e460f · media · combinaciones
+*Test 018 (2026-11-14), ejercicio 8*
+
+De un grupo de 8 agentes hay que elegir 3 para una patrulla. ¿Cuántas patrullas distintas se pueden formar?
+
+- A) 512
+- B) 56
+- C) 336
+- D) 24
+
+**Respuesta: B.** El orden no importa: 8×7×6 ÷ 3! = 336 ÷ 6 = 56.
+
+## 118289fd69 · media · variaciones
+*Test 018 (2026-11-14), ejercicio 9*
+
+6 corredores compiten y se reparten medallas a los 3 primeros puestos. ¿De cuántas formas pueden quedar los puestos del podio?
+
+- A) 20
+- B) 120
+- C) 216
+- D) 720
+
+**Respuesta: B.** 6 elementos en 3 espacios sin repetir, importa el orden: 6×5×4 = 120 (empiezas con 6 opciones y cada espacio tiene una menos).
+
+## 38ebc544af · media · variaciones
+*Test 018 (2026-11-14), ejercicio 10*
+
+8 corredores compiten y se reparten medallas a los 3 primeros puestos. ¿De cuántas formas pueden quedar los puestos del podio?
+
+- A) 40.320
+- B) 512
+- C) 56
+- D) 336
+
+**Respuesta: D.** 8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## ee42348f31 · media · variaciones
+*Test 018 (2026-11-14), ejercicio 11*
+
+Un club tiene 9 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?
+
+- A) 362.880
+- B) 504
+- C) 729
+- D) 84
+
+**Respuesta: B.** 9 elementos en 3 espacios sin repetir, importa el orden: 9×8×7 = 504 (empiezas con 9 opciones y cada espacio tiene una menos).
+
+## d52d214051 · media · variaciones
+*Test 018 (2026-11-14), ejercicio 12*
+
+¿Cuántos códigos de 3 cifras distintas se pueden formar con las cifras del 1 al 5?
+
+- A) 120
+- B) 125
+- C) 60
+- D) 10
+
+**Respuesta: C.** 5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).
+
+## 9716ca6338 · media · variaciones
+*Test 018 (2026-11-14), ejercicio 13*
+
+9 corredores compiten y se reparten medallas a los 3 primeros puestos. ¿De cuántas formas pueden quedar los puestos del podio?
+
+- A) 362.880
+- B) 729
+- C) 84
+- D) 504
+
+**Respuesta: D.** 9 elementos en 3 espacios sin repetir, importa el orden: 9×8×7 = 504 (empiezas con 9 opciones y cada espacio tiene una menos).
+
+## d0d475109b · media · variaciones
+*Test 018 (2026-11-14), ejercicio 14*
+
+Con 8 libros distintos se llenan 3 huecos de una estantería, uno por hueco. ¿De cuántas formas distintas?
+
+- A) 512
+- B) 40.320
+- C) 336
+- D) 56
+
+**Respuesta: C.** 8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## ae5dae863a · difícil · combinaciones
+*Test 018 (2026-11-14), ejercicio 15*
+
+De 9 candidatos se elige un comité de 4 personas. ¿Cuántos comités distintos hay?
+
+- A) 6.561
+- B) 36
+- C) 126
+- D) 3.024
+
+**Respuesta: C.** El orden no importa: 9×8×7×6 ÷ 4! = 3.024 ÷ 24 = 126.
+
+## 4341d225bb · difícil · combinaciones
+*Test 018 (2026-11-14), ejercicio 16*
+
+De 8 candidatos se elige un comité de 4 personas. ¿Cuántos comités distintos hay?
+
+- A) 4.096
+- B) 32
+- C) 1.680
+- D) 70
+
+**Respuesta: D.** El orden no importa: 8×7×6×5 ÷ 4! = 1.680 ÷ 24 = 70.
+
+## 3a26434f66 · difícil · combinaciones
+*Test 018 (2026-11-14), ejercicio 17*
+
+¿Cuántos grupos de 4 alumnos se pueden formar en una clase de 7?
+
+- A) 35
+- B) 28
+- C) 2.401
+- D) 840
+
+**Respuesta: A.** El orden no importa: 7×6×5×4 ÷ 4! = 840 ÷ 24 = 35.
+
+## 34ffaec0bd · difícil · permutaciones
+*Test 018 (2026-11-14), ejercicio 18*
+
+¿De cuántas formas se pueden sentar 6 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 120
+- B) 24
+- C) 720
+- D) 36
+
+**Respuesta: A.** Se fija a una persona y las demás se ordenan: (6−1)! = 120.
+
+## 7c4a3a6293 · difícil · permutaciones
+*Test 018 (2026-11-14), ejercicio 19*
+
+6 amigos se sientan en una fila de 6 sillas. ¿De cuántas formas pueden sentarse si dos de ellos, Ana y Luis, quieren estar siempre juntos?
+
+- A) 48
+- B) 240
+- C) 720
+- D) 120
+
+**Respuesta: B.** Ana y Luis forman un bloque: 5 elementos → 5! = 120, y el bloque se puede dar la vuelta (×2): 240.
+
+## 7430d030f7 · difícil · permutaciones
+*Test 018 (2026-11-14), ejercicio 20*
+
+4 amigos se sientan en una fila de 4 sillas. ¿De cuántas formas pueden sentarse si dos de ellos, Ana y Luis, quieren estar siempre juntos?
+
+- A) 12
+- B) 6
+- C) 24
+- D) 4
+
+**Respuesta: A.** Ana y Luis forman un bloque: 3 elementos → 3! = 6, y el bloque se puede dar la vuelta (×2): 12.
+
+## 0a209c3dd0 · difícil · permutaciones
+*Test 018 (2026-11-14), ejercicio 21*
+
+¿De cuántas formas se pueden sentar 4 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 16
+- B) 6
+- C) 24
+- D) 2
+
+**Respuesta: B.** Se fija a una persona y las demás se ordenan: (4−1)! = 6.
