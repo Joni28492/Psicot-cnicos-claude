@@ -592,5 +592,115 @@
   "truco": "60% = 3/5. 160 ÷ 5 × 3 = 96.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "cb26333437",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 55 es 44?",
+  "destacado": null,
+  "opciones": [
+   "20%",
+   "80%",
+   "25%",
+   "44%"
+  ],
+  "correcta": "B",
+  "truco": "44/55 se simplifica a 4/5 = 80%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e224edb014",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 132 es 110?",
+  "destacado": null,
+  "opciones": [
+   "83⅓%",
+   "20%",
+   "110%",
+   "16⅔%"
+  ],
+  "correcta": "A",
+  "truco": "110/132 se simplifica a 5/6 = 83⅓%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "4ee6788c1e",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 60% de un número es 60. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "40",
+   "120",
+   "240",
+   "100"
+  ],
+  "correcta": "D",
+  "truco": "60% = 3/5: 60 son 3 partes de 5. Una parte = 20; el total = 100.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "064c8824dc",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 83⅓% de 150?",
+  "destacado": null,
+  "opciones": [
+   "25",
+   "125",
+   "124",
+   "123"
+  ],
+  "correcta": "B",
+  "truco": "83⅓% = 5/6. 150 ÷ 6 × 5 = 125.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "99b71533da",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio baja un 50% y después sube un 50%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Baja un 50%",
+   "Sube un 25%",
+   "Baja un 25%",
+   "Se queda igual"
+  ],
+  "correcta": "C",
+  "truco": "Los porcentajes no se compensan: (1+1/2)·(1−1/2) = 1 − 1/4 ⇒ pierde 25%.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -1,6 +1,6 @@
 # Series de fichas
 
-21 ejercicios · fácil: 7 · media: 6 · difícil: 8
+25 ejercicios · fácil: 7 · media: 7 · difícil: 11
 
 ## c8c6dc22f1 · fácil · domino_fila
 *Test 010 (2026-11-06), ejercicio 33*
@@ -190,3 +190,39 @@
 ![ejercicio](img/e0d1cb0300.png)
 
 **Respuesta: B.** Mira cada mitad por separado: las dos mitades bajan 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 0–4.
+
+## 72635588fd · difícil · domino_circulo
+*Test 019 (2026-11-15), ejercicio 26*
+
+¿Qué ficha de dominó continúa la serie? (en círculo, en el sentido de las agujas del reloj desde la ficha de inicio)
+
+![ejercicio](img/72635588fd.png)
+
+**Respuesta: B.** Mira cada mitad por separado: la mitad izquierda sube 1 y la derecha sube 2 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 0–4.
+
+## 4314934c74 · difícil · domino_espiral
+*Test 019 (2026-11-15), ejercicio 27*
+
+¿Qué ficha de dominó continúa la serie? (en espiral, desde la ficha de inicio hacia fuera)
+
+![ejercicio](img/4314934c74.png)
+
+**Respuesta: D.** Mira cada mitad por separado: la mitad izquierda sube 1 y la derecha se queda igual en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 3–1.
+
+## c1a96c16f0 · difícil · domino_circulo
+*Test 019 (2026-11-15), ejercicio 28*
+
+¿Qué ficha de dominó continúa la serie? (en círculo, en el sentido de las agujas del reloj desde la ficha de inicio)
+
+![ejercicio](img/c1a96c16f0.png)
+
+**Respuesta: C.** Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha sube 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 3–2.
+
+## 8143bd4c9f · media · domino_dos_filas
+*Test 019 (2026-11-15), ejercicio 29*
+
+¿Qué ficha de dominó continúa la serie? (en dos filas, de izquierda a derecha y de arriba abajo)
+
+![ejercicio](img/8143bd4c9f.png)
+
+**Respuesta: A.** Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha baja 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 5–0.

@@ -2013,5 +2013,239 @@
     "correcta": "B"
    }
   ]
+ },
+ {
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "archivo": "psicotecnico_019_media.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "media",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 2,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 3,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 4,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 5,
+    "tipo": "Series",
+    "subtipo": "num_creciente",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 6,
+    "tipo": "Series",
+    "subtipo": "num_operaciones",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 7,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 8,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 9,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 10,
+    "tipo": "Series",
+    "subtipo": "num_primos_o_triangulares",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 11,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 12,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 13,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 14,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 15,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 16,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 17,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 18,
+    "tipo": "Series",
+    "subtipo": "letras_alternas",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 19,
+    "tipo": "Series",
+    "subtipo": "num_geometrica",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 20,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 21,
+    "tipo": "Porcentajes",
+    "subtipo": "sube_y_baja",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 22,
+    "tipo": "Series",
+    "subtipo": "letra_numero",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 23,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 24,
+    "tipo": "Series",
+    "subtipo": "letras_creciente",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 25,
+    "tipo": "Series de relojes",
+    "subtipo": "reloj",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 26,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 27,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_espiral",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 28,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 29,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_dos_filas",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 30,
+    "tipo": "Series de relojes",
+    "subtipo": "reloj",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 31,
+    "tipo": "Series de relojes",
+    "subtipo": "tarta",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 32,
+    "tipo": "Series de relojes",
+    "subtipo": "puntos",
+    "dificultad": "media",
+    "correcta": "A"
+   }
+  ]
  }
 ]

@@ -1,6 +1,6 @@
 # Combinatoria
 
-47 ejercicios · fácil: 15 · media: 20 · difícil: 12
+52 ejercicios · fácil: 17 · media: 23 · difícil: 12
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -565,3 +565,63 @@ De 8 candidatos se elige un comité de 4 personas. ¿Cuántos comités distintos
 - D) 2
 
 **Respuesta: B.** Se fija a una persona y las demás se ordenan: (4−1)! = 6.
+
+## 1a9daa2e53 · fácil · variaciones
+*Test 019 (2026-11-15), ejercicio 7*
+
+Hay 2 espacios y cada uno se rellena con uno de 7 elementos distintos, pudiendo repetirse. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 14
+- B) 49
+- C) 21
+- D) 42
+
+**Respuesta: B.** Cada espacio tiene 7 opciones, que se repiten: 7×7 = 7^2 = 49.
+
+## 63b1587105 · media · variaciones
+*Test 019 (2026-11-15), ejercicio 11*
+
+Un club tiene 7 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?
+
+- A) 5.040
+- B) 210
+- C) 35
+- D) 343
+
+**Respuesta: B.** 7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).
+
+## e5486f49f3 · fácil · permutaciones
+*Test 019 (2026-11-15), ejercicio 16*
+
+En una fila de fotos se colocan 6 personas. ¿De cuántas formas distintas pueden colocarse?
+
+- A) 120
+- B) 720
+- C) 360
+- D) 36
+
+**Respuesta: B.** Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.
+
+## e81f29cceb · media · variaciones
+*Test 019 (2026-11-15), ejercicio 17*
+
+Un club tiene 9 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?
+
+- A) 504
+- B) 84
+- C) 362.880
+- D) 729
+
+**Respuesta: A.** 9 elementos en 3 espacios sin repetir, importa el orden: 9×8×7 = 504 (empiezas con 9 opciones y cada espacio tiene una menos).
+
+## 4c409d2e4a · media · combinaciones
+*Test 019 (2026-11-15), ejercicio 20*
+
+¿Cuántos triángulos distintos se pueden dibujar uniendo 6 puntos de un círculo de 3 en 3?
+
+- A) 18
+- B) 216
+- C) 120
+- D) 20
+
+**Respuesta: D.** El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.

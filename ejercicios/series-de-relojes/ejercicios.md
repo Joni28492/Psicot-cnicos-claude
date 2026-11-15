@@ -1,6 +1,6 @@
 # Series de relojes
 
-19 ejercicios · fácil: 2 · media: 13 · difícil: 4
+23 ejercicios · fácil: 2 · media: 16 · difícil: 5
 
 ## def99d1bcb · difícil · tarta
 *Test 010 (2026-11-06), ejercicio 29*
@@ -172,3 +172,39 @@
 ![ejercicio](img/8368d2d13c.png)
 
 **Respuesta: C.** Sigue cada aguja por separado: la corta y gruesa retrocede 3 horas en cada reloj y la larga y fina avanza 1 hora (cada marca es una hora del reloj).
+
+## 77d8d303e8 · media · reloj
+*Test 019 (2026-11-15), ejercicio 25*
+
+¿Qué reloj continúa la serie?
+
+![ejercicio](img/77d8d303e8.png)
+
+**Respuesta: B.** Sigue cada aguja por separado: la corta y gruesa retrocede 1 hora en cada reloj y la larga y fina avanza 4 horas (cada marca es una hora del reloj).
+
+## 86f138aba1 · media · reloj
+*Test 019 (2026-11-15), ejercicio 30*
+
+¿Qué reloj continúa la serie?
+
+![ejercicio](img/86f138aba1.png)
+
+**Respuesta: A.** Sigue cada aguja por separado: la corta y gruesa avanza 1 hora en cada reloj y la larga y fina avanza 2 horas (cada marca es una hora del reloj).
+
+## e61d3308ab · difícil · tarta
+*Test 019 (2026-11-15), ejercicio 31*
+
+¿Qué gráfico circular continúa la serie?
+
+![ejercicio](img/e61d3308ab.png)
+
+**Respuesta: C.** La tarta tiene 8 sectores. En cada paso el bloque relleno gira 2 sectores a la izquierda y gana 1 sector relleno.
+
+## c1f954ac78 · media · puntos
+*Test 019 (2026-11-15), ejercicio 32*
+
+¿Qué círculo continúa la serie?
+
+![ejercicio](img/c1f954ac78.png)
+
+**Respuesta: A.** Hay 12 posiciones. El punto negro se mueve 1 posición en sentido horario y el punto blanco 2 posiciones en sentido antihorario en cada paso.

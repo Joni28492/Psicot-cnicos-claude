@@ -1032,5 +1032,115 @@
   "truco": "Se fija a una persona y las demás se ordenan: (4−1)! = 6.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "1a9daa2e53",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "variaciones",
+  "dificultad": "facil",
+  "enunciado": "Hay 2 espacios y cada uno se rellena con uno de 7 elementos distintos, pudiendo repetirse. ¿De cuántas formas se pueden llenar los espacios?",
+  "destacado": null,
+  "opciones": [
+   "14",
+   "49",
+   "21",
+   "42"
+  ],
+  "correcta": "B",
+  "truco": "Cada espacio tiene 7 opciones, que se repiten: 7×7 = 7^2 = 49.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "63b1587105",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Un club tiene 7 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?",
+  "destacado": null,
+  "opciones": [
+   "5.040",
+   "210",
+   "35",
+   "343"
+  ],
+  "correcta": "B",
+  "truco": "7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e5486f49f3",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "En una fila de fotos se colocan 6 personas. ¿De cuántas formas distintas pueden colocarse?",
+  "destacado": null,
+  "opciones": [
+   "120",
+   "720",
+   "360",
+   "36"
+  ],
+  "correcta": "B",
+  "truco": "Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e81f29cceb",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Un club tiene 9 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?",
+  "destacado": null,
+  "opciones": [
+   "504",
+   "84",
+   "362.880",
+   "729"
+  ],
+  "correcta": "A",
+  "truco": "9 elementos en 3 espacios sin repetir, importa el orden: 9×8×7 = 504 (empiezas con 9 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "4c409d2e4a",
+  "test": "psicotecnico_019_media.pdf",
+  "numero": 19,
+  "fecha": "2026-11-15",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "combinaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántos triángulos distintos se pueden dibujar uniendo 6 puntos de un círculo de 3 en 3?",
+  "destacado": null,
+  "opciones": [
+   "18",
+   "216",
+   "120",
+   "20"
+  ],
+  "correcta": "D",
+  "truco": "El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

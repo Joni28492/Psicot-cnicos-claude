@@ -1,6 +1,6 @@
 # Porcentajes
 
-27 ejercicios · fácil: 6 · media: 18 · difícil: 3
+32 ejercicios · fácil: 9 · media: 20 · difícil: 3
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -325,3 +325,63 @@ Un valor pasa de 80 a 20. ¿En qué porcentaje disminuye?
 - D) 32
 
 **Respuesta: B.** 60% = 3/5. 160 ÷ 5 × 3 = 96.
+
+## cb26333437 · fácil · que_porcentaje
+*Test 019 (2026-11-15), ejercicio 2*
+
+¿Qué porcentaje de 55 es 44?
+
+- A) 20%
+- B) 80%
+- C) 25%
+- D) 44%
+
+**Respuesta: B.** 44/55 se simplifica a 4/5 = 80%.
+
+## e224edb014 · fácil · que_porcentaje
+*Test 019 (2026-11-15), ejercicio 4*
+
+¿Qué porcentaje de 132 es 110?
+
+- A) 83⅓%
+- B) 20%
+- C) 110%
+- D) 16⅔%
+
+**Respuesta: A.** 110/132 se simplifica a 5/6 = 83⅓%.
+
+## 4ee6788c1e · media · porcentaje_inverso
+*Test 019 (2026-11-15), ejercicio 12*
+
+El 60% de un número es 60. ¿Cuál es el número?
+
+- A) 40
+- B) 120
+- C) 240
+- D) 100
+
+**Respuesta: D.** 60% = 3/5: 60 son 3 partes de 5. Una parte = 20; el total = 100.
+
+## 064c8824dc · fácil · porcentaje_de
+*Test 019 (2026-11-15), ejercicio 15*
+
+¿Cuánto es el 83⅓% de 150?
+
+- A) 25
+- B) 125
+- C) 124
+- D) 123
+
+**Respuesta: B.** 83⅓% = 5/6. 150 ÷ 6 × 5 = 125.
+
+## 99b71533da · media · sube_y_baja
+*Test 019 (2026-11-15), ejercicio 21*
+
+Un precio baja un 50% y después sube un 50%. ¿Cuál es el efecto total?
+
+- A) Baja un 50%
+- B) Sube un 25%
+- C) Baja un 25%
+- D) Se queda igual
+
+**Respuesta: C.** Los porcentajes no se compensan: (1+1/2)·(1−1/2) = 1 − 1/4 ⇒ pierde 25%.

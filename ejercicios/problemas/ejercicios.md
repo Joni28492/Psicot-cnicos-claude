@@ -1,6 +1,6 @@
 # Problemas
 
-61 ejercicios · fácil: 22 · media: 26 · difícil: 13
+68 ejercicios · fácil: 24 · media: 30 · difícil: 14
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -733,3 +733,87 @@ En una granja hay patos y vacas. En total hay 9 cabezas y 24 patas. ¿Cuántos p
 - D) 9
 
 **Respuesta: B.** Supón que todos son del tipo menor (4): 9×4 = 36. Sobran -12, y cada cambio añade -2. -12 ÷ -2 = 6 patos.
+
+## 8dbd05415b · fácil · mas_que
+*Test 019 (2026-11-15), ejercicio 1*
+
+Juan tiene 16 libros más que Sara, y entre los dos suman 90. ¿Cuántos tiene Juan?
+
+- A) 53
+- B) 45
+- C) 61
+- D) 74
+
+**Respuesta: A.** Quita la diferencia al total: 90 − 16 = 74, a medias = 37 (el menor). El mayor es 37 + 16 = 53.
+
+## f2d37f968b · media · ecuacion
+*Test 019 (2026-11-15), ejercicio 3*
+
+La suma de tres números consecutivos es 48. ¿Cuál es el mayor?
+
+- A) 22
+- B) 19
+- C) 17
+- D) 18
+
+**Respuesta: C.** El de en medio es la media: 48 ÷ 3 = 16. El mayor es 17.
+
+## e9b0a826e1 · difícil · edades
+*Test 019 (2026-11-15), ejercicio 8*
+
+Ahora una madre tiene 6 veces la edad de su hija. Dentro de 4 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 6
+- B) 5
+- C) 1
+- D) 4
+
+**Respuesta: C.** Con x = edad de la hija: 6x + 4 = 2(x + 4) ⇒ 4x = 4 ⇒ x = 1. Comprobación: madre 6, dentro de 4 años 10 = 2×5.
+
+## 457c55e1fe · media · combinatoria
+*Test 019 (2026-11-15), ejercicio 9*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden escribir con todas las letras de PATO?
+
+- A) 48
+- B) 16
+- C) 12
+- D) 24
+
+**Respuesta: D.** Cada letra se usa una vez: 4! = 24.
+
+## 757291ac23 · media · veces
+*Test 019 (2026-11-15), ejercicio 13*
+
+Un padre tiene 2 veces los años de su hijo y entre los dos suman 27. ¿Cuántos años tiene el padre?
+
+- A) 18
+- B) 13
+- C) 25
+- D) 9
+
+**Respuesta: A.** El total son 2+1 = 3 partes iguales: 27 ÷ 3 = 9 (hijo). Padre: 2×9 = 18.
+
+## 2413edd672 · fácil · cabezas_patas
+*Test 019 (2026-11-15), ejercicio 14*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 17 monedas que suman 23 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 10
+- B) 4
+- C) 6
+- D) 11
+
+**Respuesta: C.** Supón que todos son del tipo menor (1): 17×1 = 17. Sobran 6, y cada cambio añade 1. 6 ÷ 1 = 6 monedas de 2 €.
+
+## 35d339103d · media · combinatoria
+*Test 019 (2026-11-15), ejercicio 23*
+
+¿De cuántas formas pueden sentarse 5 personas alrededor de una mesa redonda (los giros cuentan como la misma disposición)?
+
+- A) 120
+- B) 24
+- C) 48
+- D) 25
+
+**Respuesta: B.** Se fija a una persona y las demás se ordenan: (5−1)! = 24.

@@ -1,6 +1,6 @@
 # Series
 
-39 ejercicios · fácil: 11 · media: 23 · difícil: 5
+46 ejercicios · fácil: 12 · media: 27 · difícil: 7
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -547,3 +547,101 @@
 - D) 39
 
 **Respuesta: A.** Las diferencias son 1, 4, 7, 10… y crecen 3 cada vez: la siguiente es +13.
+
+## df45e7cbdc · media · num_creciente
+*Test 019 (2026-11-15), ejercicio 5*
+
+¿Qué número continúa la serie?
+
+**20, 22, 26, 32, 40, ?**
+
+- A) 47
+- B) 60
+- C) 48
+- D) 50
+
+**Respuesta: D.** Las diferencias son 2, 4, 6, 8… y crecen 2 cada vez: la siguiente es +10.
+
+## a6b5e86244 · difícil · num_operaciones
+*Test 019 (2026-11-15), ejercicio 6*
+
+¿Qué número continúa la serie?
+
+**2, 6, 14, 30, 62, ?**
+
+- A) 124
+- B) 126
+- C) 128
+- D) 94
+
+**Respuesta: B.** Cada término = anterior ×2 +2.
+
+## 4e282326ba · difícil · num_primos_o_triangulares
+*Test 019 (2026-11-15), ejercicio 10*
+
+¿Qué número continúa la serie?
+
+**7, 11, 13, 17, 19, ?**
+
+- A) 21
+- B) 23
+- C) 22
+- D) 25
+
+**Respuesta: B.** Son los números primos consecutivos.
+
+## 01e66d7d2a · media · letras_alternas
+*Test 019 (2026-11-15), ejercicio 18*
+
+¿Qué letra continúa la serie?
+
+**U, N, X, P, A, S, D, ?**
+
+- A) G
+- B) V
+- C) Y
+- D) X
+
+**Respuesta: B.** Son dos series entrelazadas: posiciones impares +3 y pares +3. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 987ff32bda · fácil · num_geometrica
+*Test 019 (2026-11-15), ejercicio 19*
+
+¿Qué número continúa la serie?
+
+**4, 8, 16, 32, 64, ?**
+
+- A) 133
+- B) 96
+- C) 125
+- D) 128
+
+**Respuesta: D.** Cada término se multiplica por 2.
+
+## 6532781932 · media · letra_numero
+*Test 019 (2026-11-15), ejercicio 22*
+
+¿Qué término continúa la serie?
+
+**G2, H3, I4, J5, K6, ?**
+
+- A) K7
+- B) L8
+- C) L7
+- D) M7
+
+**Respuesta: C.** Dos reglas independientes: las letras avanzan 1 y los números hacen +1.
+
+## 175fc1dcc5 · media · letras_creciente
+*Test 019 (2026-11-15), ejercicio 24*
+
+¿Qué letra continúa la serie?
+
+**E, F, H, K, Ñ, ?**
+
+- A) Q
+- B) V
+- C) T
+- D) S
+
+**Respuesta: D.** Los saltos crecen: +1, +2, +3, +4… el siguiente es +5. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
