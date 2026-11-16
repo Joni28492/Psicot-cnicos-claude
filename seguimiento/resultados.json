@@ -1,0 +1,75 @@
+[
+ {
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "archivo": "psicotecnico_020_dificil.pdf",
+  "nota": 8.56,
+  "en_tiempo": true,
+  "total": 36,
+  "aciertos": 26,
+  "fallos": [
+   {
+    "n": 4,
+    "tipo": "Codificación",
+    "subtipo": "renombrar",
+    "dificultad": "dificil"
+   },
+   {
+    "n": 8,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media"
+   },
+   {
+    "n": 28,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil"
+   },
+   {
+    "n": 29,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil"
+   },
+   {
+    "n": 32,
+    "tipo": "Series de relojes",
+    "subtipo": "reloj",
+    "dificultad": "media"
+   },
+   {
+    "n": 33,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil"
+   },
+   {
+    "n": 34,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil"
+   }
+  ],
+  "blancos": [
+   {
+    "n": 1,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media"
+   },
+   {
+    "n": 9,
+    "tipo": "Codificación",
+    "subtipo": "cesar",
+    "dificultad": "facil"
+   },
+   {
+    "n": 21,
+    "tipo": "Series",
+    "subtipo": "letras_bloques",
+    "dificultad": "dificil"
+   }
+  ]
+ }
+]
