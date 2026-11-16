@@ -2247,5 +2247,267 @@
     "correcta": "A"
    }
   ]
+ },
+ {
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "archivo": "psicotecnico_020_dificil.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "dificil",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 2,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 3,
+    "tipo": "Codificación",
+    "subtipo": "vocales",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 4,
+    "tipo": "Codificación",
+    "subtipo": "renombrar",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 5,
+    "tipo": "Series",
+    "subtipo": "num_cuadrados",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 6,
+    "tipo": "Series",
+    "subtipo": "num_geometrica",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 7,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 8,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 9,
+    "tipo": "Codificación",
+    "subtipo": "cesar",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 10,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 11,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 12,
+    "tipo": "Series",
+    "subtipo": "letra_numero",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 13,
+    "tipo": "Series",
+    "subtipo": "num_alternas",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 14,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 15,
+    "tipo": "Codificación",
+    "subtipo": "espejo",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 16,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 17,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 18,
+    "tipo": "Codificación",
+    "subtipo": "valor_palabra",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 19,
+    "tipo": "Series",
+    "subtipo": "num_dos_operaciones",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 20,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 21,
+    "tipo": "Series",
+    "subtipo": "letras_bloques",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 22,
+    "tipo": "Series",
+    "subtipo": "letra_numero",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 23,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 24,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 25,
+    "tipo": "Series",
+    "subtipo": "num_creciente",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 26,
+    "tipo": "Combinatoria",
+    "subtipo": "permutaciones",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 27,
+    "tipo": "Series",
+    "subtipo": "letras_alternas",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 28,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 29,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 30,
+    "tipo": "Series de relojes",
+    "subtipo": "tarta",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 31,
+    "tipo": "Series de relojes",
+    "subtipo": "tarta",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 32,
+    "tipo": "Series de relojes",
+    "subtipo": "reloj",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 33,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 34,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 35,
+    "tipo": "Series de relojes",
+    "subtipo": "puntos",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 36,
+    "tipo": "Series de relojes",
+    "subtipo": "puntos",
+    "dificultad": "media",
+    "correcta": "C"
+   }
+  ]
  }
 ]

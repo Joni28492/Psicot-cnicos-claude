@@ -1142,5 +1142,137 @@
   "truco": "El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "d939bce3c8",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Un club tiene 5 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?",
+  "destacado": null,
+  "opciones": [
+   "60",
+   "125",
+   "120",
+   "10"
+  ],
+  "correcta": "A",
+  "truco": "5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6aea7e8dc3",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Hay 7 elementos distintos y 4 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?",
+  "destacado": null,
+  "opciones": [
+   "5.040",
+   "35",
+   "840",
+   "2.401"
+  ],
+  "correcta": "C",
+  "truco": "7 elementos en 4 espacios sin repetir, importa el orden: 7×6×5×4 = 840 (empiezas con 7 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9d2f77da1f",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "7 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?",
+  "destacado": null,
+  "opciones": [
+   "5.040",
+   "2.520",
+   "720",
+   "49"
+  ],
+  "correcta": "A",
+  "truco": "Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8adba31bb4",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "5 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?",
+  "destacado": null,
+  "opciones": [
+   "25",
+   "120",
+   "24",
+   "60"
+  ],
+  "correcta": "B",
+  "truco": "Se usan todos y el orden importa: 5! = 5×4×3×2×1 = 120.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f3ec9db6c4",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "6 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?",
+  "destacado": null,
+  "opciones": [
+   "360",
+   "36",
+   "120",
+   "720"
+  ],
+  "correcta": "D",
+  "truco": "Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2875b0a6b8",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "permutaciones",
+  "dificultad": "dificil",
+  "enunciado": "6 amigos se sientan en una fila de 6 sillas. ¿De cuántas formas pueden sentarse si dos de ellos, Ana y Luis, quieren estar siempre juntos?",
+  "destacado": null,
+  "opciones": [
+   "720",
+   "240",
+   "120",
+   "48"
+  ],
+  "correcta": "B",
+  "truco": "Ana y Luis forman un bloque: 5 elementos → 5! = 120, y el bloque se puede dar la vuelta (×2): 240.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

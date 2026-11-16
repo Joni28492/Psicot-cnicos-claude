@@ -1,6 +1,6 @@
 # Combinatoria
 
-52 ejercicios · fácil: 17 · media: 23 · difícil: 12
+58 ejercicios · fácil: 20 · media: 25 · difícil: 13
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -625,3 +625,75 @@ Un club tiene 9 socios y hay que elegir presidente, secretario y tesorero entre 
 - D) 20
 
 **Respuesta: D.** El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.
+
+## d939bce3c8 · media · variaciones
+*Test 020 (2026-11-16), ejercicio 8*
+
+Un club tiene 5 socios y hay que elegir presidente, secretario y tesorero entre ellos, sin que nadie ocupe dos cargos. ¿De cuántas formas?
+
+- A) 60
+- B) 125
+- C) 120
+- D) 10
+
+**Respuesta: A.** 5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).
+
+## 6aea7e8dc3 · media · variaciones
+*Test 020 (2026-11-16), ejercicio 10*
+
+Hay 7 elementos distintos y 4 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 5.040
+- B) 35
+- C) 840
+- D) 2.401
+
+**Respuesta: C.** 7 elementos en 4 espacios sin repetir, importa el orden: 7×6×5×4 = 840 (empiezas con 7 opciones y cada espacio tiene una menos).
+
+## 9d2f77da1f · fácil · permutaciones
+*Test 020 (2026-11-16), ejercicio 14*
+
+7 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?
+
+- A) 5.040
+- B) 2.520
+- C) 720
+- D) 49
+
+**Respuesta: A.** Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.
+
+## 8adba31bb4 · fácil · permutaciones
+*Test 020 (2026-11-16), ejercicio 20*
+
+5 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?
+
+- A) 25
+- B) 120
+- C) 24
+- D) 60
+
+**Respuesta: B.** Se usan todos y el orden importa: 5! = 5×4×3×2×1 = 120.
+
+## f3ec9db6c4 · fácil · permutaciones
+*Test 020 (2026-11-16), ejercicio 24*
+
+6 corredores llegan a meta sin empates. ¿De cuántas formas distintas puede quedar la clasificación?
+
+- A) 360
+- B) 36
+- C) 120
+- D) 720
+
+**Respuesta: D.** Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.
+
+## 2875b0a6b8 · difícil · permutaciones
+*Test 020 (2026-11-16), ejercicio 26*
+
+6 amigos se sientan en una fila de 6 sillas. ¿De cuántas formas pueden sentarse si dos de ellos, Ana y Luis, quieren estar siempre juntos?
+
+- A) 720
+- B) 240
+- C) 120
+- D) 48
+
+**Respuesta: B.** Ana y Luis forman un bloque: 5 elementos → 5! = 120, y el bloque se puede dar la vuelta (×2): 240.

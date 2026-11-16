@@ -1010,5 +1010,203 @@
   "truco": "Los saltos crecen: +1, +2, +3, +4… el siguiente es +5. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "253d1ff63f",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "num_cuadrados",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "16, 25, 36, 49, 64, ?",
+  "opciones": [
+   "79",
+   "81",
+   "78",
+   "71"
+  ],
+  "correcta": "B",
+  "truco": "Son cuadrados: 4², 5², 6²… El siguiente es 9² = 81.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "641fb78c06",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "4, 8, 16, 32, 64, ?",
+  "opciones": [
+   "118",
+   "133",
+   "128",
+   "96"
+  ],
+  "correcta": "C",
+  "truco": "Cada término se multiplica por 2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2446f6081a",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "R3, U4, X5, A6, D7, ?",
+  "opciones": [
+   "D8",
+   "H8",
+   "G8",
+   "G9"
+  ],
+  "correcta": "C",
+  "truco": "Dos reglas independientes: las letras avanzan 3 y los números hacen +1.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "43a9999877",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "14, 78, 18, 75, 22, 72, 26, ?",
+  "opciones": [
+   "30",
+   "79",
+   "69",
+   "70"
+  ],
+  "correcta": "C",
+  "truco": "Dos series entrelazadas: lugares impares +4, lugares pares -3. Toca un lugar par: 72 -3 = 69.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b1c4ea301f",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "num_dos_operaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "5, 10, 30, 35, 105, ?",
+  "opciones": [
+   "110",
+   "315",
+   "175",
+   "108"
+  ],
+  "correcta": "A",
+  "truco": "Se alternan dos operaciones: +5 y ×3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3fc7be1702",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "letras_bloques",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué pareja continúa la serie?",
+  "destacado": "ÑO, RS, VW, ZA, DE, ?",
+  "opciones": [
+   "IJ",
+   "HI",
+   "HJ",
+   "GH"
+  ],
+  "correcta": "B",
+  "truco": "Cada pareja son dos letras seguidas y el bloque avanza 4 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "323b477cb7",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "L3, N5, O7, Q9, S11, ?",
+  "opciones": [
+   "U14",
+   "U13",
+   "V13",
+   "S13"
+  ],
+  "correcta": "B",
+  "truco": "Dos reglas independientes: las letras avanzan 2 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "76378a3495",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "18, 20, 25, 33, 44, ?",
+  "opciones": [
+   "58",
+   "61",
+   "55",
+   "53"
+  ],
+  "correcta": "A",
+  "truco": "Las diferencias son 2, 5, 8, 11… y crecen 3 cada vez: la siguiente es +14.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "60a350f03d",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "letras_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "K, O, L, S, M, W, N, ?",
+  "opciones": [
+   "A",
+   "C",
+   "Ñ",
+   "E"
+  ],
+  "correcta": "A",
+  "truco": "Son dos series entrelazadas: posiciones impares +1 y pares +4. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

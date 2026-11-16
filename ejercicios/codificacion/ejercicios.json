@@ -504,5 +504,137 @@
   "truco": "Cada letra se desplaza +2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "820f593556",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, SLPM = 4586 y CSLF = 1452. Con el mismo código, ¿cómo se escribe PCCS?",
+  "destacado": null,
+  "opciones": [
+   "8114",
+   "8115",
+   "1814",
+   "4118"
+  ],
+  "correcta": "A",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: C=1, F=2, L=5, M=6, P=8, S=4.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "248fd09952",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "vocales",
+  "dificultad": "media",
+  "enunciado": "Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe CIUDAD?",
+  "destacado": null,
+  "opciones": [
+   "351",
+   "C35D1D",
+   "C31D5D",
+   "D1D53C"
+  ],
+  "correcta": "B",
+  "truco": "Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e398b40107",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "renombrar",
+  "dificultad": "dificil",
+  "enunciado": "Llamamos amarillo al blanco, verde al amarillo y blanco al verde. Con esos nombres, ¿de qué color es el sol?",
+  "destacado": null,
+  "opciones": [
+   "verde",
+   "rojo",
+   "amarillo",
+   "azul"
+  ],
+  "correcta": "A",
+  "truco": "El sol es amarillo de verdad, y a ese color ahora lo llamamos verde.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0198ea335e",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, MANO se escribe KYLN. Con el mismo código, ¿cómo se escribe PERRO?",
+  "destacado": null,
+  "opciones": [
+   "ODQQÑ",
+   "NBOOM",
+   "NCPPM",
+   "ÑCPPN"
+  ],
+  "correcta": "D",
+  "truco": "Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c9376f0c2e",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "espejo",
+  "dificultad": "media",
+  "enunciado": "Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe ROMA?",
+  "destacado": null,
+  "opciones": [
+   "ZÑLI",
+   "ILNZ",
+   "JMOA",
+   "ILÑZ"
+  ],
+  "correcta": "D",
+  "truco": "Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e5372fbd78",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra TREN?",
+  "destacado": null,
+  "opciones": [
+   "60",
+   "58",
+   "59",
+   "57"
+  ],
+  "correcta": "C",
+  "truco": "Posiciones: 21(T) + 19(R) + 5(E) + 14(N) = 59. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

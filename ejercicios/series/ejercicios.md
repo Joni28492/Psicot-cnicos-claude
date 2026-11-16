@@ -1,6 +1,6 @@
 # Series
 
-46 ejercicios · fácil: 12 · media: 27 · difícil: 7
+55 ejercicios · fácil: 14 · media: 32 · difícil: 9
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -645,3 +645,129 @@
 - D) S
 
 **Respuesta: D.** Los saltos crecen: +1, +2, +3, +4… el siguiente es +5. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 253d1ff63f · fácil · num_cuadrados
+*Test 020 (2026-11-16), ejercicio 5*
+
+¿Qué número continúa la serie?
+
+**16, 25, 36, 49, 64, ?**
+
+- A) 79
+- B) 81
+- C) 78
+- D) 71
+
+**Respuesta: B.** Son cuadrados: 4², 5², 6²… El siguiente es 9² = 81.
+
+## 641fb78c06 · fácil · num_geometrica
+*Test 020 (2026-11-16), ejercicio 6*
+
+¿Qué número continúa la serie?
+
+**4, 8, 16, 32, 64, ?**
+
+- A) 118
+- B) 133
+- C) 128
+- D) 96
+
+**Respuesta: C.** Cada término se multiplica por 2.
+
+## 2446f6081a · media · letra_numero
+*Test 020 (2026-11-16), ejercicio 12*
+
+¿Qué término continúa la serie?
+
+**R3, U4, X5, A6, D7, ?**
+
+- A) D8
+- B) H8
+- C) G8
+- D) G9
+
+**Respuesta: C.** Dos reglas independientes: las letras avanzan 3 y los números hacen +1.
+
+## 43a9999877 · media · num_alternas
+*Test 020 (2026-11-16), ejercicio 13*
+
+¿Qué número continúa la serie?
+
+**14, 78, 18, 75, 22, 72, 26, ?**
+
+- A) 30
+- B) 79
+- C) 69
+- D) 70
+
+**Respuesta: C.** Dos series entrelazadas: lugares impares +4, lugares pares -3. Toca un lugar par: 72 -3 = 69.
+
+## b1c4ea301f · difícil · num_dos_operaciones
+*Test 020 (2026-11-16), ejercicio 19*
+
+¿Qué número continúa la serie?
+
+**5, 10, 30, 35, 105, ?**
+
+- A) 110
+- B) 315
+- C) 175
+- D) 108
+
+**Respuesta: A.** Se alternan dos operaciones: +5 y ×3.
+
+## 3fc7be1702 · difícil · letras_bloques
+*Test 020 (2026-11-16), ejercicio 21*
+
+¿Qué pareja continúa la serie?
+
+**ÑO, RS, VW, ZA, DE, ?**
+
+- A) IJ
+- B) HI
+- C) HJ
+- D) GH
+
+**Respuesta: B.** Cada pareja son dos letras seguidas y el bloque avanza 4 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 323b477cb7 · media · letra_numero
+*Test 020 (2026-11-16), ejercicio 22*
+
+¿Qué término continúa la serie?
+
+**L3, N5, O7, Q9, S11, ?**
+
+- A) U14
+- B) U13
+- C) V13
+- D) S13
+
+**Respuesta: B.** Dos reglas independientes: las letras avanzan 2 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 76378a3495 · media · num_creciente
+*Test 020 (2026-11-16), ejercicio 25*
+
+¿Qué número continúa la serie?
+
+**18, 20, 25, 33, 44, ?**
+
+- A) 58
+- B) 61
+- C) 55
+- D) 53
+
+**Respuesta: A.** Las diferencias son 2, 5, 8, 11… y crecen 3 cada vez: la siguiente es +14.
+
+## 60a350f03d · media · letras_alternas
+*Test 020 (2026-11-16), ejercicio 27*
+
+¿Qué letra continúa la serie?
+
+**K, O, L, S, M, W, N, ?**
+
+- A) A
+- B) C
+- C) Ñ
+- D) E
+
+**Respuesta: A.** Son dos series entrelazadas: posiciones impares +1 y pares +4. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).

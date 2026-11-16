@@ -1,6 +1,6 @@
 # Reglas de tres
 
-22 ejercicios · fácil: 7 · media: 10 · difícil: 5
+28 ejercicios · fácil: 9 · media: 13 · difícil: 6
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -265,3 +265,75 @@ Un tren a 8 km/h tarda 20 h en llegar. ¿Cuántas horas tardará a 32 km/h?
 - D) 5 h
 
 **Respuesta: D.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 8 × 20 = 160; 160 ÷ 32 = 5.
+
+## fb69accb07 · media · compuesta
+*Test 020 (2026-11-16), ejercicio 1*
+
+5 máquinas fabrican 40 piezas en 2 horas. ¿Cuántas piezas fabrican 2 máquinas en 3 horas?
+
+- A) 60
+- B) 16
+- C) 24
+- D) 14
+
+**Respuesta: C.** Piezas por máquina y hora: 40 ÷ (5×2) = 4. Luego 2×3×4 = 24.
+
+## 264381b703 · fácil · directa
+*Test 020 (2026-11-16), ejercicio 7*
+
+2 kg de naranjas cuestan 12 €. ¿Cuánto cuestan 9 kg?
+
+- A) 54 €
+- B) 55 €
+- C) 19 €
+- D) 24 €
+
+**Respuesta: A.** Busca el valor de una unidad: 12 ÷ 2 = 6; luego ×9. No sumes la diferencia (7) al resultado.
+
+## 7a528c6b61 · fácil · directa
+*Test 020 (2026-11-16), ejercicio 11*
+
+3 kg de naranjas cuestan 4,5 €. ¿Cuánto cuestan 10 kg?
+
+- A) 11,5 €
+- B) 16 €
+- C) 15 €
+- D) 9 €
+
+**Respuesta: C.** Busca el valor de una unidad: 4,5 ÷ 3 = 1,5; luego ×10. No sumes la diferencia (7) al resultado.
+
+## 1602ff249f · difícil · trabajo_conjunto
+*Test 020 (2026-11-16), ejercicio 16*
+
+Una impresora hace un trabajo en 4 min y otra en 12 min. ¿Cuánto tardan las dos juntas?
+
+- A) 8 min
+- B) 6 min
+- C) 16 min
+- D) 3 min
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/4 + 1/12 = 16/48 ⇒ tardan 48/16 = 3. Atajo: producto ÷ suma.
+
+## 1a38c54071 · media · inversa
+*Test 020 (2026-11-16), ejercicio 17*
+
+Con 3 cajeros se atiende la cola en 15 minutos. ¿Cuántos minutos con 9 cajeros?
+
+- A) 4 minutos
+- B) 2 minutos
+- C) 5 minutos
+- D) 45 minutos
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 15 = 45; 45 ÷ 9 = 5.
+
+## 880584b8ab · media · inversa
+*Test 020 (2026-11-16), ejercicio 23*
+
+3 obreros tardan 15 días en hacer una obra. ¿Cuántos días tardarían 15 obreros?
+
+- A) 75 días
+- B) 3 días
+- C) 1 días
+- D) 4 días
+
+**Respuesta: B.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 15 = 45; 45 ÷ 15 = 3.

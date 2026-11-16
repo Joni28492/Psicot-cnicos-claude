@@ -482,5 +482,137 @@
   "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 8 × 20 = 160; 160 ÷ 32 = 5.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "fb69accb07",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "5 máquinas fabrican 40 piezas en 2 horas. ¿Cuántas piezas fabrican 2 máquinas en 3 horas?",
+  "destacado": null,
+  "opciones": [
+   "60",
+   "16",
+   "24",
+   "14"
+  ],
+  "correcta": "C",
+  "truco": "Piezas por máquina y hora: 40 ÷ (5×2) = 4. Luego 2×3×4 = 24.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "264381b703",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "2 kg de naranjas cuestan 12 €. ¿Cuánto cuestan 9 kg?",
+  "destacado": null,
+  "opciones": [
+   "54 €",
+   "55 €",
+   "19 €",
+   "24 €"
+  ],
+  "correcta": "A",
+  "truco": "Busca el valor de una unidad: 12 ÷ 2 = 6; luego ×9. No sumes la diferencia (7) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "7a528c6b61",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "3 kg de naranjas cuestan 4,5 €. ¿Cuánto cuestan 10 kg?",
+  "destacado": null,
+  "opciones": [
+   "11,5 €",
+   "16 €",
+   "15 €",
+   "9 €"
+  ],
+  "correcta": "C",
+  "truco": "Busca el valor de una unidad: 4,5 ÷ 3 = 1,5; luego ×10. No sumes la diferencia (7) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "1602ff249f",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Una impresora hace un trabajo en 4 min y otra en 12 min. ¿Cuánto tardan las dos juntas?",
+  "destacado": null,
+  "opciones": [
+   "8 min",
+   "6 min",
+   "16 min",
+   "3 min"
+  ],
+  "correcta": "D",
+  "truco": "Suma lo que hace cada uno en una hora: 1/4 + 1/12 = 16/48 ⇒ tardan 48/16 = 3. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "1a38c54071",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Con 3 cajeros se atiende la cola en 15 minutos. ¿Cuántos minutos con 9 cajeros?",
+  "destacado": null,
+  "opciones": [
+   "4 minutos",
+   "2 minutos",
+   "5 minutos",
+   "45 minutos"
+  ],
+  "correcta": "C",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 15 = 45; 45 ÷ 9 = 5.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "880584b8ab",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "3 obreros tardan 15 días en hacer una obra. ¿Cuántos días tardarían 15 obreros?",
+  "destacado": null,
+  "opciones": [
+   "75 días",
+   "3 días",
+   "1 días",
+   "4 días"
+  ],
+  "correcta": "B",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 15 = 45; 45 ÷ 15 = 3.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

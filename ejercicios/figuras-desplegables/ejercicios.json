@@ -350,5 +350,93 @@
   "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
   "imagen": "img/53bab7b43c.png",
   "tiempo": 30
+ },
+ {
+  "id": "687518b505",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 28,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (tetraedro)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/687518b505.png",
+  "tiempo": 30
+ },
+ {
+  "id": "cdac7b4a18",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (octaedro)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/cdac7b4a18.png",
+  "tiempo": 30
+ },
+ {
+  "id": "a8a5a7167e",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 33,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (prisma triangular)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/a8a5a7167e.png",
+  "tiempo": 30
+ },
+ {
+  "id": "94f59d373b",
+  "test": "psicotecnico_020_dificil.pdf",
+  "numero": 20,
+  "fecha": "2026-11-16",
+  "modo": "diario",
+  "n": 34,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (pirámide cuadrada)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/94f59d373b.png",
+  "tiempo": 30
  }
 ]

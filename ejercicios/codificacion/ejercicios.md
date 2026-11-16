@@ -1,6 +1,6 @@
 # Codificación
 
-23 ejercicios · fácil: 10 · media: 11 · difícil: 2
+29 ejercicios · fácil: 12 · media: 14 · difícil: 3
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -277,3 +277,75 @@ En un código, PLAYA se escribe RNCAC. Con el mismo código, ¿cómo se escribe 
 - D) ÑCT
 
 **Respuesta: D.** Cada letra se desplaza +2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 820f593556 · media · digitos
+*Test 020 (2026-11-16), ejercicio 2*
+
+En un código, SLPM = 4586 y CSLF = 1452. Con el mismo código, ¿cómo se escribe PCCS?
+
+- A) 8114
+- B) 8115
+- C) 1814
+- D) 4118
+
+**Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: C=1, F=2, L=5, M=6, P=8, S=4.
+
+## 248fd09952 · media · vocales
+*Test 020 (2026-11-16), ejercicio 3*
+
+Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe CIUDAD?
+
+- A) 351
+- B) C35D1D
+- C) C31D5D
+- D) D1D53C
+
+**Respuesta: B.** Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.
+
+## e398b40107 · difícil · renombrar
+*Test 020 (2026-11-16), ejercicio 4*
+
+Llamamos amarillo al blanco, verde al amarillo y blanco al verde. Con esos nombres, ¿de qué color es el sol?
+
+- A) verde
+- B) rojo
+- C) amarillo
+- D) azul
+
+**Respuesta: A.** El sol es amarillo de verdad, y a ese color ahora lo llamamos verde.
+
+## 0198ea335e · fácil · cesar
+*Test 020 (2026-11-16), ejercicio 9*
+
+En un código, MANO se escribe KYLN. Con el mismo código, ¿cómo se escribe PERRO?
+
+- A) ODQQÑ
+- B) NBOOM
+- C) NCPPM
+- D) ÑCPPN
+
+**Respuesta: D.** Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## c9376f0c2e · media · espejo
+*Test 020 (2026-11-16), ejercicio 15*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe ROMA?
+
+- A) ZÑLI
+- B) ILNZ
+- C) JMOA
+- D) ILÑZ
+
+**Respuesta: D.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## e5372fbd78 · fácil · valor_palabra
+*Test 020 (2026-11-16), ejercicio 18*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra TREN?
+
+- A) 60
+- B) 58
+- C) 59
+- D) 57
+
+**Respuesta: C.** Posiciones: 21(T) + 19(R) + 5(E) + 14(N) = 59. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
