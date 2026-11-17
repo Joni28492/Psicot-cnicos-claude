@@ -1,6 +1,6 @@
 # Figuras desplegables
 
-20 ejercicios · fácil: 2 · media: 2 · difícil: 16
+24 ejercicios · fácil: 2 · media: 2 · difícil: 20
 
 ## f0b0d7ff66 · difícil · figura
 *Test 012 (2026-11-08), ejercicio 33*
@@ -181,3 +181,39 @@
 ![ejercicio](img/94f59d373b.png)
 
 **Respuesta: A.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## a4eb2c4cf9 · difícil · figura
+*Test 021 (2026-11-17), ejercicio 27*
+
+¿Qué desarrollo forma esta figura? (tetraedro)
+
+![ejercicio](img/a4eb2c4cf9.png)
+
+**Respuesta: B.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## c80b0fcf42 · difícil · figura
+*Test 021 (2026-11-17), ejercicio 28*
+
+¿Qué figura se forma al plegar este desarrollo? (tetraedro)
+
+![ejercicio](img/c80b0fcf42.png)
+
+**Respuesta: B.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## 050c2199b2 · difícil · figura
+*Test 021 (2026-11-17), ejercicio 32*
+
+¿Qué figura se forma al plegar este desarrollo? (pirámide cuadrada)
+
+![ejercicio](img/050c2199b2.png)
+
+**Respuesta: D.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## f7fba5e750 · difícil · figura
+*Test 021 (2026-11-17), ejercicio 34*
+
+¿Qué figura se forma al plegar este desarrollo? (octaedro)
+
+![ejercicio](img/f7fba5e750.png)
+
+**Respuesta: D.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.

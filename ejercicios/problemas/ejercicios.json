@@ -1494,5 +1494,203 @@
   "truco": "Se fija a una persona y las demás se ordenan: (5−1)! = 24.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "dd0f1cd5a1",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "ecuacion",
+  "dificultad": "media",
+  "enunciado": "La mitad de un número más 4 es igual a sus tres cuartas partes. ¿Qué número es?",
+  "destacado": null,
+  "opciones": [
+   "32",
+   "17",
+   "16",
+   "21"
+  ],
+  "correcta": "C",
+  "truco": "x/2 + 4 = 3x/4 ⇒ 4 = x/4 ⇒ x = 16.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "1889b4509d",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "veces",
+  "dificultad": "media",
+  "enunciado": "Un padre tiene 5 veces los años de su hijo y entre los dos suman 36. ¿Cuántos años tiene el padre?",
+  "destacado": null,
+  "opciones": [
+   "6",
+   "18",
+   "31",
+   "30"
+  ],
+  "correcta": "D",
+  "truco": "El total son 5+1 = 6 partes iguales: 36 ÷ 6 = 6 (hijo). Padre: 5×6 = 30.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "03922d5a88",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "encuentro",
+  "dificultad": "dificil",
+  "enunciado": "Dos trenes salen a la vez de dos ciudades separadas 400 km y avanzan el uno hacia el otro a 50 y 30 km/h. ¿Cuánto tardan en cruzarse?",
+  "destacado": null,
+  "opciones": [
+   "13 h",
+   "6 h",
+   "8 h",
+   "5 h"
+  ],
+  "correcta": "D",
+  "truco": "Se acercan a 50+30 = 80 km/h: 400 ÷ 80 = 5 h.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9287d8ab49",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "veces",
+  "dificultad": "media",
+  "enunciado": "Un padre tiene 3 veces los años de su hijo y entre los dos suman 36. ¿Cuántos años tiene el padre?",
+  "destacado": null,
+  "opciones": [
+   "27",
+   "9",
+   "33",
+   "18"
+  ],
+  "correcta": "A",
+  "truco": "El total son 3+1 = 4 partes iguales: 36 ÷ 4 = 9 (hijo). Padre: 3×9 = 27.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "59122f06e9",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "mas_que",
+  "dificultad": "facil",
+  "enunciado": "Juan tiene 16 libros más que Sara, y entre los dos suman 96. ¿Cuántos tiene Sara?",
+  "destacado": null,
+  "opciones": [
+   "40",
+   "80",
+   "32",
+   "48"
+  ],
+  "correcta": "A",
+  "truco": "Quita la diferencia al total: 96 − 16 = 80, a medias = 40 (el menor). El mayor es 40 + 16 = 56.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8cd5ce4be8",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "mas_que",
+  "dificultad": "facil",
+  "enunciado": "Ana tiene 20 euros más que Luis, y entre los dos suman 66. ¿Cuántos tiene Luis?",
+  "destacado": null,
+  "opciones": [
+   "23",
+   "33",
+   "46",
+   "13"
+  ],
+  "correcta": "A",
+  "truco": "Quita la diferencia al total: 66 − 20 = 46, a medias = 23 (el menor). El mayor es 23 + 20 = 43.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "785a8043db",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "combinatoria",
+  "dificultad": "media",
+  "enunciado": "¿De cuántas formas pueden sentarse 5 personas alrededor de una mesa redonda (los giros cuentan como la misma disposición)?",
+  "destacado": null,
+  "opciones": [
+   "48",
+   "120",
+   "25",
+   "24"
+  ],
+  "correcta": "D",
+  "truco": "Se fija a una persona y las demás se ordenan: (5−1)! = 24.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "733bd119fd",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "ecuacion",
+  "dificultad": "media",
+  "enunciado": "Si 5x + 10 = 2x + 34, ¿cuánto vale x?",
+  "destacado": null,
+  "opciones": [
+   "3",
+   "8",
+   "10",
+   "6"
+  ],
+  "correcta": "B",
+  "truco": "Pasa las x a un lado: 3x = 24 ⇒ x = 8.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "18546fd208",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En un aparcamiento hay motos y coches. En total hay 23 vehículos y 80 ruedas. ¿Cuántos coches hay?",
+  "destacado": null,
+  "opciones": [
+   "34",
+   "20",
+   "6",
+   "17"
+  ],
+  "correcta": "D",
+  "truco": "Supón que todos son del tipo menor (2): 23×2 = 46. Sobran 34, y cada cambio añade 2. 34 ÷ 2 = 17 coches.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

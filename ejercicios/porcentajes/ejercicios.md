@@ -1,6 +1,6 @@
 # Porcentajes
 
-32 ejercicios · fácil: 9 · media: 20 · difícil: 3
+38 ejercicios · fácil: 11 · media: 24 · difícil: 3
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -385,3 +385,75 @@ Un precio baja un 50% y después sube un 50%. ¿Cuál es el efecto total?
 - D) Se queda igual
 
 **Respuesta: C.** Los porcentajes no se compensan: (1+1/2)·(1−1/2) = 1 − 1/4 ⇒ pierde 25%.
+
+## d60c73d520 · fácil · porcentaje_de
+*Test 021 (2026-11-17), ejercicio 10*
+
+¿Cuánto es el 16⅔% de 48?
+
+- A) 16
+- B) 40
+- C) 13
+- D) 8
+
+**Respuesta: D.** 16⅔% = 1/6. 48 ÷ 6 × 1 = 8.
+
+## b3926832b4 · media · iva
+*Test 021 (2026-11-17), ejercicio 14*
+
+Un producto cuesta 350 € con un IVA del 25%. ¿Cuánto costaba sin IVA?
+
+- A) 262 €
+- B) 290 €
+- C) 261 €
+- D) 280 €
+
+**Respuesta: D.** El precio con IVA es el 125% del original: 350 ÷ 1,25 = 280. Restar el 25% al precio final es el error típico.
+
+## b4ce4f2cab · media · descuentos
+*Test 021 (2026-11-17), ejercicio 15*
+
+Una chaqueta de 400 € tiene un 10% de descuento y, sobre el nuevo precio, otro 20%. ¿Cuánto cuesta?
+
+- A) 288 €
+- B) 280 €
+- C) 360 €
+- D) 292 €
+
+**Respuesta: A.** No se suman (30%): se multiplican 90% × 80% = 72% del precio ⇒ 288 €.
+
+## 28c565296d · media · sube_y_baja
+*Test 021 (2026-11-17), ejercicio 16*
+
+Un precio sube un 40% y después baja un 40%. ¿Cuál es el efecto total?
+
+- A) Se queda igual
+- B) Sube un 16%
+- C) Baja un 16%
+- D) Baja un 40%
+
+**Respuesta: C.** Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.
+
+## 3a352ba885 · media · descuentos
+*Test 021 (2026-11-17), ejercicio 18*
+
+Una chaqueta de 240 € tiene un 10% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?
+
+- A) 162 €
+- B) 156 €
+- C) 166 €
+- D) 216 €
+
+**Respuesta: A.** No se suman (35%): se multiplican 90% × 75% = 67,5% del precio ⇒ 162 €.
+
+## afd0f5be0a · fácil · que_porcentaje
+*Test 021 (2026-11-17), ejercicio 22*
+
+¿Qué porcentaje de 80 es 4?
+
+- A) 5%
+- B) 1900%
+- C) 4%
+- D) 95%
+
+**Respuesta: A.** 4/80 se simplifica a 1/20 = 5%.

@@ -702,5 +702,137 @@
   "truco": "Los porcentajes no se compensan: (1+1/2)·(1−1/2) = 1 − 1/4 ⇒ pierde 25%.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "d60c73d520",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 16⅔% de 48?",
+  "destacado": null,
+  "opciones": [
+   "16",
+   "40",
+   "13",
+   "8"
+  ],
+  "correcta": "D",
+  "truco": "16⅔% = 1/6. 48 ÷ 6 × 1 = 8.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b3926832b4",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "iva",
+  "dificultad": "media",
+  "enunciado": "Un producto cuesta 350 € con un IVA del 25%. ¿Cuánto costaba sin IVA?",
+  "destacado": null,
+  "opciones": [
+   "262 €",
+   "290 €",
+   "261 €",
+   "280 €"
+  ],
+  "correcta": "D",
+  "truco": "El precio con IVA es el 125% del original: 350 ÷ 1,25 = 280. Restar el 25% al precio final es el error típico.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b4ce4f2cab",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 400 € tiene un 10% de descuento y, sobre el nuevo precio, otro 20%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "288 €",
+   "280 €",
+   "360 €",
+   "292 €"
+  ],
+  "correcta": "A",
+  "truco": "No se suman (30%): se multiplican 90% × 80% = 72% del precio ⇒ 288 €.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "28c565296d",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio sube un 40% y después baja un 40%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Se queda igual",
+   "Sube un 16%",
+   "Baja un 16%",
+   "Baja un 40%"
+  ],
+  "correcta": "C",
+  "truco": "Los porcentajes no se compensan: (1+2/5)·(1−2/5) = 1 − 4/25 ⇒ pierde 16%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3a352ba885",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "descuentos",
+  "dificultad": "media",
+  "enunciado": "Una chaqueta de 240 € tiene un 10% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?",
+  "destacado": null,
+  "opciones": [
+   "162 €",
+   "156 €",
+   "166 €",
+   "216 €"
+  ],
+  "correcta": "A",
+  "truco": "No se suman (35%): se multiplican 90% × 75% = 67,5% del precio ⇒ 162 €.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "afd0f5be0a",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 80 es 4?",
+  "destacado": null,
+  "opciones": [
+   "5%",
+   "1900%",
+   "4%",
+   "95%"
+  ],
+  "correcta": "A",
+  "truco": "4/80 se simplifica a 1/20 = 5%.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

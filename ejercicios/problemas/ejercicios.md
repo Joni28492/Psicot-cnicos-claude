@@ -1,6 +1,6 @@
 # Problemas
 
-68 ejercicios · fácil: 24 · media: 30 · difícil: 14
+77 ejercicios · fácil: 27 · media: 35 · difícil: 15
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -817,3 +817,111 @@ En una caja hay monedas de 1 € y de 2 €. Hay 17 monedas que suman 23 €. ¿
 - D) 25
 
 **Respuesta: B.** Se fija a una persona y las demás se ordenan: (5−1)! = 24.
+
+## dd0f1cd5a1 · media · ecuacion
+*Test 021 (2026-11-17), ejercicio 2*
+
+La mitad de un número más 4 es igual a sus tres cuartas partes. ¿Qué número es?
+
+- A) 32
+- B) 17
+- C) 16
+- D) 21
+
+**Respuesta: C.** x/2 + 4 = 3x/4 ⇒ 4 = x/4 ⇒ x = 16.
+
+## 1889b4509d · media · veces
+*Test 021 (2026-11-17), ejercicio 4*
+
+Un padre tiene 5 veces los años de su hijo y entre los dos suman 36. ¿Cuántos años tiene el padre?
+
+- A) 6
+- B) 18
+- C) 31
+- D) 30
+
+**Respuesta: D.** El total son 5+1 = 6 partes iguales: 36 ÷ 6 = 6 (hijo). Padre: 5×6 = 30.
+
+## 03922d5a88 · difícil · encuentro
+*Test 021 (2026-11-17), ejercicio 6*
+
+Dos trenes salen a la vez de dos ciudades separadas 400 km y avanzan el uno hacia el otro a 50 y 30 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 13 h
+- B) 6 h
+- C) 8 h
+- D) 5 h
+
+**Respuesta: D.** Se acercan a 50+30 = 80 km/h: 400 ÷ 80 = 5 h.
+
+## 9287d8ab49 · media · veces
+*Test 021 (2026-11-17), ejercicio 9*
+
+Un padre tiene 3 veces los años de su hijo y entre los dos suman 36. ¿Cuántos años tiene el padre?
+
+- A) 27
+- B) 9
+- C) 33
+- D) 18
+
+**Respuesta: A.** El total son 3+1 = 4 partes iguales: 36 ÷ 4 = 9 (hijo). Padre: 3×9 = 27.
+
+## 59122f06e9 · fácil · mas_que
+*Test 021 (2026-11-17), ejercicio 11*
+
+Juan tiene 16 libros más que Sara, y entre los dos suman 96. ¿Cuántos tiene Sara?
+
+- A) 40
+- B) 80
+- C) 32
+- D) 48
+
+**Respuesta: A.** Quita la diferencia al total: 96 − 16 = 80, a medias = 40 (el menor). El mayor es 40 + 16 = 56.
+
+## 8cd5ce4be8 · fácil · mas_que
+*Test 021 (2026-11-17), ejercicio 12*
+
+Ana tiene 20 euros más que Luis, y entre los dos suman 66. ¿Cuántos tiene Luis?
+
+- A) 23
+- B) 33
+- C) 46
+- D) 13
+
+**Respuesta: A.** Quita la diferencia al total: 66 − 20 = 46, a medias = 23 (el menor). El mayor es 23 + 20 = 43.
+
+## 785a8043db · media · combinatoria
+*Test 021 (2026-11-17), ejercicio 13*
+
+¿De cuántas formas pueden sentarse 5 personas alrededor de una mesa redonda (los giros cuentan como la misma disposición)?
+
+- A) 48
+- B) 120
+- C) 25
+- D) 24
+
+**Respuesta: D.** Se fija a una persona y las demás se ordenan: (5−1)! = 24.
+
+## 733bd119fd · media · ecuacion
+*Test 021 (2026-11-17), ejercicio 19*
+
+Si 5x + 10 = 2x + 34, ¿cuánto vale x?
+
+- A) 3
+- B) 8
+- C) 10
+- D) 6
+
+**Respuesta: B.** Pasa las x a un lado: 3x = 24 ⇒ x = 8.
+
+## 18546fd208 · fácil · cabezas_patas
+*Test 021 (2026-11-17), ejercicio 24*
+
+En un aparcamiento hay motos y coches. En total hay 23 vehículos y 80 ruedas. ¿Cuántos coches hay?
+
+- A) 34
+- B) 20
+- C) 6
+- D) 17
+
+**Respuesta: D.** Supón que todos son del tipo menor (2): 23×2 = 46. Sobran 34, y cada cambio añade 2. 34 ÷ 2 = 17 coches.

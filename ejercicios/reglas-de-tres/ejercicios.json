@@ -614,5 +614,137 @@
   "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 15 = 45; 45 ÷ 15 = 3.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "715e5f483c",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "5 máquinas fabrican 280 piezas en 7 horas. ¿Cuántas piezas fabrican 4 máquinas en 3 horas?",
+  "destacado": null,
+  "opciones": [
+   "97",
+   "224",
+   "96",
+   "120"
+  ],
+  "correcta": "C",
+  "truco": "Piezas por máquina y hora: 280 ÷ (5×7) = 8. Luego 4×3×8 = 96.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3b25b182ed",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "Un coche recorre 12 km con 2 litros. ¿Cuántos km recorre con 11 litros?",
+  "destacado": null,
+  "opciones": [
+   "66 km",
+   "21 km",
+   "24 km",
+   "67 km"
+  ],
+  "correcta": "A",
+  "truco": "Busca el valor de una unidad: 12 ÷ 2 = 6; luego ×11. No sumes la diferencia (9) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "69985359c9",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "3 máquinas fabrican 96 piezas en 8 horas. ¿Cuántas piezas fabrican 7 máquinas en 4 horas?",
+  "destacado": null,
+  "opciones": [
+   "224",
+   "122",
+   "112",
+   "48"
+  ],
+  "correcta": "C",
+  "truco": "Piezas por máquina y hora: 96 ÷ (3×8) = 4. Luego 7×4×4 = 112.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6e77a99893",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "En un mapa, 5 cm equivalen a 10 km. ¿A cuántos km equivalen 7 cm?",
+  "destacado": null,
+  "opciones": [
+   "14 km",
+   "15 km",
+   "12 km",
+   "20 km"
+  ],
+  "correcta": "A",
+  "truco": "Busca el valor de una unidad: 10 ÷ 5 = 2; luego ×7. No sumes la diferencia (2) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "968494c3bc",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "2 bombas vacían una piscina en 20 horas. ¿Cuántas horas tardarían 40 bombas?",
+  "destacado": null,
+  "opciones": [
+   "6 horas",
+   "1 horas",
+   "2 horas",
+   "400 horas"
+  ],
+  "correcta": "B",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 20 = 40; 40 ÷ 40 = 1.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "fde46509e6",
+  "test": "psicotecnico_021_facil.pdf",
+  "numero": 21,
+  "fecha": "2026-11-17",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "En un mapa, 7 cm equivalen a 28 km. ¿A cuántos km equivalen 4 cm?",
+  "destacado": null,
+  "opciones": [
+   "16 km",
+   "49 km",
+   "17 km",
+   "25 km"
+  ],
+  "correcta": "A",
+  "truco": "Busca el valor de una unidad: 28 ÷ 7 = 4; luego ×4. No sumes la diferencia (-3) al resultado.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

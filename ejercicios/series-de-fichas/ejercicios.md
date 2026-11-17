@@ -1,6 +1,6 @@
 # Series de fichas
 
-25 ejercicios · fácil: 7 · media: 7 · difícil: 11
+29 ejercicios · fácil: 9 · media: 8 · difícil: 12
 
 ## c8c6dc22f1 · fácil · domino_fila
 *Test 010 (2026-11-06), ejercicio 33*
@@ -226,3 +226,39 @@
 ![ejercicio](img/8143bd4c9f.png)
 
 **Respuesta: A.** Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha baja 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 5–0.
+
+## f63d75ceff · fácil · domino_fila_vertical
+*Test 021 (2026-11-17), ejercicio 29*
+
+¿Qué ficha de dominó continúa la serie? (en fila, con las fichas de pie, de izquierda a derecha)
+
+![ejercicio](img/f63d75ceff.png)
+
+**Respuesta: C.** Mira cada mitad por separado: la mitad superior sube 3 y la inferior sube 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 4–6.
+
+## 1c52a5fbb3 · media · domino_dos_filas
+*Test 021 (2026-11-17), ejercicio 30*
+
+¿Qué ficha de dominó continúa la serie? (en dos filas, de izquierda a derecha y de arriba abajo)
+
+![ejercicio](img/1c52a5fbb3.png)
+
+**Respuesta: C.** Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha sube 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 6–0.
+
+## 059ba03581 · difícil · domino_espiral
+*Test 021 (2026-11-17), ejercicio 31*
+
+¿Qué ficha de dominó continúa la serie? (en espiral, desde la ficha de inicio hacia fuera)
+
+![ejercicio](img/059ba03581.png)
+
+**Respuesta: A.** Mira cada mitad por separado: las dos mitades bajan 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 2–3.
+
+## b4a959e9e7 · fácil · domino_fila
+*Test 021 (2026-11-17), ejercicio 33*
+
+¿Qué ficha de dominó continúa la serie? (en fila)
+
+![ejercicio](img/b4a959e9e7.png)
+
+**Respuesta: B.** Mira cada mitad por separado: la mitad izquierda sube 3 y la derecha sube 2 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 4–6.

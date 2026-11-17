@@ -1,6 +1,6 @@
 # Reglas de tres
 
-28 ejercicios · fácil: 9 · media: 13 · difícil: 6
+34 ejercicios · fácil: 12 · media: 16 · difícil: 6
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -337,3 +337,75 @@ Con 3 cajeros se atiende la cola en 15 minutos. ¿Cuántos minutos con 9 cajeros
 - D) 4 días
 
 **Respuesta: B.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 15 = 45; 45 ÷ 15 = 3.
+
+## 715e5f483c · media · compuesta
+*Test 021 (2026-11-17), ejercicio 3*
+
+5 máquinas fabrican 280 piezas en 7 horas. ¿Cuántas piezas fabrican 4 máquinas en 3 horas?
+
+- A) 97
+- B) 224
+- C) 96
+- D) 120
+
+**Respuesta: C.** Piezas por máquina y hora: 280 ÷ (5×7) = 8. Luego 4×3×8 = 96.
+
+## 3b25b182ed · fácil · directa
+*Test 021 (2026-11-17), ejercicio 7*
+
+Un coche recorre 12 km con 2 litros. ¿Cuántos km recorre con 11 litros?
+
+- A) 66 km
+- B) 21 km
+- C) 24 km
+- D) 67 km
+
+**Respuesta: A.** Busca el valor de una unidad: 12 ÷ 2 = 6; luego ×11. No sumes la diferencia (9) al resultado.
+
+## 69985359c9 · media · compuesta
+*Test 021 (2026-11-17), ejercicio 8*
+
+3 máquinas fabrican 96 piezas en 8 horas. ¿Cuántas piezas fabrican 7 máquinas en 4 horas?
+
+- A) 224
+- B) 122
+- C) 112
+- D) 48
+
+**Respuesta: C.** Piezas por máquina y hora: 96 ÷ (3×8) = 4. Luego 7×4×4 = 112.
+
+## 6e77a99893 · fácil · directa
+*Test 021 (2026-11-17), ejercicio 17*
+
+En un mapa, 5 cm equivalen a 10 km. ¿A cuántos km equivalen 7 cm?
+
+- A) 14 km
+- B) 15 km
+- C) 12 km
+- D) 20 km
+
+**Respuesta: A.** Busca el valor de una unidad: 10 ÷ 5 = 2; luego ×7. No sumes la diferencia (2) al resultado.
+
+## 968494c3bc · media · inversa
+*Test 021 (2026-11-17), ejercicio 20*
+
+2 bombas vacían una piscina en 20 horas. ¿Cuántas horas tardarían 40 bombas?
+
+- A) 6 horas
+- B) 1 horas
+- C) 2 horas
+- D) 400 horas
+
+**Respuesta: B.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 20 = 40; 40 ÷ 40 = 1.
+
+## fde46509e6 · fácil · directa
+*Test 021 (2026-11-17), ejercicio 23*
+
+En un mapa, 7 cm equivalen a 28 km. ¿A cuántos km equivalen 4 cm?
+
+- A) 16 km
+- B) 49 km
+- C) 17 km
+- D) 25 km
+
+**Respuesta: A.** Busca el valor de una unidad: 28 ÷ 7 = 4; luego ×4. No sumes la diferencia (-3) al resultado.

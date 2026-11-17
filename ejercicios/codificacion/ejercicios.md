@@ -1,6 +1,6 @@
 # Codificación
 
-29 ejercicios · fácil: 12 · media: 14 · difícil: 3
+34 ejercicios · fácil: 14 · media: 16 · difícil: 4
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -349,3 +349,63 @@ Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra TREN?
 - D) 57
 
 **Respuesta: C.** Posiciones: 21(T) + 19(R) + 5(E) + 14(N) = 59. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## a30d7761c1 · fácil · cesar
+*Test 021 (2026-11-17), ejercicio 1*
+
+En un código, NORTE se escribe PRUWH. Con el mismo código, ¿cómo se escribe LUNA?
+
+- A) NWOC
+- B) OYQE
+- C) ÑXPD
+- D) OXQD
+
+**Respuesta: C.** Cada letra se desplaza +3 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 9c7cb2190c · media · digitos
+*Test 021 (2026-11-17), ejercicio 5*
+
+En un código, MGAD = 2354 y BGME = 1326. Con el mismo código, ¿cómo se escribe DEBG?
+
+- A) 4614
+- B) 4613
+- C) 3164
+- D) 6413
+
+**Respuesta: B.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=5, B=1, D=4, E=6, G=3, M=2.
+
+## 2a19fb74b8 · difícil · renombrar
+*Test 021 (2026-11-17), ejercicio 21*
+
+Llamamos amarillo al negro, rojo al amarillo y negro al rojo. Con esos nombres, ¿de qué color es la sangre?
+
+- A) azul
+- B) negro
+- C) verde
+- D) rojo
+
+**Respuesta: B.** La sangre es rojo de verdad, y a ese color ahora lo llamamos negro.
+
+## ef5e03baf5 · media · espejo
+*Test 021 (2026-11-17), ejercicio 25*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe LAGO?
+
+- A) ÑYSK
+- B) OZTL
+- C) LTZO
+- D) PAUM
+
+**Respuesta: B.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## cf2b1b0fee · fácil · valor_palabra
+*Test 021 (2026-11-17), ejercicio 26*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra NIDO?
+
+- A) 43
+- B) 46
+- C) 44
+- D) 42
+
+**Respuesta: A.** Posiciones: 14(N) + 9(I) + 4(D) + 16(O) = 43. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
