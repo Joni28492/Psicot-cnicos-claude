@@ -1,6 +1,6 @@
 # Series
 
-55 ejercicios · fácil: 14 · media: 32 · difícil: 9
+64 ejercicios · fácil: 17 · media: 37 · difícil: 10
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -771,3 +771,129 @@
 - D) E
 
 **Respuesta: A.** Son dos series entrelazadas: posiciones impares +1 y pares +4. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 93d7234269 · media · letra_numero
+*Test 022 (2026-11-18), ejercicio 1*
+
+¿Qué término continúa la serie?
+
+**G3, J6, M12, O24, R48, ?**
+
+- A) V96
+- B) U96
+- C) U97
+- D) R96
+
+**Respuesta: B.** Dos reglas independientes: las letras avanzan 3 y los números hacen ×2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 46e35467b1 · media · letras_alternas
+*Test 022 (2026-11-18), ejercicio 7*
+
+¿Qué letra continúa la serie?
+
+**F, F, D, I, B, L, Z, ?**
+
+- A) Q
+- B) X
+- C) Ñ
+- D) N
+
+**Respuesta: C.** Son dos series entrelazadas: posiciones impares -2 y pares +3. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 1f566de38d · media · letras_creciente
+*Test 022 (2026-11-18), ejercicio 13*
+
+¿Qué letra continúa la serie?
+
+**T, U, W, Z, D, ?**
+
+- A) H
+- B) L
+- C) K
+- D) I
+
+**Respuesta: D.** Los saltos crecen: +1, +2, +3, +4… el siguiente es +5.
+
+## 7f56eae92d · fácil · num_geometrica
+*Test 022 (2026-11-18), ejercicio 15*
+
+¿Qué número continúa la serie?
+
+**4, 16, 64, 256, 1.024, ?**
+
+- A) 1.280
+- B) 1.792
+- C) 4.097
+- D) 4.096
+
+**Respuesta: D.** Cada término se multiplica por 4.
+
+## 8b9af0619e · media · num_fibonacci
+*Test 022 (2026-11-18), ejercicio 20*
+
+¿Qué número continúa la serie?
+
+**5, 6, 11, 17, 28, ?**
+
+- A) 44
+- B) 39
+- C) 45
+- D) 46
+
+**Respuesta: C.** Cada término es la suma de los dos anteriores.
+
+## b4f4dd2bbe · fácil · num_cuadrados
+*Test 022 (2026-11-18), ejercicio 22*
+
+¿Qué número continúa la serie?
+
+**18, 27, 38, 51, 66, ?**
+
+- A) 88
+- B) 82
+- C) 83
+- D) 166
+
+**Respuesta: C.** Son cuadrados +2: 4², 5², 6²… El siguiente es 9² +2 = 83.
+
+## e67bccf3d8 · fácil · num_aritmetica
+*Test 022 (2026-11-18), ejercicio 24*
+
+¿Qué número continúa la serie?
+
+**33, 27, 21, 15, 9, ?**
+
+- A) 4
+- B) 1
+- C) 2
+- D) 3
+
+**Respuesta: D.** Suma constante: -6 en cada paso.
+
+## 27aba25c4c · difícil · num_dos_operaciones
+*Test 022 (2026-11-18), ejercicio 26*
+
+¿Qué número continúa la serie?
+
+**1, 6, 18, 23, 69, ?**
+
+- A) 74
+- B) 69
+- C) 207
+- D) 115
+
+**Respuesta: A.** Se alternan dos operaciones: +5 y ×3.
+
+## 6c4ba2d605 · media · num_fibonacci
+*Test 022 (2026-11-18), ejercicio 28*
+
+¿Qué número continúa la serie?
+
+**3, 6, 9, 15, 24, ?**
+
+- A) 40
+- B) 33
+- C) 41
+- D) 39
+
+**Respuesta: D.** Cada término es la suma de los dos anteriores.

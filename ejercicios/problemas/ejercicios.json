@@ -1692,5 +1692,181 @@
   "truco": "Supón que todos son del tipo menor (2): 23×2 = 46. Sobran 34, y cada cambio añade 2. 34 ÷ 2 = 17 coches.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "617b99ef63",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "edades",
+  "dificultad": "dificil",
+  "enunciado": "Ahora una madre tiene 4 veces la edad de su hija. Dentro de 12 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?",
+  "destacado": null,
+  "opciones": [
+   "18",
+   "12",
+   "24",
+   "6"
+  ],
+  "correcta": "D",
+  "truco": "Con x = edad de la hija: 4x + 12 = 2(x + 12) ⇒ 2x = 12 ⇒ x = 6. Comprobación: madre 24, dentro de 12 años 36 = 2×18.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "82bf087bae",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En un taller hay bicicletas y triciclos. En total hay 9 vehículos y 25 ruedas. ¿Cuántos triciclos hay?",
+  "destacado": null,
+  "opciones": [
+   "11",
+   "4",
+   "7",
+   "2"
+  ],
+  "correcta": "C",
+  "truco": "Supón que todos son del tipo menor (2): 9×2 = 18. Sobran 7, y cada cambio añade 1. 7 ÷ 1 = 7 triciclos.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "bfed183da3",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "mas_que",
+  "dificultad": "facil",
+  "enunciado": "Ana tiene 16 euros más que Luis, y entre los dos suman 34. ¿Cuántos tiene Ana?",
+  "destacado": null,
+  "opciones": [
+   "33",
+   "18",
+   "17",
+   "25"
+  ],
+  "correcta": "D",
+  "truco": "Quita la diferencia al total: 34 − 16 = 18, a medias = 9 (el menor). El mayor es 9 + 16 = 25.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "232bbfda69",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "encuentro",
+  "dificultad": "dificil",
+  "enunciado": "Dos trenes salen a la vez de dos ciudades separadas 240 km y avanzan el uno hacia el otro a 40 y 20 km/h. ¿Cuánto tardan en cruzarse?",
+  "destacado": null,
+  "opciones": [
+   "9 h",
+   "6 h",
+   "4 h",
+   "12 h"
+  ],
+  "correcta": "C",
+  "truco": "Se acercan a 40+20 = 60 km/h: 240 ÷ 60 = 4 h.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "158f023be7",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "ecuacion",
+  "dificultad": "media",
+  "enunciado": "La suma de tres números consecutivos es 75. ¿Cuál es el mayor?",
+  "destacado": null,
+  "opciones": [
+   "26",
+   "25",
+   "29",
+   "24"
+  ],
+  "correcta": "A",
+  "truco": "El de en medio es la media: 75 ÷ 3 = 25. El mayor es 26.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9264761482",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "edades",
+  "dificultad": "dificil",
+  "enunciado": "Ahora una madre tiene 6 veces la edad de su hija. Dentro de 6 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?",
+  "destacado": null,
+  "opciones": [
+   "4",
+   "24",
+   "6",
+   "10"
+  ],
+  "correcta": "A",
+  "truco": "Con x = edad de la hija: 6x + 6 = 3(x + 6) ⇒ 3x = 12 ⇒ x = 4. Comprobación: madre 24, dentro de 6 años 30 = 3×10.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c6b44e7b28",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "edades",
+  "dificultad": "dificil",
+  "enunciado": "Ahora una madre tiene 5 veces la edad de su hija. Dentro de 9 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?",
+  "destacado": null,
+  "opciones": [
+   "15",
+   "12",
+   "9",
+   "3"
+  ],
+  "correcta": "D",
+  "truco": "Con x = edad de la hija: 5x + 9 = 2(x + 9) ⇒ 3x = 9 ⇒ x = 3. Comprobación: madre 15, dentro de 9 años 24 = 2×12.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "432cdc2730",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En un aparcamiento hay motos y coches. En total hay 19 vehículos y 60 ruedas. ¿Cuántos coches hay?",
+  "destacado": null,
+  "opciones": [
+   "11",
+   "15",
+   "8",
+   "22"
+  ],
+  "correcta": "A",
+  "truco": "Supón que todos son del tipo menor (2): 19×2 = 38. Sobran 22, y cada cambio añade 2. 22 ÷ 2 = 11 coches.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

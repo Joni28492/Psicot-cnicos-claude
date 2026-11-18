@@ -1,6 +1,6 @@
 # Porcentajes
 
-38 ejercicios · fácil: 11 · media: 24 · difícil: 3
+44 ejercicios · fácil: 13 · media: 28 · difícil: 3
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -457,3 +457,75 @@ Una chaqueta de 240 € tiene un 10% de descuento y, sobre el nuevo precio, otro
 - D) 95%
 
 **Respuesta: A.** 4/80 se simplifica a 1/20 = 5%.
+
+## aff2c22300 · media · porcentaje_inverso
+*Test 022 (2026-11-18), ejercicio 6*
+
+El 62,5% de un número es 55. ¿Cuál es el número?
+
+- A) 33
+- B) 220
+- C) 88
+- D) 110
+
+**Respuesta: C.** 62,5% = 5/8: 55 son 5 partes de 8. Una parte = 11; el total = 88.
+
+## 939c7819d8 · fácil · que_porcentaje
+*Test 022 (2026-11-18), ejercicio 17*
+
+¿Qué porcentaje de 60 es 10?
+
+- A) 500%
+- B) 83⅓%
+- C) 16⅔%
+- D) 10%
+
+**Respuesta: C.** 10/60 se simplifica a 1/6 = 16⅔%.
+
+## f368021166 · media · iva
+*Test 022 (2026-11-18), ejercicio 18*
+
+Un producto cuesta 150 € con un IVA del 25%. ¿Cuánto costaba sin IVA?
+
+- A) 120 €
+- B) 130 €
+- C) 111 €
+- D) 112 €
+
+**Respuesta: A.** El precio con IVA es el 125% del original: 150 ÷ 1,25 = 120. Restar el 25% al precio final es el error típico.
+
+## 8c012de271 · media · variacion
+*Test 022 (2026-11-18), ejercicio 21*
+
+Un valor pasa de 60 a 90. ¿En qué porcentaje aumenta?
+
+- A) 100%
+- B) 33⅓%
+- C) 50%
+- D) 25%
+
+**Respuesta: C.** Diferencia 30 sobre el valor de partida (60): 1/2 = 50%. Siempre se divide entre el valor inicial.
+
+## 356cb5ebeb · fácil · porcentaje_de
+*Test 022 (2026-11-18), ejercicio 23*
+
+¿Cuánto es el 37,5% de 40?
+
+- A) 14
+- B) 25
+- C) 15
+- D) 5
+
+**Respuesta: C.** 37,5% = 3/8. 40 ÷ 8 × 3 = 15.
+
+## a56bea0889 · media · sube_y_baja
+*Test 022 (2026-11-18), ejercicio 27*
+
+Un precio sube un 30% y después baja un 30%. ¿Cuál es el efecto total?
+
+- A) Baja un 9%
+- B) Sube un 9%
+- C) Se queda igual
+- D) Baja un 30%
+
+**Respuesta: A.** Los porcentajes no se compensan: (1+3/10)·(1−3/10) = 1 − 9/100 ⇒ pierde 9%.

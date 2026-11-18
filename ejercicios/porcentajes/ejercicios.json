@@ -834,5 +834,137 @@
   "truco": "4/80 se simplifica a 1/20 = 5%.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "aff2c22300",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 62,5% de un número es 55. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "33",
+   "220",
+   "88",
+   "110"
+  ],
+  "correcta": "C",
+  "truco": "62,5% = 5/8: 55 son 5 partes de 8. Una parte = 11; el total = 88.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "939c7819d8",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 60 es 10?",
+  "destacado": null,
+  "opciones": [
+   "500%",
+   "83⅓%",
+   "16⅔%",
+   "10%"
+  ],
+  "correcta": "C",
+  "truco": "10/60 se simplifica a 1/6 = 16⅔%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f368021166",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "iva",
+  "dificultad": "media",
+  "enunciado": "Un producto cuesta 150 € con un IVA del 25%. ¿Cuánto costaba sin IVA?",
+  "destacado": null,
+  "opciones": [
+   "120 €",
+   "130 €",
+   "111 €",
+   "112 €"
+  ],
+  "correcta": "A",
+  "truco": "El precio con IVA es el 125% del original: 150 ÷ 1,25 = 120. Restar el 25% al precio final es el error típico.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8c012de271",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "variacion",
+  "dificultad": "media",
+  "enunciado": "Un valor pasa de 60 a 90. ¿En qué porcentaje aumenta?",
+  "destacado": null,
+  "opciones": [
+   "100%",
+   "33⅓%",
+   "50%",
+   "25%"
+  ],
+  "correcta": "C",
+  "truco": "Diferencia 30 sobre el valor de partida (60): 1/2 = 50%. Siempre se divide entre el valor inicial.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "356cb5ebeb",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 37,5% de 40?",
+  "destacado": null,
+  "opciones": [
+   "14",
+   "25",
+   "15",
+   "5"
+  ],
+  "correcta": "C",
+  "truco": "37,5% = 3/8. 40 ÷ 8 × 3 = 15.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a56bea0889",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "sube_y_baja",
+  "dificultad": "media",
+  "enunciado": "Un precio sube un 30% y después baja un 30%. ¿Cuál es el efecto total?",
+  "destacado": null,
+  "opciones": [
+   "Baja un 9%",
+   "Sube un 9%",
+   "Se queda igual",
+   "Baja un 30%"
+  ],
+  "correcta": "A",
+  "truco": "Los porcentajes no se compensan: (1+3/10)·(1−3/10) = 1 − 9/100 ⇒ pierde 9%.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

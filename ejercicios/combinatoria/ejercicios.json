@@ -1274,5 +1274,137 @@
   "truco": "Ana y Luis forman un bloque: 5 elementos → 5! = 120, y el bloque se puede dar la vuelta (×2): 240.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "58d0319c2b",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "permutaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿De cuántas formas se pueden sentar 6 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?",
+  "destacado": null,
+  "opciones": [
+   "720",
+   "24",
+   "36",
+   "120"
+  ],
+  "correcta": "D",
+  "truco": "Se fija a una persona y las demás se ordenan: (6−1)! = 120.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "87dc7dbaa4",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "combinaciones",
+  "dificultad": "facil",
+  "enunciado": "En un torneo juegan 12 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?",
+  "destacado": null,
+  "opciones": [
+   "24",
+   "132",
+   "66",
+   "144"
+  ],
+  "correcta": "C",
+  "truco": "El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "d01cf3f667",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "¿De cuántas formas se pueden aparcar 7 coches distintos en 7 plazas contiguas?",
+  "destacado": null,
+  "opciones": [
+   "49",
+   "5.040",
+   "2.520",
+   "720"
+  ],
+  "correcta": "B",
+  "truco": "Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ecbf7514be",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "combinaciones",
+  "dificultad": "facil",
+  "enunciado": "¿Cuántas parejas distintas se pueden formar con 12 alumnos?",
+  "destacado": null,
+  "opciones": [
+   "132",
+   "24",
+   "66",
+   "144"
+  ],
+  "correcta": "C",
+  "truco": "El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e0de54ef61",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Con 8 libros distintos se llenan 3 huecos de una estantería, uno por hueco. ¿De cuántas formas distintas?",
+  "destacado": null,
+  "opciones": [
+   "56",
+   "336",
+   "40.320",
+   "512"
+  ],
+  "correcta": "B",
+  "truco": "8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e8a7781d3b",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "permutaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de RADAR?",
+  "destacado": null,
+  "opciones": [
+   "15",
+   "60",
+   "30",
+   "120"
+  ],
+  "correcta": "C",
+  "truco": "5! dividido entre las repeticiones (R×2, A×2): 120 ÷ 4 = 30.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

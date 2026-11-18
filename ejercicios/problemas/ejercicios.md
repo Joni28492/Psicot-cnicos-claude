@@ -1,6 +1,6 @@
 # Problemas
 
-77 ejercicios · fácil: 27 · media: 35 · difícil: 15
+85 ejercicios · fácil: 30 · media: 36 · difícil: 19
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -925,3 +925,99 @@ En un aparcamiento hay motos y coches. En total hay 23 vehículos y 80 ruedas. �
 - D) 17
 
 **Respuesta: D.** Supón que todos son del tipo menor (2): 23×2 = 46. Sobran 34, y cada cambio añade 2. 34 ÷ 2 = 17 coches.
+
+## 617b99ef63 · difícil · edades
+*Test 022 (2026-11-18), ejercicio 5*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 12 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 18
+- B) 12
+- C) 24
+- D) 6
+
+**Respuesta: D.** Con x = edad de la hija: 4x + 12 = 2(x + 12) ⇒ 2x = 12 ⇒ x = 6. Comprobación: madre 24, dentro de 12 años 36 = 2×18.
+
+## 82bf087bae · fácil · cabezas_patas
+*Test 022 (2026-11-18), ejercicio 8*
+
+En un taller hay bicicletas y triciclos. En total hay 9 vehículos y 25 ruedas. ¿Cuántos triciclos hay?
+
+- A) 11
+- B) 4
+- C) 7
+- D) 2
+
+**Respuesta: C.** Supón que todos son del tipo menor (2): 9×2 = 18. Sobran 7, y cada cambio añade 1. 7 ÷ 1 = 7 triciclos.
+
+## bfed183da3 · fácil · mas_que
+*Test 022 (2026-11-18), ejercicio 9*
+
+Ana tiene 16 euros más que Luis, y entre los dos suman 34. ¿Cuántos tiene Ana?
+
+- A) 33
+- B) 18
+- C) 17
+- D) 25
+
+**Respuesta: D.** Quita la diferencia al total: 34 − 16 = 18, a medias = 9 (el menor). El mayor es 9 + 16 = 25.
+
+## 232bbfda69 · difícil · encuentro
+*Test 022 (2026-11-18), ejercicio 10*
+
+Dos trenes salen a la vez de dos ciudades separadas 240 km y avanzan el uno hacia el otro a 40 y 20 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 9 h
+- B) 6 h
+- C) 4 h
+- D) 12 h
+
+**Respuesta: C.** Se acercan a 40+20 = 60 km/h: 240 ÷ 60 = 4 h.
+
+## 158f023be7 · media · ecuacion
+*Test 022 (2026-11-18), ejercicio 12*
+
+La suma de tres números consecutivos es 75. ¿Cuál es el mayor?
+
+- A) 26
+- B) 25
+- C) 29
+- D) 24
+
+**Respuesta: A.** El de en medio es la media: 75 ÷ 3 = 25. El mayor es 26.
+
+## 9264761482 · difícil · edades
+*Test 022 (2026-11-18), ejercicio 14*
+
+Ahora una madre tiene 6 veces la edad de su hija. Dentro de 6 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 4
+- B) 24
+- C) 6
+- D) 10
+
+**Respuesta: A.** Con x = edad de la hija: 6x + 6 = 3(x + 6) ⇒ 3x = 12 ⇒ x = 4. Comprobación: madre 24, dentro de 6 años 30 = 3×10.
+
+## c6b44e7b28 · difícil · edades
+*Test 022 (2026-11-18), ejercicio 16*
+
+Ahora una madre tiene 5 veces la edad de su hija. Dentro de 9 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 15
+- B) 12
+- C) 9
+- D) 3
+
+**Respuesta: D.** Con x = edad de la hija: 5x + 9 = 2(x + 9) ⇒ 3x = 9 ⇒ x = 3. Comprobación: madre 15, dentro de 9 años 24 = 2×12.
+
+## 432cdc2730 · fácil · cabezas_patas
+*Test 022 (2026-11-18), ejercicio 29*
+
+En un aparcamiento hay motos y coches. En total hay 19 vehículos y 60 ruedas. ¿Cuántos coches hay?
+
+- A) 11
+- B) 15
+- C) 8
+- D) 22
+
+**Respuesta: A.** Supón que todos son del tipo menor (2): 19×2 = 38. Sobran 22, y cada cambio añade 2. 22 ÷ 2 = 11 coches.

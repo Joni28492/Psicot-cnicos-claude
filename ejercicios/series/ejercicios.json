@@ -1208,5 +1208,203 @@
   "truco": "Son dos series entrelazadas: posiciones impares +1 y pares +4. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "93d7234269",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "G3, J6, M12, O24, R48, ?",
+  "opciones": [
+   "V96",
+   "U96",
+   "U97",
+   "R96"
+  ],
+  "correcta": "B",
+  "truco": "Dos reglas independientes: las letras avanzan 3 y los números hacen ×2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "46e35467b1",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "letras_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "F, F, D, I, B, L, Z, ?",
+  "opciones": [
+   "Q",
+   "X",
+   "Ñ",
+   "N"
+  ],
+  "correcta": "C",
+  "truco": "Son dos series entrelazadas: posiciones impares -2 y pares +3. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "1f566de38d",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "T, U, W, Z, D, ?",
+  "opciones": [
+   "H",
+   "L",
+   "K",
+   "I"
+  ],
+  "correcta": "D",
+  "truco": "Los saltos crecen: +1, +2, +3, +4… el siguiente es +5.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "7f56eae92d",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "4, 16, 64, 256, 1.024, ?",
+  "opciones": [
+   "1.280",
+   "1.792",
+   "4.097",
+   "4.096"
+  ],
+  "correcta": "D",
+  "truco": "Cada término se multiplica por 4.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8b9af0619e",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "5, 6, 11, 17, 28, ?",
+  "opciones": [
+   "44",
+   "39",
+   "45",
+   "46"
+  ],
+  "correcta": "C",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b4f4dd2bbe",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "num_cuadrados",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "18, 27, 38, 51, 66, ?",
+  "opciones": [
+   "88",
+   "82",
+   "83",
+   "166"
+  ],
+  "correcta": "C",
+  "truco": "Son cuadrados +2: 4², 5², 6²… El siguiente es 9² +2 = 83.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e67bccf3d8",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "num_aritmetica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "33, 27, 21, 15, 9, ?",
+  "opciones": [
+   "4",
+   "1",
+   "2",
+   "3"
+  ],
+  "correcta": "D",
+  "truco": "Suma constante: -6 en cada paso.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "27aba25c4c",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "num_dos_operaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "1, 6, 18, 23, 69, ?",
+  "opciones": [
+   "74",
+   "69",
+   "207",
+   "115"
+  ],
+  "correcta": "A",
+  "truco": "Se alternan dos operaciones: +5 y ×3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6c4ba2d605",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 28,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "3, 6, 9, 15, 24, ?",
+  "opciones": [
+   "40",
+   "33",
+   "41",
+   "39"
+  ],
+  "correcta": "D",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -614,5 +614,115 @@
   "truco": "Hay 10 posiciones. El punto negro se mueve 2 posiciones en sentido antihorario y el punto blanco 2 posiciones en sentido horario en cada paso.",
   "imagen": "img/aaa15a1213.png",
   "tiempo": 30
+ },
+ {
+  "id": "87c0461a21",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 31,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Hay 8 posiciones. El punto negro se mueve 1 posición en sentido horario y el punto blanco 3 posiciones en sentido antihorario en cada paso.",
+  "imagen": "img/87c0461a21.png",
+  "tiempo": 30
+ },
+ {
+  "id": "cecab30f97",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 32,
+  "subtipo": "reloj",
+  "dificultad": "media",
+  "enunciado": "¿Qué reloj continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Sigue cada aguja por separado: la corta y gruesa avanza 2 horas en cada reloj y la larga y fina retrocede 3 horas (cada marca es una hora del reloj).",
+  "imagen": "img/cecab30f97.png",
+  "tiempo": 30
+ },
+ {
+  "id": "9929cfeee8",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 35,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Hay 12 posiciones. El punto negro se mueve 3 posiciones en sentido antihorario y el punto blanco 3 posiciones en sentido horario en cada paso.",
+  "imagen": "img/9929cfeee8.png",
+  "tiempo": 30
+ },
+ {
+  "id": "ae582b5a1e",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 36,
+  "subtipo": "tarta",
+  "dificultad": "media",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "La tarta tiene 8 sectores. En cada paso el bloque relleno gira 2 sectores a la derecha.",
+  "imagen": "img/ae582b5a1e.png",
+  "tiempo": 30
+ },
+ {
+  "id": "9d1cdc843b",
+  "test": "psicotecnico_022_facil.pdf",
+  "numero": 22,
+  "fecha": "2026-11-18",
+  "modo": "diario",
+  "n": 37,
+  "subtipo": "tarta",
+  "dificultad": "facil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "La tarta tiene 10 sectores. En cada paso el bloque relleno gira 1 sector a la izquierda.",
+  "imagen": "img/9d1cdc843b.png",
+  "tiempo": 30
  }
 ]

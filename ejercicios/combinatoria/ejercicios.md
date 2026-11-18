@@ -1,6 +1,6 @@
 # Combinatoria
 
-58 ejercicios · fácil: 20 · media: 25 · difícil: 13
+64 ejercicios · fácil: 23 · media: 27 · difícil: 14
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -697,3 +697,75 @@ Hay 7 elementos distintos y 4 espacios en fila. Se coloca un elemento en cada es
 - D) 48
 
 **Respuesta: B.** Ana y Luis forman un bloque: 5 elementos → 5! = 120, y el bloque se puede dar la vuelta (×2): 240.
+
+## 58d0319c2b · difícil · permutaciones
+*Test 022 (2026-11-18), ejercicio 2*
+
+¿De cuántas formas se pueden sentar 6 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 720
+- B) 24
+- C) 36
+- D) 120
+
+**Respuesta: D.** Se fija a una persona y las demás se ordenan: (6−1)! = 120.
+
+## 87dc7dbaa4 · fácil · combinaciones
+*Test 022 (2026-11-18), ejercicio 3*
+
+En un torneo juegan 12 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?
+
+- A) 24
+- B) 132
+- C) 66
+- D) 144
+
+**Respuesta: C.** El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)
+
+## d01cf3f667 · fácil · permutaciones
+*Test 022 (2026-11-18), ejercicio 4*
+
+¿De cuántas formas se pueden aparcar 7 coches distintos en 7 plazas contiguas?
+
+- A) 49
+- B) 5.040
+- C) 2.520
+- D) 720
+
+**Respuesta: B.** Se usan todos y el orden importa: 7! = 7×6×5×4×3×2×1 = 5.040.
+
+## ecbf7514be · fácil · combinaciones
+*Test 022 (2026-11-18), ejercicio 11*
+
+¿Cuántas parejas distintas se pueden formar con 12 alumnos?
+
+- A) 132
+- B) 24
+- C) 66
+- D) 144
+
+**Respuesta: C.** El orden no importa: 12×11 ÷ 2! = 132 ÷ 2 = 66. (atajo: 12×11/2)
+
+## e0de54ef61 · media · variaciones
+*Test 022 (2026-11-18), ejercicio 19*
+
+Con 8 libros distintos se llenan 3 huecos de una estantería, uno por hueco. ¿De cuántas formas distintas?
+
+- A) 56
+- B) 336
+- C) 40.320
+- D) 512
+
+**Respuesta: B.** 8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## e8a7781d3b · media · permutaciones
+*Test 022 (2026-11-18), ejercicio 25*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de RADAR?
+
+- A) 15
+- B) 60
+- C) 30
+- D) 120
+
+**Respuesta: C.** 5! dividido entre las repeticiones (R×2, A×2): 120 ÷ 4 = 30.
