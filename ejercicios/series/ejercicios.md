@@ -1,6 +1,6 @@
 # Series
 
-64 ejercicios · fácil: 17 · media: 37 · difícil: 10
+73 ejercicios · fácil: 19 · media: 41 · difícil: 13
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -897,3 +897,129 @@
 - D) 39
 
 **Respuesta: D.** Cada término es la suma de los dos anteriores.
+
+## 1591e343e4 · difícil · num_operaciones
+*Test 023 (2026-11-19), ejercicio 1*
+
+¿Qué número continúa la serie?
+
+**5, 9, 17, 33, 65, ?**
+
+- A) 130
+- B) 97
+- C) 129
+- D) 119
+
+**Respuesta: C.** Cada término = anterior ×2 -1.
+
+## 7cb3364b2b · media · letra_numero
+*Test 023 (2026-11-19), ejercicio 2*
+
+¿Qué término continúa la serie?
+
+**Q2, T4, W8, Z16, C32, ?**
+
+- A) F65
+- B) C64
+- C) F64
+- D) G64
+
+**Respuesta: C.** Dos reglas independientes: las letras avanzan 3 y los números hacen ×2.
+
+## 4212bf4069 · fácil · num_cuadrados
+*Test 023 (2026-11-19), ejercicio 8*
+
+¿Qué número continúa la serie?
+
+**18, 27, 38, 51, 66, ?**
+
+- A) 73
+- B) 83
+- C) 88
+- D) 93
+
+**Respuesta: B.** Son cuadrados +2: 4², 5², 6²… El siguiente es 9² +2 = 83.
+
+## cf384a8c33 · fácil · letras_salto
+*Test 023 (2026-11-19), ejercicio 10*
+
+¿Qué letra continúa la serie?
+
+**T, W, Z, C, F, ?**
+
+- A) I
+- B) G
+- C) L
+- D) H
+
+**Respuesta: A.** Cada letra avanza 3 posiciones.
+
+## 86ebc57d91 · media · num_fibonacci
+*Test 023 (2026-11-19), ejercicio 14*
+
+¿Qué número continúa la serie?
+
+**1, 7, 8, 15, 23, ?**
+
+- A) 38
+- B) 28
+- C) 39
+- D) 31
+
+**Respuesta: A.** Cada término es la suma de los dos anteriores.
+
+## ba7a5cc282 · difícil · letras_bloques
+*Test 023 (2026-11-19), ejercicio 15*
+
+¿Qué pareja continúa la serie?
+
+**IJ, MN, PQ, TU, XY, ?**
+
+- A) BD
+- B) CD
+- C) AB
+- D) BC
+
+**Respuesta: D.** Cada pareja son dos letras seguidas y el bloque avanza 4 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## b3bab2205f · difícil · num_primos_o_triangulares
+*Test 023 (2026-11-19), ejercicio 18*
+
+¿Qué número continúa la serie?
+
+**15, 21, 28, 36, 45, ?**
+
+- A) 55
+- B) 54
+- C) 110
+- D) 53
+
+**Respuesta: A.** Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).
+
+## e3e078763f · media · num_creciente
+*Test 023 (2026-11-19), ejercicio 23*
+
+¿Qué número continúa la serie?
+
+**20, 22, 26, 32, 40, ?**
+
+- A) 47
+- B) 52
+- C) 48
+- D) 50
+
+**Respuesta: D.** Las diferencias son 2, 4, 6, 8… y crecen 2 cada vez: la siguiente es +10.
+
+## 8cdd50a24e · media · letras_alternas
+*Test 023 (2026-11-19), ejercicio 26*
+
+¿Qué letra continúa la serie?
+
+**H, G, F, F, D, E, B, ?**
+
+- A) Z
+- B) F
+- C) D
+- D) C
+
+**Respuesta: C.** Son dos series entrelazadas: posiciones impares -2 y pares -1. Falta la de las pares.

@@ -724,5 +724,115 @@
   "truco": "La tarta tiene 10 sectores. En cada paso el bloque relleno gira 1 sector a la izquierda.",
   "imagen": "img/9d1cdc843b.png",
   "tiempo": 30
+ },
+ {
+  "id": "d5ee7b3f8b",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 28,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Hay 12 posiciones. El punto negro se mueve 2 posiciones en sentido antihorario y el punto blanco 1 posición en sentido horario en cada paso.",
+  "imagen": "img/d5ee7b3f8b.png",
+  "tiempo": 30
+ },
+ {
+  "id": "b179596b20",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 31,
+  "subtipo": "tarta",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "La tarta tiene 12 sectores. En cada paso el bloque relleno gira 2 sectores a la derecha y gana 1 sector relleno.",
+  "imagen": "img/b179596b20.png",
+  "tiempo": 30
+ },
+ {
+  "id": "0fb4835cc8",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 34,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Hay 12 posiciones. El punto negro se mueve 1 posición en sentido horario y el punto blanco 2 posiciones en sentido antihorario en cada paso.",
+  "imagen": "img/0fb4835cc8.png",
+  "tiempo": 30
+ },
+ {
+  "id": "2a1aea00d9",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 35,
+  "subtipo": "tarta",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "La tarta tiene 12 sectores. En cada paso el bloque relleno gira 1 sector a la derecha y pierde 1 sector relleno.",
+  "imagen": "img/2a1aea00d9.png",
+  "tiempo": 30
+ },
+ {
+  "id": "6c3129b432",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 36,
+  "subtipo": "reloj",
+  "dificultad": "media",
+  "enunciado": "¿Qué reloj continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Sigue cada aguja por separado: la corta y gruesa avanza 2 horas en cada reloj y la larga y fina retrocede 2 horas (cada marca es una hora del reloj).",
+  "imagen": "img/6c3129b432.png",
+  "tiempo": 30
  }
 ]

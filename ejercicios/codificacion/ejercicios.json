@@ -746,5 +746,137 @@
   "truco": "Posiciones: 14(N) + 9(I) + 4(D) + 16(O) = 43. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "010a086faf",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "espejo",
+  "dificultad": "media",
+  "enunciado": "Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe SOL?",
+  "destacado": null,
+  "opciones": [
+   "GKÑ",
+   "IMP",
+   "OLH",
+   "HLO"
+  ],
+  "correcta": "D",
+  "truco": "Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "fb8573692d",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "vocales",
+  "dificultad": "media",
+  "enunciado": "Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe PUERTA?",
+  "destacado": null,
+  "opciones": [
+   "P14RT5",
+   "P52RT1",
+   "521",
+   "1TR25P"
+  ],
+  "correcta": "B",
+  "truco": "Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9f31cd02f8",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, CIDS = 5342 y GMIC = 7635. Con el mismo código, ¿cómo se escribe DGMC?",
+  "destacado": null,
+  "opciones": [
+   "4766",
+   "7465",
+   "4765",
+   "5674"
+  ],
+  "correcta": "C",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: C=5, D=4, G=7, I=3, M=6, S=2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "02d1060925",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, LUNA se escribe JSLY. Con el mismo código, ¿cómo se escribe LIBRO?",
+  "destacado": null,
+  "opciones": [
+   "JGZPM",
+   "IFYOM",
+   "KHAQÑ",
+   "JGZPN"
+  ],
+  "correcta": "D",
+  "truco": "Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8e8ac83a58",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "renombrar",
+  "dificultad": "dificil",
+  "enunciado": "Llamamos blanco al negro, azul al blanco y negro al azul. Con esos nombres, ¿de qué color es el carbón?",
+  "destacado": null,
+  "opciones": [
+   "verde",
+   "azul",
+   "blanco",
+   "rojo"
+  ],
+  "correcta": "C",
+  "truco": "El carbón es negro de verdad, y a ese color ahora lo llamamos blanco.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "65abd8c18e",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra OJO?",
+  "destacado": null,
+  "opciones": [
+   "42",
+   "43",
+   "41",
+   "40"
+  ],
+  "correcta": "A",
+  "truco": "Posiciones: 16(O) + 10(J) + 16(O) = 42. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -746,5 +746,137 @@
   "truco": "Busca el valor de una unidad: 28 ÷ 7 = 4; luego ×4. No sumes la diferencia (-3) al resultado.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "faccb4dacc",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "Un coche recorre 4 km con 2 litros. ¿Cuántos km recorre con 8 litros?",
+  "destacado": null,
+  "opciones": [
+   "16 km",
+   "1 km",
+   "17 km",
+   "10 km"
+  ],
+  "correcta": "A",
+  "truco": "Busca el valor de una unidad: 4 ÷ 2 = 2; luego ×8. No sumes la diferencia (6) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "244ea08adf",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "2 máquinas fabrican 112 piezas en 8 horas. ¿Cuántas piezas fabrican 6 máquinas en 7 horas?",
+  "destacado": null,
+  "opciones": [
+   "98",
+   "336",
+   "292",
+   "294"
+  ],
+  "correcta": "D",
+  "truco": "Piezas por máquina y hora: 112 ÷ (2×8) = 7. Luego 6×7×7 = 294.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "fa3b9c67fd",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "3 máquinas fabrican 48 piezas en 8 horas. ¿Cuántas piezas fabrican 4 máquinas en 2 horas?",
+  "destacado": null,
+  "opciones": [
+   "14",
+   "12",
+   "16",
+   "64"
+  ],
+  "correcta": "C",
+  "truco": "Piezas por máquina y hora: 48 ÷ (3×8) = 2. Luego 4×2×2 = 16.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "9d23559aac",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "directa",
+  "dificultad": "facil",
+  "enunciado": "En un mapa, 3 cm equivalen a 6 km. ¿A cuántos km equivalen 7 cm?",
+  "destacado": null,
+  "opciones": [
+   "10 km",
+   "14 km",
+   "12 km",
+   "15 km"
+  ],
+  "correcta": "B",
+  "truco": "Busca el valor de una unidad: 6 ÷ 3 = 2; luego ×7. No sumes la diferencia (4) al resultado.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e543226190",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Un tren a 5 km/h tarda 6 h en llegar. ¿Cuántas horas tardará a 15 km/h?",
+  "destacado": null,
+  "opciones": [
+   "2 h",
+   "1 h",
+   "5 h",
+   "18 h"
+  ],
+  "correcta": "A",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 5 × 6 = 30; 30 ÷ 15 = 2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c31d7bb08f",
+  "test": "psicotecnico_023_dificil.pdf",
+  "numero": 23,
+  "fecha": "2026-11-19",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Una impresora hace un trabajo en 10 min y otra en 15 min. ¿Cuánto tardan las dos juntas?",
+  "destacado": null,
+  "opciones": [
+   "12 min",
+   "25 min",
+   "6 min",
+   "5 min"
+  ],
+  "correcta": "C",
+  "truco": "Suma lo que hace cada uno en una hora: 1/10 + 1/15 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

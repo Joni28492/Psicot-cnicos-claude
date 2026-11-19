@@ -1,6 +1,6 @@
 # Reglas de tres
 
-34 ejercicios · fácil: 12 · media: 16 · difícil: 6
+40 ejercicios · fácil: 14 · media: 19 · difícil: 7
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -409,3 +409,75 @@ En un mapa, 7 cm equivalen a 28 km. ¿A cuántos km equivalen 4 cm?
 - D) 25 km
 
 **Respuesta: A.** Busca el valor de una unidad: 28 ÷ 7 = 4; luego ×4. No sumes la diferencia (-3) al resultado.
+
+## faccb4dacc · fácil · directa
+*Test 023 (2026-11-19), ejercicio 4*
+
+Un coche recorre 4 km con 2 litros. ¿Cuántos km recorre con 8 litros?
+
+- A) 16 km
+- B) 1 km
+- C) 17 km
+- D) 10 km
+
+**Respuesta: A.** Busca el valor de una unidad: 4 ÷ 2 = 2; luego ×8. No sumes la diferencia (6) al resultado.
+
+## 244ea08adf · media · compuesta
+*Test 023 (2026-11-19), ejercicio 11*
+
+2 máquinas fabrican 112 piezas en 8 horas. ¿Cuántas piezas fabrican 6 máquinas en 7 horas?
+
+- A) 98
+- B) 336
+- C) 292
+- D) 294
+
+**Respuesta: D.** Piezas por máquina y hora: 112 ÷ (2×8) = 7. Luego 6×7×7 = 294.
+
+## fa3b9c67fd · media · compuesta
+*Test 023 (2026-11-19), ejercicio 13*
+
+3 máquinas fabrican 48 piezas en 8 horas. ¿Cuántas piezas fabrican 4 máquinas en 2 horas?
+
+- A) 14
+- B) 12
+- C) 16
+- D) 64
+
+**Respuesta: C.** Piezas por máquina y hora: 48 ÷ (3×8) = 2. Luego 4×2×2 = 16.
+
+## 9d23559aac · fácil · directa
+*Test 023 (2026-11-19), ejercicio 17*
+
+En un mapa, 3 cm equivalen a 6 km. ¿A cuántos km equivalen 7 cm?
+
+- A) 10 km
+- B) 14 km
+- C) 12 km
+- D) 15 km
+
+**Respuesta: B.** Busca el valor de una unidad: 6 ÷ 3 = 2; luego ×7. No sumes la diferencia (4) al resultado.
+
+## e543226190 · media · inversa
+*Test 023 (2026-11-19), ejercicio 24*
+
+Un tren a 5 km/h tarda 6 h en llegar. ¿Cuántas horas tardará a 15 km/h?
+
+- A) 2 h
+- B) 1 h
+- C) 5 h
+- D) 18 h
+
+**Respuesta: A.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 5 × 6 = 30; 30 ÷ 15 = 2.
+
+## c31d7bb08f · difícil · trabajo_conjunto
+*Test 023 (2026-11-19), ejercicio 27*
+
+Una impresora hace un trabajo en 10 min y otra en 15 min. ¿Cuánto tardan las dos juntas?
+
+- A) 12 min
+- B) 25 min
+- C) 6 min
+- D) 5 min
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/10 + 1/15 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.

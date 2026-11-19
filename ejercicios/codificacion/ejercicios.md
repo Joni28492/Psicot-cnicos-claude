@@ -1,6 +1,6 @@
 # Codificación
 
-34 ejercicios · fácil: 14 · media: 16 · difícil: 4
+40 ejercicios · fácil: 16 · media: 19 · difícil: 5
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -409,3 +409,75 @@ Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra NIDO?
 - D) 42
 
 **Respuesta: A.** Posiciones: 14(N) + 9(I) + 4(D) + 16(O) = 43. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 010a086faf · media · espejo
+*Test 023 (2026-11-19), ejercicio 6*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe SOL?
+
+- A) GKÑ
+- B) IMP
+- C) OLH
+- D) HLO
+
+**Respuesta: D.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## fb8573692d · media · vocales
+*Test 023 (2026-11-19), ejercicio 7*
+
+Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe PUERTA?
+
+- A) P14RT5
+- B) P52RT1
+- C) 521
+- D) 1TR25P
+
+**Respuesta: B.** Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.
+
+## 9f31cd02f8 · media · digitos
+*Test 023 (2026-11-19), ejercicio 20*
+
+En un código, CIDS = 5342 y GMIC = 7635. Con el mismo código, ¿cómo se escribe DGMC?
+
+- A) 4766
+- B) 7465
+- C) 4765
+- D) 5674
+
+**Respuesta: C.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: C=5, D=4, G=7, I=3, M=6, S=2.
+
+## 02d1060925 · fácil · cesar
+*Test 023 (2026-11-19), ejercicio 21*
+
+En un código, LUNA se escribe JSLY. Con el mismo código, ¿cómo se escribe LIBRO?
+
+- A) JGZPM
+- B) IFYOM
+- C) KHAQÑ
+- D) JGZPN
+
+**Respuesta: D.** Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 8e8ac83a58 · difícil · renombrar
+*Test 023 (2026-11-19), ejercicio 22*
+
+Llamamos blanco al negro, azul al blanco y negro al azul. Con esos nombres, ¿de qué color es el carbón?
+
+- A) verde
+- B) azul
+- C) blanco
+- D) rojo
+
+**Respuesta: C.** El carbón es negro de verdad, y a ese color ahora lo llamamos blanco.
+
+## 65abd8c18e · fácil · valor_palabra
+*Test 023 (2026-11-19), ejercicio 25*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra OJO?
+
+- A) 42
+- B) 43
+- C) 41
+- D) 40
+
+**Respuesta: A.** Posiciones: 16(O) + 10(J) + 16(O) = 42. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.

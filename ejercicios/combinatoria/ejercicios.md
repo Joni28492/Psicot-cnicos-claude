@@ -1,6 +1,6 @@
 # Combinatoria
 
-64 ejercicios · fácil: 23 · media: 27 · difícil: 14
+70 ejercicios · fácil: 24 · media: 30 · difícil: 16
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -769,3 +769,75 @@ Con 8 libros distintos se llenan 3 huecos de una estantería, uno por hueco. ¿D
 - D) 120
 
 **Respuesta: C.** 5! dividido entre las repeticiones (R×2, A×2): 120 ÷ 4 = 30.
+
+## b7a38fd99a · difícil · combinaciones
+*Test 023 (2026-11-19), ejercicio 3*
+
+De 9 candidatos se elige un comité de 4 personas. ¿Cuántos comités distintos hay?
+
+- A) 36
+- B) 6.561
+- C) 3.024
+- D) 126
+
+**Respuesta: D.** El orden no importa: 9×8×7×6 ÷ 4! = 3.024 ÷ 24 = 126.
+
+## c737ca03fc · media · variaciones
+*Test 023 (2026-11-19), ejercicio 5*
+
+Hay 8 elementos distintos y 3 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 512
+- B) 56
+- C) 40.320
+- D) 336
+
+**Respuesta: D.** 8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## 66af037c2b · media · combinaciones
+*Test 023 (2026-11-19), ejercicio 9*
+
+¿Cuántos tríos distintos se pueden formar con 9 amigos?
+
+- A) 504
+- B) 729
+- C) 27
+- D) 84
+
+**Respuesta: D.** El orden no importa: 9×8×7 ÷ 3! = 504 ÷ 6 = 84.
+
+## cbf9e42d69 · difícil · permutaciones
+*Test 023 (2026-11-19), ejercicio 12*
+
+¿De cuántas formas se pueden sentar 5 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 24
+- B) 6
+- C) 25
+- D) 120
+
+**Respuesta: A.** Se fija a una persona y las demás se ordenan: (5−1)! = 24.
+
+## f360ea5930 · media · combinaciones
+*Test 023 (2026-11-19), ejercicio 16*
+
+De un grupo de 7 agentes hay que elegir 3 para una patrulla. ¿Cuántas patrullas distintas se pueden formar?
+
+- A) 343
+- B) 21
+- C) 210
+- D) 35
+
+**Respuesta: D.** El orden no importa: 7×6×5 ÷ 3! = 210 ÷ 6 = 35.
+
+## 28770f1b3d · fácil · variaciones
+*Test 023 (2026-11-19), ejercicio 19*
+
+Una cerradura tiene 2 ruedas y cada una tiene las cifras de 1 a 3. ¿Cuántas combinaciones distintas hay?
+
+- A) 6
+- B) 3
+- C) 9
+- D) 4
+
+**Respuesta: C.** Cada espacio tiene 3 opciones, que se repiten: 3×3 = 3^2 = 9.

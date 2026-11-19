@@ -1,6 +1,6 @@
 # Figuras desplegables
 
-24 ejercicios · fácil: 2 · media: 2 · difícil: 20
+28 ejercicios · fácil: 3 · media: 3 · difícil: 22
 
 ## f0b0d7ff66 · difícil · figura
 *Test 012 (2026-11-08), ejercicio 33*
@@ -217,3 +217,39 @@
 ![ejercicio](img/f7fba5e750.png)
 
 **Respuesta: D.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## ae1bf86360 · fácil · figura
+*Test 023 (2026-11-19), ejercicio 29*
+
+¿Qué desarrollo forma esta figura? (cubo)
+
+![ejercicio](img/ae1bf86360.png)
+
+**Respuesta: B.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## 791b14f4b3 · media · figura
+*Test 023 (2026-11-19), ejercicio 30*
+
+¿Qué figura se forma al plegar este desarrollo? (cubo)
+
+![ejercicio](img/791b14f4b3.png)
+
+**Respuesta: C.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## 8ae368ee92 · difícil · figura
+*Test 023 (2026-11-19), ejercicio 32*
+
+¿Qué desarrollo forma esta figura? (pirámide cuadrada)
+
+![ejercicio](img/8ae368ee92.png)
+
+**Respuesta: C.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## 27920ab832 · difícil · figura
+*Test 023 (2026-11-19), ejercicio 33*
+
+¿Qué desarrollo forma esta figura? (octaedro)
+
+![ejercicio](img/27920ab832.png)
+
+**Respuesta: D.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
