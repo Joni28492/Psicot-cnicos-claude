@@ -1,6 +1,6 @@
 # Series de fichas
 
-33 ejercicios · fácil: 11 · media: 8 · difícil: 14
+38 ejercicios · fácil: 13 · media: 9 · difícil: 16
 
 ## c8c6dc22f1 · fácil · domino_fila
 *Test 010 (2026-11-06), ejercicio 33*
@@ -298,3 +298,48 @@
 ![ejercicio](img/ff79cf3c93.png)
 
 **Respuesta: D.** Mira cada mitad por separado: la mitad izquierda sube 1 y la derecha sube 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 0–0.
+
+## 7ddf0a61c8 · fácil · domino_fila_vertical
+*Test 024 (2026-11-20), ejercicio 31*
+
+¿Qué ficha de dominó continúa la serie? (en fila, con las fichas de pie, de izquierda a derecha)
+
+![ejercicio](img/7ddf0a61c8.png)
+
+**Respuesta: D.** Mira cada mitad por separado: la mitad superior sube 2 y la inferior sube 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 2–5.
+
+## 153e7f8358 · difícil · domino_espiral
+*Test 024 (2026-11-20), ejercicio 34*
+
+¿Qué ficha de dominó continúa la serie? (en espiral, desde la ficha de inicio hacia fuera)
+
+![ejercicio](img/153e7f8358.png)
+
+**Respuesta: D.** Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha baja 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 0–2.
+
+## 508e7740de · media · domino_dos_filas
+*Test 024 (2026-11-20), ejercicio 35*
+
+¿Qué ficha de dominó continúa la serie? (en dos filas, de izquierda a derecha y de arriba abajo)
+
+![ejercicio](img/508e7740de.png)
+
+**Respuesta: B.** Mira cada mitad por separado: la mitad izquierda sube 3 y la derecha sube 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 5–0.
+
+## 2572897db3 · fácil · domino_fila
+*Test 024 (2026-11-20), ejercicio 36*
+
+¿Qué ficha de dominó continúa la serie? (en fila)
+
+![ejercicio](img/2572897db3.png)
+
+**Respuesta: A.** Mira cada mitad por separado: la mitad izquierda sube 2 y la derecha se queda igual en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 0–5.
+
+## 3f887700f3 · difícil · domino_circulo
+*Test 024 (2026-11-20), ejercicio 37*
+
+¿Qué ficha de dominó continúa la serie? (en círculo, en el sentido de las agujas del reloj desde la ficha de inicio)
+
+![ejercicio](img/3f887700f3.png)
+
+**Respuesta: D.** Mira cada mitad por separado: la mitad izquierda sube 1 y la derecha se queda igual en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 3–4.

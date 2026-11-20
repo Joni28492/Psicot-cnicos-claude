@@ -1,6 +1,6 @@
 # Codificación
 
-40 ejercicios · fácil: 16 · media: 19 · difícil: 5
+46 ejercicios · fácil: 17 · media: 23 · difícil: 6
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -481,3 +481,75 @@ Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra OJO?
 - D) 40
 
 **Respuesta: A.** Posiciones: 16(O) + 10(J) + 16(O) = 42. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 0d848b965e · media · digitos
+*Test 024 (2026-11-20), ejercicio 18*
+
+En un código, LCIH = 6457 y ALHT = 1678. Con el mismo código, ¿cómo se escribe CAIH?
+
+- A) 7514
+- B) 1457
+- C) 4158
+- D) 4157
+
+**Respuesta: D.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=1, C=4, H=7, I=5, L=6, T=8.
+
+## 12358c4f41 · fácil · cesar
+*Test 024 (2026-11-20), ejercicio 20*
+
+En un código, OSO se escribe NQN. Con el mismo código, ¿cómo se escribe PLAYA?
+
+- A) ÑJYWY
+- B) NIXVX
+- C) OKZXZ
+- D) NJYWY
+
+**Respuesta: A.** Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## bba4d9bfbc · media · digitos
+*Test 024 (2026-11-20), ejercicio 21*
+
+En un código, PLNM = 8693 y NILD = 9165. Con el mismo código, ¿cómo se escribe PDIL?
+
+- A) 8516
+- B) 5816
+- C) 6158
+- D) 8517
+
+**Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=5, I=1, L=6, M=3, N=9, P=8.
+
+## b0c4188f29 · media · digitos
+*Test 024 (2026-11-20), ejercicio 26*
+
+En un código, NPHR = 9134 y SNLR = 8924. Con el mismo código, ¿cómo se escribe PLHR?
+
+- A) 4321
+- B) 2134
+- C) 1235
+- D) 1234
+
+**Respuesta: D.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: H=3, L=2, N=9, P=1, R=4, S=8.
+
+## 46e5b31521 · media · vocales
+*Test 024 (2026-11-20), ejercicio 27*
+
+Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe LIBRETA?
+
+- A) 1T2RB3L
+- B) L3BR4T5
+- C) L3BR2T1
+- D) 321
+
+**Respuesta: C.** Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.
+
+## 0fab1ba884 · difícil · renombrar
+*Test 024 (2026-11-20), ejercicio 29*
+
+Llamamos verde al rojo, amarillo al verde y rojo al amarillo. Con esos nombres, ¿de qué color es la sangre?
+
+- A) amarillo
+- B) verde
+- C) azul
+- D) rojo
+
+**Respuesta: B.** La sangre es rojo de verdad, y a ese color ahora lo llamamos verde.

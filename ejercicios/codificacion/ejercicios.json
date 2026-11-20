@@ -878,5 +878,137 @@
   "truco": "Posiciones: 16(O) + 10(J) + 16(O) = 42. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "0d848b965e",
+  "test": "psicotecnico_024_media.pdf",
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, LCIH = 6457 y ALHT = 1678. Con el mismo código, ¿cómo se escribe CAIH?",
+  "destacado": null,
+  "opciones": [
+   "7514",
+   "1457",
+   "4158",
+   "4157"
+  ],
+  "correcta": "D",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=1, C=4, H=7, I=5, L=6, T=8.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "12358c4f41",
+  "test": "psicotecnico_024_media.pdf",
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, OSO se escribe NQN. Con el mismo código, ¿cómo se escribe PLAYA?",
+  "destacado": null,
+  "opciones": [
+   "ÑJYWY",
+   "NIXVX",
+   "OKZXZ",
+   "NJYWY"
+  ],
+  "correcta": "A",
+  "truco": "Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "bba4d9bfbc",
+  "test": "psicotecnico_024_media.pdf",
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, PLNM = 8693 y NILD = 9165. Con el mismo código, ¿cómo se escribe PDIL?",
+  "destacado": null,
+  "opciones": [
+   "8516",
+   "5816",
+   "6158",
+   "8517"
+  ],
+  "correcta": "A",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=5, I=1, L=6, M=3, N=9, P=8.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b0c4188f29",
+  "test": "psicotecnico_024_media.pdf",
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, NPHR = 9134 y SNLR = 8924. Con el mismo código, ¿cómo se escribe PLHR?",
+  "destacado": null,
+  "opciones": [
+   "4321",
+   "2134",
+   "1235",
+   "1234"
+  ],
+  "correcta": "D",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: H=3, L=2, N=9, P=1, R=4, S=8.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "46e5b31521",
+  "test": "psicotecnico_024_media.pdf",
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "vocales",
+  "dificultad": "media",
+  "enunciado": "Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe LIBRETA?",
+  "destacado": null,
+  "opciones": [
+   "1T2RB3L",
+   "L3BR4T5",
+   "L3BR2T1",
+   "321"
+  ],
+  "correcta": "C",
+  "truco": "Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0fab1ba884",
+  "test": "psicotecnico_024_media.pdf",
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "renombrar",
+  "dificultad": "dificil",
+  "enunciado": "Llamamos verde al rojo, amarillo al verde y rojo al amarillo. Con esos nombres, ¿de qué color es la sangre?",
+  "destacado": null,
+  "opciones": [
+   "amarillo",
+   "verde",
+   "azul",
+   "rojo"
+  ],
+  "correcta": "B",
+  "truco": "La sangre es rojo de verdad, y a ese color ahora lo llamamos verde.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

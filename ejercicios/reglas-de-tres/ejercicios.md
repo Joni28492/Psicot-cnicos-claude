@@ -1,6 +1,6 @@
 # Reglas de tres
 
-40 ejercicios · fácil: 14 · media: 19 · difícil: 7
+47 ejercicios · fácil: 17 · media: 22 · difícil: 8
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -481,3 +481,87 @@ Una impresora hace un trabajo en 10 min y otra en 15 min. ¿Cuánto tardan las d
 - D) 5 min
 
 **Respuesta: C.** Suma lo que hace cada uno en una hora: 1/10 + 1/15 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.
+
+## 1004425f24 · media · inversa
+*Test 024 (2026-11-20), ejercicio 1*
+
+Un tren a 4 km/h tarda 6 h en llegar. ¿Cuántas horas tardará a 6 km/h?
+
+- A) 9 h
+- B) 6 h
+- C) 4 h
+- D) 3 h
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 4 × 6 = 24; 24 ÷ 6 = 4.
+
+## 6d78813222 · fácil · directa
+*Test 024 (2026-11-20), ejercicio 7*
+
+Un coche recorre 64 km con 8 litros. ¿Cuántos km recorre con 13 litros?
+
+- A) 69 km
+- B) 105 km
+- C) 128 km
+- D) 104 km
+
+**Respuesta: D.** Busca el valor de una unidad: 64 ÷ 8 = 8; luego ×13. No sumes la diferencia (5) al resultado.
+
+## 77ba758862 · difícil · trabajo_conjunto
+*Test 024 (2026-11-20), ejercicio 9*
+
+Una impresora hace un trabajo en 4 min y otra en 12 min. ¿Cuánto tardan las dos juntas?
+
+- A) 5 min
+- B) 16 min
+- C) 8 min
+- D) 3 min
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/4 + 1/12 = 16/48 ⇒ tardan 48/16 = 3. Atajo: producto ÷ suma.
+
+## 290371ca58 · fácil · directa
+*Test 024 (2026-11-20), ejercicio 11*
+
+Un grifo vierte 18 litros en 3 minutos. ¿Cuántos litros vierte en 16 minutos?
+
+- A) 36 litros
+- B) 31 litros
+- C) 96 litros
+- D) 97 litros
+
+**Respuesta: C.** Busca el valor de una unidad: 18 ÷ 3 = 6; luego ×16. No sumes la diferencia (13) al resultado.
+
+## b242f1e95b · media · inversa
+*Test 024 (2026-11-20), ejercicio 13*
+
+6 bombas vacían una piscina en 6 horas. ¿Cuántas horas tardarían 4 bombas?
+
+- A) 4 horas
+- B) 18 horas
+- C) 10 horas
+- D) 9 horas
+
+**Respuesta: D.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 6 × 6 = 36; 36 ÷ 4 = 9.
+
+## a0dc30e47a · fácil · directa
+*Test 024 (2026-11-20), ejercicio 19*
+
+En un mapa, 3 cm equivalen a 6 km. ¿A cuántos km equivalen 11 cm?
+
+- A) 14 km
+- B) 23 km
+- C) 22 km
+- D) 12 km
+
+**Respuesta: C.** Busca el valor de una unidad: 6 ÷ 3 = 2; luego ×11. No sumes la diferencia (8) al resultado.
+
+## e33956bcd8 · media · compuesta
+*Test 024 (2026-11-20), ejercicio 30*
+
+4 máquinas fabrican 100 piezas en 5 horas. ¿Cuántas piezas fabrican 2 máquinas en 4 horas?
+
+- A) 50
+- B) 40
+- C) 41
+- D) 80
+
+**Respuesta: B.** Piezas por máquina y hora: 100 ÷ (4×5) = 5. Luego 2×4×5 = 40.

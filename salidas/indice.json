@@ -3295,5 +3295,288 @@
     "correcta": "A"
    }
   ]
+ },
+ {
+  "numero": 24,
+  "fecha": "2026-11-20",
+  "archivo": "psicotecnico_024_media.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "media",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 2,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 3,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 4,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 5,
+    "tipo": "Porcentajes",
+    "subtipo": "variacion",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 6,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 7,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 8,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 9,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 10,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 11,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 12,
+    "tipo": "Porcentajes",
+    "subtipo": "sube_y_baja",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 13,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 14,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 15,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 16,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 17,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 18,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 19,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 20,
+    "tipo": "Codificación",
+    "subtipo": "cesar",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 21,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 22,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 23,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 24,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 25,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 26,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 27,
+    "tipo": "Codificación",
+    "subtipo": "vocales",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 28,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 29,
+    "tipo": "Codificación",
+    "subtipo": "renombrar",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 30,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 31,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_fila_vertical",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 32,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 33,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 34,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_espiral",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 35,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_dos_filas",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 36,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_fila",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 37,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 38,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 39,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "media",
+    "correcta": "D"
+   }
+  ]
  }
 ]

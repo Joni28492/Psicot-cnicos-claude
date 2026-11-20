@@ -1,6 +1,6 @@
 # Figuras desplegables
 
-28 ejercicios · fácil: 3 · media: 3 · difícil: 22
+32 ejercicios · fácil: 4 · media: 4 · difícil: 24
 
 ## f0b0d7ff66 · difícil · figura
 *Test 012 (2026-11-08), ejercicio 33*
@@ -251,5 +251,41 @@
 ¿Qué desarrollo forma esta figura? (octaedro)
 
 ![ejercicio](img/27920ab832.png)
+
+**Respuesta: D.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## c4bf274aea · fácil · figura
+*Test 024 (2026-11-20), ejercicio 32*
+
+¿Qué desarrollo forma esta figura? (cubo)
+
+![ejercicio](img/c4bf274aea.png)
+
+**Respuesta: B.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## 36bee6a929 · difícil · figura
+*Test 024 (2026-11-20), ejercicio 33*
+
+¿Qué figura se forma al plegar este desarrollo? (octaedro)
+
+![ejercicio](img/36bee6a929.png)
+
+**Respuesta: B.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## 24eba2c2bc · difícil · figura
+*Test 024 (2026-11-20), ejercicio 38*
+
+¿Qué figura se forma al plegar este desarrollo? (prisma triangular)
+
+![ejercicio](img/24eba2c2bc.png)
+
+**Respuesta: C.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## a617456eee · media · figura
+*Test 024 (2026-11-20), ejercicio 39*
+
+¿Qué desarrollo forma esta figura? (cubo)
+
+![ejercicio](img/a617456eee.png)
 
 **Respuesta: D.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.

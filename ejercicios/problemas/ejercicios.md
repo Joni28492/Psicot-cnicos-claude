@@ -1,6 +1,6 @@
 # Problemas
 
-85 ejercicios · fácil: 30 · media: 36 · difícil: 19
+95 ejercicios · fácil: 34 · media: 40 · difícil: 21
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -1021,3 +1021,123 @@ En un aparcamiento hay motos y coches. En total hay 19 vehículos y 60 ruedas. �
 - D) 22
 
 **Respuesta: A.** Supón que todos son del tipo menor (2): 19×2 = 38. Sobran 22, y cada cambio añade 2. 22 ÷ 2 = 11 coches.
+
+## 6649d11c3e · media · veces
+*Test 024 (2026-11-20), ejercicio 2*
+
+Un padre tiene 5 veces los años de su hijo y entre los dos suman 48. ¿Cuántos años tiene el padre?
+
+- A) 8
+- B) 43
+- C) 40
+- D) 24
+
+**Respuesta: C.** El total son 5+1 = 6 partes iguales: 48 ÷ 6 = 8 (hijo). Padre: 5×8 = 40.
+
+## b0b33aa26a · difícil · edades
+*Test 024 (2026-11-20), ejercicio 3*
+
+Ahora una madre tiene 4 veces la edad de su hija. Dentro de 11 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 33
+- B) 88
+- C) 11
+- D) 22
+
+**Respuesta: D.** Con x = edad de la hija: 4x + 11 = 3(x + 11) ⇒ x = 22 ⇒ x = 22. Comprobación: madre 88, dentro de 11 años 99 = 3×33.
+
+## f9b8d6b610 · fácil · cabezas_patas
+*Test 024 (2026-11-20), ejercicio 4*
+
+En una granja hay gallinas y conejos. En total hay 27 cabezas y 86 patas. ¿Cuántos conejos hay?
+
+- A) 20
+- B) 11
+- C) 16
+- D) 32
+
+**Respuesta: C.** Supón que todos son del tipo menor (2): 27×2 = 54. Sobran 32, y cada cambio añade 2. 32 ÷ 2 = 16 conejos.
+
+## 3cd5524886 · fácil · cabezas_patas
+*Test 024 (2026-11-20), ejercicio 10*
+
+En una granja hay gallinas y conejos. En total hay 8 cabezas y 26 patas. ¿Cuántos conejos hay?
+
+- A) 3
+- B) 9
+- C) 10
+- D) 5
+
+**Respuesta: D.** Supón que todos son del tipo menor (2): 8×2 = 16. Sobran 10, y cada cambio añade 2. 10 ÷ 2 = 5 conejos.
+
+## 261b4a5e0d · media · combinatoria
+*Test 024 (2026-11-20), ejercicio 14*
+
+Con 2 camisas, 2 pantalones y 3 pares de zapatos, ¿cuántos conjuntos distintos se pueden formar?
+
+- A) 12
+- B) 7
+- C) 4
+- D) 24
+
+**Respuesta: A.** Se multiplican las opciones: 2×2×3 = 12.
+
+## 85f22c6d73 · media · ecuacion
+*Test 024 (2026-11-20), ejercicio 15*
+
+La mitad de un número más 10 es igual a sus tres cuartas partes. ¿Qué número es?
+
+- A) 45
+- B) 41
+- C) 39
+- D) 40
+
+**Respuesta: D.** x/2 + 10 = 3x/4 ⇒ 10 = x/4 ⇒ x = 40.
+
+## b190987848 · difícil · edades
+*Test 024 (2026-11-20), ejercicio 17*
+
+Ahora una madre tiene 5 veces la edad de su hija. Dentro de 12 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 20
+- B) 16
+- C) 4
+- D) 12
+
+**Respuesta: C.** Con x = edad de la hija: 5x + 12 = 2(x + 12) ⇒ 3x = 12 ⇒ x = 4. Comprobación: madre 20, dentro de 12 años 32 = 2×16.
+
+## 341569c8fa · fácil · mas_que
+*Test 024 (2026-11-20), ejercicio 22*
+
+Juan tiene 12 libros más que Sara, y entre los dos suman 84. ¿Cuántos tiene Sara?
+
+- A) 36
+- B) 72
+- C) 42
+- D) 30
+
+**Respuesta: A.** Quita la diferencia al total: 84 − 12 = 72, a medias = 36 (el menor). El mayor es 36 + 12 = 48.
+
+## 2f68c8bc1d · media · ecuacion
+*Test 024 (2026-11-20), ejercicio 23*
+
+La suma de tres números consecutivos es 114. ¿Cuál es el mayor?
+
+- A) 39
+- B) 78
+- C) 34
+- D) 37
+
+**Respuesta: A.** El de en medio es la media: 114 ÷ 3 = 38. El mayor es 39.
+
+## 4c39d7ae57 · fácil · cabezas_patas
+*Test 024 (2026-11-20), ejercicio 25*
+
+En una caja hay monedas de 1 € y de 2 €. Hay 13 monedas que suman 20 €. ¿Cuántas monedas de 2 € hay?
+
+- A) 10
+- B) 8
+- C) 7
+- D) 6
+
+**Respuesta: C.** Supón que todos son del tipo menor (1): 13×1 = 13. Sobran 7, y cada cambio añade 1. 7 ÷ 1 = 7 monedas de 2 €.

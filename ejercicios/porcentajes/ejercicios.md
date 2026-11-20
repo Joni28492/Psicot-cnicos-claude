@@ -1,6 +1,6 @@
 # Porcentajes
 
-44 ejercicios · fácil: 13 · media: 28 · difícil: 3
+51 ejercicios · fácil: 14 · media: 34 · difícil: 3
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -529,3 +529,87 @@ Un precio sube un 30% y después baja un 30%. ¿Cuál es el efecto total?
 - D) Baja un 30%
 
 **Respuesta: A.** Los porcentajes no se compensan: (1+3/10)·(1−3/10) = 1 − 9/100 ⇒ pierde 9%.
+
+## 0a0d628a50 · media · variacion
+*Test 024 (2026-11-20), ejercicio 5*
+
+Un valor pasa de 72 a 18. ¿En qué porcentaje disminuye?
+
+- A) 300%
+- B) 75%
+- C) 150%
+- D) 37,5%
+
+**Respuesta: B.** Diferencia 54 sobre el valor de partida (72): 3/4 = 75%. Siempre se divide entre el valor inicial.
+
+## 2d406614c6 · fácil · porcentaje_de
+*Test 024 (2026-11-20), ejercicio 6*
+
+¿Cuánto es el 37,5% de 216?
+
+- A) 78
+- B) 135
+- C) 27
+- D) 81
+
+**Respuesta: D.** 37,5% = 3/8. 216 ÷ 8 × 3 = 81.
+
+## 4c0ad4ea4b · media · porcentaje_inverso
+*Test 024 (2026-11-20), ejercicio 8*
+
+El 66⅔% de un número es 30. ¿Cuál es el número?
+
+- A) 45
+- B) 15
+- C) 120
+- D) 60
+
+**Respuesta: A.** 66⅔% = 2/3: 30 son 2 partes de 3. Una parte = 15; el total = 45.
+
+## 7a68e9b77b · media · sube_y_baja
+*Test 024 (2026-11-20), ejercicio 12*
+
+Un precio baja un 10% y después sube un 10%. ¿Cuál es el efecto total?
+
+- A) Baja un 10%
+- B) Se queda igual
+- C) Baja un 1%
+- D) Sube un 1%
+
+**Respuesta: C.** Los porcentajes no se compensan: (1+1/10)·(1−1/10) = 1 − 1/100 ⇒ pierde 1%.
+
+## feb92c06fe · media · descuentos
+*Test 024 (2026-11-20), ejercicio 16*
+
+Una chaqueta de 240 € tiene un 25% de descuento y, sobre el nuevo precio, otro 20%. ¿Cuánto cuesta?
+
+- A) 180 €
+- B) 148 €
+- C) 132 €
+- D) 144 €
+
+**Respuesta: D.** No se suman (45%): se multiplican 75% × 80% = 60% del precio ⇒ 144 €.
+
+## e73c369e08 · media · descuentos
+*Test 024 (2026-11-20), ejercicio 24*
+
+Una chaqueta de 400 € tiene un 10% de descuento y, sobre el nuevo precio, otro 20%. ¿Cuánto cuesta?
+
+- A) 288 €
+- B) 280 €
+- C) 292 €
+- D) 360 €
+
+**Respuesta: A.** No se suman (30%): se multiplican 90% × 80% = 72% del precio ⇒ 288 €.
+
+## 9276542323 · media · descuentos
+*Test 024 (2026-11-20), ejercicio 28*
+
+Una chaqueta de 120 € tiene un 50% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?
+
+- A) 60 €
+- B) 45 €
+- C) 30 €
+- D) 49 €
+
+**Respuesta: B.** No se suman (75%): se multiplican 50% × 75% = 37,5% del precio ⇒ 45 €.
