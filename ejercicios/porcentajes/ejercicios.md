@@ -1,6 +1,6 @@
 # Porcentajes
 
-51 ejercicios · fácil: 14 · media: 34 · difícil: 3
+72 ejercicios · fácil: 21 · media: 41 · difícil: 10
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -613,3 +613,255 @@ Una chaqueta de 120 € tiene un 50% de descuento y, sobre el nuevo precio, otro
 - D) 49 €
 
 **Respuesta: B.** No se suman (75%): se multiplican 50% × 75% = 37,5% del precio ⇒ 45 €.
+
+## 41b24f430b · fácil · que_porcentaje
+*Test 025 (2026-11-21), ejercicio 1*
+
+¿Qué porcentaje de 60 es 24?
+
+- A) 150%
+- B) 40%
+- C) 24%
+- D) 60%
+
+**Respuesta: B.** 24/60 se simplifica a 2/5 = 40%.
+
+## 47f8548b18 · fácil · porcentaje_de
+*Test 025 (2026-11-21), ejercicio 2*
+
+¿Cuánto es el 10% de 60?
+
+- A) 6
+- B) 7
+- C) 4
+- D) 54
+
+**Respuesta: A.** 10% = 1/10. 60 ÷ 10 × 1 = 6.
+
+## 72d823d1d4 · fácil · porcentaje_de
+*Test 025 (2026-11-21), ejercicio 3*
+
+¿Cuánto es el 70% de 370?
+
+- A) 259
+- B) 269
+- C) 37
+- D) 111
+
+**Respuesta: A.** 70% = 7/10. 370 ÷ 10 × 7 = 259.
+
+## 09b785cfdd · fácil · que_porcentaje
+*Test 025 (2026-11-21), ejercicio 4*
+
+¿Qué porcentaje de 100 es 10?
+
+- A) 10%
+- B) 5%
+- C) 90%
+- D) 900%
+
+**Respuesta: A.** 10/100 se simplifica a 1/10 = 10%.
+
+## 1aa02cc13b · fácil · porcentaje_de
+*Test 025 (2026-11-21), ejercicio 5*
+
+¿Cuánto es el 10% de 280?
+
+- A) 38
+- B) 28
+- C) 27
+- D) 252
+
+**Respuesta: B.** 10% = 1/10. 280 ÷ 10 × 1 = 28.
+
+## 131c5cf6b6 · fácil · porcentaje_de
+*Test 025 (2026-11-21), ejercicio 6*
+
+¿Cuánto es el 5% de 260?
+
+- A) 247
+- B) 14
+- C) 11
+- D) 13
+
+**Respuesta: D.** 5% = 1/20. 260 ÷ 20 × 1 = 13.
+
+## 27fc1abd8f · fácil · porcentaje_de
+*Test 025 (2026-11-21), ejercicio 7*
+
+¿Cuánto es el 25% de 420?
+
+- A) 105
+- B) 315
+- C) 108
+- D) 210
+
+**Respuesta: A.** 25% = 1/4. 420 ÷ 4 × 1 = 105.
+
+## fcb1d24cf9 · media · variacion
+*Test 025 (2026-11-21), ejercicio 8*
+
+Un valor pasa de 130 a 104. ¿En qué porcentaje disminuye?
+
+- A) 40%
+- B) 20%
+- C) 10%
+- D) 25%
+
+**Respuesta: B.** Diferencia 26 sobre el valor de partida (130): 1/5 = 20%. Siempre se divide entre el valor inicial.
+
+## 3ea3d9fb19 · media · porcentaje_inverso
+*Test 025 (2026-11-21), ejercicio 9*
+
+El 37,5% de un número es 27. ¿Cuál es el número?
+
+- A) 54
+- B) 45
+- C) 72
+- D) 108
+
+**Respuesta: C.** 37,5% = 3/8: 27 son 3 partes de 8. Una parte = 9; el total = 72.
+
+## 51950cbcfc · media · porcentaje_inverso
+*Test 025 (2026-11-21), ejercicio 10*
+
+El 15% de un número es 60. ¿Cuál es el número?
+
+- A) 240
+- B) 120
+- C) 400
+- D) 340
+
+**Respuesta: C.** 15% = 3/20: 60 son 3 partes de 20. Una parte = 20; el total = 400.
+
+## 45ec3160e1 · media · descuentos
+*Test 025 (2026-11-21), ejercicio 11*
+
+Una chaqueta de 160 € tiene un 25% de descuento y, sobre el nuevo precio, otro 10%. ¿Cuánto cuesta?
+
+- A) 120 €
+- B) 108 €
+- C) 112 €
+- D) 104 €
+
+**Respuesta: B.** No se suman (35%): se multiplican 75% × 90% = 67,5% del precio ⇒ 108 €.
+
+## 8609ddc7aa · media · iva
+*Test 025 (2026-11-21), ejercicio 12*
+
+Un producto cuesta 360 € con un IVA del 50%. ¿Cuánto costaba sin IVA?
+
+- A) 178 €
+- B) 240 €
+- C) 250 €
+- D) 180 €
+
+**Respuesta: B.** El precio con IVA es el 150% del original: 360 ÷ 1,5 = 240. Restar el 50% al precio final es el error típico.
+
+## e8965926fc · media · sube_y_baja
+*Test 025 (2026-11-21), ejercicio 13*
+
+Un precio sube un 25% y después baja un 25%. ¿Cuál es el efecto total?
+
+- A) Baja un 25%
+- B) Sube un 6,25%
+- C) Se queda igual
+- D) Baja un 6,25%
+
+**Respuesta: D.** Los porcentajes no se compensan: (1+1/4)·(1−1/4) = 1 − 1/16 ⇒ pierde 6,25%.
+
+## 62f7f88e54 · media · porcentaje_inverso
+*Test 025 (2026-11-21), ejercicio 14*
+
+El 33⅓% de un número es 15. ¿Cuál es el número?
+
+- A) 48
+- B) 60
+- C) 45
+- D) 30
+
+**Respuesta: C.** 33⅓% = 1/3: 15 son 1 partes de 3. Una parte = 15; el total = 45.
+
+## 9bd17d1bd2 · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 15*
+
+En una clase de 200 alumnos, el 20% son chicas y de ellas el 75% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 25
+- B) 30
+- C) 190
+- D) 40
+
+**Respuesta: B.** 1/5 de 200 = 40; 3/4 de eso = 30. Se multiplican las fracciones, no se suman.
+
+## f71917c473 · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 16*
+
+En una clase de 80 alumnos, el 75% son chicas y de ellas el 20% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 12
+- B) 60
+- C) 13
+- D) 76
+
+**Respuesta: A.** 3/4 de 80 = 60; 1/5 de eso = 12. Se multiplican las fracciones, no se suman.
+
+## 21df399863 · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 17*
+
+En una clase de 800 alumnos, el 75% son chicas y de ellas el 10% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 600
+- B) 680
+- C) 61
+- D) 60
+
+**Respuesta: D.** 3/4 de 800 = 600; 1/10 de eso = 60. Se multiplican las fracciones, no se suman.
+
+## d37bb2579c · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 18*
+
+En una clase de 240 alumnos, el 40% son chicas y de ellas el 50% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 48
+- B) 216
+- C) 46
+- D) 96
+
+**Respuesta: A.** 2/5 de 240 = 96; 1/2 de eso = 48. Se multiplican las fracciones, no se suman.
+
+## c675c914eb · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 19*
+
+En una clase de 80 alumnos, el 50% son chicas y de ellas el 10% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 40
+- B) 4
+- C) 48
+- D) 9
+
+**Respuesta: B.** 1/2 de 80 = 40; 1/10 de eso = 4. Se multiplican las fracciones, no se suman.
+
+## c9f3ee3564 · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 20*
+
+En una clase de 200 alumnos, el 40% son chicas y de ellas el 25% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 20
+- B) 10
+- C) 80
+- D) 130
+
+**Respuesta: A.** 2/5 de 200 = 80; 1/4 de eso = 20. Se multiplican las fracciones, no se suman.
+
+## b068829e84 · difícil · porcentaje_de_porcentaje
+*Test 025 (2026-11-21), ejercicio 21*
+
+En una clase de 80 alumnos, el 75% son chicas y de ellas el 10% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 60
+- B) 1
+- C) 68
+- D) 6
+
+**Respuesta: D.** 3/4 de 80 = 60; 1/10 de eso = 6. Se multiplican las fracciones, no se suman.

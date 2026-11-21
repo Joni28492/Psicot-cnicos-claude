@@ -3578,5 +3578,162 @@
     "correcta": "D"
    }
   ]
+ },
+ {
+  "numero": 25,
+  "fecha": "2026-11-21",
+  "archivo": "psicotecnico_025_especifico_porcentajes_variable.pdf",
+  "modo": "especifico",
+  "tema": "Porcentajes",
+  "dificultad": "variable",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 2,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 3,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 4,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 5,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 6,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 7,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 8,
+    "tipo": "Porcentajes",
+    "subtipo": "variacion",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 9,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 10,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 11,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 12,
+    "tipo": "Porcentajes",
+    "subtipo": "iva",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 13,
+    "tipo": "Porcentajes",
+    "subtipo": "sube_y_baja",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 14,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 15,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 16,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 17,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 18,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 19,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 20,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 21,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de_porcentaje",
+    "dificultad": "dificil",
+    "correcta": "D"
+   }
+  ]
  }
 ]
