@@ -1,6 +1,6 @@
 # Codificación
 
-46 ejercicios · fácil: 17 · media: 23 · difícil: 6
+52 ejercicios · fácil: 20 · media: 25 · difícil: 7
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -553,3 +553,75 @@ Llamamos verde al rojo, amarillo al verde y rojo al amarillo. Con esos nombres, 
 - D) rojo
 
 **Respuesta: B.** La sangre es rojo de verdad, y a ese color ahora lo llamamos verde.
+
+## 6fb80bc5b7 · difícil · renombrar
+*Test 026 (2026-11-22), ejercicio 1*
+
+Llamamos amarillo al azul, negro al amarillo y azul al negro. Con esos nombres, ¿de qué color es el sol?
+
+- A) rojo
+- B) negro
+- C) verde
+- D) azul
+
+**Respuesta: B.** El sol es amarillo de verdad, y a ese color ahora lo llamamos negro.
+
+## 0646d261d1 · media · espejo
+*Test 026 (2026-11-22), ejercicio 8*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe GATO?
+
+- A) SYFK
+- B) LGZT
+- C) TZGL
+- D) UAHM
+
+**Respuesta: C.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## 258238a407 · fácil · valor_palabra
+*Test 026 (2026-11-22), ejercicio 11*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra MANO?
+
+- A) 44
+- B) 47
+- C) 45
+- D) 43
+
+**Respuesta: A.** Posiciones: 13(M) + 1(A) + 14(N) + 16(O) = 44. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 0dcfb273ce · fácil · cesar
+*Test 026 (2026-11-22), ejercicio 12*
+
+En un código, NIÑO se escribe PLQR. Con el mismo código, ¿cómo se escribe NUBE?
+
+- A) PXEH
+- B) QYFI
+- C) QXEH
+- D) OWDG
+
+**Respuesta: A.** Cada letra se desplaza +3 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## b759287d87 · media · digitos
+*Test 026 (2026-11-22), ejercicio 17*
+
+En un código, BCPR = 5721 y TRPM = 6124. Con el mismo código, ¿cómo se escribe BMBR?
+
+- A) 4551
+- B) 5452
+- C) 1545
+- D) 5451
+
+**Respuesta: D.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: B=5, C=7, M=4, P=2, R=1, T=6.
+
+## a0f1f39099 · fácil · cesar
+*Test 026 (2026-11-22), ejercicio 19*
+
+En un código, SOL se escribe VRÑ. Con el mismo código, ¿cómo se escribe FLOR?
+
+- A) IORU
+- B) JOSV
+- C) IÑRU
+- D) HNQT
+
+**Respuesta: C.** Cada letra se desplaza +3 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).

@@ -1604,5 +1604,203 @@
   "truco": "Son dos series entrelazadas: posiciones impares -2 y pares -1. Falta la de las pares.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "c0ddad16ed",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "3, 47, 8, 53, 13, 59, 18, ?",
+  "opciones": [
+   "66",
+   "130",
+   "23",
+   "65"
+  ],
+  "correcta": "D",
+  "truco": "Dos series entrelazadas: lugares impares +5, lugares pares +6. Toca un lugar par: 59 +6 = 65.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ca62463537",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 6, 18, 54, 162, ?",
+  "opciones": [
+   "270",
+   "486",
+   "489",
+   "216"
+  ],
+  "correcta": "B",
+  "truco": "Cada término se multiplica por 3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "91e189c079",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "9, 12, 18, 27, 39, ?",
+  "opciones": [
+   "51",
+   "56",
+   "52",
+   "54"
+  ],
+  "correcta": "D",
+  "truco": "Las diferencias son 3, 6, 9, 12… y crecen 3 cada vez: la siguiente es +15.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "27130ff700",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "num_operaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 9, 30, 93, 282, ?",
+  "opciones": [
+   "846",
+   "471",
+   "851",
+   "849"
+  ],
+  "correcta": "D",
+  "truco": "Cada término = anterior ×3 +3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a5245808cb",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 16,
+  "subtipo": "letras_salto",
+  "dificultad": "facil",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "L, P, U, Z, E, ?",
+  "opciones": [
+   "J",
+   "Ñ",
+   "K",
+   "I"
+  ],
+  "correcta": "A",
+  "truco": "Cada letra avanza 5 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3311279189",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "num_fibonacci",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "2, 6, 8, 14, 22, ?",
+  "opciones": [
+   "33",
+   "37",
+   "36",
+   "30"
+  ],
+  "correcta": "C",
+  "truco": "Cada término es la suma de los dos anteriores.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "36f977173c",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 23,
+  "subtipo": "num_aritmetica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "40, 45, 50, 55, 60, ?",
+  "opciones": [
+   "66",
+   "65",
+   "70",
+   "64"
+  ],
+  "correcta": "B",
+  "truco": "Suma constante: +5 en cada paso.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "83d4412cb0",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "S, U, X, B, G, ?",
+  "opciones": [
+   "L",
+   "N",
+   "Ñ",
+   "M"
+  ],
+  "correcta": "D",
+  "truco": "Los saltos crecen: +2, +3, +4, +5… el siguiente es +6.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e356eabedb",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "num_primos_o_triangulares",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "6, 10, 15, 21, 28, ?",
+  "opciones": [
+   "38",
+   "26",
+   "35",
+   "36"
+  ],
+  "correcta": "D",
+  "truco": "Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

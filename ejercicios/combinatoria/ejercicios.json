@@ -1538,5 +1538,137 @@
   "truco": "Cada espacio tiene 3 opciones, que se repiten: 3×3 = 3^2 = 9.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "d4b42367bf",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "permutaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de SOLO?",
+  "destacado": null,
+  "opciones": [
+   "16",
+   "6",
+   "24",
+   "12"
+  ],
+  "correcta": "D",
+  "truco": "4! dividido entre las repeticiones (O×2): 24 ÷ 2 = 12.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "f687fbe146",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "permutaciones",
+  "dificultad": "facil",
+  "enunciado": "¿De cuántas formas se pueden colocar 6 banderas distintas en un mástil, una encima de otra?",
+  "destacado": null,
+  "opciones": [
+   "720",
+   "120",
+   "36",
+   "360"
+  ],
+  "correcta": "A",
+  "truco": "Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a5e398d1ee",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "combinaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántos triángulos distintos se pueden dibujar uniendo 8 puntos de un círculo de 3 en 3?",
+  "destacado": null,
+  "opciones": [
+   "336",
+   "24",
+   "512",
+   "56"
+  ],
+  "correcta": "D",
+  "truco": "El orden no importa: 8×7×6 ÷ 3! = 336 ÷ 6 = 56.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "26eed66b2a",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "combinaciones",
+  "dificultad": "media",
+  "enunciado": "¿Cuántos tríos distintos se pueden formar con 6 amigos?",
+  "destacado": null,
+  "opciones": [
+   "120",
+   "20",
+   "18",
+   "216"
+  ],
+  "correcta": "B",
+  "truco": "El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6769194aab",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "combinaciones",
+  "dificultad": "media",
+  "enunciado": "De un grupo de 9 agentes hay que elegir 3 para una patrulla. ¿Cuántas patrullas distintas se pueden formar?",
+  "destacado": null,
+  "opciones": [
+   "27",
+   "84",
+   "729",
+   "504"
+  ],
+  "correcta": "B",
+  "truco": "El orden no importa: 9×8×7 ÷ 3! = 504 ÷ 6 = 84.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "2923f26c23",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "variaciones",
+  "dificultad": "media",
+  "enunciado": "Hay 7 elementos distintos y 3 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?",
+  "destacado": null,
+  "opciones": [
+   "343",
+   "5.040",
+   "210",
+   "35"
+  ],
+  "correcta": "C",
+  "truco": "7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

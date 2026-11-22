@@ -1032,5 +1032,137 @@
   "truco": "Piezas por máquina y hora: 100 ÷ (4×5) = 5. Luego 2×4×5 = 40.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "017fdf3660",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "Con 2 cajeros se atiende la cola en 24 minutos. ¿Cuántos minutos con 6 cajeros?",
+  "destacado": null,
+  "opciones": [
+   "72 minutos",
+   "9 minutos",
+   "8 minutos",
+   "18 minutos"
+  ],
+  "correcta": "C",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 24 = 48; 48 ÷ 6 = 8.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "148a3593d5",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 9,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "6 máquinas fabrican 72 piezas en 3 horas. ¿Cuántas piezas fabrican 8 máquinas en 7 horas?",
+  "destacado": null,
+  "opciones": [
+   "168",
+   "229",
+   "224",
+   "96"
+  ],
+  "correcta": "C",
+  "truco": "Piezas por máquina y hora: 72 ÷ (6×3) = 4. Luego 8×7×4 = 224.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "86612ba3f2",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "inversa",
+  "dificultad": "media",
+  "enunciado": "3 obreros tardan 6 días en hacer una obra. ¿Cuántos días tardarían 2 obreros?",
+  "destacado": null,
+  "opciones": [
+   "12 días",
+   "4 días",
+   "18 días",
+   "9 días"
+  ],
+  "correcta": "D",
+  "truco": "Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 6 = 18; 18 ÷ 2 = 9.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a6b9789ea1",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Una impresora hace un trabajo en 30 min y otra en 20 min. ¿Cuánto tardan las dos juntas?",
+  "destacado": null,
+  "opciones": [
+   "50 min",
+   "10 min",
+   "12 min",
+   "25 min"
+  ],
+  "correcta": "C",
+  "truco": "Suma lo que hace cada uno en una hora: 1/30 + 1/20 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3f3c0cdc31",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "compuesta",
+  "dificultad": "media",
+  "enunciado": "2 máquinas fabrican 20 piezas en 2 horas. ¿Cuántas piezas fabrican 8 máquinas en 3 horas?",
+  "destacado": null,
+  "opciones": [
+   "30",
+   "120",
+   "80",
+   "119"
+  ],
+  "correcta": "B",
+  "truco": "Piezas por máquina y hora: 20 ÷ (2×2) = 5. Luego 8×3×5 = 120.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6877c1a628",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 28,
+  "subtipo": "trabajo_conjunto",
+  "dificultad": "dificil",
+  "enunciado": "Ana pinta una pared en 20 h y Luis en 30 h. ¿Cuánto tardan trabajando juntos?",
+  "destacado": null,
+  "opciones": [
+   "50 h",
+   "10 h",
+   "25 h",
+   "12 h"
+  ],
+  "correcta": "D",
+  "truco": "Suma lo que hace cada uno en una hora: 1/20 + 1/30 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

@@ -1,6 +1,6 @@
 # Series
 
-73 ejercicios · fácil: 19 · media: 41 · difícil: 13
+82 ejercicios · fácil: 22 · media: 45 · difícil: 15
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -1023,3 +1023,129 @@
 - D) C
 
 **Respuesta: C.** Son dos series entrelazadas: posiciones impares -2 y pares -1. Falta la de las pares.
+
+## c0ddad16ed · media · num_alternas
+*Test 026 (2026-11-22), ejercicio 2*
+
+¿Qué número continúa la serie?
+
+**3, 47, 8, 53, 13, 59, 18, ?**
+
+- A) 66
+- B) 130
+- C) 23
+- D) 65
+
+**Respuesta: D.** Dos series entrelazadas: lugares impares +5, lugares pares +6. Toca un lugar par: 59 +6 = 65.
+
+## ca62463537 · fácil · num_geometrica
+*Test 026 (2026-11-22), ejercicio 4*
+
+¿Qué número continúa la serie?
+
+**2, 6, 18, 54, 162, ?**
+
+- A) 270
+- B) 486
+- C) 489
+- D) 216
+
+**Respuesta: B.** Cada término se multiplica por 3.
+
+## 91e189c079 · media · num_creciente
+*Test 026 (2026-11-22), ejercicio 10*
+
+¿Qué número continúa la serie?
+
+**9, 12, 18, 27, 39, ?**
+
+- A) 51
+- B) 56
+- C) 52
+- D) 54
+
+**Respuesta: D.** Las diferencias son 3, 6, 9, 12… y crecen 3 cada vez: la siguiente es +15.
+
+## 27130ff700 · difícil · num_operaciones
+*Test 026 (2026-11-22), ejercicio 14*
+
+¿Qué número continúa la serie?
+
+**2, 9, 30, 93, 282, ?**
+
+- A) 846
+- B) 471
+- C) 851
+- D) 849
+
+**Respuesta: D.** Cada término = anterior ×3 +3.
+
+## a5245808cb · fácil · letras_salto
+*Test 026 (2026-11-22), ejercicio 16*
+
+¿Qué letra continúa la serie?
+
+**L, P, U, Z, E, ?**
+
+- A) J
+- B) Ñ
+- C) K
+- D) I
+
+**Respuesta: A.** Cada letra avanza 5 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 3311279189 · media · num_fibonacci
+*Test 026 (2026-11-22), ejercicio 18*
+
+¿Qué número continúa la serie?
+
+**2, 6, 8, 14, 22, ?**
+
+- A) 33
+- B) 37
+- C) 36
+- D) 30
+
+**Respuesta: C.** Cada término es la suma de los dos anteriores.
+
+## 36f977173c · fácil · num_aritmetica
+*Test 026 (2026-11-22), ejercicio 23*
+
+¿Qué número continúa la serie?
+
+**40, 45, 50, 55, 60, ?**
+
+- A) 66
+- B) 65
+- C) 70
+- D) 64
+
+**Respuesta: B.** Suma constante: +5 en cada paso.
+
+## 83d4412cb0 · media · letras_creciente
+*Test 026 (2026-11-22), ejercicio 25*
+
+¿Qué letra continúa la serie?
+
+**S, U, X, B, G, ?**
+
+- A) L
+- B) N
+- C) Ñ
+- D) M
+
+**Respuesta: D.** Los saltos crecen: +2, +3, +4, +5… el siguiente es +6.
+
+## e356eabedb · difícil · num_primos_o_triangulares
+*Test 026 (2026-11-22), ejercicio 26*
+
+¿Qué número continúa la serie?
+
+**6, 10, 15, 21, 28, ?**
+
+- A) 38
+- B) 26
+- C) 35
+- D) 36
+
+**Respuesta: D.** Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).

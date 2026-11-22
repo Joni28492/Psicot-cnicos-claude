@@ -1,6 +1,6 @@
 # Reglas de tres
 
-47 ejercicios · fácil: 17 · media: 22 · difícil: 8
+53 ejercicios · fácil: 17 · media: 26 · difícil: 10
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -565,3 +565,75 @@ En un mapa, 3 cm equivalen a 6 km. ¿A cuántos km equivalen 11 cm?
 - D) 80
 
 **Respuesta: B.** Piezas por máquina y hora: 100 ÷ (4×5) = 5. Luego 2×4×5 = 40.
+
+## 017fdf3660 · media · inversa
+*Test 026 (2026-11-22), ejercicio 6*
+
+Con 2 cajeros se atiende la cola en 24 minutos. ¿Cuántos minutos con 6 cajeros?
+
+- A) 72 minutos
+- B) 9 minutos
+- C) 8 minutos
+- D) 18 minutos
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 2 × 24 = 48; 48 ÷ 6 = 8.
+
+## 148a3593d5 · media · compuesta
+*Test 026 (2026-11-22), ejercicio 9*
+
+6 máquinas fabrican 72 piezas en 3 horas. ¿Cuántas piezas fabrican 8 máquinas en 7 horas?
+
+- A) 168
+- B) 229
+- C) 224
+- D) 96
+
+**Respuesta: C.** Piezas por máquina y hora: 72 ÷ (6×3) = 4. Luego 8×7×4 = 224.
+
+## 86612ba3f2 · media · inversa
+*Test 026 (2026-11-22), ejercicio 13*
+
+3 obreros tardan 6 días en hacer una obra. ¿Cuántos días tardarían 2 obreros?
+
+- A) 12 días
+- B) 4 días
+- C) 18 días
+- D) 9 días
+
+**Respuesta: D.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 3 × 6 = 18; 18 ÷ 2 = 9.
+
+## a6b9789ea1 · difícil · trabajo_conjunto
+*Test 026 (2026-11-22), ejercicio 20*
+
+Una impresora hace un trabajo en 30 min y otra en 20 min. ¿Cuánto tardan las dos juntas?
+
+- A) 50 min
+- B) 10 min
+- C) 12 min
+- D) 25 min
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/30 + 1/20 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.
+
+## 3f3c0cdc31 · media · compuesta
+*Test 026 (2026-11-22), ejercicio 27*
+
+2 máquinas fabrican 20 piezas en 2 horas. ¿Cuántas piezas fabrican 8 máquinas en 3 horas?
+
+- A) 30
+- B) 120
+- C) 80
+- D) 119
+
+**Respuesta: B.** Piezas por máquina y hora: 20 ÷ (2×2) = 5. Luego 8×3×5 = 120.
+
+## 6877c1a628 · difícil · trabajo_conjunto
+*Test 026 (2026-11-22), ejercicio 28*
+
+Ana pinta una pared en 20 h y Luis en 30 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 50 h
+- B) 10 h
+- C) 25 h
+- D) 12 h
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/20 + 1/30 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.

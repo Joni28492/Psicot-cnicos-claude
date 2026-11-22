@@ -1,6 +1,6 @@
 # Combinatoria
 
-70 ejercicios · fácil: 24 · media: 30 · difícil: 16
+76 ejercicios · fácil: 25 · media: 35 · difícil: 16
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -841,3 +841,75 @@ Una cerradura tiene 2 ruedas y cada una tiene las cifras de 1 a 3. ¿Cuántas co
 - D) 4
 
 **Respuesta: C.** Cada espacio tiene 3 opciones, que se repiten: 3×3 = 3^2 = 9.
+
+## d4b42367bf · media · permutaciones
+*Test 026 (2026-11-22), ejercicio 3*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de SOLO?
+
+- A) 16
+- B) 6
+- C) 24
+- D) 12
+
+**Respuesta: D.** 4! dividido entre las repeticiones (O×2): 24 ÷ 2 = 12.
+
+## f687fbe146 · fácil · permutaciones
+*Test 026 (2026-11-22), ejercicio 5*
+
+¿De cuántas formas se pueden colocar 6 banderas distintas en un mástil, una encima de otra?
+
+- A) 720
+- B) 120
+- C) 36
+- D) 360
+
+**Respuesta: A.** Se usan todos y el orden importa: 6! = 6×5×4×3×2×1 = 720.
+
+## a5e398d1ee · media · combinaciones
+*Test 026 (2026-11-22), ejercicio 7*
+
+¿Cuántos triángulos distintos se pueden dibujar uniendo 8 puntos de un círculo de 3 en 3?
+
+- A) 336
+- B) 24
+- C) 512
+- D) 56
+
+**Respuesta: D.** El orden no importa: 8×7×6 ÷ 3! = 336 ÷ 6 = 56.
+
+## 26eed66b2a · media · combinaciones
+*Test 026 (2026-11-22), ejercicio 15*
+
+¿Cuántos tríos distintos se pueden formar con 6 amigos?
+
+- A) 120
+- B) 20
+- C) 18
+- D) 216
+
+**Respuesta: B.** El orden no importa: 6×5×4 ÷ 3! = 120 ÷ 6 = 20.
+
+## 6769194aab · media · combinaciones
+*Test 026 (2026-11-22), ejercicio 21*
+
+De un grupo de 9 agentes hay que elegir 3 para una patrulla. ¿Cuántas patrullas distintas se pueden formar?
+
+- A) 27
+- B) 84
+- C) 729
+- D) 504
+
+**Respuesta: B.** El orden no importa: 9×8×7 ÷ 3! = 504 ÷ 6 = 84.
+
+## 2923f26c23 · media · variaciones
+*Test 026 (2026-11-22), ejercicio 22*
+
+Hay 7 elementos distintos y 3 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 343
+- B) 5.040
+- C) 210
+- D) 35
+
+**Respuesta: C.** 7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).

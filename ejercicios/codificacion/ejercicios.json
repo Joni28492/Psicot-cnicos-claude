@@ -1010,5 +1010,137 @@
   "truco": "La sangre es rojo de verdad, y a ese color ahora lo llamamos verde.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "6fb80bc5b7",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 1,
+  "subtipo": "renombrar",
+  "dificultad": "dificil",
+  "enunciado": "Llamamos amarillo al azul, negro al amarillo y azul al negro. Con esos nombres, ¿de qué color es el sol?",
+  "destacado": null,
+  "opciones": [
+   "rojo",
+   "negro",
+   "verde",
+   "azul"
+  ],
+  "correcta": "B",
+  "truco": "El sol es amarillo de verdad, y a ese color ahora lo llamamos negro.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0646d261d1",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 8,
+  "subtipo": "espejo",
+  "dificultad": "media",
+  "enunciado": "Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe GATO?",
+  "destacado": null,
+  "opciones": [
+   "SYFK",
+   "LGZT",
+   "TZGL",
+   "UAHM"
+  ],
+  "correcta": "C",
+  "truco": "Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "258238a407",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra MANO?",
+  "destacado": null,
+  "opciones": [
+   "44",
+   "47",
+   "45",
+   "43"
+  ],
+  "correcta": "A",
+  "truco": "Posiciones: 13(M) + 1(A) + 14(N) + 16(O) = 44. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0dcfb273ce",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, NIÑO se escribe PLQR. Con el mismo código, ¿cómo se escribe NUBE?",
+  "destacado": null,
+  "opciones": [
+   "PXEH",
+   "QYFI",
+   "QXEH",
+   "OWDG"
+  ],
+  "correcta": "A",
+  "truco": "Cada letra se desplaza +3 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b759287d87",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, BCPR = 5721 y TRPM = 6124. Con el mismo código, ¿cómo se escribe BMBR?",
+  "destacado": null,
+  "opciones": [
+   "4551",
+   "5452",
+   "1545",
+   "5451"
+  ],
+  "correcta": "D",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: B=5, C=7, M=4, P=2, R=1, T=6.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a0f1f39099",
+  "test": "psicotecnico_026_dificil.pdf",
+  "numero": 26,
+  "fecha": "2026-11-22",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, SOL se escribe VRÑ. Con el mismo código, ¿cómo se escribe FLOR?",
+  "destacado": null,
+  "opciones": [
+   "IORU",
+   "JOSV",
+   "IÑRU",
+   "HNQT"
+  ],
+  "correcta": "C",
+  "truco": "Cada letra se desplaza +3 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

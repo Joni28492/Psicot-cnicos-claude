@@ -1,6 +1,6 @@
 # Figuras desplegables
 
-32 ejercicios · fácil: 4 · media: 4 · difícil: 24
+36 ejercicios · fácil: 4 · media: 5 · difícil: 27
 
 ## f0b0d7ff66 · difícil · figura
 *Test 012 (2026-11-08), ejercicio 33*
@@ -289,3 +289,39 @@
 ![ejercicio](img/a617456eee.png)
 
 **Respuesta: D.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## 187f9f0c61 · difícil · figura
+*Test 026 (2026-11-22), ejercicio 29*
+
+¿Qué desarrollo forma esta figura? (pirámide cuadrada)
+
+![ejercicio](img/187f9f0c61.png)
+
+**Respuesta: C.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## a0cc3b5322 · difícil · figura
+*Test 026 (2026-11-22), ejercicio 30*
+
+¿Qué desarrollo forma esta figura? (tetraedro)
+
+![ejercicio](img/a0cc3b5322.png)
+
+**Respuesta: B.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## ad94047c5f · difícil · figura
+*Test 026 (2026-11-22), ejercicio 32*
+
+¿Qué figura se forma al plegar este desarrollo? (prisma triangular)
+
+![ejercicio](img/ad94047c5f.png)
+
+**Respuesta: B.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## ebc6ec65cb · media · figura
+*Test 026 (2026-11-22), ejercicio 37*
+
+¿Qué figura se forma al plegar este desarrollo? (cubo)
+
+![ejercicio](img/ebc6ec65cb.png)
+
+**Respuesta: A.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
