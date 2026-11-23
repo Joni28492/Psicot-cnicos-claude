@@ -1,6 +1,6 @@
 # Reglas de tres
 
-53 ejercicios · fácil: 17 · media: 26 · difícil: 10
+58 ejercicios · fácil: 19 · media: 28 · difícil: 11
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -637,3 +637,63 @@ Ana pinta una pared en 20 h y Luis en 30 h. ¿Cuánto tardan trabajando juntos?
 - D) 12 h
 
 **Respuesta: D.** Suma lo que hace cada uno en una hora: 1/20 + 1/30 = 50/600 ⇒ tardan 600/50 = 12. Atajo: producto ÷ suma.
+
+## 935cf0b6ff · fácil · directa
+*Test 027 (2026-11-23), ejercicio 1*
+
+7 kg de naranjas cuestan 35 €. ¿Cuánto cuestan 12 kg?
+
+- A) 40 €
+- B) 60 €
+- C) 61 €
+- D) 70 €
+
+**Respuesta: B.** Busca el valor de una unidad: 35 ÷ 7 = 5; luego ×12. No sumes la diferencia (5) al resultado.
+
+## 775cca9833 · difícil · trabajo_conjunto
+*Test 027 (2026-11-23), ejercicio 10*
+
+Una impresora hace un trabajo en 3 min y otra en 6 min. ¿Cuánto tardan las dos juntas?
+
+- A) 4 min
+- B) 3 min
+- C) 2 min
+- D) 9 min
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/3 + 1/6 = 9/18 ⇒ tardan 18/9 = 2. Atajo: producto ÷ suma.
+
+## 951048f289 · media · inversa
+*Test 027 (2026-11-23), ejercicio 12*
+
+Con 8 cajeros se atiende la cola en 10 minutos. ¿Cuántos minutos con 4 cajeros?
+
+- A) 19 minutos
+- B) 5 minutos
+- C) 20 minutos
+- D) 30 minutos
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 8 × 10 = 80; 80 ÷ 4 = 20.
+
+## d4348477ed · media · inversa
+*Test 027 (2026-11-23), ejercicio 17*
+
+4 obreros tardan 12 días en hacer una obra. ¿Cuántos días tardarían 6 obreros?
+
+- A) 11 días
+- B) 18 días
+- C) 8 días
+- D) 10 días
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 4 × 12 = 48; 48 ÷ 6 = 8.
+
+## 51096e6b24 · fácil · directa
+*Test 027 (2026-11-23), ejercicio 22*
+
+Un coche recorre 28 km con 7 litros. ¿Cuántos km recorre con 12 litros?
+
+- A) 48 km
+- B) 33 km
+- C) 56 km
+- D) 49 km
+
+**Respuesta: A.** Busca el valor de una unidad: 28 ÷ 7 = 4; luego ×12. No sumes la diferencia (5) al resultado.

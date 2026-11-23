@@ -4004,5 +4004,225 @@
     "correcta": "A"
    }
   ]
+ },
+ {
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "archivo": "psicotecnico_027_media.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "media",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 2,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 3,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 4,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 5,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 6,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 7,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 8,
+    "tipo": "Codificación",
+    "subtipo": "valor_palabra",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 9,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 10,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 11,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 12,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 13,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 14,
+    "tipo": "Porcentajes",
+    "subtipo": "variacion",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 15,
+    "tipo": "Codificación",
+    "subtipo": "cesar",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 16,
+    "tipo": "Codificación",
+    "subtipo": "espejo",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 17,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 18,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 19,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 20,
+    "tipo": "Codificación",
+    "subtipo": "renombrar",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 21,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 22,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 23,
+    "tipo": "Porcentajes",
+    "subtipo": "descuentos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 24,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_dos_filas",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 25,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 26,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 27,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_fila",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 28,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_fila",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 29,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 30,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "media",
+    "correcta": "D"
+   }
+  ]
  }
 ]

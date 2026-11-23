@@ -790,5 +790,71 @@
   "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
   "imagen": "img/ebc6ec65cb.png",
   "tiempo": 30
+ },
+ {
+  "id": "49f22b3cc8",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (octaedro)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/49f22b3cc8.png",
+  "tiempo": 30
+ },
+ {
+  "id": "3a71ca91b3",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (tetraedro)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/3a71ca91b3.png",
+  "tiempo": 30
+ },
+ {
+  "id": "e99f8083db",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 30,
+  "subtipo": "figura",
+  "dificultad": "media",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (cubo)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/e99f8083db.png",
+  "tiempo": 30
  }
 ]

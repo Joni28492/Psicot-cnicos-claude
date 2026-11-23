@@ -1,6 +1,6 @@
 # Figuras desplegables
 
-36 ejercicios · fácil: 4 · media: 5 · difícil: 27
+39 ejercicios · fácil: 4 · media: 6 · difícil: 29
 
 ## f0b0d7ff66 · difícil · figura
 *Test 012 (2026-11-08), ejercicio 33*
@@ -325,3 +325,30 @@
 ![ejercicio](img/ebc6ec65cb.png)
 
 **Respuesta: A.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.
+
+## 49f22b3cc8 · difícil · figura
+*Test 027 (2026-11-23), ejercicio 25*
+
+¿Qué desarrollo forma esta figura? (octaedro)
+
+![ejercicio](img/49f22b3cc8.png)
+
+**Respuesta: A.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## 3a71ca91b3 · difícil · figura
+*Test 027 (2026-11-23), ejercicio 26*
+
+¿Qué desarrollo forma esta figura? (tetraedro)
+
+![ejercicio](img/3a71ca91b3.png)
+
+**Respuesta: C.** Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.
+
+## e99f8083db · media · figura
+*Test 027 (2026-11-23), ejercicio 30*
+
+¿Qué figura se forma al plegar este desarrollo? (cubo)
+
+![ejercicio](img/e99f8083db.png)
+
+**Respuesta: D.** Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.

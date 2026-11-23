@@ -2088,5 +2088,181 @@
   "truco": "Supón que todos son del tipo menor (1): 13×1 = 13. Sobran 7, y cada cambio añade 1. 7 ÷ 1 = 7 monedas de 2 €.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "71418b243b",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "encuentro",
+  "dificultad": "dificil",
+  "enunciado": "Dos trenes salen a la vez de dos ciudades separadas 480 km y avanzan el uno hacia el otro a 70 y 50 km/h. ¿Cuánto tardan en cruzarse?",
+  "destacado": null,
+  "opciones": [
+   "4 h",
+   "9 h",
+   "6 h",
+   "5 h"
+  ],
+  "correcta": "A",
+  "truco": "Se acercan a 70+50 = 120 km/h: 480 ÷ 120 = 4 h.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "103ee63b1d",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "ecuacion",
+  "dificultad": "media",
+  "enunciado": "Si 3x + 9 = 1x + 21, ¿cuánto vale x?",
+  "destacado": null,
+  "opciones": [
+   "9",
+   "11",
+   "16",
+   "6"
+  ],
+  "correcta": "D",
+  "truco": "Pasa las x a un lado: 2x = 12 ⇒ x = 6.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a52142fea7",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "combinatoria",
+  "dificultad": "media",
+  "enunciado": "¿Cuántas palabras distintas, tengan sentido o no, se pueden escribir con todas las letras de ROMA?",
+  "destacado": null,
+  "opciones": [
+   "24",
+   "12",
+   "16",
+   "48"
+  ],
+  "correcta": "A",
+  "truco": "Cada letra se usa una vez: 4! = 24.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c85bb67169",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "mas_que",
+  "dificultad": "facil",
+  "enunciado": "Ana tiene 12 euros más que Luis, y entre los dos suman 86. ¿Cuántos tiene Luis?",
+  "destacado": null,
+  "opciones": [
+   "37",
+   "31",
+   "43",
+   "74"
+  ],
+  "correcta": "A",
+  "truco": "Quita la diferencia al total: 86 − 12 = 74, a medias = 37 (el menor). El mayor es 37 + 12 = 49.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "77a796e1e2",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En una granja hay gallinas y conejos. En total hay 15 cabezas y 48 patas. ¿Cuántos conejos hay?",
+  "destacado": null,
+  "opciones": [
+   "9",
+   "12",
+   "6",
+   "18"
+  ],
+  "correcta": "A",
+  "truco": "Supón que todos son del tipo menor (2): 15×2 = 30. Sobran 18, y cada cambio añade 2. 18 ÷ 2 = 9 conejos.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "b4daaedc65",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "cabezas_patas",
+  "dificultad": "facil",
+  "enunciado": "En una granja hay patos y vacas. En total hay 23 cabezas y 54 patas. ¿Cuántos patos hay?",
+  "destacado": null,
+  "opciones": [
+   "27",
+   "22",
+   "19",
+   "4"
+  ],
+  "correcta": "C",
+  "truco": "Supón que todos son del tipo menor (4): 23×4 = 92. Sobran -38, y cada cambio añade -2. -38 ÷ -2 = 19 patos.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "72fff6b4d0",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "veces",
+  "dificultad": "media",
+  "enunciado": "Un padre tiene 5 veces los años de su hijo y entre los dos suman 54. ¿Cuántos años tiene el padre?",
+  "destacado": null,
+  "opciones": [
+   "49",
+   "27",
+   "9",
+   "45"
+  ],
+  "correcta": "D",
+  "truco": "El total son 5+1 = 6 partes iguales: 54 ÷ 6 = 9 (hijo). Padre: 5×9 = 45.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "bce1c71463",
+  "test": "psicotecnico_027_media.pdf",
+  "numero": 27,
+  "fecha": "2026-11-23",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "encuentro",
+  "dificultad": "dificil",
+  "enunciado": "Dos trenes salen a la vez de dos ciudades separadas 320 km y avanzan el uno hacia el otro a 45 y 35 km/h. ¿Cuánto tardan en cruzarse?",
+  "destacado": null,
+  "opciones": [
+   "9 h",
+   "4 h",
+   "7 h",
+   "14 h"
+  ],
+  "correcta": "B",
+  "truco": "Se acercan a 45+35 = 80 km/h: 320 ÷ 80 = 4 h.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

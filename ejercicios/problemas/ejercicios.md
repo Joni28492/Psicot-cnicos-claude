@@ -1,6 +1,6 @@
 # Problemas
 
-95 ejercicios · fácil: 34 · media: 40 · difícil: 21
+103 ejercicios · fácil: 37 · media: 43 · difícil: 23
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -1141,3 +1141,99 @@ En una caja hay monedas de 1 € y de 2 €. Hay 13 monedas que suman 20 €. ¿
 - D) 6
 
 **Respuesta: C.** Supón que todos son del tipo menor (1): 13×1 = 13. Sobran 7, y cada cambio añade 1. 7 ÷ 1 = 7 monedas de 2 €.
+
+## 71418b243b · difícil · encuentro
+*Test 027 (2026-11-23), ejercicio 2*
+
+Dos trenes salen a la vez de dos ciudades separadas 480 km y avanzan el uno hacia el otro a 70 y 50 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 4 h
+- B) 9 h
+- C) 6 h
+- D) 5 h
+
+**Respuesta: A.** Se acercan a 70+50 = 120 km/h: 480 ÷ 120 = 4 h.
+
+## 103ee63b1d · media · ecuacion
+*Test 027 (2026-11-23), ejercicio 3*
+
+Si 3x + 9 = 1x + 21, ¿cuánto vale x?
+
+- A) 9
+- B) 11
+- C) 16
+- D) 6
+
+**Respuesta: D.** Pasa las x a un lado: 2x = 12 ⇒ x = 6.
+
+## a52142fea7 · media · combinatoria
+*Test 027 (2026-11-23), ejercicio 5*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden escribir con todas las letras de ROMA?
+
+- A) 24
+- B) 12
+- C) 16
+- D) 48
+
+**Respuesta: A.** Cada letra se usa una vez: 4! = 24.
+
+## c85bb67169 · fácil · mas_que
+*Test 027 (2026-11-23), ejercicio 6*
+
+Ana tiene 12 euros más que Luis, y entre los dos suman 86. ¿Cuántos tiene Luis?
+
+- A) 37
+- B) 31
+- C) 43
+- D) 74
+
+**Respuesta: A.** Quita la diferencia al total: 86 − 12 = 74, a medias = 37 (el menor). El mayor es 37 + 12 = 49.
+
+## 77a796e1e2 · fácil · cabezas_patas
+*Test 027 (2026-11-23), ejercicio 11*
+
+En una granja hay gallinas y conejos. En total hay 15 cabezas y 48 patas. ¿Cuántos conejos hay?
+
+- A) 9
+- B) 12
+- C) 6
+- D) 18
+
+**Respuesta: A.** Supón que todos son del tipo menor (2): 15×2 = 30. Sobran 18, y cada cambio añade 2. 18 ÷ 2 = 9 conejos.
+
+## b4daaedc65 · fácil · cabezas_patas
+*Test 027 (2026-11-23), ejercicio 13*
+
+En una granja hay patos y vacas. En total hay 23 cabezas y 54 patas. ¿Cuántos patos hay?
+
+- A) 27
+- B) 22
+- C) 19
+- D) 4
+
+**Respuesta: C.** Supón que todos son del tipo menor (4): 23×4 = 92. Sobran -38, y cada cambio añade -2. -38 ÷ -2 = 19 patos.
+
+## 72fff6b4d0 · media · veces
+*Test 027 (2026-11-23), ejercicio 18*
+
+Un padre tiene 5 veces los años de su hijo y entre los dos suman 54. ¿Cuántos años tiene el padre?
+
+- A) 49
+- B) 27
+- C) 9
+- D) 45
+
+**Respuesta: D.** El total son 5+1 = 6 partes iguales: 54 ÷ 6 = 9 (hijo). Padre: 5×9 = 45.
+
+## bce1c71463 · difícil · encuentro
+*Test 027 (2026-11-23), ejercicio 19*
+
+Dos trenes salen a la vez de dos ciudades separadas 320 km y avanzan el uno hacia el otro a 45 y 35 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 9 h
+- B) 4 h
+- C) 7 h
+- D) 14 h
+
+**Respuesta: B.** Se acercan a 45+35 = 80 km/h: 320 ÷ 80 = 4 h.

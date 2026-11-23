@@ -1,6 +1,6 @@
 # Porcentajes
 
-72 ejercicios · fácil: 21 · media: 41 · difícil: 10
+77 ejercicios · fácil: 22 · media: 45 · difícil: 10
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -865,3 +865,63 @@ En una clase de 80 alumnos, el 75% son chicas y de ellas el 10% lleva gafas. ¿C
 - D) 6
 
 **Respuesta: D.** 3/4 de 80 = 60; 1/10 de eso = 6. Se multiplican las fracciones, no se suman.
+
+## 5f21724686 · media · descuentos
+*Test 027 (2026-11-23), ejercicio 4*
+
+Una chaqueta de 200 € tiene un 10% de descuento y, sobre el nuevo precio, otro 25%. ¿Cuánto cuesta?
+
+- A) 130 €
+- B) 135 €
+- C) 180 €
+- D) 139 €
+
+**Respuesta: B.** No se suman (35%): se multiplican 90% × 75% = 67,5% del precio ⇒ 135 €.
+
+## e474cc205a · media · porcentaje_inverso
+*Test 027 (2026-11-23), ejercicio 7*
+
+El 30% de un número es 48. ¿Cuál es el número?
+
+- A) 112
+- B) 160
+- C) 96
+- D) 192
+
+**Respuesta: B.** 30% = 3/10: 48 son 3 partes de 10. Una parte = 16; el total = 160.
+
+## 236c16b3a3 · fácil · porcentaje_de
+*Test 027 (2026-11-23), ejercicio 9*
+
+¿Cuánto es el 25% de 40?
+
+- A) 10
+- B) 5
+- C) 30
+- D) 20
+
+**Respuesta: A.** 25% = 1/4. 40 ÷ 4 × 1 = 10.
+
+## 9cf327e93e · media · variacion
+*Test 027 (2026-11-23), ejercicio 14*
+
+Un valor pasa de 240 a 264. ¿En qué porcentaje aumenta?
+
+- A) 10%
+- B) 5%
+- C) 20%
+- D) 9,09%
+
+**Respuesta: A.** Diferencia 24 sobre el valor de partida (240): 1/10 = 10%. Siempre se divide entre el valor inicial.
+
+## f566376834 · media · descuentos
+*Test 027 (2026-11-23), ejercicio 23*
+
+Una chaqueta de 240 € tiene un 20% de descuento y, sobre el nuevo precio, otro 50%. ¿Cuánto cuesta?
+
+- A) 100 €
+- B) 96 €
+- C) 72 €
+- D) 192 €
+
+**Respuesta: B.** No se suman (70%): se multiplican 80% × 50% = 40% del precio ⇒ 96 €.

@@ -1,6 +1,6 @@
 # Codificación
 
-52 ejercicios · fácil: 20 · media: 25 · difícil: 7
+57 ejercicios · fácil: 22 · media: 27 · difícil: 8
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -625,3 +625,63 @@ En un código, SOL se escribe VRÑ. Con el mismo código, ¿cómo se escribe FLO
 - D) HNQT
 
 **Respuesta: C.** Cada letra se desplaza +3 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 8cb5c537c6 · fácil · valor_palabra
+*Test 027 (2026-11-23), ejercicio 8*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra LAGO?
+
+- A) 36
+- B) 35
+- C) 37
+- D) 39
+
+**Respuesta: A.** Posiciones: 12(L) + 1(A) + 7(G) + 16(O) = 36. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 4519466cd8 · fácil · cesar
+*Test 027 (2026-11-23), ejercicio 15*
+
+En un código, CASA se escribe ECUC. Con el mismo código, ¿cómo se escribe MUNDO?
+
+- A) OWPFQ
+- B) OXPGR
+- C) NVÑEP
+- D) ÑWOFQ
+
+**Respuesta: D.** Cada letra se desplaza +2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 52e98c3012 · media · espejo
+*Test 027 (2026-11-23), ejercicio 16*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe AGUA?
+
+- A) ZFTZ
+- B) YSEY
+- C) ZTFZ
+- D) AUGA
+
+**Respuesta: C.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## 8b00168533 · difícil · renombrar
+*Test 027 (2026-11-23), ejercicio 20*
+
+Llamamos negro al blanco, azul al negro y blanco al azul. Con esos nombres, ¿de qué color es el carbón?
+
+- A) amarillo
+- B) rojo
+- C) verde
+- D) azul
+
+**Respuesta: D.** El carbón es negro de verdad, y a ese color ahora lo llamamos azul.
+
+## c3e102b529 · media · digitos
+*Test 027 (2026-11-23), ejercicio 21*
+
+En un código, TAPG = 7941 y GTED = 1735. Con el mismo código, ¿cómo se escribe ADPG?
+
+- A) 9541
+- B) 1459
+- C) 9542
+- D) 5941
+
+**Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=9, D=5, E=3, G=1, P=4, T=7.
