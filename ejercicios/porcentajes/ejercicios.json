@@ -1692,5 +1692,137 @@
   "truco": "No se suman (70%): se multiplican 80% × 50% = 40% del precio ⇒ 96 €.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "dab614d75d",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 3,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 70% de un número es 91. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "130",
+   "39",
+   "364",
+   "182"
+  ],
+  "correcta": "A",
+  "truco": "70% = 7/10: 91 son 7 partes de 10. Una parte = 13; el total = 130.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "ddadb0088d",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 30% de un número es 45. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "105",
+   "150",
+   "180",
+   "90"
+  ],
+  "correcta": "B",
+  "truco": "30% = 3/10: 45 son 3 partes de 10. Una parte = 15; el total = 150.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6aa507294e",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 7,
+  "subtipo": "porcentaje_de",
+  "dificultad": "facil",
+  "enunciado": "¿Cuánto es el 70% de 280?",
+  "destacado": null,
+  "opciones": [
+   "28",
+   "84",
+   "196",
+   "193"
+  ],
+  "correcta": "C",
+  "truco": "70% = 7/10. 280 ÷ 10 × 7 = 196.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "5be2dac7f7",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "porcentaje_inverso",
+  "dificultad": "media",
+  "enunciado": "El 15% de un número es 21. ¿Cuál es el número?",
+  "destacado": null,
+  "opciones": [
+   "140",
+   "42",
+   "84",
+   "119"
+  ],
+  "correcta": "A",
+  "truco": "15% = 3/20: 21 son 3 partes de 20. Una parte = 7; el total = 140.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3a6b42f4cf",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "que_porcentaje",
+  "dificultad": "facil",
+  "enunciado": "¿Qué porcentaje de 80 es 70?",
+  "destacado": null,
+  "opciones": [
+   "12,5%",
+   "87,5%",
+   "70%",
+   "14,29%"
+  ],
+  "correcta": "B",
+  "truco": "70/80 se simplifica a 7/8 = 87,5%.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "aa8b4dba5f",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 19,
+  "subtipo": "variacion",
+  "dificultad": "media",
+  "enunciado": "Un valor pasa de 120 a 96. ¿En qué porcentaje disminuye?",
+  "destacado": null,
+  "opciones": [
+   "10%",
+   "25%",
+   "40%",
+   "20%"
+  ],
+  "correcta": "D",
+  "truco": "Diferencia 24 sobre el valor de partida (120): 1/5 = 20%. Siempre se divide entre el valor inicial.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

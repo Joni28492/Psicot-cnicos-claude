@@ -922,5 +922,93 @@
   "truco": "Mira cada mitad por separado: la mitad izquierda sube 1 y la derecha sube 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 1–1.",
   "imagen": "img/5998ef7fce.png",
   "tiempo": 30
+ },
+ {
+  "id": "f16a8bcc43",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 31,
+  "subtipo": "domino_espiral",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué ficha de dominó continúa la serie? (en espiral, desde la ficha de inicio hacia fuera)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Mira cada mitad por separado: la mitad izquierda sube 3 y la derecha se queda igual en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 6–4.",
+  "imagen": "img/f16a8bcc43.png",
+  "tiempo": 30
+ },
+ {
+  "id": "bb643d8030",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 32,
+  "subtipo": "domino_circulo",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué ficha de dominó continúa la serie? (en círculo, en el sentido de las agujas del reloj desde la ficha de inicio)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha sube 2 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 4–5.",
+  "imagen": "img/bb643d8030.png",
+  "tiempo": 30
+ },
+ {
+  "id": "836c75d043",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 33,
+  "subtipo": "domino_espiral",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué ficha de dominó continúa la serie? (en espiral, desde la ficha de inicio hacia fuera)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Mira cada mitad por separado: las dos mitades suben 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 2–0.",
+  "imagen": "img/836c75d043.png",
+  "tiempo": 30
+ },
+ {
+  "id": "7e6bcd45f6",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 34,
+  "subtipo": "domino_dos_filas",
+  "dificultad": "media",
+  "enunciado": "¿Qué ficha de dominó continúa la serie? (en dos filas, de izquierda a derecha y de arriba abajo)",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha sube 2 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 3–0.",
+  "imagen": "img/7e6bcd45f6.png",
+  "tiempo": 30
  }
 ]

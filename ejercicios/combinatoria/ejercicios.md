@@ -1,6 +1,6 @@
 # Combinatoria
 
-76 ejercicios · fácil: 25 · media: 35 · difícil: 16
+81 ejercicios · fácil: 28 · media: 37 · difícil: 16
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -913,3 +913,63 @@ Hay 7 elementos distintos y 3 espacios en fila. Se coloca un elemento en cada es
 - D) 35
 
 **Respuesta: C.** 7 elementos en 3 espacios sin repetir, importa el orden: 7×6×5 = 210 (empiezas con 7 opciones y cada espacio tiene una menos).
+
+## 2a74cdc317 · fácil · combinaciones
+*Test 028 (2026-11-24), ejercicio 1*
+
+En una reunión hay 10 personas y todas se saludan con un apretón de manos. ¿Cuántos apretones hay?
+
+- A) 100
+- B) 45
+- C) 20
+- D) 90
+
+**Respuesta: B.** El orden no importa: 10×9 ÷ 2! = 90 ÷ 2 = 45. (atajo: 10×9/2)
+
+## 9978c158d5 · fácil · combinaciones
+*Test 028 (2026-11-24), ejercicio 4*
+
+¿Cuántas parejas distintas se pueden formar con 11 alumnos?
+
+- A) 121
+- B) 22
+- C) 55
+- D) 110
+
+**Respuesta: C.** El orden no importa: 11×10 ÷ 2! = 110 ÷ 2 = 55. (atajo: 11×10/2)
+
+## 69a85637a7 · media · variaciones
+*Test 028 (2026-11-24), ejercicio 8*
+
+¿Cuántos códigos de 2 cifras distintas se pueden formar con las cifras del 1 al 7?
+
+- A) 21
+- B) 49
+- C) 5.040
+- D) 42
+
+**Respuesta: D.** 7 elementos en 2 espacios sin repetir, importa el orden: 7×6 = 42 (empiezas con 7 opciones y cada espacio tiene una menos).
+
+## 9bc1843416 · fácil · combinaciones
+*Test 028 (2026-11-24), ejercicio 18*
+
+En un torneo juegan 7 equipos y todos juegan contra todos una sola vez. ¿Cuántos partidos hay?
+
+- A) 14
+- B) 49
+- C) 42
+- D) 21
+
+**Respuesta: D.** El orden no importa: 7×6 ÷ 2! = 42 ÷ 2 = 21. (atajo: 7×6/2)
+
+## 4cc6e22143 · media · variaciones
+*Test 028 (2026-11-24), ejercicio 23*
+
+Con 5 libros distintos se llenan 3 huecos de una estantería, uno por hueco. ¿De cuántas formas distintas?
+
+- A) 120
+- B) 10
+- C) 125
+- D) 60
+
+**Respuesta: D.** 5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).

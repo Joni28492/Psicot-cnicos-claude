@@ -1,6 +1,6 @@
 # Series
 
-82 ejercicios · fácil: 22 · media: 45 · difícil: 15
+90 ejercicios · fácil: 24 · media: 50 · difícil: 16
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -1149,3 +1149,115 @@
 - D) 36
 
 **Respuesta: D.** Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).
+
+## 0ee814f238 · media · letras_alternas
+*Test 028 (2026-11-24), ejercicio 6*
+
+¿Qué letra continúa la serie?
+
+**M, N, Ñ, L, P, J, R, ?**
+
+- A) T
+- B) F
+- C) G
+- D) H
+
+**Respuesta: D.** Son dos series entrelazadas: posiciones impares +2 y pares -2. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 8ad831c4ca · fácil · letras_salto
+*Test 028 (2026-11-24), ejercicio 12*
+
+¿Qué letra continúa la serie?
+
+**Z, E, J, Ñ, S, ?**
+
+- A) C
+- B) X
+- C) V
+- D) Y
+
+**Respuesta: B.** Cada letra avanza 5 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## a41591069e · fácil · num_aritmetica
+*Test 028 (2026-11-24), ejercicio 14*
+
+¿Qué número continúa la serie?
+
+**35, 38, 41, 44, 47, ?**
+
+- A) 50
+- B) 52
+- C) 49
+- D) 51
+
+**Respuesta: A.** Suma constante: +3 en cada paso.
+
+## c858fff79b · media · letra_numero
+*Test 028 (2026-11-24), ejercicio 21*
+
+¿Qué término continúa la serie?
+
+**G3, I5, K7, M9, Ñ11, ?**
+
+- A) P14
+- B) Q13
+- C) P13
+- D) Ñ13
+
+**Respuesta: C.** Dos reglas independientes: las letras avanzan 2 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 6665229d39 · media · letras_creciente
+*Test 028 (2026-11-24), ejercicio 22*
+
+¿Qué letra continúa la serie?
+
+**W, Y, B, F, K, ?**
+
+- A) Q
+- B) Ñ
+- C) O
+- D) P
+
+**Respuesta: D.** Los saltos crecen: +2, +3, +4, +5… el siguiente es +6. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 98abcdb062 · difícil · num_primos_o_triangulares
+*Test 028 (2026-11-24), ejercicio 24*
+
+¿Qué número continúa la serie?
+
+**5, 7, 11, 13, 17, ?**
+
+- A) 9
+- B) 21
+- C) 16
+- D) 19
+
+**Respuesta: D.** Son los números primos consecutivos.
+
+## 834f006194 · media · num_alternas
+*Test 028 (2026-11-24), ejercicio 26*
+
+¿Qué número continúa la serie?
+
+**11, 65, 15, 70, 19, 75, 23, ?**
+
+- A) 80
+- B) 27
+- C) 82
+- D) 81
+
+**Respuesta: A.** Dos series entrelazadas: lugares impares +4, lugares pares +5. Toca un lugar par: 75 +5 = 80.
+
+## 51d5233f99 · media · num_alternas
+*Test 028 (2026-11-24), ejercicio 27*
+
+¿Qué número continúa la serie?
+
+**3, 70, 5, 75, 7, 80, 9, ?**
+
+- A) 11
+- B) 85
+- C) 83
+- D) 86
+
+**Respuesta: B.** Dos series entrelazadas: lugares impares +2, lugares pares +5. Toca un lugar par: 80 +5 = 85.

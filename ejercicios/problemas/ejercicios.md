@@ -1,6 +1,6 @@
 # Problemas
 
-103 ejercicios · fácil: 37 · media: 43 · difícil: 23
+112 ejercicios · fácil: 39 · media: 48 · difícil: 25
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -1237,3 +1237,111 @@ Dos trenes salen a la vez de dos ciudades separadas 320 km y avanzan el uno haci
 - D) 14 h
 
 **Respuesta: B.** Se acercan a 45+35 = 80 km/h: 320 ÷ 80 = 4 h.
+
+## ff8a3ed906 · media · veces
+*Test 028 (2026-11-24), ejercicio 9*
+
+Un padre tiene 4 veces los años de su hijo y entre los dos suman 25. ¿Cuántos años tiene el padre?
+
+- A) 12
+- B) 21
+- C) 5
+- D) 20
+
+**Respuesta: D.** El total son 4+1 = 5 partes iguales: 25 ÷ 5 = 5 (hijo). Padre: 4×5 = 20.
+
+## 5a15c7cb2f · media · ecuacion
+*Test 028 (2026-11-24), ejercicio 10*
+
+La suma de tres números consecutivos es 27. ¿Cuál es el mayor?
+
+- A) 20
+- B) 12
+- C) 9
+- D) 10
+
+**Respuesta: D.** El de en medio es la media: 27 ÷ 3 = 9. El mayor es 10.
+
+## 2977103950 · fácil · cabezas_patas
+*Test 028 (2026-11-24), ejercicio 11*
+
+En una granja hay patos y vacas. En total hay 26 cabezas y 72 patas. ¿Cuántos patos hay?
+
+- A) 19
+- B) 16
+- C) 36
+- D) 10
+
+**Respuesta: B.** Supón que todos son del tipo menor (4): 26×4 = 104. Sobran -32, y cada cambio añade -2. -32 ÷ -2 = 16 patos.
+
+## 40617710da · difícil · encuentro
+*Test 028 (2026-11-24), ejercicio 15*
+
+Dos trenes salen a la vez de dos ciudades separadas 320 km y avanzan el uno hacia el otro a 45 y 35 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 4 h
+- B) 1 h
+- C) 7 h
+- D) 9 h
+
+**Respuesta: A.** Se acercan a 45+35 = 80 km/h: 320 ÷ 80 = 4 h.
+
+## 37fe0ce003 · media · veces
+*Test 028 (2026-11-24), ejercicio 16*
+
+Un padre tiene 3 veces los años de su hijo y entre los dos suman 48. ¿Cuántos años tiene el padre?
+
+- A) 36
+- B) 24
+- C) 45
+- D) 12
+
+**Respuesta: A.** El total son 3+1 = 4 partes iguales: 48 ÷ 4 = 12 (hijo). Padre: 3×12 = 36.
+
+## 971a82120c · difícil · edades
+*Test 028 (2026-11-24), ejercicio 20*
+
+Ahora una madre tiene 5 veces la edad de su hija. Dentro de 8 años tendrá 3 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 40
+- B) 18
+- C) 16
+- D) 8
+
+**Respuesta: D.** Con x = edad de la hija: 5x + 8 = 3(x + 8) ⇒ 2x = 16 ⇒ x = 8. Comprobación: madre 40, dentro de 8 años 48 = 3×16.
+
+## 7419a17aeb · media · combinatoria
+*Test 028 (2026-11-24), ejercicio 25*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden escribir con todas las letras de LUNA?
+
+- A) 16
+- B) 48
+- C) 12
+- D) 24
+
+**Respuesta: D.** Cada letra se usa una vez: 4! = 24.
+
+## 1279c9b9fb · fácil · mas_que
+*Test 028 (2026-11-24), ejercicio 28*
+
+Marta tiene 10 años más que Pablo, y entre los dos suman 62. ¿Cuántos tiene Marta?
+
+- A) 41
+- B) 52
+- C) 36
+- D) 31
+
+**Respuesta: C.** Quita la diferencia al total: 62 − 10 = 52, a medias = 26 (el menor). El mayor es 26 + 10 = 36.
+
+## f8ac7dd484 · media · veces
+*Test 028 (2026-11-24), ejercicio 29*
+
+Un padre tiene 2 veces los años de su hijo y entre los dos suman 30. ¿Cuántos años tiene el padre?
+
+- A) 28
+- B) 10
+- C) 20
+- D) 15
+
+**Respuesta: C.** El total son 2+1 = 3 partes iguales: 30 ÷ 3 = 10 (hijo). Padre: 2×10 = 20.

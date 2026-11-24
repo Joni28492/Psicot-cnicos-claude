@@ -944,5 +944,93 @@
   "truco": "La tarta tiene 10 sectores. En cada paso el bloque relleno gira 1 sector a la izquierda y pierde 1 sector relleno.",
   "imagen": "img/78644f757e.png",
   "tiempo": 30
+ },
+ {
+  "id": "3c0121accb",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 30,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Hay 12 posiciones. El punto negro se mueve 1 posición en sentido horario y el punto blanco 3 posiciones en sentido horario en cada paso.",
+  "imagen": "img/3c0121accb.png",
+  "tiempo": 30
+ },
+ {
+  "id": "209c3a293a",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 35,
+  "subtipo": "tarta",
+  "dificultad": "facil",
+  "enunciado": "¿Qué gráfico circular continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "La tarta tiene 12 sectores. En cada paso gana 1 sector relleno.",
+  "imagen": "img/209c3a293a.png",
+  "tiempo": 30
+ },
+ {
+  "id": "4116505222",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 36,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Hay 10 posiciones. El punto negro se mueve 3 posiciones en sentido antihorario y el punto blanco 1 posición en sentido antihorario en cada paso.",
+  "imagen": "img/4116505222.png",
+  "tiempo": 30
+ },
+ {
+  "id": "9d8e1dffd2",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 37,
+  "subtipo": "puntos",
+  "dificultad": "media",
+  "enunciado": "¿Qué círculo continúa la serie?",
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "Hay 8 posiciones. El punto negro se mueve 3 posiciones en sentido horario y el punto blanco 1 posición en sentido antihorario en cada paso.",
+  "imagen": "img/9d8e1dffd2.png",
+  "tiempo": 30
  }
 ]

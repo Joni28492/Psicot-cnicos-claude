@@ -4224,5 +4224,274 @@
     "correcta": "D"
    }
   ]
+ },
+ {
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "archivo": "psicotecnico_028_media.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "media",
+  "ejercicios": [
+   {
+    "n": 1,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 2,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 3,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 4,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 5,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 6,
+    "tipo": "Series",
+    "subtipo": "letras_alternas",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 7,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_de",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 8,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 9,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 10,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 11,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 12,
+    "tipo": "Series",
+    "subtipo": "letras_salto",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 13,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 14,
+    "tipo": "Series",
+    "subtipo": "num_aritmetica",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 15,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 16,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 17,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 18,
+    "tipo": "Combinatoria",
+    "subtipo": "combinaciones",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 19,
+    "tipo": "Porcentajes",
+    "subtipo": "variacion",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 20,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 21,
+    "tipo": "Series",
+    "subtipo": "letra_numero",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 22,
+    "tipo": "Series",
+    "subtipo": "letras_creciente",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 23,
+    "tipo": "Combinatoria",
+    "subtipo": "variaciones",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 24,
+    "tipo": "Series",
+    "subtipo": "num_primos_o_triangulares",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 25,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 26,
+    "tipo": "Series",
+    "subtipo": "num_alternas",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 27,
+    "tipo": "Series",
+    "subtipo": "num_alternas",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 28,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 29,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 30,
+    "tipo": "Series de relojes",
+    "subtipo": "puntos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 31,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_espiral",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 32,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 33,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_espiral",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 34,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_dos_filas",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 35,
+    "tipo": "Series de relojes",
+    "subtipo": "tarta",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 36,
+    "tipo": "Series de relojes",
+    "subtipo": "puntos",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 37,
+    "tipo": "Series de relojes",
+    "subtipo": "puntos",
+    "dificultad": "media",
+    "correcta": "C"
+   }
+  ]
  }
 ]

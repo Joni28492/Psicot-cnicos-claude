@@ -1,6 +1,6 @@
 # Porcentajes
 
-77 ejercicios · fácil: 22 · media: 45 · difícil: 10
+83 ejercicios · fácil: 24 · media: 49 · difícil: 10
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -925,3 +925,75 @@ Una chaqueta de 240 € tiene un 20% de descuento y, sobre el nuevo precio, otro
 - D) 192 €
 
 **Respuesta: B.** No se suman (70%): se multiplican 80% × 50% = 40% del precio ⇒ 96 €.
+
+## dab614d75d · media · porcentaje_inverso
+*Test 028 (2026-11-24), ejercicio 3*
+
+El 70% de un número es 91. ¿Cuál es el número?
+
+- A) 130
+- B) 39
+- C) 364
+- D) 182
+
+**Respuesta: A.** 70% = 7/10: 91 son 7 partes de 10. Una parte = 13; el total = 130.
+
+## ddadb0088d · media · porcentaje_inverso
+*Test 028 (2026-11-24), ejercicio 5*
+
+El 30% de un número es 45. ¿Cuál es el número?
+
+- A) 105
+- B) 150
+- C) 180
+- D) 90
+
+**Respuesta: B.** 30% = 3/10: 45 son 3 partes de 10. Una parte = 15; el total = 150.
+
+## 6aa507294e · fácil · porcentaje_de
+*Test 028 (2026-11-24), ejercicio 7*
+
+¿Cuánto es el 70% de 280?
+
+- A) 28
+- B) 84
+- C) 196
+- D) 193
+
+**Respuesta: C.** 70% = 7/10. 280 ÷ 10 × 7 = 196.
+
+## 5be2dac7f7 · media · porcentaje_inverso
+*Test 028 (2026-11-24), ejercicio 13*
+
+El 15% de un número es 21. ¿Cuál es el número?
+
+- A) 140
+- B) 42
+- C) 84
+- D) 119
+
+**Respuesta: A.** 15% = 3/20: 21 son 3 partes de 20. Una parte = 7; el total = 140.
+
+## 3a6b42f4cf · fácil · que_porcentaje
+*Test 028 (2026-11-24), ejercicio 17*
+
+¿Qué porcentaje de 80 es 70?
+
+- A) 12,5%
+- B) 87,5%
+- C) 70%
+- D) 14,29%
+
+**Respuesta: B.** 70/80 se simplifica a 7/8 = 87,5%.
+
+## aa8b4dba5f · media · variacion
+*Test 028 (2026-11-24), ejercicio 19*
+
+Un valor pasa de 120 a 96. ¿En qué porcentaje disminuye?
+
+- A) 10%
+- B) 25%
+- C) 40%
+- D) 20%
+
+**Respuesta: D.** Diferencia 24 sobre el valor de partida (120): 1/5 = 20%. Siempre se divide entre el valor inicial.

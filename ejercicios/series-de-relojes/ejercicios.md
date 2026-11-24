@@ -1,6 +1,6 @@
 # Series de relojes
 
-43 ejercicios · fácil: 6 · media: 28 · difícil: 9
+47 ejercicios · fácil: 7 · media: 31 · difícil: 9
 
 ## def99d1bcb · difícil · tarta
 *Test 010 (2026-11-06), ejercicio 29*
@@ -388,3 +388,39 @@
 ![ejercicio](img/78644f757e.png)
 
 **Respuesta: A.** La tarta tiene 10 sectores. En cada paso el bloque relleno gira 1 sector a la izquierda y pierde 1 sector relleno.
+
+## 3c0121accb · media · puntos
+*Test 028 (2026-11-24), ejercicio 30*
+
+¿Qué círculo continúa la serie?
+
+![ejercicio](img/3c0121accb.png)
+
+**Respuesta: B.** Hay 12 posiciones. El punto negro se mueve 1 posición en sentido horario y el punto blanco 3 posiciones en sentido horario en cada paso.
+
+## 209c3a293a · fácil · tarta
+*Test 028 (2026-11-24), ejercicio 35*
+
+¿Qué gráfico circular continúa la serie?
+
+![ejercicio](img/209c3a293a.png)
+
+**Respuesta: B.** La tarta tiene 12 sectores. En cada paso gana 1 sector relleno.
+
+## 4116505222 · media · puntos
+*Test 028 (2026-11-24), ejercicio 36*
+
+¿Qué círculo continúa la serie?
+
+![ejercicio](img/4116505222.png)
+
+**Respuesta: B.** Hay 10 posiciones. El punto negro se mueve 3 posiciones en sentido antihorario y el punto blanco 1 posición en sentido antihorario en cada paso.
+
+## 9d8e1dffd2 · media · puntos
+*Test 028 (2026-11-24), ejercicio 37*
+
+¿Qué círculo continúa la serie?
+
+![ejercicio](img/9d8e1dffd2.png)
+
+**Respuesta: C.** Hay 8 posiciones. El punto negro se mueve 3 posiciones en sentido horario y el punto blanco 1 posición en sentido antihorario en cada paso.

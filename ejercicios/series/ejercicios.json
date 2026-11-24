@@ -1802,5 +1802,181 @@
   "truco": "Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "0ee814f238",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "letras_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "M, N, Ñ, L, P, J, R, ?",
+  "opciones": [
+   "T",
+   "F",
+   "G",
+   "H"
+  ],
+  "correcta": "D",
+  "truco": "Son dos series entrelazadas: posiciones impares +2 y pares -2. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "8ad831c4ca",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "letras_salto",
+  "dificultad": "facil",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "Z, E, J, Ñ, S, ?",
+  "opciones": [
+   "C",
+   "X",
+   "V",
+   "Y"
+  ],
+  "correcta": "B",
+  "truco": "Cada letra avanza 5 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "a41591069e",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "num_aritmetica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "35, 38, 41, 44, 47, ?",
+  "opciones": [
+   "50",
+   "52",
+   "49",
+   "51"
+  ],
+  "correcta": "A",
+  "truco": "Suma constante: +3 en cada paso.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "c858fff79b",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "letra_numero",
+  "dificultad": "media",
+  "enunciado": "¿Qué término continúa la serie?",
+  "destacado": "G3, I5, K7, M9, Ñ11, ?",
+  "opciones": [
+   "P14",
+   "Q13",
+   "P13",
+   "Ñ13"
+  ],
+  "correcta": "C",
+  "truco": "Dos reglas independientes: las letras avanzan 2 y los números hacen +2. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "6665229d39",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 22,
+  "subtipo": "letras_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "W, Y, B, F, K, ?",
+  "opciones": [
+   "Q",
+   "Ñ",
+   "O",
+   "P"
+  ],
+  "correcta": "D",
+  "truco": "Los saltos crecen: +2, +3, +4, +5… el siguiente es +6. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "98abcdb062",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 24,
+  "subtipo": "num_primos_o_triangulares",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "5, 7, 11, 13, 17, ?",
+  "opciones": [
+   "9",
+   "21",
+   "16",
+   "19"
+  ],
+  "correcta": "D",
+  "truco": "Son los números primos consecutivos.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "834f006194",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 26,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "11, 65, 15, 70, 19, 75, 23, ?",
+  "opciones": [
+   "80",
+   "27",
+   "82",
+   "81"
+  ],
+  "correcta": "A",
+  "truco": "Dos series entrelazadas: lugares impares +4, lugares pares +5. Toca un lugar par: 75 +5 = 80.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "51d5233f99",
+  "test": "psicotecnico_028_media.pdf",
+  "numero": 28,
+  "fecha": "2026-11-24",
+  "modo": "diario",
+  "n": 27,
+  "subtipo": "num_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "3, 70, 5, 75, 7, 80, 9, ?",
+  "opciones": [
+   "11",
+   "85",
+   "83",
+   "86"
+  ],
+  "correcta": "B",
+  "truco": "Dos series entrelazadas: lugares impares +2, lugares pares +5. Toca un lugar par: 80 +5 = 85.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]
