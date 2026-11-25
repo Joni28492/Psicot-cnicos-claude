@@ -25,7 +25,7 @@ La misma fecha produce siempre los mismos ejercicios.
 ## Tests diarios y específicos
 
 - **Diario** (de domingo a viernes): 30–42 ejercicios de 6–7 de los 10 tipos (los demás rotan según la fecha y salen en los tests siguientes), más **comprensión lectora**: un texto largo con 5–10 preguntas los martes y viernes y 1–2 textos cortos de una pregunta el resto de días. Con el texto largo el test llega a unos 45 ejercicios. Nombre: `psicotecnico_NNN_facil|media|dificil.pdf`.
-- **Específico** (sábados): un solo tipo, 21 ejercicios (12 si son dibujos) con dificultad creciente, a partes iguales fácil/media/difícil. Nombre: `psicotecnico_NNN_especifico_<tema>_variable.pdf`. El tema sale de `seguimiento/foco.json` (los tipos en que más te atascas; rotan por semana). Si el tema es Comprensión lectora, el test lleva 2 textos largos seguidos o, si está vacío, rotan los 9 tipos. Se puede forzar con `--modo especifico --tema "Combinatoria"`.
+- **Específico** (sábados): un solo tipo, 21 ejercicios (12 si son dibujos) con dificultad creciente, a partes iguales fácil/media/difícil. Nombre: `psicotecnico_NNN_especifico_<tema>_variable.pdf`. El tema sale de `seguimiento/foco.json` (los tipos en que más te atascas; rotan por semana) o, si está vacío, rotan todos los tipos. Si el tema es Comprensión lectora, el test lleva 2 textos largos seguidos. Se puede forzar con `--modo especifico --tema "Combinatoria"`.
 - Las soluciones indican la dificultad de cada ejercicio y hay una tabla de autoevaluación por tipo y por dificultad.
 - `salidas/indice.json` guarda, por test, el tipo, subtipo, dificultad y respuesta correcta de cada ejercicio, para el seguimiento de resultados.
 
