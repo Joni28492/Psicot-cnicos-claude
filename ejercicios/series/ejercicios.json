@@ -1978,5 +1978,181 @@
   "truco": "Dos series entrelazadas: lugares impares +2, lugares pares +5. Toca un lugar par: 80 +5 = 85.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "0dba9dec2e",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 2,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "1, 3, 9, 27, 81, ?",
+  "opciones": [
+   "135",
+   "233",
+   "108",
+   "243"
+  ],
+  "correcta": "D",
+  "truco": "Cada término se multiplica por 3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "d1ba57c9f4",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 4,
+  "subtipo": "num_geometrica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "3, 6, 12, 24, 48, ?",
+  "opciones": [
+   "91",
+   "96",
+   "72",
+   "99"
+  ],
+  "correcta": "B",
+  "truco": "Cada término se multiplica por 2.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "aa6e2f1ff3",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 5,
+  "subtipo": "num_operaciones",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "1, 6, 21, 66, 201, ?",
+  "opciones": [
+   "605",
+   "603",
+   "336",
+   "606"
+  ],
+  "correcta": "D",
+  "truco": "Cada término = anterior ×3 +3.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "fc1d2ada02",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 6,
+  "subtipo": "num_creciente",
+  "dificultad": "media",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "12, 15, 20, 27, 36, ?",
+  "opciones": [
+   "47",
+   "45",
+   "46",
+   "50"
+  ],
+  "correcta": "A",
+  "truco": "Las diferencias son 3, 5, 7, 9… y crecen 2 cada vez: la siguiente es +11.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "3fbf56dddc",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 14,
+  "subtipo": "letras_alternas",
+  "dificultad": "media",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "W, G, Z, F, C, E, F, ?",
+  "opciones": [
+   "C",
+   "B",
+   "D",
+   "I"
+  ],
+  "correcta": "C",
+  "truco": "Son dos series entrelazadas: posiciones impares +3 y pares -1. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "abe4f3c454",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 17,
+  "subtipo": "num_aritmetica",
+  "dificultad": "facil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "29, 38, 47, 56, 65, ?",
+  "opciones": [
+   "75",
+   "73",
+   "77",
+   "74"
+  ],
+  "correcta": "D",
+  "truco": "Suma constante: +9 en cada paso.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "69779f877c",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 18,
+  "subtipo": "letras_salto",
+  "dificultad": "facil",
+  "enunciado": "¿Qué letra continúa la serie?",
+  "destacado": "G, K, Ñ, R, V, ?",
+  "opciones": [
+   "Y",
+   "Z",
+   "B",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Cada letra avanza 4 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "59a266f4e0",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 25,
+  "subtipo": "num_primos_o_triangulares",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué número continúa la serie?",
+  "destacado": "10, 15, 21, 28, 36, ?",
+  "opciones": [
+   "55",
+   "47",
+   "45",
+   "44"
+  ],
+  "correcta": "C",
+  "truco": "Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

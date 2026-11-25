@@ -1,6 +1,6 @@
 # Codificación
 
-57 ejercicios · fácil: 22 · media: 27 · difícil: 8
+63 ejercicios · fácil: 25 · media: 29 · difícil: 9
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -685,3 +685,75 @@ En un código, TAPG = 7941 y GTED = 1735. Con el mismo código, ¿cómo se escri
 - D) 5941
 
 **Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=9, D=5, E=3, G=1, P=4, T=7.
+
+## 11d915ec4e · fácil · valor_palabra
+*Test 029 (2026-11-25), ejercicio 10*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra LAGO?
+
+- A) 37
+- B) 39
+- C) 36
+- D) 35
+
+**Respuesta: C.** Posiciones: 12(L) + 1(A) + 7(G) + 16(O) = 36. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## e1a69830fb · media · espejo
+*Test 029 (2026-11-25), ejercicio 11*
+
+Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe MAR?
+
+- A) NZI
+- B) ÑZI
+- C) IZÑ
+- D) OAJ
+
+**Respuesta: B.** Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.
+
+## 86fd16a311 · fácil · valor_palabra
+*Test 029 (2026-11-25), ejercicio 12*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra ROMA?
+
+- A) 48
+- B) 50
+- C) 47
+- D) 49
+
+**Respuesta: D.** Posiciones: 19(R) + 16(O) + 13(M) + 1(A) = 49. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 08eb08cf66 · difícil · renombrar
+*Test 029 (2026-11-25), ejercicio 13*
+
+Llamamos negro al azul, rojo al negro y azul al rojo. Con esos nombres, ¿de qué color es el carbón?
+
+- A) verde
+- B) amarillo
+- C) azul
+- D) rojo
+
+**Respuesta: D.** El carbón es negro de verdad, y a ese color ahora lo llamamos rojo.
+
+## 55b2fb9da6 · fácil · cesar
+*Test 029 (2026-11-25), ejercicio 15*
+
+En un código, TREN se escribe RPCL. Con el mismo código, ¿cómo se escribe MONTE?
+
+- A) JMKQB
+- B) KMLRC
+- C) KNLRC
+- D) LÑMSD
+
+**Respuesta: C.** Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).
+
+## 0b0e29e71c · media · digitos
+*Test 029 (2026-11-25), ejercicio 20*
+
+En un código, DOEG = 8325 y HGRO = 1563. Con el mismo código, ¿cómo se escribe DRHO?
+
+- A) 8613
+- B) 3168
+- C) 6813
+- D) 8614
+
+**Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=8, E=2, G=5, H=1, O=3, R=6.

@@ -1,6 +1,6 @@
 # Series
 
-90 ejercicios · fácil: 24 · media: 50 · difícil: 16
+98 ejercicios · fácil: 28 · media: 52 · difícil: 18
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -1261,3 +1261,115 @@
 - D) 86
 
 **Respuesta: B.** Dos series entrelazadas: lugares impares +2, lugares pares +5. Toca un lugar par: 80 +5 = 85.
+
+## 0dba9dec2e · fácil · num_geometrica
+*Test 029 (2026-11-25), ejercicio 2*
+
+¿Qué número continúa la serie?
+
+**1, 3, 9, 27, 81, ?**
+
+- A) 135
+- B) 233
+- C) 108
+- D) 243
+
+**Respuesta: D.** Cada término se multiplica por 3.
+
+## d1ba57c9f4 · fácil · num_geometrica
+*Test 029 (2026-11-25), ejercicio 4*
+
+¿Qué número continúa la serie?
+
+**3, 6, 12, 24, 48, ?**
+
+- A) 91
+- B) 96
+- C) 72
+- D) 99
+
+**Respuesta: B.** Cada término se multiplica por 2.
+
+## aa6e2f1ff3 · difícil · num_operaciones
+*Test 029 (2026-11-25), ejercicio 5*
+
+¿Qué número continúa la serie?
+
+**1, 6, 21, 66, 201, ?**
+
+- A) 605
+- B) 603
+- C) 336
+- D) 606
+
+**Respuesta: D.** Cada término = anterior ×3 +3.
+
+## fc1d2ada02 · media · num_creciente
+*Test 029 (2026-11-25), ejercicio 6*
+
+¿Qué número continúa la serie?
+
+**12, 15, 20, 27, 36, ?**
+
+- A) 47
+- B) 45
+- C) 46
+- D) 50
+
+**Respuesta: A.** Las diferencias son 3, 5, 7, 9… y crecen 2 cada vez: la siguiente es +11.
+
+## 3fbf56dddc · media · letras_alternas
+*Test 029 (2026-11-25), ejercicio 14*
+
+¿Qué letra continúa la serie?
+
+**W, G, Z, F, C, E, F, ?**
+
+- A) C
+- B) B
+- C) D
+- D) I
+
+**Respuesta: C.** Son dos series entrelazadas: posiciones impares +3 y pares -1. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## abe4f3c454 · fácil · num_aritmetica
+*Test 029 (2026-11-25), ejercicio 17*
+
+¿Qué número continúa la serie?
+
+**29, 38, 47, 56, 65, ?**
+
+- A) 75
+- B) 73
+- C) 77
+- D) 74
+
+**Respuesta: D.** Suma constante: +9 en cada paso.
+
+## 69779f877c · fácil · letras_salto
+*Test 029 (2026-11-25), ejercicio 18*
+
+¿Qué letra continúa la serie?
+
+**G, K, Ñ, R, V, ?**
+
+- A) Y
+- B) Z
+- C) B
+- D) D
+
+**Respuesta: B.** Cada letra avanza 4 posiciones. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 59a266f4e0 · difícil · num_primos_o_triangulares
+*Test 029 (2026-11-25), ejercicio 25*
+
+¿Qué número continúa la serie?
+
+**10, 15, 21, 28, 36, ?**
+
+- A) 55
+- B) 47
+- C) 45
+- D) 44
+
+**Respuesta: C.** Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).

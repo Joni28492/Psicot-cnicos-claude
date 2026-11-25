@@ -1,6 +1,6 @@
 # Combinatoria
 
-81 ejercicios · fácil: 28 · media: 37 · difícil: 16
+87 ejercicios · fácil: 32 · media: 38 · difícil: 17
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -973,3 +973,75 @@ Con 5 libros distintos se llenan 3 huecos de una estantería, uno por hueco. ¿D
 - D) 60
 
 **Respuesta: D.** 5 elementos en 3 espacios sin repetir, importa el orden: 5×4×3 = 60 (empiezas con 5 opciones y cada espacio tiene una menos).
+
+## 31aef689c2 · difícil · permutaciones
+*Test 029 (2026-11-25), ejercicio 7*
+
+¿De cuántas formas se pueden sentar 4 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 2
+- B) 24
+- C) 16
+- D) 6
+
+**Respuesta: D.** Se fija a una persona y las demás se ordenan: (4−1)! = 6.
+
+## 1a52b912b9 · fácil · variaciones
+*Test 029 (2026-11-25), ejercicio 16*
+
+Se pintan 4 casillas en fila con uno de 5 colores, pudiendo repetir colores. ¿Cuántas formas hay?
+
+- A) 20
+- B) 625
+- C) 5
+- D) 120
+
+**Respuesta: B.** Cada espacio tiene 5 opciones, que se repiten: 5×5×5×5 = 5^4 = 625.
+
+## 45f9e90b7e · fácil · combinaciones
+*Test 029 (2026-11-25), ejercicio 19*
+
+¿Cuántas parejas distintas se pueden formar con 11 alumnos?
+
+- A) 22
+- B) 121
+- C) 110
+- D) 55
+
+**Respuesta: D.** El orden no importa: 11×10 ÷ 2! = 110 ÷ 2 = 55. (atajo: 11×10/2)
+
+## 9d1aecfd0f · fácil · permutaciones
+*Test 029 (2026-11-25), ejercicio 21*
+
+¿De cuántas formas se pueden colocar 5 banderas distintas en un mástil, una encima de otra?
+
+- A) 24
+- B) 60
+- C) 25
+- D) 120
+
+**Respuesta: D.** Se usan todos y el orden importa: 5! = 5×4×3×2×1 = 120.
+
+## 53dc6b65ed · media · variaciones
+*Test 029 (2026-11-25), ejercicio 22*
+
+Hay 8 elementos distintos y 3 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 40.320
+- B) 512
+- C) 56
+- D) 336
+
+**Respuesta: D.** 8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## 08c4770cc3 · fácil · combinaciones
+*Test 029 (2026-11-25), ejercicio 23*
+
+En una reunión hay 11 personas y todas se saludan con un apretón de manos. ¿Cuántos apretones hay?
+
+- A) 55
+- B) 22
+- C) 110
+- D) 121
+
+**Respuesta: A.** El orden no importa: 11×10 ÷ 2! = 110 ÷ 2 = 55. (atajo: 11×10/2)

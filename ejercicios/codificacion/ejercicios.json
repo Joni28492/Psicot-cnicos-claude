@@ -1252,5 +1252,137 @@
   "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: A=9, D=5, E=3, G=1, P=4, T=7.",
   "imagen": null,
   "tiempo": 20
+ },
+ {
+  "id": "11d915ec4e",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 10,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra LAGO?",
+  "destacado": null,
+  "opciones": [
+   "37",
+   "39",
+   "36",
+   "35"
+  ],
+  "correcta": "C",
+  "truco": "Posiciones: 12(L) + 1(A) + 7(G) + 16(O) = 36. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "e1a69830fb",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 11,
+  "subtipo": "espejo",
+  "dificultad": "media",
+  "enunciado": "Cada letra se sustituye por su simétrica en el alfabeto (A↔Z, B↔Y, C↔X…). ¿Cómo se escribe MAR?",
+  "destacado": null,
+  "opciones": [
+   "NZI",
+   "ÑZI",
+   "IZÑ",
+   "OAJ"
+  ],
+  "correcta": "B",
+  "truco": "Con 27 letras la pareja de la posición n es la 28−n: A(1)↔Z(27), M(13)↔Ñ(15), y la N(14) se queda en N.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "86fd16a311",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 12,
+  "subtipo": "valor_palabra",
+  "dificultad": "facil",
+  "enunciado": "Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra ROMA?",
+  "destacado": null,
+  "opciones": [
+   "48",
+   "50",
+   "47",
+   "49"
+  ],
+  "correcta": "D",
+  "truco": "Posiciones: 19(R) + 16(O) + 13(M) + 1(A) = 49. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "08eb08cf66",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 13,
+  "subtipo": "renombrar",
+  "dificultad": "dificil",
+  "enunciado": "Llamamos negro al azul, rojo al negro y azul al rojo. Con esos nombres, ¿de qué color es el carbón?",
+  "destacado": null,
+  "opciones": [
+   "verde",
+   "amarillo",
+   "azul",
+   "rojo"
+  ],
+  "correcta": "D",
+  "truco": "El carbón es negro de verdad, y a ese color ahora lo llamamos rojo.",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "55b2fb9da6",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 15,
+  "subtipo": "cesar",
+  "dificultad": "facil",
+  "enunciado": "En un código, TREN se escribe RPCL. Con el mismo código, ¿cómo se escribe MONTE?",
+  "destacado": null,
+  "opciones": [
+   "JMKQB",
+   "KMLRC",
+   "KNLRC",
+   "LÑMSD"
+  ],
+  "correcta": "C",
+  "truco": "Cada letra se desplaza -2 posiciones. Usa el alfabeto español de 27 letras: la Ñ cuenta (entre N y O).",
+  "imagen": null,
+  "tiempo": 20
+ },
+ {
+  "id": "0b0e29e71c",
+  "test": "psicotecnico_029_facil.pdf",
+  "numero": 29,
+  "fecha": "2026-11-25",
+  "modo": "diario",
+  "n": 20,
+  "subtipo": "digitos",
+  "dificultad": "media",
+  "enunciado": "En un código, DOEG = 8325 y HGRO = 1563. Con el mismo código, ¿cómo se escribe DRHO?",
+  "destacado": null,
+  "opciones": [
+   "8613",
+   "3168",
+   "6813",
+   "8614"
+  ],
+  "correcta": "A",
+  "truco": "Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=8, E=2, G=5, H=1, O=3, R=6.",
+  "imagen": null,
+  "tiempo": 20
  }
 ]

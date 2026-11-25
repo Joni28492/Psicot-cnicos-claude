@@ -1,6 +1,6 @@
 # Reglas de tres
 
-58 ejercicios · fácil: 19 · media: 28 · difícil: 11
+64 ejercicios · fácil: 23 · media: 28 · difícil: 13
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -697,3 +697,75 @@ Un coche recorre 28 km con 7 litros. ¿Cuántos km recorre con 12 litros?
 - D) 49 km
 
 **Respuesta: A.** Busca el valor de una unidad: 28 ÷ 7 = 4; luego ×12. No sumes la diferencia (5) al resultado.
+
+## 066c0f89ee · fácil · directa
+*Test 029 (2026-11-25), ejercicio 1*
+
+Un coche recorre 30 km con 6 litros. ¿Cuántos km recorre con 9 litros?
+
+- A) 20 km
+- B) 46 km
+- C) 45 km
+- D) 33 km
+
+**Respuesta: C.** Busca el valor de una unidad: 30 ÷ 6 = 5; luego ×9. No sumes la diferencia (3) al resultado.
+
+## 19033847d8 · difícil · trabajo_conjunto
+*Test 029 (2026-11-25), ejercicio 3*
+
+Una impresora hace un trabajo en 10 min y otra en 40 min. ¿Cuánto tardan las dos juntas?
+
+- A) 25 min
+- B) 30 min
+- C) 8 min
+- D) 50 min
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/10 + 1/40 = 50/400 ⇒ tardan 400/50 = 8. Atajo: producto ÷ suma.
+
+## 4c77a70cf7 · fácil · directa
+*Test 029 (2026-11-25), ejercicio 8*
+
+4 cuadernos cuestan 24 €. ¿Cuánto cuestan 6 cuadernos?
+
+- A) 16 €
+- B) 36 €
+- C) 37 €
+- D) 26 €
+
+**Respuesta: B.** Busca el valor de una unidad: 24 ÷ 4 = 6; luego ×6. No sumes la diferencia (2) al resultado.
+
+## 3ae75f768e · difícil · trabajo_conjunto
+*Test 029 (2026-11-25), ejercicio 9*
+
+Ana pinta una pared en 3 h y Luis en 6 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 9 h
+- B) 4 h
+- C) 3 h
+- D) 2 h
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/3 + 1/6 = 9/18 ⇒ tardan 18/9 = 2. Atajo: producto ÷ suma.
+
+## 804a7fcba1 · fácil · directa
+*Test 029 (2026-11-25), ejercicio 24*
+
+3 kg de naranjas cuestan 7,5 €. ¿Cuánto cuestan 5 kg?
+
+- A) 15 €
+- B) 12,5 €
+- C) 9,5 €
+- D) 13,5 €
+
+**Respuesta: B.** Busca el valor de una unidad: 7,5 ÷ 3 = 2,5; luego ×5. No sumes la diferencia (2) al resultado.
+
+## dadc65c40e · fácil · directa
+*Test 029 (2026-11-25), ejercicio 26*
+
+8 kg de naranjas cuestan 20 €. ¿Cuánto cuestan 10 kg?
+
+- A) 22 €
+- B) 26 €
+- C) 16 €
+- D) 25 €
+
+**Respuesta: D.** Busca el valor de una unidad: 20 ÷ 8 = 2,5; luego ×10. No sumes la diferencia (2) al resultado.
