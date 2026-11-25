@@ -14,7 +14,7 @@ def slug(texto):
 
 def id_ejercicio(e):
     """identificador estable: el mismo ejercicio (texto, opciones y dibujo) siempre tiene el mismo id."""
-    h = hashlib.sha1((e["enunciado"] + e.get("destacado", "") + "|".join(e["opciones"]) + e.get("imagen", "")).encode()).hexdigest()
+    h = hashlib.sha1(("|".join(e.get("texto", [])) + e["enunciado"] + e.get("destacado", "") + "|".join(e["opciones"]) + e.get("imagen", "")).encode()).hexdigest()
     return h[:10]
 
 def md(tipo, datos):
@@ -23,6 +23,7 @@ def md(tipo, datos):
     for d in datos:
         niv = next(NOMBRE[n] for n in (1, 2, 3) if ASCII[n] == d["dificultad"])
         out.append(f"## {d['id']} · {niv} · {d['subtipo']}\n*Test {d['numero']:03d} ({d['fecha']}), ejercicio {d['n']}*\n")
+        if d.get("texto"): out.append("\n\n".join("> " + par for par in d["texto"]) + "\n")
         out.append(d["enunciado"] + "\n")
         if d.get("destacado"): out.append(f"**{d['destacado']}**\n")
         if d.get("imagen"): out.append(f"![ejercicio]({d['imagen']})\n")
@@ -50,7 +51,7 @@ def guardar(raiz, ejercicios, numero, fecha, modo, archivo_pdf=None, ruta_pdf=No
                 img = f"img/{i}.png"; os.makedirs(os.path.join(carpeta, "img"), exist_ok=True)
                 open(os.path.join(carpeta, img), "wb").write(base64.b64decode(e["imagen"].split(",", 1)[1]))
             datos.append(dict(id=i, test=archivo_pdf, numero=numero, fecha=fecha, modo=modo, n=e["id"], subtipo=e["subtipo"],
-                              dificultad=ASCII[e["dificultad"]], enunciado=e["enunciado"], destacado=e.get("destacado"),
+                              dificultad=ASCII[e["dificultad"]], enunciado=e["enunciado"], texto=e.get("texto"), destacado=e.get("destacado"),
                               opciones=e["opciones"], correcta="ABCD"[e["correcta"]], truco=e["truco"], imagen=img, tiempo=e["tiempo"]))
         open(ruta, "w", encoding="utf-8").write(json.dumps(datos, ensure_ascii=False, indent=1))
         open(os.path.join(carpeta, "ejercicios.md"), "w", encoding="utf-8").write(md(tipo, datos))

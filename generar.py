@@ -45,7 +45,7 @@ def un_ejercicio(rng, tipo, usados, vistos, nivel=None):
         g = rng.choices(gens, pesos)[0]
         try:
             e = g[4](rng)
-            clave = e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))     # los dibujos comparten enunciado
+            clave = "|".join(e.get("texto", [])) + e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))     # los dibujos y los textos comparten enunciado
             if clave in vistos or len(set(e["opciones"])) != len(e["opciones"]): continue
         except (ValueError, RecursionError):
             continue
@@ -55,7 +55,7 @@ def un_ejercicio(rng, tipo, usados, vistos, nivel=None):
         if mejor is None or abs(e["dificultad"] - nivel) < abs(mejor[0]["dificultad"] - nivel): mejor = (e, g)
     if mejor is None: return None
     e, g = mejor
-    vistos.add(e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))); usados[g[1]] = usados.get(g[1], 0) + 1
+    vistos.add("|".join(e.get("texto", [])) + e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))); usados[g[1]] = usados.get(g[1], 0) + 1
     return e
 
 def generar(fecha, n=None, sin_figuras=False, semilla=""):
