@@ -36,6 +36,8 @@ h1 { font-size: 22pt; margin: 0; letter-spacing: .02em; text-transform: uppercas
 .tipo { font-size: 7.5pt; text-transform: uppercase; letter-spacing: .08em; color: #444; }
 .enun { margin: 0 0 1.5mm; white-space: pre-line; }
 .lectura { border-left: .8mm solid #bbb; padding: .5mm 0 .5mm 3mm; margin: 0 0 2.5mm; font-size: 10pt; text-align: justify; }
+.ej.largo { break-inside: auto; page-break-inside: auto; }
+.grupo { font-weight: 700; font-size: 9.5pt; margin: 0 0 1.5mm; text-transform: uppercase; letter-spacing: .04em; }
 .lectura p { margin: 0 0 1.6mm; }
 .dest { font: 700 12.5pt "Liberation Mono", monospace; letter-spacing: .06em; border: .25mm dashed #777; padding: 1.5mm 2.5mm; margin: 0 0 2mm; overflow-wrap: anywhere; }
 .ops { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(36mm, 1fr)); gap: 1.6mm 4mm; }
@@ -69,9 +71,12 @@ def burbujas(n_ops=4):
 
 def bloque(e, n):
     fig = bool(e.get("imagen"))
-    p = [f'<section class="ej{" fig" if fig else ""}"><div class="cab-e"><span class="n">{n}</span><span class="tipo">{e_(e["tipo"])}</span></div>',
+    largo = bool(e.get("texto") and e.get("grupo_n") and not e.get("grupo_idx"))      # texto largo: puede partirse entre paginas
+    p = [f'<section class="ej{" fig" if fig else ""}{" largo" if largo else ""}"><div class="cab-e"><span class="n">{n}</span><span class="tipo">{e_(e["tipo"])}</span></div>',
          f'<p class="enun">{e_(e["enunciado"])}</p>']
-    if e.get("texto"): p.insert(1, '<div class="lectura">' + "".join(f"<p>{e_(par)}</p>" for par in e["texto"]) + "</div>")
+    if e.get("texto") and not e.get("grupo_idx"):       # las preguntas de un mismo texto comparten el bloque de lectura (solo sale en la primera)
+        banner = f'<p class="grupo">Lee el texto y responde a las preguntas {n} a {n + e["grupo_n"] - 1}.</p>' if e.get("grupo_n") else ""
+        p.insert(1, banner + '<div class="lectura">' + "".join(f"<p>{e_(par)}</p>" for par in e["texto"]) + "</div>")
     if e.get("destacado"): p.append(f'<div class="dest">{e_(e["destacado"])}</div>')
     if fig:
         p.append(f'<figure><img src="{e["imagen"]}" alt="Figura del ejercicio {n}"></figure>')
