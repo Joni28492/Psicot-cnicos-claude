@@ -25,6 +25,8 @@ BASE = {
     "reloj": 2, "tarta": 2, "puntos": 2,
     # Combinatoria (cada ejercicio fija su nivel segun la variante)
     "permutaciones": 2, "variaciones": 2, "combinaciones": 2,
+    # Comprensión lectora y puzzles (cada ejercicio fija su nivel)
+    "orden": 2, "reglas": 2, "condicional": 2, "cifras": 2, "texto_largo": 2, "puzzle_hueco": 2, "puzzle_sueltas": 2,
 }
 
 def nivel(e):

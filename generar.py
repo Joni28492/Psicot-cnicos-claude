@@ -5,7 +5,8 @@ uso: python3 generar.py [--fecha AAAA-MM-DD] [--modo auto|diario|especifico] [--
                         [--sin-figuras] [--semilla texto] [--numero N] [--html] [--json]
 
 Modos:
-  diario      30-42 ejercicios de 6 de los 9 tipos (los otros 3 rotan segun la fecha y salen en los tests siguientes).
+  diario      30-42 ejercicios de 6-7 de los 10 tipos (los demas rotan segun la fecha y salen en los tests siguientes), mas comprension
+              lectora: un texto largo con 5-10 preguntas los martes y viernes, y 1-2 textos cortos el resto de dias.
   especifico  un solo tema, con la dificultad creciente (facil -> dificil); cada ejercicio lleva su nivel en las soluciones.
   auto        (por defecto) especifico los sabados y diario el resto de dias.
 El tema del test especifico sale de seguimiento/foco.json (lo que el usuario dice que mas le cuesta); si no hay, rotan todos los tipos.
@@ -13,29 +14,39 @@ Salida: psicotecnico_<NNN>_<dificultad>.pdf o psicotecnico_<NNN>_especifico_<tem
 """
 import argparse, datetime, json, os, random, re, sys, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, domino, relojes, combinatoria, imprimible, banco   # noqa: F401  (registran generadores)
+from psico import nucleo, reglas_tres, porcentajes, series, codificacion, problemas, figuras, domino, relojes, combinatoria, comprension, puzzles, imprimible, banco   # noqa: F401  (registran generadores)
 from psico import dificultad as dif
 
 # peso de cada TIPO al repartir los ejercicios del dia
 PESO_TIPO = {"Reglas de tres": 2, "Porcentajes": 2, "Series": 3, "Codificación": 2, "Problemas": 3, "Combinatoria": 2,
-             "Figuras desplegables": 1.5, "Series de fichas": 1.5, "Series de relojes": 1.5}
-# orden del ciclo de rotacion: cada dia faltan 3 tipos (posiciones i % 3 == dia % 3), asi cada tipo falta 1 de cada 3 dias
+             "Figuras desplegables": 1.5, "Series de fichas": 1.5, "Series de relojes": 1.5, "Puzzles": 1.5}
+# orden del ciclo de rotacion: cada dia faltan 3-4 tipos (posiciones i % 3 == dia % 3), asi cada tipo falta 1 de cada 3 dias
 CICLO = list(PESO_TIPO)
+COMPRENSION = "Comprensión lectora"          # fuera de la rotacion: tiene su propia frecuencia
+TEMAS = CICLO + [COMPRENSION]                # temas posibles del test especifico
+DIAS_TEXTO_LARGO = (1, 4)                    # martes y viernes: texto largo con 5-10 preguntas (lunes = 0)
+N_CORTOS = (1, 2)                            # el resto de dias: 1 o 2 textos cortos de una pregunta
+SUBTIPOS_CORTOS = ["orden", "reglas", "condicional", "cifras"]
+N_TEXTOS_ESPECIFICO = 2                      # test especifico de comprension: 2 textos largos
 MIN_TIPO = 3
-MAX_TIPO = {"Figuras desplegables": 4, "Series de fichas": 5, "Series de relojes": 5}   # los dibujos ocupan mucho
+MAX_TIPO = {"Figuras desplegables": 4, "Series de fichas": 5, "Series de relojes": 5, "Puzzles": 5}   # los dibujos ocupan mucho
 DIA_ESPECIFICO = 5            # sabado (lunes = 0)
 N_ESPECIFICO = 21             # 7 de cada nivel; 12 (4 por nivel) si el tema son dibujos
 N_ESPECIFICO_DIBUJOS = 12
-DIBUJOS = ("Figuras desplegables", "Series de fichas", "Series de relojes")
+DIBUJOS = ("Figuras desplegables", "Series de fichas", "Series de relojes", "Puzzles")
 
 def tipos_del_dia(fecha, sin_figuras=False):
     g = datetime.date.fromisoformat(fecha).toordinal() % 3
     tipos = [t for i, t in enumerate(CICLO) if i % 3 != g]
     return [t for t in tipos if not (sin_figuras and t == "Figuras desplegables")]
 
-def un_ejercicio(rng, tipo, usados, vistos, nivel=None):
-    """genera un ejercicio nuevo del tipo; si se pide `nivel`, intenta que salga de ese nivel (si no puede, devuelve el mas cercano)."""
-    gens = [g for g in nucleo.REGISTRO if g[0] == tipo]
+def clave_de(e):
+    return "|".join(e.get("texto", [])) + e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))     # los dibujos y los textos comparten enunciado
+
+def un_ejercicio(rng, tipo, usados, vistos, nivel=None, subtipos=None):
+    """genera una unidad nueva del tipo y la devuelve como LISTA de ejercicios (un texto largo da 5-10 preguntas seguidas; el resto, uno).
+    Si se pide `nivel`, intenta que salga de ese nivel (si no puede, devuelve el mas cercano)."""
+    gens = [g for g in nucleo.REGISTRO if g[0] == tipo and (not subtipos or g[1] in subtipos)]
     mejor = None
     for intento in range(120 if nivel else 60):
         if nivel and intento < 60:     # primero subtipos cuyo nivel base ya es el pedido
@@ -44,22 +55,30 @@ def un_ejercicio(rng, tipo, usados, vistos, nivel=None):
             pesos = [g[2] / (1 + 2 * usados.get(g[1], 0)) for g in gens]
         g = rng.choices(gens, pesos)[0]
         try:
-            e = g[4](rng)
-            clave = "|".join(e.get("texto", [])) + e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))     # los dibujos y los textos comparten enunciado
-            if clave in vistos or len(set(e["opciones"])) != len(e["opciones"]): continue
+            r = g[4](rng)
+            items = r if isinstance(r, list) else [r]
+            if clave_de(items[0]) in vistos or any(len(set(e["opciones"])) != len(e["opciones"]) for e in items): continue
         except (ValueError, RecursionError):
             continue
-        e.update(tipo=tipo, tiempo=g[3], subtipo=g[1]); e["dificultad"] = dif.nivel(e)
-        if not nivel or e["dificultad"] == nivel:
-            mejor = (e, g); break
-        if mejor is None or abs(e["dificultad"] - nivel) < abs(mejor[0]["dificultad"] - nivel): mejor = (e, g)
+        for e in items:
+            e.update(tipo=tipo, tiempo=g[3], subtipo=g[1]); e["dificultad"] = dif.nivel(e)
+        if not nivel or items[0]["dificultad"] == nivel:
+            mejor = (items, g); break
+        if mejor is None or abs(items[0]["dificultad"] - nivel) < abs(mejor[0][0]["dificultad"] - nivel): mejor = (items, g)
     if mejor is None: return None
-    e, g = mejor
-    vistos.add("|".join(e.get("texto", [])) + e["enunciado"] + e.get("destacado", "") + str(hash(e.get("imagen", "")))); usados[g[1]] = usados.get(g[1], 0) + 1
-    return e
+    items, g = mejor
+    vistos.add(clave_de(items[0])); usados[g[1]] = usados.get(g[1], 0) + 1
+    return items
+
+def numerar(unidades):
+    """aplana las unidades (listas de ejercicios) y numera los ejercicios; los dibujos van al final y cada texto con sus preguntas queda junto."""
+    unidades = sorted(unidades, key=lambda u: bool(u[0].get("imagen")))      # estable
+    out = [e for u in unidades for e in u]
+    for i, e in enumerate(out, 1): e["id"] = i
+    return out
 
 def generar(fecha, n=None, sin_figuras=False, semilla=""):
-    """test diario: n ejercicios (30-42 por defecto) repartidos entre los tipos que tocan hoy."""
+    """test diario: n ejercicios (30-42 por defecto) repartidos entre los tipos que tocan hoy, mas la comprension lectora del dia."""
     rng = random.Random(f"{fecha}|{semilla}")
     n = n or rng.randint(30, 42)
     tipos = tipos_del_dia(fecha, sin_figuras)
@@ -74,28 +93,46 @@ def generar(fecha, n=None, sin_figuras=False, semilla=""):
     while sum(cuota.values()) > n:
         t = min((x for x in tipos if cuota[x] > MIN_TIPO), key=lambda x: ideal[x] - cuota[x] + rng.random() * .6)
         cuota[t] -= 1
-    out, vistos = [], set()
+    unidades, vistos = [], set()
     for t, k in cuota.items():
         usados = {}
         for _ in range(k):
-            e = un_ejercicio(rng, t, usados, vistos)
-            if e: out.append(e)
+            u = un_ejercicio(rng, t, usados, vistos)
+            if u: unidades.append(u)
             else: print(f"aviso: no se pudo generar un ejercicio de {t}", file=sys.stderr)
-    rng.shuffle(out)
-    out.sort(key=lambda e: bool(e.get("imagen")))   # los dibujos van al final del test (orden estable)
-    for i, e in enumerate(out, 1): e["id"] = i
-    return out
+    # comprension lectora: texto largo (5-10 preguntas) los martes y viernes; el resto de dias, 1 o 2 textos cortos
+    usados = {}
+    if datetime.date.fromisoformat(fecha).weekday() in DIAS_TEXTO_LARGO:
+        u = un_ejercicio(rng, COMPRENSION, usados, vistos, subtipos=["texto_largo"])
+        if u: unidades.append(u)
+        else: print("aviso: no se pudo generar el texto largo", file=sys.stderr)
+    else:
+        for _ in range(rng.randint(*N_CORTOS)):
+            u = un_ejercicio(rng, COMPRENSION, usados, vistos, subtipos=SUBTIPOS_CORTOS)
+            if u: unidades.append(u)
+    rng.shuffle(unidades)
+    return numerar(unidades)
 
 def generar_especifico(fecha, tema, n=None, semilla=""):
-    """test de un solo tema, de facil a dificil, con el mismo numero de ejercicios por nivel."""
+    """test de un solo tema, de facil a dificil, con el mismo numero de ejercicios por nivel.
+    Comprension lectora: 2 textos largos seguidos (cada uno con sus 5-10 preguntas de dificultades mezcladas)."""
     rng = random.Random(f"{fecha}|{tema}|{semilla}")
+    if tema == COMPRENSION:
+        unidades, vistos, usados = [], set(), {}
+        for _ in range(N_TEXTOS_ESPECIFICO):
+            u = un_ejercicio(rng, tema, usados, vistos, subtipos=["texto_largo"])
+            if u: unidades.append(u)
+            else: print(f"aviso: no se pudo generar un texto de {tema}", file=sys.stderr)
+        out = [e for u in unidades for e in u]
+        for i, e in enumerate(out, 1): e["id"] = i
+        return out
     n = n or (N_ESPECIFICO_DIBUJOS if tema in DIBUJOS else N_ESPECIFICO)
     por_nivel = {1: n // 3, 2: n - 2 * (n // 3), 3: n // 3}
     out, vistos, usados = [], set(), {}
     for nivel in (1, 2, 3):
         for _ in range(por_nivel[nivel]):
-            e = un_ejercicio(rng, tema, usados, vistos, nivel)
-            if e: out.append(e)
+            u = un_ejercicio(rng, tema, usados, vistos, nivel)
+            if u: out.extend(u)
             else: print(f"aviso: no se pudo generar un ejercicio de {tema}", file=sys.stderr)
     out.sort(key=lambda e: e["dificultad"])          # estable: dentro de cada nivel se conserva el orden de generacion
     for i, e in enumerate(out, 1): e["id"] = i
@@ -121,11 +158,11 @@ def tema_de_la_semana(fecha, ruta_foco):
     temas, desde = [], None
     try:
         foco = json.load(open(ruta_foco, encoding="utf-8"))
-        temas = [t for t in foco.get("temas", []) if t in PESO_TIPO]
+        temas = [t for t in foco.get("temas", []) if t in TEMAS]
         desde = foco.get("actualizado")
     except (OSError, ValueError):
         pass
-    temas = temas or CICLO
+    temas = temas or TEMAS
     d = datetime.date.fromisoformat(fecha)
     semanas = (d - datetime.date.fromisoformat(desde)).days // 7 if desde else d.isocalendar()[1]
     return temas[semanas % len(temas)]
@@ -157,7 +194,7 @@ def main():
     numero = a.numero or siguiente_numero(a.salida)
     if modo == "especifico":
         tema = a.tema or tema_de_la_semana(a.fecha, a.foco)
-        if tema not in PESO_TIPO: sys.exit(f"tema desconocido: {tema}. Opciones: {', '.join(PESO_TIPO)}")
+        if tema not in TEMAS: sys.exit(f"tema desconocido: {tema}. Opciones: {', '.join(TEMAS)}")
         ej = generar_especifico(a.fecha, tema, a.n, a.semilla)
         nombre, titulo, etiqueta = f"psicotecnico_{numero:03d}_especifico_{slug(tema)}_variable", f"Psicotécnicos · Específico: {tema}", "variable"
     else:
@@ -173,7 +210,7 @@ def main():
     # indice para el seguimiento: una entrada por test con el tipo, subtipo, dificultad y respuesta de cada ejercicio
     registrar(os.path.join(a.salida, "indice.json"), dict(
         numero=numero, fecha=a.fecha, archivo=nombre + ".pdf", modo=modo, tema=tema, dificultad=etiqueta,
-        ejercicios=[dict(n=e["id"], tipo=e["tipo"], subtipo=e["subtipo"], dificultad=dif.ASCII[e["dificultad"]], correcta="ABCD"[e["correcta"]]) for e in ej]))
+        ejercicios=[dict(n=e["id"], grupo=e.get("grupo"), tipo=e["tipo"], subtipo=e["subtipo"], dificultad=dif.ASCII[e["dificultad"]], correcta="ABCD"[e["correcta"]]) for e in ej]))
     if a.banco:
         banco.guardar(a.banco, ej, numero, a.fecha, modo, nombre + ".pdf", base + ".pdf")
     por = {}

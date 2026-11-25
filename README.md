@@ -24,8 +24,8 @@ La misma fecha produce siempre los mismos ejercicios.
 
 ## Tests diarios y específicos
 
-- **Diario** (de domingo a viernes): 30–42 ejercicios de 6 de los 9 tipos; los otros 3 rotan según la fecha y salen en los tests siguientes. Nombre: `psicotecnico_NNN_facil|media|dificil.pdf`.
-- **Específico** (sábados): un solo tipo, 21 ejercicios (12 si son dibujos) con dificultad creciente, a partes iguales fácil/media/difícil. Nombre: `psicotecnico_NNN_especifico_<tema>_variable.pdf`. El tema sale de `seguimiento/foco.json` (los tipos en que más te atascas; rotan por semana) o, si está vacío, rotan los 9 tipos. Se puede forzar con `--modo especifico --tema "Combinatoria"`.
+- **Diario** (de domingo a viernes): 30–42 ejercicios de 6–7 de los 10 tipos (los demás rotan según la fecha y salen en los tests siguientes), más **comprensión lectora**: un texto largo con 5–10 preguntas los martes y viernes y 1–2 textos cortos de una pregunta el resto de días. Con el texto largo el test llega a unos 45 ejercicios. Nombre: `psicotecnico_NNN_facil|media|dificil.pdf`.
+- **Específico** (sábados): un solo tipo, 21 ejercicios (12 si son dibujos) con dificultad creciente, a partes iguales fácil/media/difícil. Nombre: `psicotecnico_NNN_especifico_<tema>_variable.pdf`. El tema sale de `seguimiento/foco.json` (los tipos en que más te atascas; rotan por semana). Si el tema es Comprensión lectora, el test lleva 2 textos largos seguidos o, si está vacío, rotan los 9 tipos. Se puede forzar con `--modo especifico --tema "Combinatoria"`.
 - Las soluciones indican la dificultad de cada ejercicio y hay una tabla de autoevaluación por tipo y por dificultad.
 - `salidas/indice.json` guarda, por test, el tipo, subtipo, dificultad y respuesta correcta de cada ejercicio, para el seguimiento de resultados.
 
@@ -37,6 +37,8 @@ La misma fecha produce siempre los mismos ejercicios.
 | Series de fichas | `psico/domino.py` | Fichas de dominó en fila, fila vertical, dos filas, círculo o espiral; cada mitad sube/baja un paso fijo (módulo 7) |
 | Series de relojes | `psico/relojes.py` | Relojes de agujas, tartas (sectores que giran y crecen) y círculos con puntos que se mueven |
 | Combinatoria | `psico/combinatoria.py` | Permutaciones («¿de cuántas formas…?»), variaciones («M elementos, N espacios», con y sin repetición) y combinaciones («¿cuántas parejas/tríos/grupos…?») |
+| Puzzles | `psico/puzzles.py` | Rompecabezas 2×3, 3×3 y 4×4 con solo bordes salientes/entrantes: una pieza que falta, o varias con las piezas sueltas (respuesta única comprobada) |
+| Comprensión lectora | `psico/comprension.py` | Texto largo (~550 palabras, memoria de hospital/universidad/cooperativa) con 5–10 preguntas de deducción, y textos cortos de una pregunta (orden, reglas con condiciones, condicionales, cifras en prosa) |
 | Reglas de tres | `psico/reglas_tres.py` | Directas, inversas, compuestas y trabajo conjunto |
 | Porcentajes | `psico/porcentajes.py` | Porcentajes que son fracciones sencillas, variaciones, descuentos, IVA |
 | Series | `psico/series.py` | Letras (alfabeto español de 27), números y mixtas |

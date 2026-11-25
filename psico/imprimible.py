@@ -94,7 +94,7 @@ def parte_test(fecha, ej, titulo="Psicotécnicos"):
     cab = f"""<header class="cab"><h1>{e_(titulo)}</h1><p class="sub">Test del {fecha_larga(fecha)} · {len(ej)} ejercicios</p>
     <div class="campos"><span>Nombre:</span><span class="corto">Hora inicio:</span><span class="corto">Hora fin:</span></div>
     <p class="instr">Marca una sola opción por ejercicio. Todos se pueden resolver en menos de 20 segundos si ves el truco (30 segundos las figuras
-    desplegables). Tiempo orientativo del test completo: <b>{tiempo_total(ej)}</b>. Pasa a otro ejercicio en cuanto te atasques. Las soluciones y sus explicaciones están en las últimas páginas.</p></header>"""
+    desplegables). Tiempo orientativo del test completo: <b>{tiempo_total(ej)}</b>.{" Los textos de comprensión lectora piden más tiempo: lee con calma y contesta a todas sus preguntas." if any(e.get("grupo_n") for e in ej) else ""} Pasa a otro ejercicio en cuanto te atasques. Las soluciones y sus explicaciones están en las últimas páginas.</p></header>"""
     # primero los ejercicios de texto; las figuras, al final y a ancho completo
     texto = [(i, e) for i, e in enumerate(ej, 1) if not e.get("imagen")]
     figs = [(i, e) for i, e in enumerate(ej, 1) if e.get("imagen")]
