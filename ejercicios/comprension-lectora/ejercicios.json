@@ -1,0 +1,30 @@
+[
+ {
+  "id": "d88a0ae217",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 21,
+  "subtipo": "cifras",
+  "dificultad": "facil",
+  "enunciado": "¿Cuál fue la cifra de préstamos de libros de mayo?",
+  "texto": [
+   "La biblioteca del barrio lleva un registro mensual de préstamos de libros. En marzo anotó 1.600.",
+   "En abril, la cifra bajó un 10% respecto a marzo.",
+   "En mayo, la cifra subió un 50% respecto a abril. Todas las variaciones se calculan sobre el mes inmediatamente anterior."
+  ],
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "1.440",
+   "1.600",
+   "2.160",
+   "2.240"
+  ],
+  "correcta": "C",
+  "truco": "marzo: 1.600 → abril: 1.440 → mayo: 2.160. Cada porcentaje se aplica al mes anterior, no al de partida.",
+  "imagen": null,
+  "tiempo": 60
+ }
+]

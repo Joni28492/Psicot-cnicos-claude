@@ -1,6 +1,6 @@
 # Reglas de tres
 
-64 ejercicios · fácil: 23 · media: 28 · difícil: 13
+70 ejercicios · fácil: 25 · media: 30 · difícil: 15
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -769,3 +769,75 @@ Ana pinta una pared en 3 h y Luis en 6 h. ¿Cuánto tardan trabajando juntos?
 - D) 25 €
 
 **Respuesta: D.** Busca el valor de una unidad: 20 ÷ 8 = 2,5; luego ×10. No sumes la diferencia (2) al resultado.
+
+## bd40ff8184 · fácil · directa
+*Test 030 (2026-11-26), ejercicio 3*
+
+En un mapa, 4 cm equivalen a 24 km. ¿A cuántos km equivalen 13 cm?
+
+- A) 48 km
+- B) 78 km
+- C) 33 km
+- D) 79 km
+
+**Respuesta: B.** Busca el valor de una unidad: 24 ÷ 4 = 6; luego ×13. No sumes la diferencia (9) al resultado.
+
+## c7118a772f · media · compuesta
+*Test 030 (2026-11-26), ejercicio 6*
+
+6 máquinas fabrican 36 piezas en 3 horas. ¿Cuántas piezas fabrican 7 máquinas en 7 horas?
+
+- A) 84
+- B) 42
+- C) 98
+- D) 93
+
+**Respuesta: C.** Piezas por máquina y hora: 36 ÷ (6×3) = 2. Luego 7×7×2 = 98.
+
+## 13fdfd2715 · difícil · trabajo_conjunto
+*Test 030 (2026-11-26), ejercicio 8*
+
+Ana pinta una pared en 8 h y Luis en 8 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 16 h
+- B) 4 h
+- C) 8 h
+- D) 3 h
+
+**Respuesta: B.** Suma lo que hace cada uno en una hora: 1/8 + 1/8 = 16/64 ⇒ tardan 64/16 = 4. Atajo: producto ÷ suma.
+
+## 76629c6b49 · fácil · directa
+*Test 030 (2026-11-26), ejercicio 9*
+
+Un coche recorre 24 km con 8 litros. ¿Cuántos km recorre con 6 litros?
+
+- A) 18 km
+- B) 19 km
+- C) 22 km
+- D) 32 km
+
+**Respuesta: A.** Busca el valor de una unidad: 24 ÷ 8 = 3; luego ×6. No sumes la diferencia (-2) al resultado.
+
+## 2b34244703 · difícil · trabajo_conjunto
+*Test 030 (2026-11-26), ejercicio 11*
+
+Una impresora hace un trabajo en 10 min y otra en 40 min. ¿Cuánto tardan las dos juntas?
+
+- A) 8 min
+- B) 25 min
+- C) 50 min
+- D) 30 min
+
+**Respuesta: A.** Suma lo que hace cada uno en una hora: 1/10 + 1/40 = 50/400 ⇒ tardan 400/50 = 8. Atajo: producto ÷ suma.
+
+## 7df69d7289 · media · inversa
+*Test 030 (2026-11-26), ejercicio 16*
+
+4 bombas vacían una piscina en 10 horas. ¿Cuántas horas tardarían 2 bombas?
+
+- A) 5 horas
+- B) 19 horas
+- C) 20 horas
+- D) 10 horas
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 4 × 10 = 40; 40 ÷ 2 = 20.

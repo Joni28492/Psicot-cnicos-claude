@@ -1,6 +1,6 @@
 # Problemas
 
-112 ejercicios · fácil: 39 · media: 48 · difícil: 25
+121 ejercicios · fácil: 43 · media: 51 · difícil: 27
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -1345,3 +1345,111 @@ Un padre tiene 2 veces los años de su hijo y entre los dos suman 30. ¿Cuántos
 - D) 15
 
 **Respuesta: C.** El total son 2+1 = 3 partes iguales: 30 ÷ 3 = 10 (hijo). Padre: 2×10 = 20.
+
+## 2fa0b57c8b · difícil · edades
+*Test 030 (2026-11-26), ejercicio 4*
+
+Ahora una madre tiene 3 veces la edad de su hija. Dentro de 3 años tendrá 2 veces la edad de su hija. ¿Qué edad tiene la hija hoy?
+
+- A) 5
+- B) 3
+- C) 9
+- D) 6
+
+**Respuesta: B.** Con x = edad de la hija: 3x + 3 = 2(x + 3) ⇒ x = 3 ⇒ x = 3. Comprobación: madre 9, dentro de 3 años 12 = 2×6.
+
+## c53b57e44a · media · veces
+*Test 030 (2026-11-26), ejercicio 5*
+
+Un padre tiene 2 veces los años de su hijo y entre los dos suman 45. ¿Cuántos años tiene el padre?
+
+- A) 43
+- B) 30
+- C) 22
+- D) 15
+
+**Respuesta: B.** El total son 2+1 = 3 partes iguales: 45 ÷ 3 = 15 (hijo). Padre: 2×15 = 30.
+
+## c3926a3e9e · fácil · cabezas_patas
+*Test 030 (2026-11-26), ejercicio 10*
+
+En una granja hay gallinas y conejos. En total hay 18 cabezas y 44 patas. ¿Cuántos conejos hay?
+
+- A) 4
+- B) 14
+- C) 11
+- D) 8
+
+**Respuesta: A.** Supón que todos son del tipo menor (2): 18×2 = 36. Sobran 8, y cada cambio añade 2. 8 ÷ 2 = 4 conejos.
+
+## 0035cf1521 · fácil · cabezas_patas
+*Test 030 (2026-11-26), ejercicio 13*
+
+Se venden 19 entradas, unas de 5 € y otras de 3 €, y se recaudan 75 €. ¿Cuántas entradas de 5 € se vendieron?
+
+- A) 18
+- B) 9
+- C) 15
+- D) 10
+
+**Respuesta: B.** Supón que todos son del tipo menor (3): 19×3 = 57. Sobran 18, y cada cambio añade 2. 18 ÷ 2 = 9 entradas de 5 €.
+
+## e17e342455 · media · combinatoria
+*Test 030 (2026-11-26), ejercicio 17*
+
+¿Cuántos números de tres cifras distintas se pueden formar con los dígitos 1, 2, 3, 4 y 5?
+
+- A) 15
+- B) 125
+- C) 120
+- D) 60
+
+**Respuesta: D.** 5 opciones para la primera cifra, 4 para la segunda y 3 para la tercera: 5×4×3 = 60.
+
+## 2cb68dff52 · fácil · mas_que
+*Test 030 (2026-11-26), ejercicio 18*
+
+Ana tiene 14 euros más que Luis, y entre los dos suman 30. ¿Cuántos tiene Ana?
+
+- A) 29
+- B) 22
+- C) 16
+- D) 15
+
+**Respuesta: B.** Quita la diferencia al total: 30 − 14 = 16, a medias = 8 (el menor). El mayor es 8 + 14 = 22.
+
+## 740579d0a7 · fácil · mas_que
+*Test 030 (2026-11-26), ejercicio 20*
+
+Juan tiene 6 libros más que Sara, y entre los dos suman 82. ¿Cuántos tiene Sara?
+
+- A) 76
+- B) 35
+- C) 41
+- D) 38
+
+**Respuesta: D.** Quita la diferencia al total: 82 − 6 = 76, a medias = 38 (el menor). El mayor es 38 + 6 = 44.
+
+## 3deead9df9 · media · ecuacion
+*Test 030 (2026-11-26), ejercicio 24*
+
+Si 8x + 12 = 5x + 42, ¿cuánto vale x?
+
+- A) 10
+- B) 11
+- C) 20
+- D) 12
+
+**Respuesta: A.** Pasa las x a un lado: 3x = 30 ⇒ x = 10.
+
+## 264d4bbb61 · difícil · encuentro
+*Test 030 (2026-11-26), ejercicio 26*
+
+Dos trenes salen a la vez de dos ciudades separadas 200 km y avanzan el uno hacia el otro a 60 y 40 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 2 h
+- B) 5 h
+- C) 3 h
+- D) 7 h
+
+**Respuesta: A.** Se acercan a 60+40 = 100 km/h: 200 ÷ 100 = 2 h.

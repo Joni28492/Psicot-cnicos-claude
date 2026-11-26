@@ -1,0 +1,122 @@
+[
+ {
+  "id": "187aa2ca42",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 31,
+  "subtipo": "puzzle_hueco",
+  "dificultad": "media",
+  "enunciado": "Puzzle de 3×3. ¿Qué pieza completa el puzzle?",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "El hueco está en la fila 2, columna 3. Cada borde de la pieza debe ser el opuesto al de la vecina (saliente con entrante) y los del marco son planos: arriba entrante, la derecha plano, abajo saliente, la izquierda entrante.",
+  "imagen": "img/187aa2ca42.png",
+  "tiempo": 40
+ },
+ {
+  "id": "c241851662",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 33,
+  "subtipo": "puzzle_sueltas",
+  "dificultad": "media",
+  "enunciado": "Puzzle de 3×3. En el puzzle faltan 2 piezas. Coloca las 1 pieza suelta y elige la pieza que falta por colocar.",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Coloca cada pieza suelta donde encaje (la 1 en la fila 2, columna 3). El hueco que queda es el de la fila 1, columna 2: cada borde debe ser el opuesto al de su vecina (saliente con entrante) y los bordes del marco son planos. Pieza que falta: arriba plano, la derecha entrante, abajo entrante, la izquierda entrante.",
+  "imagen": "img/c241851662.png",
+  "tiempo": 40
+ },
+ {
+  "id": "8238ce3b07",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 38,
+  "subtipo": "puzzle_hueco",
+  "dificultad": "media",
+  "enunciado": "Puzzle de 4×4. ¿Qué pieza completa el puzzle?",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "El hueco está en la fila 3, columna 1. Cada borde de la pieza debe ser el opuesto al de la vecina (saliente con entrante) y los del marco son planos: arriba saliente, la derecha saliente, abajo entrante, la izquierda plano.",
+  "imagen": "img/8238ce3b07.png",
+  "tiempo": 40
+ },
+ {
+  "id": "fdc61235fe",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 39,
+  "subtipo": "puzzle_hueco",
+  "dificultad": "media",
+  "enunciado": "Puzzle de 4×4. ¿Qué pieza completa el puzzle?",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "El hueco está en la fila 3, columna 1. Cada borde de la pieza debe ser el opuesto al de la vecina (saliente con entrante) y los del marco son planos: arriba saliente, la derecha saliente, abajo saliente, la izquierda plano.",
+  "imagen": "img/fdc61235fe.png",
+  "tiempo": 40
+ },
+ {
+  "id": "7cff3f056d",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 41,
+  "subtipo": "puzzle_sueltas",
+  "dificultad": "media",
+  "enunciado": "Puzzle de 3×3. En el puzzle faltan 2 piezas. Coloca las 1 pieza suelta y elige la pieza que falta por colocar.",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "A",
+  "truco": "Coloca cada pieza suelta donde encaje (la 1 en la fila 3, columna 2). El hueco que queda es el de la fila 2, columna 3: cada borde debe ser el opuesto al de su vecina (saliente con entrante) y los bordes del marco son planos. Pieza que falta: arriba saliente, la derecha plano, abajo saliente, la izquierda entrante.",
+  "imagen": "img/7cff3f056d.png",
+  "tiempo": 40
+ }
+]

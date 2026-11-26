@@ -1,6 +1,6 @@
 # Porcentajes
 
-83 ejercicios · fácil: 24 · media: 49 · difícil: 10
+89 ejercicios · fácil: 26 · media: 53 · difícil: 10
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -997,3 +997,75 @@ Un valor pasa de 120 a 96. ¿En qué porcentaje disminuye?
 - D) 20%
 
 **Respuesta: D.** Diferencia 24 sobre el valor de partida (120): 1/5 = 20%. Siempre se divide entre el valor inicial.
+
+## 856d4fa870 · fácil · que_porcentaje
+*Test 030 (2026-11-26), ejercicio 7*
+
+¿Qué porcentaje de 110 es 33?
+
+- A) 70%
+- B) 30%
+- C) 33%
+- D) 233⅓%
+
+**Respuesta: B.** 33/110 se simplifica a 3/10 = 30%.
+
+## 8befe13580 · fácil · que_porcentaje
+*Test 030 (2026-11-26), ejercicio 12*
+
+¿Qué porcentaje de 64 es 40?
+
+- A) 40%
+- B) 62,5%
+- C) 37,5%
+- D) 60%
+
+**Respuesta: B.** 40/64 se simplifica a 5/8 = 62,5%.
+
+## e893210725 · media · sube_y_baja
+*Test 030 (2026-11-26), ejercicio 14*
+
+Un precio baja un 30% y después sube un 30%. ¿Cuál es el efecto total?
+
+- A) Se queda igual
+- B) Baja un 30%
+- C) Baja un 9%
+- D) Sube un 9%
+
+**Respuesta: C.** Los porcentajes no se compensan: (1+3/10)·(1−3/10) = 1 − 9/100 ⇒ pierde 9%.
+
+## 1e270b48ac · media · porcentaje_inverso
+*Test 030 (2026-11-26), ejercicio 19*
+
+El 20% de un número es 17. ¿Cuál es el número?
+
+- A) 85
+- B) 88
+- C) 34
+- D) 68
+
+**Respuesta: A.** 20% = 1/5: 17 son 1 partes de 5. Una parte = 17; el total = 85.
+
+## 7a313d27f7 · media · iva
+*Test 030 (2026-11-26), ejercicio 22*
+
+Un producto cuesta 1.331 € con un IVA del 21%. ¿Cuánto costaba sin IVA?
+
+- A) 1.110 €
+- B) 1.050 €
+- C) 1.100 €
+- D) 1.051 €
+
+**Respuesta: C.** El precio con IVA es el 121% del original: 1.331 ÷ 1,21 = 1.100. Restar el 21% al precio final es el error típico.
+
+## c7e57177fd · media · sube_y_baja
+*Test 030 (2026-11-26), ejercicio 25*
+
+Un precio sube un 20% y después baja un 20%. ¿Cuál es el efecto total?
+
+- A) Se queda igual
+- B) Baja un 4%
+- C) Baja un 20%
+- D) Sube un 4%
+
+**Respuesta: B.** Los porcentajes no se compensan: (1+1/5)·(1−1/5) = 1 − 1/25 ⇒ pierde 4%.

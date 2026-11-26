@@ -1,6 +1,6 @@
 # Codificación
 
-63 ejercicios · fácil: 25 · media: 29 · difícil: 9
+69 ejercicios · fácil: 27 · media: 32 · difícil: 10
 
 ## b81eff21ec · fácil · valor_palabra
 *Test 012 (2026-11-08), ejercicio 2*
@@ -757,3 +757,75 @@ En un código, DOEG = 8325 y HGRO = 1563. Con el mismo código, ¿cómo se escri
 - D) 8614
 
 **Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: D=8, E=2, G=5, H=1, O=3, R=6.
+
+## f558a2e86d · media · vocales
+*Test 030 (2026-11-26), ejercicio 1*
+
+Se sustituyen las vocales por números (A=1, E=2, I=3, O=4, U=5) y las consonantes no cambian. ¿Cómo se escribe CAMINO?
+
+- A) 4N3M1C
+- B) 134
+- C) C5M3N2
+- D) C1M3N4
+
+**Respuesta: D.** Recorre la palabra letra a letra; no cambies el orden ni borres consonantes.
+
+## 2f5e54eaf7 · media · digitos
+*Test 030 (2026-11-26), ejercicio 2*
+
+En un código, TCDM = 4582 y IRMD = 3928. Con el mismo código, ¿cómo se escribe CRCD?
+
+- A) 9558
+- B) 8595
+- C) 5958
+- D) 5959
+
+**Respuesta: C.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: C=5, D=8, I=3, M=2, R=9, T=4.
+
+## 2a0fcb99f7 · difícil · renombrar
+*Test 030 (2026-11-26), ejercicio 15*
+
+Llamamos amarillo al blanco, negro al amarillo y blanco al negro. Con esos nombres, ¿de qué color es el sol?
+
+- A) verde
+- B) rojo
+- C) negro
+- D) azul
+
+**Respuesta: C.** El sol es amarillo de verdad, y a ese color ahora lo llamamos negro.
+
+## e227f78e77 · fácil · valor_palabra
+*Test 030 (2026-11-26), ejercicio 23*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra MANO?
+
+- A) 45
+- B) 44
+- C) 43
+- D) 47
+
+**Respuesta: B.** Posiciones: 13(M) + 1(A) + 14(N) + 16(O) = 44. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 9cc648f018 · fácil · valor_palabra
+*Test 030 (2026-11-26), ejercicio 27*
+
+Si A=1, B=2, C=3… (27 letras, con Ñ=15), ¿cuánto vale la palabra OSO?
+
+- A) 51
+- B) 52
+- C) 49
+- D) 53
+
+**Respuesta: B.** Posiciones: 16(O) + 20(S) + 16(O) = 52. A partir de la O, cada letra vale 1 más que en un alfabeto de 26.
+
+## 9113c45e11 · media · digitos
+*Test 030 (2026-11-26), ejercicio 28*
+
+En un código, HGOP = 1682 y POBD = 2835. Con el mismo código, ¿cómo se escribe GDDO?
+
+- A) 6558
+- B) 6559
+- C) 8556
+- D) 5658
+
+**Respuesta: A.** Anota qué cifra corresponde a cada letra usando las dos palabras de ejemplo y sustituye en orden: B=3, D=5, G=6, H=1, O=8, P=2.

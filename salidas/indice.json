@@ -4741,5 +4741,343 @@
     "correcta": "B"
    }
   ]
+ },
+ {
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "archivo": "psicotecnico_030_media.pdf",
+  "modo": "diario",
+  "tema": null,
+  "dificultad": "media",
+  "ejercicios": [
+   {
+    "n": 1,
+    "grupo": null,
+    "tipo": "Codificación",
+    "subtipo": "vocales",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 2,
+    "grupo": null,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 3,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 4,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "edades",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 5,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "veces",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 6,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 7,
+    "grupo": null,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 8,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 9,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 10,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 11,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 12,
+    "grupo": null,
+    "tipo": "Porcentajes",
+    "subtipo": "que_porcentaje",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 13,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "cabezas_patas",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 14,
+    "grupo": null,
+    "tipo": "Porcentajes",
+    "subtipo": "sube_y_baja",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 15,
+    "grupo": null,
+    "tipo": "Codificación",
+    "subtipo": "renombrar",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 16,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 17,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "combinatoria",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 18,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 19,
+    "grupo": null,
+    "tipo": "Porcentajes",
+    "subtipo": "porcentaje_inverso",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 20,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "mas_que",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 21,
+    "grupo": null,
+    "tipo": "Comprensión lectora",
+    "subtipo": "cifras",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 22,
+    "grupo": null,
+    "tipo": "Porcentajes",
+    "subtipo": "iva",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 23,
+    "grupo": null,
+    "tipo": "Codificación",
+    "subtipo": "valor_palabra",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 24,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "ecuacion",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 25,
+    "grupo": null,
+    "tipo": "Porcentajes",
+    "subtipo": "sube_y_baja",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 26,
+    "grupo": null,
+    "tipo": "Problemas",
+    "subtipo": "encuentro",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 27,
+    "grupo": null,
+    "tipo": "Codificación",
+    "subtipo": "valor_palabra",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 28,
+    "grupo": null,
+    "tipo": "Codificación",
+    "subtipo": "digitos",
+    "dificultad": "media",
+    "correcta": "A"
+   },
+   {
+    "n": 29,
+    "grupo": null,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 30,
+    "grupo": null,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_circulo",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 31,
+    "grupo": null,
+    "tipo": "Puzzles",
+    "subtipo": "puzzle_hueco",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 32,
+    "grupo": null,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_dos_filas",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 33,
+    "grupo": null,
+    "tipo": "Puzzles",
+    "subtipo": "puzzle_sueltas",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 34,
+    "grupo": null,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "B"
+   },
+   {
+    "n": 35,
+    "grupo": null,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_espiral",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 36,
+    "grupo": null,
+    "tipo": "Series de fichas",
+    "subtipo": "domino_fila",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 37,
+    "grupo": null,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 38,
+    "grupo": null,
+    "tipo": "Puzzles",
+    "subtipo": "puzzle_hueco",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 39,
+    "grupo": null,
+    "tipo": "Puzzles",
+    "subtipo": "puzzle_hueco",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 40,
+    "grupo": null,
+    "tipo": "Figuras desplegables",
+    "subtipo": "figura",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 41,
+    "grupo": null,
+    "tipo": "Puzzles",
+    "subtipo": "puzzle_sueltas",
+    "dificultad": "media",
+    "correcta": "A"
+   }
+  ]
  }
 ]

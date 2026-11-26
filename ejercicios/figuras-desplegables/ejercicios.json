@@ -944,5 +944,101 @@
   "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
   "imagen": "img/5bda2e6d2e.png",
   "tiempo": 30
+ },
+ {
+  "id": "71b8454b55",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 29,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué desarrollo forma esta figura? (octaedro)",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "C",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/71b8454b55.png",
+  "tiempo": 30
+ },
+ {
+  "id": "ae0964a789",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 34,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (tetraedro)",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/ae0964a789.png",
+  "tiempo": 30
+ },
+ {
+  "id": "4ff332d714",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 37,
+  "subtipo": "figura",
+  "dificultad": "dificil",
+  "enunciado": "¿Qué figura se forma al plegar este desarrollo? (tetraedro)",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "D",
+  "truco": "Elige dos caras que compartan arista en el desarrollo y comprueba si en la figura esas dos caras están juntas y con el mismo giro; así descartas opciones rápido. Las caras opuestas nunca se ven a la vez.",
+  "imagen": "img/4ff332d714.png",
+  "tiempo": 30
+ },
+ {
+  "id": "f1cc9d97b0",
+  "test": "psicotecnico_030_media.pdf",
+  "numero": 30,
+  "fecha": "2026-11-26",
+  "modo": "diario",
+  "n": 40,
+  "subtipo": "figura",
+  "dificultad": "media",
+  "enunciado": "¿Qué desarrollo forma esta figura? (cubo)",
+  "texto": null,
+  "grupo": null,
+  "destacado": null,
+  "opciones": [
+   "A",
+   "B",
+   "C",
+   "D"
+  ],
+  "correcta": "B",
+  "truco": "Localiza en la figura dos caras vecinas con un símbolo orientado (líneas, dominó…) y busca el desarrollo donde esas caras estén pegadas con ese mismo giro. Las caras opuestas no pueden estar pegadas en el desarrollo.",
+  "imagen": "img/f1cc9d97b0.png",
+  "tiempo": 30
  }
 ]
