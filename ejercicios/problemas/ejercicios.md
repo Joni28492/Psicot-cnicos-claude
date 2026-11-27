@@ -1,6 +1,6 @@
 # Problemas
 
-121 ejercicios · fácil: 43 · media: 51 · difícil: 27
+130 ejercicios · fácil: 47 · media: 55 · difícil: 28
 
 ## a360241e75 · fácil · cabezas_patas
 *Test 010 (2026-11-06), ejercicio 7*
@@ -1453,3 +1453,111 @@ Dos trenes salen a la vez de dos ciudades separadas 200 km y avanzan el uno haci
 - D) 7 h
 
 **Respuesta: A.** Se acercan a 60+40 = 100 km/h: 200 ÷ 100 = 2 h.
+
+## 989dd9a212 · fácil · cabezas_patas
+*Test 031 (2026-11-27), ejercicio 3*
+
+Se venden 9 entradas, unas de 5 € y otras de 3 €, y se recaudan 35 €. ¿Cuántas entradas de 5 € se vendieron?
+
+- A) 8
+- B) 4
+- C) 5
+- D) 7
+
+**Respuesta: B.** Supón que todos son del tipo menor (3): 9×3 = 27. Sobran 8, y cada cambio añade 2. 8 ÷ 2 = 4 entradas de 5 €.
+
+## 697c137ecb · fácil · mas_que
+*Test 031 (2026-11-27), ejercicio 6*
+
+Juan tiene 14 libros más que Sara, y entre los dos suman 52. ¿Cuántos tiene Sara?
+
+- A) 19
+- B) 26
+- C) 12
+- D) 38
+
+**Respuesta: A.** Quita la diferencia al total: 52 − 14 = 38, a medias = 19 (el menor). El mayor es 19 + 14 = 33.
+
+## 9a73488b9a · media · combinatoria
+*Test 031 (2026-11-27), ejercicio 8*
+
+¿Cuántos números de tres cifras distintas se pueden formar con los dígitos 1, 2, 3, 4 y 5?
+
+- A) 60
+- B) 125
+- C) 120
+- D) 15
+
+**Respuesta: A.** 5 opciones para la primera cifra, 4 para la segunda y 3 para la tercera: 5×4×3 = 60.
+
+## 6ad6f9d32a · difícil · encuentro
+*Test 031 (2026-11-27), ejercicio 11*
+
+Dos trenes salen a la vez de dos ciudades separadas 480 km y avanzan el uno hacia el otro a 50 y 30 km/h. ¿Cuánto tardan en cruzarse?
+
+- A) 9 h
+- B) 6 h
+- C) 16 h
+- D) 4 h
+
+**Respuesta: B.** Se acercan a 50+30 = 80 km/h: 480 ÷ 80 = 6 h.
+
+## 4db978d767 · fácil · cabezas_patas
+*Test 031 (2026-11-27), ejercicio 17*
+
+En un aparcamiento hay motos y coches. En total hay 9 vehículos y 22 ruedas. ¿Cuántos coches hay?
+
+- A) 6
+- B) 2
+- C) 4
+- D) 7
+
+**Respuesta: B.** Supón que todos son del tipo menor (2): 9×2 = 18. Sobran 4, y cada cambio añade 2. 4 ÷ 2 = 2 coches.
+
+## 20de164671 · media · ecuacion
+*Test 031 (2026-11-27), ejercicio 28*
+
+La mitad de un número más 12 es igual a sus tres cuartas partes. ¿Qué número es?
+
+- A) 47
+- B) 45
+- C) 48
+- D) 46
+
+**Respuesta: C.** x/2 + 12 = 3x/4 ⇒ 12 = x/4 ⇒ x = 48.
+
+## 874a515ed4 · media · combinatoria
+*Test 031 (2026-11-27), ejercicio 33*
+
+¿De cuántas formas distintas pueden sentarse 3 personas en 3 sillas en fila?
+
+- A) 12
+- B) 9
+- C) 6
+- D) 3
+
+**Respuesta: C.** 3! = 3×2×1 = 6.
+
+## eb5168a722 · fácil · mas_que
+*Test 031 (2026-11-27), ejercicio 34*
+
+Juan tiene 16 libros más que Sara, y entre los dos suman 62. ¿Cuántos tiene Juan?
+
+- A) 39
+- B) 46
+- C) 47
+- D) 31
+
+**Respuesta: A.** Quita la diferencia al total: 62 − 16 = 46, a medias = 23 (el menor). El mayor es 23 + 16 = 39.
+
+## 0651243248 · media · ecuacion
+*Test 031 (2026-11-27), ejercicio 35*
+
+La suma de tres números consecutivos es 39. ¿Cuál es el mayor?
+
+- A) 9
+- B) 14
+- C) 28
+- D) 19
+
+**Respuesta: B.** El de en medio es la media: 39 ÷ 3 = 13. El mayor es 14.

@@ -1,6 +1,6 @@
 # Porcentajes
 
-89 ejercicios · fácil: 26 · media: 53 · difícil: 10
+95 ejercicios · fácil: 28 · media: 56 · difícil: 11
 
 ## 2dec76844b · media · iva
 *Test 010 (2026-11-06), ejercicio 1*
@@ -1069,3 +1069,75 @@ Un precio sube un 20% y después baja un 20%. ¿Cuál es el efecto total?
 - D) Sube un 4%
 
 **Respuesta: B.** Los porcentajes no se compensan: (1+1/5)·(1−1/5) = 1 − 1/25 ⇒ pierde 4%.
+
+## ae2e283fb2 · difícil · porcentaje_de_porcentaje
+*Test 031 (2026-11-27), ejercicio 5*
+
+En una clase de 240 alumnos, el 25% son chicas y de ellas el 40% lleva gafas. ¿Cuántas chicas llevan gafas?
+
+- A) 156
+- B) 60
+- C) 24
+- D) 48
+
+**Respuesta: C.** 1/4 de 240 = 60; 2/5 de eso = 24. Se multiplican las fracciones, no se suman.
+
+## ff267f3428 · media · sube_y_baja
+*Test 031 (2026-11-27), ejercicio 12*
+
+Un precio sube un 30% y después baja un 30%. ¿Cuál es el efecto total?
+
+- A) Sube un 9%
+- B) Baja un 9%
+- C) Se queda igual
+- D) Baja un 30%
+
+**Respuesta: B.** Los porcentajes no se compensan: (1+3/10)·(1−3/10) = 1 − 9/100 ⇒ pierde 9%.
+
+## 1a0027f53e · media · iva
+*Test 031 (2026-11-27), ejercicio 18*
+
+Un producto cuesta 121 € con un IVA del 21%. ¿Cuánto costaba sin IVA?
+
+- A) 95 €
+- B) 110 €
+- C) 100 €
+- D) 94 €
+
+**Respuesta: C.** El precio con IVA es el 121% del original: 121 ÷ 1,21 = 100. Restar el 21% al precio final es el error típico.
+
+## aad6a30d22 · media · porcentaje_inverso
+*Test 031 (2026-11-27), ejercicio 29*
+
+El 83⅓% de un número es 135. ¿Cuál es el número?
+
+- A) 162
+- B) 540
+- C) 27
+- D) 270
+
+**Respuesta: A.** 83⅓% = 5/6: 135 son 5 partes de 6. Una parte = 27; el total = 162.
+
+## 041e5d9dc4 · fácil · porcentaje_de
+*Test 031 (2026-11-27), ejercicio 31*
+
+¿Cuánto es el 10% de 40?
+
+- A) 14
+- B) 36
+- C) 7
+- D) 4
+
+**Respuesta: D.** 10% = 1/10. 40 ÷ 10 × 1 = 4.
+
+## 1193de21e8 · fácil · que_porcentaje
+*Test 031 (2026-11-27), ejercicio 32*
+
+¿Qué porcentaje de 20 es 16?
+
+- A) 16%
+- B) 20%
+- C) 25%
+- D) 80%
+
+**Respuesta: D.** 16/20 se simplifica a 4/5 = 80%.

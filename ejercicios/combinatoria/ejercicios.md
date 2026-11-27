@@ -1,6 +1,6 @@
 # Combinatoria
 
-87 ejercicios · fácil: 32 · media: 38 · difícil: 17
+93 ejercicios · fácil: 33 · media: 42 · difícil: 18
 
 ## 4701578049 · media · permutaciones
 *Test 010 (2026-11-06), ejercicio 5*
@@ -1045,3 +1045,75 @@ En una reunión hay 11 personas y todas se saludan con un apretón de manos. ¿C
 - D) 121
 
 **Respuesta: A.** El orden no importa: 11×10 ÷ 2! = 110 ÷ 2 = 55. (atajo: 11×10/2)
+
+## 293cf78680 · media · variaciones
+*Test 031 (2026-11-27), ejercicio 1*
+
+9 corredores compiten y se reparten medallas a los 2 primeros puestos. ¿De cuántas formas pueden quedar los puestos del podio?
+
+- A) 72
+- B) 81
+- C) 36
+- D) 362.880
+
+**Respuesta: A.** 9 elementos en 2 espacios sin repetir, importa el orden: 9×8 = 72 (empiezas con 9 opciones y cada espacio tiene una menos).
+
+## 9af16b533f · media · combinaciones
+*Test 031 (2026-11-27), ejercicio 9*
+
+¿Cuántos tríos distintos se pueden formar con 8 amigos?
+
+- A) 56
+- B) 512
+- C) 336
+- D) 24
+
+**Respuesta: A.** El orden no importa: 8×7×6 ÷ 3! = 336 ÷ 6 = 56.
+
+## 4954b3fb30 · fácil · variaciones
+*Test 031 (2026-11-27), ejercicio 13*
+
+Hay 2 espacios y cada uno se rellena con uno de 5 elementos distintos, pudiendo repetirse. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 25
+- B) 20
+- C) 16
+- D) 10
+
+**Respuesta: A.** Cada espacio tiene 5 opciones, que se repiten: 5×5 = 5^2 = 25.
+
+## b5aaff5985 · media · permutaciones
+*Test 031 (2026-11-27), ejercicio 14*
+
+¿Cuántas palabras distintas, tengan sentido o no, se pueden formar reordenando todas las letras de CACAO?
+
+- A) 60
+- B) 15
+- C) 30
+- D) 120
+
+**Respuesta: C.** 5! dividido entre las repeticiones (C×2, A×2): 120 ÷ 4 = 30.
+
+## 438962732c · media · variaciones
+*Test 031 (2026-11-27), ejercicio 16*
+
+Hay 8 elementos distintos y 3 espacios en fila. Se coloca un elemento en cada espacio sin repetir ninguno. ¿De cuántas formas se pueden llenar los espacios?
+
+- A) 40.320
+- B) 56
+- C) 336
+- D) 512
+
+**Respuesta: C.** 8 elementos en 3 espacios sin repetir, importa el orden: 8×7×6 = 336 (empiezas con 8 opciones y cada espacio tiene una menos).
+
+## a5c41733ef · difícil · permutaciones
+*Test 031 (2026-11-27), ejercicio 21*
+
+¿De cuántas formas se pueden sentar 6 personas alrededor de una mesa redonda si solo importa quién está al lado de quién (los giros no cuentan)?
+
+- A) 720
+- B) 36
+- C) 24
+- D) 120
+
+**Respuesta: D.** Se fija a una persona y las demás se ordenan: (6−1)! = 120.

@@ -1,6 +1,6 @@
 # Series de fichas
 
-50 ejercicios · fácil: 16 · media: 12 · difícil: 22
+55 ejercicios · fácil: 18 · media: 13 · difícil: 24
 
 ## c8c6dc22f1 · fácil · domino_fila
 *Test 010 (2026-11-06), ejercicio 33*
@@ -451,3 +451,48 @@
 ![ejercicio](img/f0d888e67b.png)
 
 **Respuesta: A.** Mira cada mitad por separado: la mitad izquierda sube 3 y la derecha sube 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 5–6.
+
+## f840bbda22 · media · domino_dos_filas
+*Test 031 (2026-11-27), ejercicio 37*
+
+¿Qué ficha de dominó continúa la serie? (en dos filas, de izquierda a derecha y de arriba abajo)
+
+![ejercicio](img/f840bbda22.png)
+
+**Respuesta: B.** Mira cada mitad por separado: la mitad izquierda se queda igual y la derecha sube 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 3–6.
+
+## c3f2607281 · difícil · domino_circulo
+*Test 031 (2026-11-27), ejercicio 40*
+
+¿Qué ficha de dominó continúa la serie? (en círculo, en el sentido de las agujas del reloj desde la ficha de inicio)
+
+![ejercicio](img/c3f2607281.png)
+
+**Respuesta: B.** Mira cada mitad por separado: la mitad izquierda sube 2 y la derecha sube 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 1–4.
+
+## 5cfa091e25 · fácil · domino_fila
+*Test 031 (2026-11-27), ejercicio 42*
+
+¿Qué ficha de dominó continúa la serie? (en fila)
+
+![ejercicio](img/5cfa091e25.png)
+
+**Respuesta: C.** Mira cada mitad por separado: la mitad izquierda sube 1 y la derecha sube 2 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 4–3.
+
+## 3d879af9a9 · difícil · domino_circulo
+*Test 031 (2026-11-27), ejercicio 44*
+
+¿Qué ficha de dominó continúa la serie? (en círculo, en el sentido de las agujas del reloj desde la ficha de inicio)
+
+![ejercicio](img/3d879af9a9.png)
+
+**Respuesta: B.** Mira cada mitad por separado: las dos mitades suben 3 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 5–4.
+
+## 84d89fe2fc · fácil · domino_fila_vertical
+*Test 031 (2026-11-27), ejercicio 45*
+
+¿Qué ficha de dominó continúa la serie? (en fila, con las fichas de pie, de izquierda a derecha)
+
+![ejercicio](img/84d89fe2fc.png)
+
+**Respuesta: C.** Mira cada mitad por separado: la mitad superior se queda igual y la inferior baja 1 en cada paso (los puntos vuelven a 0 después del 6). La ficha que falta es 2–1.

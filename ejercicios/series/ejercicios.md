@@ -1,6 +1,6 @@
 # Series
 
-98 ejercicios · fácil: 28 · media: 52 · difícil: 18
+107 ejercicios · fácil: 29 · media: 57 · difícil: 21
 
 ## c7ba381178 · fácil · num_cuadrados
 *Test 010 (2026-11-06), ejercicio 2*
@@ -1373,3 +1373,129 @@
 - D) 44
 
 **Respuesta: C.** Números triangulares: se suma 1 más cada vez a la diferencia anterior (n·(n+1)/2).
+
+## 0d9443b590 · media · num_alternas
+*Test 031 (2026-11-27), ejercicio 2*
+
+¿Qué número continúa la serie?
+
+**14, 56, 17, 53, 20, 50, 23, ?**
+
+- A) 26
+- B) 48
+- C) 47
+- D) 49
+
+**Respuesta: C.** Dos series entrelazadas: lugares impares +3, lugares pares -3. Toca un lugar par: 50 -3 = 47.
+
+## a6450e96f1 · media · num_fibonacci
+*Test 031 (2026-11-27), ejercicio 4*
+
+¿Qué número continúa la serie?
+
+**3, 2, 5, 7, 12, ?**
+
+- A) 19
+- B) 20
+- C) 21
+- D) 17
+
+**Respuesta: A.** Cada término es la suma de los dos anteriores.
+
+## 01068f1a08 · media · letras_alternas
+*Test 031 (2026-11-27), ejercicio 7*
+
+¿Qué letra continúa la serie?
+
+**I, Z, J, Y, K, X, L, ?**
+
+- A) V
+- B) U
+- C) M
+- D) W
+
+**Respuesta: D.** Son dos series entrelazadas: posiciones impares +1 y pares -1. Falta la de las pares. Ojo: en el alfabeto español la Ñ va entre la N y la O (27 letras).
+
+## 220486c781 · difícil · num_dos_operaciones
+*Test 031 (2026-11-27), ejercicio 10*
+
+¿Qué número continúa la serie?
+
+**2, 5, 10, 13, 26, ?**
+
+- A) 39
+- B) 52
+- C) 29
+- D) 58
+
+**Respuesta: C.** Se alternan dos operaciones: +3 y ×2.
+
+## 4fe4047bc6 · difícil · num_operaciones
+*Test 031 (2026-11-27), ejercicio 15*
+
+¿Qué número continúa la serie?
+
+**3, 7, 19, 55, 163, ?**
+
+- A) 487
+- B) 489
+- C) 497
+- D) 271
+
+**Respuesta: A.** Cada término = anterior ×3 -2.
+
+## f09ae9a50a · fácil · num_geometrica
+*Test 031 (2026-11-27), ejercicio 19*
+
+¿Qué número continúa la serie?
+
+**1, 4, 16, 64, 256, ?**
+
+- A) 1.024
+- B) 1.014
+- C) 320
+- D) 448
+
+**Respuesta: A.** Cada término se multiplica por 4.
+
+## 5753f9b2ef · media · letra_numero
+*Test 031 (2026-11-27), ejercicio 20*
+
+¿Qué término continúa la serie?
+
+**G3, H4, I5, J6, K7, ?**
+
+- A) L9
+- B) L8
+- C) K8
+- D) M8
+
+**Respuesta: B.** Dos reglas independientes: las letras avanzan 1 y los números hacen +1.
+
+## 39350c5e46 · difícil · letras_bloques
+*Test 031 (2026-11-27), ejercicio 30*
+
+¿Qué pareja continúa la serie?
+
+**ST, UV, WX, YZ, AB, ?**
+
+- A) CD
+- B) DE
+- C) CE
+- D) BC
+
+**Respuesta: A.** Cada pareja son dos letras seguidas y el bloque avanza 2 posiciones.
+
+## f34dea5093 · media · num_creciente
+*Test 031 (2026-11-27), ejercicio 36*
+
+¿Qué número continúa la serie?
+
+**20, 21, 24, 29, 36, ?**
+
+- A) 43
+- B) 45
+- C) 47
+- D) 35
+
+**Respuesta: B.** Las diferencias son 1, 3, 5, 7… y crecen 2 cada vez: la siguiente es +9.
