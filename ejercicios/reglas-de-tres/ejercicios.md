@@ -1,6 +1,6 @@
 # Reglas de tres
 
-70 ejercicios · fácil: 25 · media: 30 · difícil: 15
+91 ejercicios · fácil: 32 · media: 37 · difícil: 22
 
 ## ac86b2db52 · media · inversa
 *Test 012 (2026-11-08), ejercicio 4*
@@ -841,3 +841,255 @@ Una impresora hace un trabajo en 10 min y otra en 40 min. ¿Cuánto tardan las d
 - D) 10 horas
 
 **Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 4 × 10 = 40; 40 ÷ 2 = 20.
+
+## c1ec2423e5 · fácil · directa
+*Test 032 (2026-11-28), ejercicio 1*
+
+5 kg de naranjas cuestan 20 €. ¿Cuánto cuestan 13 kg?
+
+- A) 28 €
+- B) 53 €
+- C) 40 €
+- D) 52 €
+
+**Respuesta: D.** Busca el valor de una unidad: 20 ÷ 5 = 4; luego ×13. No sumes la diferencia (8) al resultado.
+
+## 1ce489f474 · fácil · directa
+*Test 032 (2026-11-28), ejercicio 2*
+
+Un grifo vierte 21 litros en 7 minutos. ¿Cuántos litros vierte en 10 minutos?
+
+- A) 42 litros
+- B) 30 litros
+- C) 31 litros
+- D) 24 litros
+
+**Respuesta: B.** Busca el valor de una unidad: 21 ÷ 7 = 3; luego ×10. No sumes la diferencia (3) al resultado.
+
+## 4f40e8cd4e · fácil · directa
+*Test 032 (2026-11-28), ejercicio 3*
+
+Un coche recorre 32 km con 8 litros. ¿Cuántos km recorre con 10 litros?
+
+- A) 34 km
+- B) 64 km
+- C) 40 km
+- D) 41 km
+
+**Respuesta: C.** Busca el valor de una unidad: 32 ÷ 8 = 4; luego ×10. No sumes la diferencia (2) al resultado.
+
+## dc24f245ef · fácil · directa
+*Test 032 (2026-11-28), ejercicio 4*
+
+Un grifo vierte 6 litros en 3 minutos. ¿Cuántos litros vierte en 13 minutos?
+
+- A) 27 litros
+- B) 16 litros
+- C) 12 litros
+- D) 26 litros
+
+**Respuesta: D.** Busca el valor de una unidad: 6 ÷ 3 = 2; luego ×13. No sumes la diferencia (10) al resultado.
+
+## 02b9f3d252 · fácil · directa
+*Test 032 (2026-11-28), ejercicio 5*
+
+3 cuadernos cuestan 6 €. ¿Cuánto cuestan 15 cuadernos?
+
+- A) 18 €
+- B) 30 €
+- C) 31 €
+- D) 12 €
+
+**Respuesta: B.** Busca el valor de una unidad: 6 ÷ 3 = 2; luego ×15. No sumes la diferencia (12) al resultado.
+
+## c59ae53fb0 · fácil · directa
+*Test 032 (2026-11-28), ejercicio 6*
+
+En un mapa, 6 cm equivalen a 9 km. ¿A cuántos km equivalen 15 cm?
+
+- A) 22,5 km
+- B) 21,5 km
+- C) 23,5 km
+- D) 18 km
+
+**Respuesta: A.** Busca el valor de una unidad: 9 ÷ 6 = 1,5; luego ×15. No sumes la diferencia (9) al resultado.
+
+## 11d10106a6 · fácil · directa
+*Test 032 (2026-11-28), ejercicio 7*
+
+Un coche recorre 30 km con 5 litros. ¿Cuántos km recorre con 12 litros?
+
+- A) 72 km
+- B) 73 km
+- C) 60 km
+- D) 37 km
+
+**Respuesta: A.** Busca el valor de una unidad: 30 ÷ 5 = 6; luego ×12. No sumes la diferencia (7) al resultado.
+
+## b7c7b7b307 · media · compuesta
+*Test 032 (2026-11-28), ejercicio 8*
+
+2 máquinas fabrican 128 piezas en 8 horas. ¿Cuántas piezas fabrican 6 máquinas en 2 horas?
+
+- A) 32
+- B) 96
+- C) 94
+- D) 384
+
+**Respuesta: B.** Piezas por máquina y hora: 128 ÷ (2×8) = 8. Luego 6×2×8 = 96.
+
+## 6f245a0fd7 · media · inversa
+*Test 032 (2026-11-28), ejercicio 9*
+
+6 obreros tardan 15 días en hacer una obra. ¿Cuántos días tardarían 5 obreros?
+
+- A) 14 días
+- B) 18 días
+- C) 21 días
+- D) 20 días
+
+**Respuesta: B.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 6 × 15 = 90; 90 ÷ 5 = 18.
+
+## 901e2a52bb · media · inversa
+*Test 032 (2026-11-28), ejercicio 10*
+
+8 obreros tardan 10 días en hacer una obra. ¿Cuántos días tardarían 10 obreros?
+
+- A) 11 días
+- B) 8 días
+- C) 6 días
+- D) 12 días
+
+**Respuesta: B.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 8 × 10 = 80; 80 ÷ 10 = 8.
+
+## 6731af8752 · media · compuesta
+*Test 032 (2026-11-28), ejercicio 11*
+
+6 máquinas fabrican 96 piezas en 4 horas. ¿Cuántas piezas fabrican 5 máquinas en 3 horas?
+
+- A) 72
+- B) 55
+- C) 80
+- D) 60
+
+**Respuesta: D.** Piezas por máquina y hora: 96 ÷ (6×4) = 4. Luego 5×3×4 = 60.
+
+## 252b2a7951 · media · compuesta
+*Test 032 (2026-11-28), ejercicio 12*
+
+3 máquinas fabrican 54 piezas en 2 horas. ¿Cuántas piezas fabrican 5 máquinas en 4 horas?
+
+- A) 90
+- B) 108
+- C) 179
+- D) 180
+
+**Respuesta: D.** Piezas por máquina y hora: 54 ÷ (3×2) = 9. Luego 5×4×9 = 180.
+
+## f7263976ec · media · inversa
+*Test 032 (2026-11-28), ejercicio 13*
+
+5 obreros tardan 24 días en hacer una obra. ¿Cuántos días tardarían 8 obreros?
+
+- A) 27 días
+- B) 13 días
+- C) 15 días
+- D) 16 días
+
+**Respuesta: C.** Es inversa (más recursos ⇒ menos tiempo): el producto se mantiene. 5 × 24 = 120; 120 ÷ 8 = 15.
+
+## 26e54a0aba · media · compuesta
+*Test 032 (2026-11-28), ejercicio 14*
+
+3 máquinas fabrican 24 piezas en 2 horas. ¿Cuántas piezas fabrican 2 máquinas en 8 horas?
+
+- A) 74
+- B) 64
+- C) 96
+- D) 16
+
+**Respuesta: B.** Piezas por máquina y hora: 24 ÷ (3×2) = 4. Luego 2×8×4 = 64.
+
+## 7dcdd369aa · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 15*
+
+Ana pinta una pared en 6 h y Luis en 3 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 9 h
+- B) 3 h
+- C) 4 h
+- D) 2 h
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/6 + 1/3 = 9/18 ⇒ tardan 18/9 = 2. Atajo: producto ÷ suma.
+
+## 2951c80c84 · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 16*
+
+Una impresora hace un trabajo en 12 min y otra en 6 min. ¿Cuánto tardan las dos juntas?
+
+- A) 4 min
+- B) 9 min
+- C) 6 min
+- D) 18 min
+
+**Respuesta: A.** Suma lo que hace cada uno en una hora: 1/12 + 1/6 = 18/72 ⇒ tardan 72/18 = 4. Atajo: producto ÷ suma.
+
+## c15d3509c8 · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 17*
+
+Un grifo llena un depósito en 10 h y otro en 15 h. ¿Cuánto tardan abriendo los dos a la vez?
+
+- A) 5 h
+- B) 25 h
+- C) 6 h
+- D) 12 h
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/10 + 1/15 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.
+
+## 1531c3de6b · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 18*
+
+Ana pinta una pared en 15 h y Luis en 10 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 5 h
+- B) 12 h
+- C) 6 h
+- D) 25 h
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/15 + 1/10 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.
+
+## 21f0afcc8d · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 19*
+
+Ana pinta una pared en 6 h y Luis en 12 h. ¿Cuánto tardan trabajando juntos?
+
+- A) 18 h
+- B) 9 h
+- C) 6 h
+- D) 4 h
+
+**Respuesta: D.** Suma lo que hace cada uno en una hora: 1/6 + 1/12 = 18/72 ⇒ tardan 72/18 = 4. Atajo: producto ÷ suma.
+
+## 57d244bae9 · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 20*
+
+Un grifo llena un depósito en 8 h y otro en 8 h. ¿Cuánto tardan abriendo los dos a la vez?
+
+- A) 8 h
+- B) 3 h
+- C) 4 h
+- D) 16 h
+
+**Respuesta: C.** Suma lo que hace cada uno en una hora: 1/8 + 1/8 = 16/64 ⇒ tardan 64/16 = 4. Atajo: producto ÷ suma.
+
+## cc2911d1da · difícil · trabajo_conjunto
+*Test 032 (2026-11-28), ejercicio 21*
+
+Un grifo llena un depósito en 15 h y otro en 10 h. ¿Cuánto tardan abriendo los dos a la vez?
+
+- A) 6 h
+- B) 25 h
+- C) 5 h
+- D) 12 h
+
+**Respuesta: A.** Suma lo que hace cada uno en una hora: 1/15 + 1/10 = 25/150 ⇒ tardan 150/25 = 6. Atajo: producto ÷ suma.

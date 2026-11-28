@@ -5449,5 +5449,183 @@
     "correcta": "C"
    }
   ]
+ },
+ {
+  "numero": 32,
+  "fecha": "2026-11-28",
+  "archivo": "psicotecnico_032_especifico_reglas-de-tres_variable.pdf",
+  "modo": "especifico",
+  "tema": "Reglas de tres",
+  "dificultad": "variable",
+  "ejercicios": [
+   {
+    "n": 1,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 2,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 3,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "C"
+   },
+   {
+    "n": 4,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "D"
+   },
+   {
+    "n": 5,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "B"
+   },
+   {
+    "n": 6,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 7,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "directa",
+    "dificultad": "facil",
+    "correcta": "A"
+   },
+   {
+    "n": 8,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 9,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 10,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 11,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 12,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "D"
+   },
+   {
+    "n": 13,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "inversa",
+    "dificultad": "media",
+    "correcta": "C"
+   },
+   {
+    "n": 14,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "compuesta",
+    "dificultad": "media",
+    "correcta": "B"
+   },
+   {
+    "n": 15,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 16,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "A"
+   },
+   {
+    "n": 17,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 18,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 19,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "D"
+   },
+   {
+    "n": 20,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "C"
+   },
+   {
+    "n": 21,
+    "grupo": null,
+    "tipo": "Reglas de tres",
+    "subtipo": "trabajo_conjunto",
+    "dificultad": "dificil",
+    "correcta": "A"
+   }
+  ]
  }
 ]
